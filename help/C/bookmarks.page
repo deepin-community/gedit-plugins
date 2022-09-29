@@ -1,0 +1,76 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-bookmarks">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <revision version="3.4" date="2013-02-24" status="review"/>
+    <revision version="3.14" date="2014-09-10" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <desc>Record commonly-referenced locations with bookmarks.</desc>
+  </info>
+
+  <title>Bookmarks</title>
+
+  <p><app>gedit</app> bookmarks allow you to highlight important lines of text
+  within your document or program, making them easier to find. You can also
+  move up or down between bookmarks, making document navigation a bit
+  faster.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Bookmarks</gui> to enable the plugin.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>Bookmarks are inserted and removed by completing the same action. To 
+    insert or remove bookmarks:</title>
+    <item>
+      <p>Navigate to the line where you want to insert or remove the
+      bookmark.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or
+      open the menu in the top-right corner and select
+      <gui style="menuitem">Toggle Bookmark</gui>.</p>
+    </item>
+  </steps>
+  
+  <list>
+    <title>To move between bookmarks:</title>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next
+      bookmark.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to
+      move to the previous bookmark.</p>
+    </item>
+  </list>
+
+  <note>
+    <p>If you prefer to use the mouse, you can open the menu in the top-right
+    corner and select <gui style="menuitem">Go to Next Bookmark</gui> or
+    <gui style="menuitem">Go to Previous Bookmark</gui>.</p>
+  </note>
+
+</page>

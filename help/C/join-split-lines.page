@@ -1,0 +1,64 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-join-split-lines">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <revision version="3.8" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <desc>Join several lines of text or split long lines.</desc>
+  </info>
+
+  <title>Join&#47;Split Lines</title>
+
+  <p>The <app>Join&#47;Split Lines</app> plugin can join shorter lines into one
+  longer line, or can split a long line into multiple shorter lines.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Join/Split Lines</gui> to enable the plugin.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>To join multiple lines into one longer line:</title>
+    <item>
+      <p>Select the lines that you want to join. To do this, you can use the
+      mouse, or you can press <keyseq><key>Shift</key><key>Up Arrow</key>
+      </keyseq> or <keyseq><key>Shift</key><key>Down Arrow</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>J</key></keyseq>.</p>
+      <p>The lines that you selected will be joined into one longer line.</p>
+    </item>
+  </steps>
+
+  <steps>
+    <title>To split one line into multiple lines:</title>
+    <item>
+      <p>Select the line that you want to split by placing your cursor anywhere
+      on that line.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>Shift</key>
+      <key>J</key></keyseq>.</p>
+      <p>The line will be split into multiple lines. Spaces are used to
+      determine where it is safe to split a line, and the length of each line
+      will not exceed 80 characters.</p>
+    </item>
+  </steps>
+
+</page>

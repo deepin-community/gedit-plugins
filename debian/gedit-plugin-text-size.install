@@ -1,0 +1,4 @@
+usr/lib/*/gedit/plugins/textsize*
+usr/share/*/gedit-textsize.metainfo.xml usr/share/metainfo
+usr/share/help/*/gedit/text-size.page
+

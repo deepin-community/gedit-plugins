@@ -1,0 +1,44 @@
+<schemalist>
+  <schema gettext-domain="gedit-plugins" id="org.gnome.gedit.plugins.translate" path="/org/gnome/gedit/plugins/translate/">
+    <key name="output-to-document" type="b">
+      <default>true</default>
+      <summary>Where translation output is shown</summary>
+      <description>
+        If true, output of the translation is inserted in the document window if not in the Translate console.
+      </description>
+    </key>
+   <key name="language-pair" type="s">
+      <!-- Translators: You can adjust the default pair for users in your locale.
+      https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+      the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+      | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+      You must keep this format 'xxx|yyy', or things will break!  -->
+      <default l10n="messages">'eng|spa'</default>
+      <summary>Language pair used</summary>
+      <description>
+        Language pair used to translate from one language to another
+      </description>
+    </key>
+    <key name="apertium-server" type="s">
+      <default>'https://www.apertium.org/apy'</default>
+      <summary>Apertium server end point</summary>
+      <description>
+        Apertium server end point
+      </description>
+    </key>
+   <key type="s" name="api-key">
+      <default>''</default>
+      <summary>API key for remote web service</summary>
+      <description>
+       API key for remote web service
+      </description>
+    </key>
+   <key type="u" name="service">
+      <default>0</default>
+      <summary>Remote web service to use</summary>
+      <description>
+       Remote web service to use
+      </description>
+    </key>
+   </schema>
+</schemalist>

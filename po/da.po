@@ -1,0 +1,915 @@
+# Danish translation of gedit-plugins.
+# Copyright (C) 2018 Free Software Foundation, Inc.
+# Birger Langkjer <birger.langkjer@image.dk>, 1999.
+# Kenneth Christiansen <kenneth@gnome.org>, 1999, 2000.
+# Keld Simonsen <keld@dkuug.dk>, 2000, 01.
+# Ole Laursen <olau@hardworking.dk>, 2002, 03, 04.
+# Niels Rasmussen <nielsrasmus@gmail.com>, 2008.
+# Joe Hansen <joedalton2@yahoo.dk>, 2010, 2011, 2012.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2016-19.
+# scootergrisen, 2020.
+#
+# Konventioner:
+#
+#  draw -> vis (tingene vises på skærmen, derfor ikke tegn).
+#  plugin -> udvidelsesmodul
+#  white space -> blanktegn
+#
+# scootergrisen: scheme - skema skal nok ændres til tema (som i farvetema)
+# scootergrisen: vil nok gerne have "Draw spaces" > "Draw white space" eller "Show white space". Ellers er "Draw spaces" både navnet på pluginet og en indstilling til at vise mellemrum.
+# scootergrisen: ikke sikker på oversættelsen af "closing brackets"
+# scootergrisen: "split" er oversat til "del". jeg vil foretrække "opdel"
+# scootergrisen: "Session Saver" er oversat til "Gem sessioner" men måske "Sessionsgemmer" er bedre. I en alfabetisk sorteret liste er der mere interessant at navnet starter med det vigtigste
+# scootergrisen: i stedet for "øg" "formindsk" ville jeg nok bruge "gør teksten større" "gør teksten mindre"
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-plugins\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-28 16:39+0100\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
+msgid "Bookmarks"
+msgstr "Bogmærker"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
+msgid "Easy document navigation with bookmarks"
+msgstr "Nem dokumentnavigering med bogmærker"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "Bogmærke til/fra"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
+msgstr "Gå til næste bogmærke"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
+msgstr "Gå til forrige bogmærke"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
+msgid "Bracket Completion"
+msgstr "Klammefuldførelse"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "Tilføjer automatisk afsluttende klammer."
+
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "Tilføj automatisk afsluttende klamme, når du indsætter en"
+
+#: plugins/charmap/charmap/__init__.py:56
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
+msgid "Character Map"
+msgstr "Tegnoversigt"
+
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
+msgid "Insert special characters just by clicking on them."
+msgstr "Indsæt specialtegn ved blot at klikke på dem."
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
+msgid "Charmap"
+msgstr "Tegnoversigt"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
+msgid "Select characters from a character map"
+msgstr "Vælg tegn fra en tegnoversigt"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
+msgid "Code Comment"
+msgstr "Kodekommentar"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Kommentér eller udkommentér den valgte kodeblok."
+
+#: plugins/codecomment/codecomment.py:118
+msgid "Co_mment Code"
+msgstr "Ko_mmentér kode"
+
+#: plugins/codecomment/codecomment.py:124
+msgid "U_ncomment Code"
+msgstr "U_dkommentér kode"
+
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Kommentér eller udkommentér kodeblokke"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
+msgid "Color Picker"
+msgstr "Farvevælger"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Vælg en farve i en dialog og indsæt dens hexadecimale værdi."
+
+#: plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "Vælg _farve …"
+
+#: plugins/colorpicker/colorpicker.py:172
+msgid "Pick Color"
+msgstr "Vælg farve"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "Farvevælger"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "Vælg og indsæt en farve fra en dialog (for HTML, CSS, PHP)"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
+msgid "Color Scheme Editor"
+msgstr "Redigering af farveskema"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
+msgid "Source code color scheme editor"
+msgstr "Redigering af farveskema for kildekode"
+
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr ""
+"Opret og redigér det farveskema, der anvendes til fremhævning af syntaks"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Der opstod et problem da skemaet skulle gemmes"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Du har valgt at oprette et nyt skema,\n"
+"men navnet eller id'et er allerede i brug.\n"
+"\n"
+"Sørg venligst for at vælge et navn eller id der ikke allerede er i brug.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Du har ikke tilladelse til at overskrive det valgte skema.\n"
+"Der oprettes i stedet en kopi.\n"
+"\n"
+"Sørg venligst for at vælge et navn eller id der ikke allerede er i brug.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Der opstod et problem da filen skulle åbnes"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr ""
+"Det ser ud til at du har skemaer med de samme id'er i forskellige mapper\n"
+
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
+msgid "Bold"
+msgstr "Fed"
+
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
+msgid "Italic"
+msgstr "Kursiv"
+
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
+msgid "Underline"
+msgstr "Understreget"
+
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
+msgid "Strikethrough"
+msgstr "Gennemstreget"
+
+#: plugins/colorschemer/schemer.ui:243
+msgid "Pick the background color"
+msgstr "Vælg baggrundsfarven"
+
+#: plugins/colorschemer/schemer.ui:259
+msgid "Pick the foreground color"
+msgstr "Vælg forgrundsfarven"
+
+#: plugins/colorschemer/schemer.ui:270
+msgid "_Background"
+msgstr "_Baggrund"
+
+#: plugins/colorschemer/schemer.ui:288
+msgid "_Foreground"
+msgstr "_Forgrund"
+
+#: plugins/colorschemer/schemer.ui:341
+msgid "_Clear"
+msgstr "_Ryd"
+
+#: plugins/colorschemer/schemer.ui:383
+msgid "Name"
+msgstr "Navn"
+
+#: plugins/colorschemer/schemer.ui:408
+msgid "ID"
+msgstr "Id"
+
+#: plugins/colorschemer/schemer.ui:433
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: plugins/colorschemer/schemer.ui:459
+msgid "Author"
+msgstr "Forfatter"
+
+#: plugins/colorschemer/schemer.ui:503
+msgid "Sample"
+msgstr "Prøve"
+
+#: plugins/commander/commander/appactivatable.py:56
+msgid "Commander Mode"
+msgstr "Kommandolinjetilstand"
+
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
+msgid "Commander"
+msgstr "Kommandolinje"
+
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
+msgid "Command line interface for advanced editing"
+msgstr "Grænseflade for kommandolinje til avanceret redigering"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+msgid "Draw Spaces"
+msgstr "Vis mellemrum"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
+msgid "Draw spaces and tabs"
+msgstr "Vis mellemrum og tabulatorstop"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
+msgid "Draw spaces"
+msgstr "Vis mellemrum"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "Vis mellemrum og tabulatorstop"
+
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
+msgid "Find in Files"
+msgstr "Find i filer"
+
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
+msgid "_Close"
+msgstr "_Luk"
+
+#: plugins/findinfiles/dialog.ui:39
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "_Find"
+
+#: plugins/findinfiles/dialog.ui:72
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind:"
+msgstr "Fin_d:"
+
+#: plugins/findinfiles/dialog.ui:99
+msgid "_In:"
+msgstr "_I:"
+
+#: plugins/findinfiles/dialog.ui:115
+msgid "Select a _folder"
+msgstr "Vælg en _mappe"
+
+#: plugins/findinfiles/dialog.ui:130
+msgid "_Match case"
+msgstr "_Forskel på store/små bogstaver"
+
+#: plugins/findinfiles/dialog.ui:146
+msgid "Match _entire word only"
+msgstr "Søg kun efter _hele ord"
+
+#: plugins/findinfiles/dialog.ui:162
+msgid "Re_gular expression"
+msgstr "Re_gulært udtryk"
+
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "Find tekst i alle filerne i en mappe."
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "Find tekst i alle filerne i en mappe"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "Find i filer …"
+
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "hit"
+msgstr[1] "hits"
+
+#: plugins/findinfiles/result-panel.vala:196
+msgid "No results found"
+msgstr "Fandt ingen resultater"
+
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Fil"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:218
+msgid "Stop the search"
+msgstr "Stands søgningen"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
+msgid "Git"
+msgstr "Git"
+
+#: plugins/git/gedit-git.metainfo.xml.in:7
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr ""
+"Brug git-information til at vise hvilke linjer og filer, der er ændret siden "
+"sidste commit"
+
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Fremhæv linjer, der er ændret siden sidste commit"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Sammenføj/del linjer"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "Sammenføj eller del flere linjer med Ctrl+J og Ctrl+Skift+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "Sammenføj flere linjer eller del de lange"
+
+#: plugins/joinlines/joinlines.py:111
+msgid "_Join Lines"
+msgstr "_Sammenføj linjer"
+
+#: plugins/joinlines/joinlines.py:117
+msgid "_Split Lines"
+msgstr "_Del linjer"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
+msgid "Multi edit"
+msgstr "Multiredigering"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
+msgid "Edit document in multiple places at once"
+msgstr "Redigér dokument flere steder på samme tid"
+
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr "Multiredigeringstilstand"
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
+msgid "Multi Edit"
+msgstr "Multiredigering"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr "Tilføjede redigeringspunkt …"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr "Kolonnetilstand …"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr "Fjernede redigeringspunkt …"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr "Kolonnetilstand blev afbrudt …"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "Enter column edit mode using selection"
+msgstr "Skift til kolonneredigeringstilstand ved brug af markering"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+"Skift til kolonneredigeringstilstanden <b>smart</b> ved brug af markering"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "Kolonnejusteringstilstanden <b>smart</b> ved brug af markering"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"Kolonnejusteringstilstanden <b>smart</b> med yderligere mellemrum ved brug "
+"af markering"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Toggle edit point"
+msgstr "Redigeringspunkt til/fra"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Add edit point at beginning of line/selection"
+msgstr "Tilføj redigeringspunkt i begyndelsen af linjen eller markeringen"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Add edit point at end of line/selection"
+msgstr "Tilføj redigeringspunkt i slutningen af linjen eller markeringen"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
+msgid "Align edit points"
+msgstr "Juster redigeringspunkter"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
+msgid "Align edit points with additional space"
+msgstr "Juster redigeringspunkter med yderligere mellemrum"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Håndter gemte sessioner …"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Gem session …"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Genopret sessionen “{0}”"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Sessionsnavn"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Gem sessioner"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Gem og gendan dine arbejdssessioner"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Gem session"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Sessionsnavn:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Gemte sessioner"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+msgid "Smart Spaces"
+msgstr "Smarte mellemrum"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr ""
+"Tillad at ophæve indryk som hvis du brugte tabulatorstop, men bruger "
+"mellemrum"
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Forget you’re not using tabulations."
+msgstr "Brug mellemrum som var de tabulatorstop."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Synkronisér mellem LaTeX og PDF med gedit og evince"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Synkronisér mellem LaTeX og PDF med gedit og evince."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Søg fremad"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:313
+msgid "Terminal"
+msgstr "Terminal"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "En enkel terminalkontrol tilgængelig fra det nederste panel"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
+msgid "Whether to silence terminal bell"
+msgstr "Hvorvidt terminalklokken skal slukkes"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Hvis sand så giv ikke lyd når programmer sender undvigesekvensen for "
+"terminalklokken."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
+msgid "Number of lines to keep in scrollback"
+msgstr "Antal linjer i tilbagerulningen"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"Antal tilbagerulningslinjer som skal bevares. Med dette antal linjer kan du "
+"rulle tilbage i terminalen; linjer ud over denne grænse fjernes. Hvis "
+"scrollback-unlimited er sand så ignoreres denne værdi."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "Hvorvidt en ubegrænset linjeantal skal bevares i tilbagerulningen"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Hvis sand så vil tilbagerulningslinjer aldrig blive slettet. Historikken for "
+"tilbagerulning gemmes midlertidigt på disken, så dette kan få systemet til "
+"at løbe tør for diskplads, hvis der er masser af uddata til terminalen."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Hvorvidt der skal rulles ned, når der trykkes på en tast"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "Hvis sand så vil et tastetryk føre rullebjælken nederst."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr "Hvorvidt der skal rulles ned, når der er nye uddata"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr "Hvis sand så vil terminalen, når der er nye uddata, rulle ned."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
+msgid "Default color of text in the terminal"
+msgstr "Standardfarven for tekst i terminalen"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Standardfarven for tekst i terminalen givet som en farvespecifikation (kan "
+"være heks-tal i HTML-stil eller et farvenavn såsom “rød”)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
+msgid "Default color of terminal background"
+msgstr "Standardfarve på terminalbaggrunden"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Standardfarve på terminalbaggrunden givet som en farvespecifikation (kan "
+"være heks-tal i HTML-stil eller et farvenavn såsom “rød”)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
+msgid "Palette for terminal applications"
+msgstr "Palet for terminalprogrammer"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. “#FF00FF”"
+msgstr ""
+"Terminaler har en 16-farvet palet, som programmer i terminalen kan bruge. "
+"Dette er den palet i form af en kolonadskilt liste over farvenavne. "
+"Farvenavne skal være i heksformat (for eksempel “#FF00FF”)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Hvorvidt farverne fra temaet for terminalkontrollen skal bruges"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Hvis sand så vil temafarveskemaet brugt for indtastningsbokse blive brugt i "
+"terminalen i stedet for farver angivet af brugeren."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+msgid "Whether to blink the cursor"
+msgstr "Hvorvidt markøren blinker"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr ""
+"De mulige værdier er “system” for at bruge den globale markørblinkopsætning "
+"eller “on” eller “off” for at angive tilstanden eksplicit."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+msgid "The cursor appearance"
+msgstr "Markørfremtoningen"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+"De mulige værdier er “block” for at bruge en blokmarkør, “ibeam” for at "
+"bruge en lodret linjemarkør, eller “underline” for at bruge en "
+"understregningsmarkør."
+
+# scootergrisen: kopieret fra gedit
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+msgid "Whether to use the system font"
+msgstr "Om systemskrifttypen skal bruges"
+
+# scootergrisen: findes også i gedit (hvor den er oversat anderledes)
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Hvis sand så vil terminalen bruge standardskriften desktop-global, hvis den "
+"er monospace (og ellers den skrift som ligner mest)."
+
+# scootergrisen: skal den ikke være "Skriftype"?
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
+msgid "Font"
+msgstr "Skrifttype"
+
+# scootergrisen: kopieret fra gedit
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr ""
+"Navnet på en Pango-skrifttype. Eksempler: “Sans 12” eller “Monospace Bold "
+"14”."
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Indlejret terminal"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Indlejr en terminal i den nederste rude."
+
+#: plugins/terminal/terminal.py:334
+msgid "C_hange Directory"
+msgstr "S_kift mappe"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
+msgid "Text size"
+msgstr "Tekststørrelse"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "Øg og formindsk nemt tekststørrelsen"
+
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "_Normal størrelse"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "_Mindre tekst"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "St_ørre tekst"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "Tekststørrelse"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "Oversæt"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "Oversæt tekst til forskellige sprog"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "Hvor oversættelsen skal indsættes"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
+msgstr ""
+"Hvis sand indsættes oversættelsen i dokumentvinduet ellers i "
+"oversættelseskonsollen."
+
+# scootergrisen: dansk ser kun ud til at kunne oversættes til 3 sprog
+# scootergrisen: "'dan|nno'" - dansk > nynorsk
+# scootergrisen: "'dan|nob'" - dansk > bokmål
+# scootergrisen: "'dan|swe'" - dansk > svensk
+#. Translators: You can adjust the default pair for users in your locale.
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "'eng|spa'"
+msgstr "'dan|nob'"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used"
+msgstr "Anvendt sprogpar"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
+msgid "Language pair used to translate from one language to another"
+msgstr "Sprogpar til brug for oversættelse fra et sprog til et andet"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
+msgid "Apertium server end point"
+msgstr "Slutpunkt for Apertium-server"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "API-nøgle til ekstern webtjeneste"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+msgid "Remote web service to use"
+msgstr "Ekstern webtjeneste der skal bruges"
+
+#: plugins/translate/translate/__init__.py:88
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "Oversættelser leveret af {0}"
+
+#: plugins/translate/translate/__init__.py:91
+msgid "Translate Console"
+msgstr "Oversættelseskonsol"
+
+#: plugins/translate/translate/__init__.py:166
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "Oversæt den valgte tekst [{0}]"
+
+#: plugins/translate/translate/preferences.py:84
+msgid "API Key"
+msgstr "API-nøgle"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr ""
+"Du skal hente en API-nøgle hos <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "Oversættelsessprog:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "Hvor oversættelsen skal vises:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "Samme dokumentvindue"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "Oversættelseskonsol (nederste panel)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "Oversættelsestjeneste:"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
+msgid "Interactive completion"
+msgstr "Interaktiv fuldførelse"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
+msgid "Minimum word size:"
+msgstr "Minimal ordstørrelse:"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "Ordfuldførelse"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Foreslå automatisk fuldførelse med brug af ord, der allerede er i dokumentet"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
+msgid "Document Words"
+msgstr "Ord i dokumentet"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
+msgid "Interactive Completion"
+msgstr "Interaktiv fuldførelse"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
+msgid "Whether to enable interactive completion."
+msgstr "Om interaktiv fuldførelse skal aktiveres."
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
+msgid "Minimum Word Size"
+msgstr "Minimal ordstørrelse"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
+msgid "The minimum word size to complete."
+msgstr "Den minimale ordstørrelse der skal fuldføres."
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Ordfuldførelse"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Ordfuldførelse med brug af fuldførelsesrammen"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Vis _blanktegn"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Vis tabulatorstop"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Vis linjeskift"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Vis uombrydelige mellemrum"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Vis foranstillede mellemrum"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Vis mellemrum i tekst"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Vis efterstillede mellemrum"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Hvis SAND vil visning blive aktiveret."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Mellemrumstypen som bliver vist."
+
+#~ msgid "_In "
+#~ msgstr "_I"
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Sammenføj/del linjer"

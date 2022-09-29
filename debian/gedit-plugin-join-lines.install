@@ -1,0 +1,4 @@
+usr/lib/*/gedit/plugins/joinlines*
+usr/share/*/gedit-joinlines.metainfo.xml usr/share/metainfo
+usr/share/help/*/gedit/join-split-lines.page
+

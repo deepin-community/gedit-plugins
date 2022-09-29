@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python3
+Module=colorpicker
+IAge=3
+Name=Color Picker
+Description=Pick a color from a dialog and insert its hexadecimal representation.
+Authors=Jesse van den Kieboom <jesse@icecrew.nl>;Ignacio Casal Quinteiro <icq@gnome.org>
+Copyright=Copyright © 2006 Jesse van den Kieboom;Copyright © 2012 Ignacio Casal Quinteiro
+Website=http://www.gedit.org
+Version=@VERSION@

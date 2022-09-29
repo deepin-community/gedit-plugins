@@ -1,0 +1,69 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-multi-edit">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <revision version="3.4" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+      <years>2011</years>
+    </credit>
+
+    <desc>Edit a document in multiple places at once.</desc>
+  </info>
+
+  <title>Multi Edit</title>
+
+  <p>The <app>Multi Edit</app> plugin allows you to edit a document in multiple
+  places at once. This can be helpful when performing tedious editing tasks.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Multi Edit</gui> to enable the
+      plugin.</p>
+    </item>
+  </steps>
+
+  <p>After you have enabled the plugin, turn-on Multi Edit mode by pressing
+  <keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or press the
+  menu button in the top-right corner of the window and select
+  <guiseq><gui style="menuitem">Tools</gui><gui style="menuitem">Multi Edit Mode</gui></guiseq>.
+  You can then select the points in your file that you would like start
+  editing.</p>
+  
+  <p>To insert editing points in your file:</p>
+  <steps>
+    <item>
+      <p>Place your cursor at your first desired editing point.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>E</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Move to your next editing point, and press <keyseq><key>Ctrl</key>
+      <key>E</key></keyseq> again.</p>
+    </item>
+    <item>
+      <p>Continue inserting editing points, adding as many as you need.</p>
+    </item>
+  </steps>
+  
+  <p>Once you have inserted all of your editing points, you can make your
+  desired edits.</p> 
+  
+  <p>To remove editing points, press the <key>Esc</key> key. This will remove
+  all of the editing points. Pressing the <key>Esc</key> key again will turn
+  off Multi Edit mode, returning the editor back to its normal state.</p>
+
+</page>

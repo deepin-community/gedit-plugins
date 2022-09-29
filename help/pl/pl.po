@@ -1,0 +1,1367 @@
+# Polish translation for gedit-plugins help.
+# Copyright © 2017-2021 the gedit-plugins authors.
+# This file is distributed under the same license as the gedit-plugins help.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017-2021.
+# Aviary.pl <community-poland@mozilla.org>, 2017-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-plugins-help\n"
+"POT-Creation-Date: 2021-02-19 21:21+0000\n"
+"PO-Revision-Date: 2021-02-21 12:57+0100\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <community-poland@mozilla.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Piotr Drąg <piotrdrag@gmail.com>, 2017-2021\n"
+"Aviary.pl <community-poland@mozilla.org>, 2017-2021"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:13
+#: C/code-comment.page:12 C/color-picker.page:12 C/commander.page:12
+#: C/draw-spaces.page:12 C/join-split-lines.page:12 C/multi-edit.page:12
+#: C/terminal.page:13 C/text-size.page:13 C/word-completion.page:12
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:17
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/bookmarks.page:19
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/bookmarks.page:22
+msgid "Record commonly-referenced locations with bookmarks."
+msgstr "Zapisywanie często używanych miejsc za pomocą zakładek."
+
+#. (itstool) path: page/title
+#: C/bookmarks.page:25
+msgid "Bookmarks"
+msgstr "Zakładki"
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:27
+msgid ""
+"<app>gedit</app> bookmarks allow you to highlight important lines of text "
+"within your document or program, making them easier to find. You can also "
+"move up or down between bookmarks, making document navigation a bit faster."
+msgstr ""
+"Zakładki programu <app>gedit</app> umożliwiają wyróżnianie ważnych wierszy "
+"tekstu w dokumencie lub programie, ułatwiając ich odnajdywanie. Można także "
+"przechodzić między zakładkami, nieco przyspieszając nawigację po dokumencie."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:37
+#: C/code-comment.page:30 C/color-picker.page:26 C/commander.page:25
+#: C/draw-spaces.page:27 C/git.page:26 C/join-split-lines.page:25
+#: C/multi-edit.page:26 C/session-saver.page:30 C/terminal.page:37
+#: C/text-size.page:36 C/translate.page:29 C/word-completion.page:35
+msgid "To enable the plugin:"
+msgstr "Aby włączyć wtyczkę:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:39
+#: C/code-comment.page:32 C/color-picker.page:28 C/commander.page:27
+#: C/draw-spaces.page:29 C/git.page:28 C/join-split-lines.page:27
+#: C/multi-edit.page:28 C/session-saver.page:32 C/terminal.page:39
+#: C/text-size.page:38 C/translate.page:31 C/word-completion.page:37
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui style=\"tab"
+"\">Plugins</gui></guiseq>."
+msgstr ""
+"Kliknij przycisk menu w górnym prawym rogu okna i wybierz <guiseq><gui style="
+"\"menuitem\">Preferencje</gui> <gui style=\"tab\">Wtyczki</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:40
+msgid "Select <gui style=\"menuitem\">Bookmarks</gui> to enable the plugin."
+msgstr "Zaznacz <gui style=\"menuitem\">Zakładki</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:45
+msgid ""
+"Bookmarks are inserted and removed by completing the same action. To insert "
+"or remove bookmarks:"
+msgstr ""
+"Zakładki są wstawiane i usuwane za pomocą tego samego działania. Aby wstawić "
+"lub usunąć zakładkę:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:48
+msgid "Navigate to the line where you want to insert or remove the bookmark."
+msgstr "Przejdź do wiersza, w którym wstawić lub z którego usunąć zakładkę."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:52
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or open "
+"the menu in the top-right corner and select <gui style=\"menuitem\">Toggle "
+"Bookmark</gui>."
+msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq> "
+"lub otwórz menu w górnym prawym rogu i wybierz <gui style=\"menuitem"
+"\">Przełącz zakładkę</gui>."
+
+#. (itstool) path: list/title
+#: C/bookmarks.page:59
+msgid "To move between bookmarks:"
+msgstr "Aby przechodzić między zakładkami:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:61
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
+"bookmark."
+msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>B</key></keyseq>, aby przejść "
+"do następnej zakładki."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:65
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
+"to the previous bookmark."
+msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></"
+"keyseq>, aby przejść do poprzedniej zakładki."
+
+#. (itstool) path: note/p
+#: C/bookmarks.page:71
+msgid ""
+"If you prefer to use the mouse, you can open the menu in the top-right "
+"corner and select <gui style=\"menuitem\">Go to Next Bookmark</gui> or <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui>."
+msgstr ""
+"Jeśli wygodniej jest używać myszy, to można otworzyć menu w górnym prawym "
+"rogu i wybrać <gui style=\"menuitem\">Przejdź do następnej zakładki</gui> "
+"lub <gui style=\"menuitem\">Przejdź do poprzedniej zakładki</gui>."
+
+#. (itstool) path: info/desc
+#: C/bracket-comp.page:16
+msgid "Auto-complete closing brackets."
+msgstr "Automatyczne uzupełnianie nawiasów zamykających."
+
+#. (itstool) path: page/title
+#: C/bracket-comp.page:19
+msgid "Bracket Completion"
+msgstr "Uzupełnianie nawiasów"
+
+#. (itstool) path: page/p
+#: C/bracket-comp.page:21
+msgid ""
+"The <app>Bracket Completion</app> plugin will auto-complete closing brackets "
+"for curly braces, parentheses and square brackets."
+msgstr ""
+"Wtyczka <app>Uzupełnianie nawiasów</app> automatycznie uzupełnia zamykające "
+"nawiasy klamrowe, okrągłe i kwadratowe."
+
+#. (itstool) path: item/p
+#: C/bracket-comp.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Uzupełnianie nawiasów</gui>, aby włączyć "
+"wtyczkę."
+
+#. (itstool) path: note/p
+#: C/bracket-comp.page:38
+msgid "This plugin does not automatically insert closing HTML or XML tags."
+msgstr "Ta wtyczka nie wstawia zamykających znaczników HTML i XML."
+
+#. (itstool) path: credit/name
+#: C/character-map.page:17 C/word-completion.page:16
+msgid "Paul Weaver"
+msgstr "Paul Weaver"
+
+#. (itstool) path: info/desc
+#: C/character-map.page:21
+msgid "Insert special characters just by clicking on them."
+msgstr "Wstawianie znaków specjalnych przez klikanie ich."
+
+#. (itstool) path: page/title
+#: C/character-map.page:24
+msgid "Character Map"
+msgstr "Tablica znaków"
+
+#. (itstool) path: page/p
+#: C/character-map.page:33
+msgid ""
+"The <app>Character Map</app> plugin enables you to insert characters into "
+"your document that you may not be able to type easily using your keyboard."
+msgstr ""
+"Wtyczka <app>Tablica znaków</app> umożliwia wstawianie do dokumentu znaków, "
+"których nie da się łatwo wpisać za pomocą klawiatury."
+
+#. (itstool) path: item/p
+#: C/character-map.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Character Map</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Tablica znaków</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: section/title
+#: C/character-map.page:49
+msgid "Using Character Map"
+msgstr "Używanie tablicy znaków"
+
+#. (itstool) path: section/p
+#: C/character-map.page:51
+msgid ""
+"Once the plugin is enabled, you can add characters from the <gui style=\"tab"
+"\">Character Map</gui> view of the side panel."
+msgstr ""
+"Po włączeniu wtyczki można dodawać znaki z widoku <gui style=\"tab\">Tablica "
+"znaków</gui> panelu bocznego."
+
+#. (itstool) path: item/p
+#: C/character-map.page:56
+msgid ""
+"Place the cursor at the point in your document at which you would like your "
+"special character."
+msgstr "Umieść kursor w miejscu, w którym wstawić znak specjalny."
+
+#. (itstool) path: item/p
+#: C/character-map.page:60
+msgid ""
+"Open the side panel by pressing the menu button in the top-right corner of "
+"the window and selecting <guiseq><gui>View</gui> <gui>Side Panel</gui></"
+"guiseq>, or by pressing <key>F9</key>."
+msgstr ""
+"Otwórz panel boczny klikając przycisk menu w górnym prawym rogu okna "
+"i wybierając <guiseq><gui>Widok</gui> <gui>Panel boczny</gui></guiseq> lub "
+"naciskając klawisz <key>F9</key>."
+
+#. (itstool) path: item/p
+#: C/character-map.page:65
+msgid ""
+"Select <gui>Character Map</gui> from the drop-down list at the top of the "
+"side panel."
+msgstr ""
+"Wybierz <gui>Tablicę znaków</gui> z rozwijanej listy na górze panelu "
+"bocznego."
+
+#. (itstool) path: item/p
+#: C/character-map.page:69
+msgid ""
+"If necessary, choose the character set to which your character belongs from "
+"the list at the top of the <gui>Character Map</gui> side panel (for example, "
+"Arabic)."
+msgstr ""
+"Jeśli to potrzebne, wybierz zestaw znaków, do którego należy znak z listy na "
+"górze panelu bocznego <gui>Tablica znaków</gui> (na przykład „Arabskie”)."
+
+#. (itstool) path: item/p
+#: C/character-map.page:74
+msgid "Double click your desired character to insert it."
+msgstr "Podwójnie kliknij znak, aby go wstawić."
+
+#. (itstool) path: note/p
+#: C/character-map.page:79
+msgid ""
+"You must click on the editing view of your document to continue editing "
+"normally."
+msgstr "Należy kliknąć dokument, aby kontynuować pisanie."
+
+#. (itstool) path: info/desc
+#: C/code-comment.page:16
+msgid "Comment-out or uncomment a block of code."
+msgstr "Komentowanie i odkomentowanie bloku kodu."
+
+#. (itstool) path: page/title
+#: C/code-comment.page:19
+msgid "Code comment"
+msgstr "Komentarze w kodzie"
+
+#. (itstool) path: page/p
+#: C/code-comment.page:21
+msgid ""
+"Code comments are portions of text that make it easier for people to "
+"understand a program's code, but they don't affect how a program works. "
+"Comments are separated from other parts of a program by special characters."
+msgstr ""
+"Komentarze w kodzie to części tekstu, które ułatwiają zrozumienie kodu "
+"programu, ale nie wpływają na jego działanie. Komentarze są oddzielane od "
+"pozostałych części programu specjalnymi znakami."
+
+#. (itstool) path: page/p
+#: C/code-comment.page:26
+msgid ""
+"The <app>code comment</app> plugin makes it easier to quickly create or "
+"remove code comments."
+msgstr ""
+"Wtyczka <app>Komentarze w kodzie</app> ułatwia szybkie tworzenie i usuwanie "
+"komentarzy w kodzie."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:37
+msgid "Select <gui style=\"menuitem\">Code comment</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Komentarze w kodzie</gui>, aby włączyć "
+"wtyczkę."
+
+#. (itstool) path: steps/title
+#: C/code-comment.page:42
+msgid "To create or remove a comment:"
+msgstr "Aby utworzyć lub usunąć komentarz:"
+
+#. (itstool) path: item/p
+#: C/code-comment.page:44
+msgid ""
+"Highlight the portion of text where you want to add or remove a comment."
+msgstr "Zaznacz część tekstu, w którym dodać lub usunąć komentarz."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:48
+msgid ""
+"To add a comment, right click and select <gui style=\"menuitem\">Comment "
+"Code</gui>, or press <keyseq><key>Ctrl</key><key>M</key></keyseq>."
+msgstr ""
+"Aby dodać komentarz, kliknij prawym przyciskiem myszy i wybierz <gui style="
+"\"menuitem\">Skomentuj kod</gui> lub naciśnij klawisze <keyseq><key>Ctrl</"
+"key><key>M</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:52
+msgid ""
+"To remove a comment, right click and select <gui style=\"menuitem"
+"\">Uncomment Code</gui>, or press <keyseq><key>Shift</key> <key>Ctrl</"
+"key><key>M</key></keyseq>."
+msgstr ""
+"Aby usunąć komentarz, kliknij prawym przyciskiem myszy i wybierz <gui style="
+"\"menuitem\">Odkomentuj kod</gui> lub naciśnij klawisze <keyseq><key>Shift</"
+"key> <key>Ctrl</key><key>M</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/code-comment.page:59
+msgid ""
+"<app>gedit</app> will automatically use the correct style of comment based "
+"on the language or syntax of the file. If <app>gedit</app> doesn't identify "
+"your language or syntax, you can select it from the language list in the "
+"bottom <gui>Status bar</gui>."
+msgstr ""
+"<app>gedit</app> automatycznie użyje właściwego stylu komentarzy na "
+"podstawie języka lub składni pliku. Jeśli program <app>gedit</app> nie "
+"zidentyfikuje języka lub składni, to można ją wybrać z listy języków na dole "
+"<gui>Paska stanu</gui>."
+
+#. (itstool) path: info/desc
+#: C/color-picker.page:16
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Wybieranie koloru z okna dialogowego i wstawianie jego szesnastkowego "
+"odpowiednika."
+
+#. (itstool) path: page/title
+#: C/color-picker.page:19
+msgid "Color Picker"
+msgstr "Wybór koloru"
+
+#. (itstool) path: page/p
+#: C/color-picker.page:21
+msgid ""
+"The <app>Color Picker</app> plugin helps you to insert the character codes "
+"that represent a certain color. This can make it easier to choose and use "
+"the correct color in your programs."
+msgstr ""
+"Wtyczka <app>Wybór koloru</app> pomaga wstawiać kod odpowiadający danemu "
+"kolorowi. Ułatwia to wybieranie i używanie właściwych kolorów w programie."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:33
+msgid "Select <gui style=\"menuitem\">Color Picker</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Wybór koloru</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: steps/title
+#: C/color-picker.page:38
+msgid "To open and use the color picker:"
+msgstr "Aby otworzyć i użyć okna wyboru koloru:"
+
+#. (itstool) path: item/p
+#: C/color-picker.page:40
+msgid ""
+"Place your cursor at the point in your document where you want to insert the "
+"color code."
+msgstr "Umieść kursor w miejscu, w którym wstawić kod koloru."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:44
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Pick "
+"Color…</gui></guiseq>."
+msgstr ""
+"Kliknij przycisk menu w górnym prawym rogu okna i wybierz <guiseq><gui style="
+"\"menuitem\">Narzędzia</gui> <gui style=\"menuitem\">Wybierz kolor…</gui></"
+"guiseq>."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:49
+msgid "Click on the desired color in the color picker window."
+msgstr "Kliknij dany kolor w oknie wyboru koloru."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:52
+msgid ""
+"The appropriate color code will be inserted where you had placed your cursor."
+msgstr "Odpowiedni kod koloru zostanie wstawiany w miejscu kursora."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:56
+msgid "To close the <app>color picker</app>, click <gui>Cancel</gui>."
+msgstr "Aby zamknąć okno wyboru koloru, kliknij przycisk <gui>Anuluj</gui>."
+
+#. (itstool) path: note/p
+#: C/color-picker.page:62
+msgid ""
+"You can make fine-grained adjustments to the color and adjust the values for "
+"Hue, Saturation, Value, Red, Green, or Blue by right clicking on a color and "
+"selecting <gui style=\"menuitem\">Customize</gui>."
+msgstr ""
+"Można dostosować barwę, nasycenie, wartości, poziom czerwieni, zieleni "
+"i niebieskiego klikając prawym przyciskiem myszy kolor i wybierając <gui "
+"style=\"menuitem\">Dostosuj</gui>."
+
+#. (itstool) path: info/desc
+#: C/commander.page:16
+msgid "Use a command-line interface for advanced editing."
+msgstr "Interfejs wiersza poleceń do zaawansowanej redakcji tekstu."
+
+#. (itstool) path: page/title
+#: C/commander.page:19
+msgid "Commander"
+msgstr "Commander"
+
+#. (itstool) path: page/p
+#: C/commander.page:21
+msgid ""
+"The <app>Commander</app> plugin is a plugin for advanced <app>gedit</app> "
+"users that allows you to perform command-line actions on the current file."
+msgstr ""
+"Wtyczka <app>Commander</app> jest przeznaczona dla zaawansowanych "
+"użytkowników programu <app>gedit</app>, umożliwiająca wykonywanie działań "
+"wiersza poleceń na bieżącym pliku."
+
+#. (itstool) path: item/p
+#: C/commander.page:32
+msgid "Select <gui style=\"menuitem\">Commander</gui> to enable the plugin."
+msgstr "Zaznacz <gui style=\"menuitem\">Commander</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: page/p
+#: C/commander.page:36
+msgid ""
+"Once you have enabled the plugin, activate it by pressing <keyseq><key>Ctrl</"
+"key><key>,</key></keyseq>."
+msgstr ""
+"Po włączeniu wtyczki aktywuj ją naciskając klawisze <keyseq><key>Ctrl</"
+"key><key>,</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/commander.page:40
+msgid "The last key in the above key combination is a comma."
+msgstr "Drugi klawisz to przecinek."
+
+#. (itstool) path: td/p
+#: C/commander.page:46
+msgid "Action"
+msgstr "Działanie"
+
+#. (itstool) path: td/p
+#: C/commander.page:47
+msgid "Keyboard shortcut"
+msgstr "Skrót klawiszowy"
+
+#. (itstool) path: td/p
+#: C/commander.page:52
+msgid "See an overview of available commands"
+msgstr "Wyświetlenie przeglądu dostępnych poleceń"
+
+#. (itstool) path: td/p
+#: C/commander.page:53
+msgid "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+msgstr "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/commander.page:56
+msgid "Find a word within the current file"
+msgstr "Wyszukanie słowa w bieżącym pliku"
+
+#. (itstool) path: td/p
+#: C/commander.page:58
+msgid "<key>/</key> <input>foo</input>"
+msgstr "<key>/</key> <input>coś</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:59
+msgid "This will find the word <input>foo</input>."
+msgstr "Wyszuka słowo <input>coś</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:63
+msgid "Replace a word within the current file"
+msgstr "Zastąpienie słowa w bieżącym pliku"
+
+#. (itstool) path: td/p
+#: C/commander.page:65
+msgid "<keyseq><key>/</key><key>/</key></keyseq> <input>foo bar</input>"
+msgstr "<keyseq><key>/</key><key>/</key></keyseq> <input>coś niecoś</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:67
+msgid "This will replace <input>foo</input> with <input>bar</input>."
+msgstr "Zastąpi słowo <input>coś</input> słowem <input>niecoś</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:72
+msgid "Move the cursor to a certain line number in your file"
+msgstr "Przeniesienie kursora do podanego numeru wiersza w pliku"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'go'! It is a command
+#: C/commander.page:74
+msgid ""
+"<cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</"
+"key> <input>[line number]</input></cmd>"
+msgstr ""
+"<cmd>go <input>[numer wiersza]</input></cmd> <em>lub</em> <cmd><key>G</key> "
+"<input>[numer wiersza]</input></cmd>"
+
+#. (itstool) path: td/p
+#: C/commander.page:80
+msgid "Toggle the bookmark indicator for the current line"
+msgstr "Przełączenie wskaźnika zakładki dla bieżącego wiersza"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'bookmark'! It is a command
+#: C/commander.page:82
+msgid "<cmd>bookmark</cmd> <em>or</em> just <key>B</key>"
+msgstr "<cmd>bookmark</cmd> <em>lub</em> <key>B</key>"
+
+#. (itstool) path: note/p
+#: C/commander.page:88
+msgid ""
+"Some commands, such as the <cmd>bookmark</cmd> command require that the "
+"appropriate plugin be installed and activated. If you do not have the "
+"appropriate plugin installed and activated, you will receive an error "
+"message."
+msgstr ""
+"Część poleceń, na przykład <cmd>bookmark</cmd>, wymaga zainstalowania "
+"i włączenia odpowiedniej wtyczki. Bez wtyczki zostanie wyświetlony komunikat "
+"o błędzie."
+
+#. (itstool) path: info/desc
+#: C/draw-spaces.page:16
+msgid "Show white space between words or portions of code."
+msgstr "Wyświetlanie białych znaków między słowami i częściami kodu."
+
+#. (itstool) path: page/title
+#: C/draw-spaces.page:19
+msgid "Draw Spaces"
+msgstr "Wyświetlanie spacji"
+
+#. (itstool) path: page/p
+#: C/draw-spaces.page:21
+msgid ""
+"The <app>Draw Spaces</app> plugin is a simple plugin that can mark spaces, "
+"tabs, and other types of whitespace with a small, visible marker. By making "
+"whitespace visible, you can more easily see how whitespace is used in a "
+"document, and can apply spacing strategies more consistently."
+msgstr ""
+"Wtyczka <app>Wyświetlanie spacji</app> może oznaczać spacje, tabulacje "
+"i inne rodzaje białych znaków małymi, widocznymi znacznikami. Dzięki temu "
+"można łatwiej stosować konsekwentne zasady wstawiania białych znaków."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:34
+msgid "Select <gui style=\"menuitem\">Draw Spaces</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Wyświetlanie spacji</gui>, aby włączyć "
+"wtyczkę."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:37
+msgid "Press <gui style=\"button\">Preferences</gui> to set its options."
+msgstr ""
+"Kliknij przycisk <gui style=\"button\">Preferencje</gui>, aby ustawić jej "
+"opcje."
+
+#. (itstool) path: note/p
+#: C/draw-spaces.page:42
+msgid ""
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
+msgstr ""
+"Znaczniki będą widoczne podczas redagowania pliku, ale nie będą drukowane."
+
+#. (itstool) path: credit/name
+#: C/git.page:12
+msgid "Aleksandra Hankus"
+msgstr "Aleksandra Hankus"
+
+#. (itstool) path: info/desc
+#: C/git.page:16
+msgid "Highlight lines that have been changed since the last commit."
+msgstr "Wyróżnianie wierszy zmienionych od ostatniego zatwierdzenia."
+
+#. (itstool) path: page/title
+#: C/git.page:19
+msgid "Git"
+msgstr "Git"
+
+#. (itstool) path: page/p
+#: C/git.page:21
+msgid ""
+"The <app>Git</app> plugin will highlight lines that have been changed since "
+"the last commit. Lines will be highlighted only on files that are already "
+"tracked by git."
+msgstr ""
+"Wtyczka <app>Git</app> wyróżni wiersze zmienione od ostatniego "
+"zatwierdzenia. Działa to tylko w przypadku plików już znajdujących się "
+"w systemie kontroli wersji Git."
+
+#. (itstool) path: item/p
+#: C/git.page:33
+msgid "Select <gui style=\"menuitem\">Git</gui> to enable the plugin."
+msgstr "Zaznacz <gui style=\"menuitem\">Git</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: page/p
+#: C/git.page:37
+msgid ""
+"The changes are shown in the margin of the document in three different "
+"colors:"
+msgstr ""
+"Zmiany będą wyświetlane na marginesie dokumentu w trzech różnych kolorach:"
+
+#. (itstool) path: item/title
+#: C/git.page:41
+msgid "Green"
+msgstr "Zielony"
+
+#. (itstool) path: item/p
+#: C/git.page:42
+msgid "Shows the new lines added to the document."
+msgstr "Wyświetla nowe wiersze dodane do dokumentu."
+
+#. (itstool) path: item/title
+#: C/git.page:45
+msgid "Orange"
+msgstr "Pomarańczowy"
+
+#. (itstool) path: item/p
+#: C/git.page:46
+msgid "Shows the lines that have been modified in the document."
+msgstr "Wyświetla wiersze zmodyfikowane w dokumencie."
+
+#. (itstool) path: item/title
+#: C/git.page:49
+msgid "Red"
+msgstr "Czerwony"
+
+#. (itstool) path: item/p
+#: C/git.page:50
+msgid "Shows the parts of the document that have been deleted."
+msgstr "Wyświetla usunięte części dokumentu."
+
+#. (itstool) path: note/p
+#: C/git.page:55
+msgid ""
+"Hover the mouse pointer on the red or orange margin to view the original "
+"text in a tool tip."
+msgstr ""
+"Najedź kursorem myszy na czerwony lub pomarańczowy margines, aby wyświetlić "
+"oryginalny tekst jako podpowiedź."
+
+#. (itstool) path: info/desc
+#: C/join-split-lines.page:16
+msgid "Join several lines of text or split long lines."
+msgstr "Łączenie wielu wierszy tekstu i rozdzielanie długich wierszy."
+
+#. (itstool) path: page/title
+#: C/join-split-lines.page:19
+msgid "Join/Split Lines"
+msgstr "Łączenie/dzielenie wierszy"
+
+#. (itstool) path: page/p
+#: C/join-split-lines.page:21
+msgid ""
+"The <app>Join/Split Lines</app> plugin can join shorter lines into one "
+"longer line, or can split a long line into multiple shorter lines."
+msgstr ""
+"Wtyczka <app>Łączenie/dzielenie wierszy</app> może łączyć krótsze wiersze "
+"w jeden dłuższy, albo rozdzielać długi wiersz na wiele krótszych."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Join/Split Lines</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Łączenie/dzielenie wierszy</gui>, aby "
+"włączyć wtyczkę."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:37
+msgid "To join multiple lines into one longer line:"
+msgstr "Aby połączyć wiele wierszy w jeden dłuższy:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:39
+msgid ""
+"Select the lines that you want to join. To do this, you can use the mouse, "
+"or you can press <keyseq><key>Shift</key><key>Up Arrow</key> </keyseq> or "
+"<keyseq><key>Shift</key><key>Down Arrow</key></keyseq>."
+msgstr ""
+"Zaznacz wiersze do połączenia. Można to zrobić za pomocą myszy albo nacisnąć "
+"klawisze <keyseq><key>Shift</key><key>Strzałka w górę</key> </keyseq> lub "
+"<keyseq><key>Shift</key><key>Strzałka w dół</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:44
+msgid "Press <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+msgstr "Naciśnij klawisze <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:45
+msgid "The lines that you selected will be joined into one longer line."
+msgstr "Zaznaczone wiersze zostaną połączone w jeden dłuższy."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:50
+msgid "To split one line into multiple lines:"
+msgstr "Aby rozdzielić jeden wiersz na wiele wierszy:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:52
+msgid ""
+"Select the line that you want to split by placing your cursor anywhere on "
+"that line."
+msgstr "Zaznacz wiersz do rozdzielenia umieszczając kursor w tym wierszu."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:56
+msgid "Press <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
+msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></"
+"keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:58
+msgid ""
+"The line will be split into multiple lines. Spaces are used to determine "
+"where it is safe to split a line, and the length of each line will not "
+"exceed 80 characters."
+msgstr ""
+"Wiersz zostanie podzielony na wiele wierszy. Spacje są używane do ustalania "
+"bezpiecznego miejsca podziału wiersza, a długość każdego wiersza nie "
+"przekroczy 80 znaków."
+
+#. (itstool) path: p/link
+#: C/legal-plugins.xml:7
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "https://creativecommons.org/licenses/by-sa/3.0/deed.pl"
+
+#. (itstool) path: license/p
+#: C/legal-plugins.xml:5
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Na warunkach licencji Creative Commons Attribution-ShareAlike 4.0 Unported. "
+"Aby uzyskać jej kopię, odwiedź <_:link-1/> lub wyślij list do Creative "
+"Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA."
+
+#. (itstool) path: credit/years
+#: C/multi-edit.page:14
+msgid "2011"
+msgstr "2011"
+
+#. (itstool) path: info/desc
+#: C/multi-edit.page:17
+msgid "Edit a document in multiple places at once."
+msgstr "Modyfikowanie dokumentu w wielu miejscach naraz."
+
+#. (itstool) path: page/title
+#: C/multi-edit.page:20
+msgid "Multi Edit"
+msgstr "Edycja w wielu miejscach"
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:22
+msgid ""
+"The <app>Multi Edit</app> plugin allows you to edit a document in multiple "
+"places at once. This can be helpful when performing tedious editing tasks."
+msgstr ""
+"Wtyczka <app>Edycja w wielu miejscach</app> umożliwia modyfikowanie "
+"dokumentu w wielu miejscach jednocześnie. Jest to przydatne podczas "
+"wykonywania żmudnych zadań redaktorskich."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:33
+msgid "Select <gui style=\"menuitem\">Multi Edit</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Edycja w wielu miejscach</gui>, aby włączyć "
+"wtyczkę."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:38
+msgid ""
+"After you have enabled the plugin, turn-on Multi Edit mode by pressing "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or press the "
+"menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Tools</gui><gui style=\"menuitem\">Multi Edit Mode</gui></"
+"guiseq>. You can then select the points in your file that you would like "
+"start editing."
+msgstr ""
+"Po włączeniu wtyczki włącz tryb edycji w wielu miejscach naciskając klawisze "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq> lub klikając "
+"przycisk menu w górnym prawym rogu okna i wybierając <guiseq><gui style="
+"\"menuitem\">Narzędzia</gui><gui style=\"menuitem\">Tryb edycji w wieli "
+"miejscach</gui></guiseq>. Następnie można wybrać punkty w pliku, które "
+"zacząć modyfikować."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:45
+msgid "To insert editing points in your file:"
+msgstr "Aby wstawić punkty modyfikowania w pliku:"
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:48
+msgid "Place your cursor at your first desired editing point."
+msgstr "Umieść kursor w pierwszym wybranym punkcie modyfikowania."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:51
+msgid "Press <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+msgstr "Naciśnij klawisze <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:54
+msgid ""
+"Move to your next editing point, and press <keyseq><key>Ctrl</key> <key>E</"
+"key></keyseq> again."
+msgstr ""
+"Przejdź do następnego punktu modyfikowania i ponownie naciśnij klawisze "
+"<keyseq><key>Ctrl</key> <key>E</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:58
+msgid "Continue inserting editing points, adding as many as you need."
+msgstr ""
+"Kontynuuj wstawianie punktów modyfikowania, dodając ich tyle, ile potrzeba."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:62
+msgid ""
+"Once you have inserted all of your editing points, you can make your desired "
+"edits."
+msgstr ""
+"Po wstawieniu wszystkich punktów modyfikowania można zacząć modyfikować."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:65
+msgid ""
+"To remove editing points, press the <key>Esc</key> key. This will remove all "
+"of the editing points. Pressing the <key>Esc</key> key again will turn off "
+"Multi Edit mode, returning the editor back to its normal state."
+msgstr ""
+"Aby usunąć punkty modyfikowania, naciśnij klawisz <key>Esc</key>. Spowoduje "
+"to usunięcie wszystkich punktów modyfikowania. Ponowne naciśnięcie klawisza "
+"<key>Esc</key> wyłączy tryb edycji w wieli miejscach, wracając do zwykłego "
+"trybu."
+
+#. (itstool) path: credit/name
+#: C/session-saver.page:12 C/translate.page:12
+msgid "Jordi Mas i Hernàndez"
+msgstr "Jordi Mas i Hernàndez"
+
+#. (itstool) path: info/desc
+#: C/session-saver.page:18
+msgid "Save and restore your working sessions"
+msgstr "Zapisywanie i przywracanie sesji roboczych"
+
+#. (itstool) path: page/title
+#: C/session-saver.page:21
+msgid "Session Saver"
+msgstr "Zapisywanie sesji"
+
+#. (itstool) path: page/p
+#: C/session-saver.page:23
+msgid ""
+"The <app>Session Saver</app> plugin allows you to remember which documents "
+"are currently open and open the same documents again at a later time."
+msgstr ""
+"Wtyczka <app>Zapisywanie sesji</app> umożliwia zapamiętanie obecnie "
+"otwartych dokumentów i otwarcie tych samych dokumentów z powrotem później."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:27
+msgid "Enable Session Saver Plugin"
+msgstr "Włączanie wtyczki zapisywania sesji"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:37
+msgid ""
+"Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Zapisywanie sesji</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:45
+msgid "Save a session"
+msgstr "Zapisywanie sesji"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:46
+msgid "Save all your open files to be able to open them later."
+msgstr "Zapisz wszystkie otwarte pliki, aby móc je otworzyć później."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:48
+msgid "To save a session:"
+msgstr "Aby zapisać sesję:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:50
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Save "
+"Session…</gui></guiseq>."
+msgstr ""
+"Kliknij przycisk menu w górnym prawym rogu okna i wybierz <guiseq><gui style="
+"\"menuitem\">Narzędzia</gui> <gui style=\"menuitem\">Zapisz sesję…</gui></"
+"guiseq>."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:58
+msgid "Open a session"
+msgstr "Otwieranie sesji"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:59
+msgid "Open all the files from an already saved session."
+msgstr "Otwórz wszystkie pliki z poprzednio zapisanej sesji."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:61
+msgid "To open a session:"
+msgstr "Aby otworzyć sesję:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:63
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Tools</gui>."
+msgstr ""
+"Kliknij przycisk menu w górnym prawym rogu okna i wybierz <gui style="
+"\"menuitem\">Narzędzia</gui>."
+
+#. (itstool) path: item/p
+#: C/session-saver.page:67
+msgid "Select one of the saved sessions from the menu."
+msgstr "Wybierz jedną z zapisanych sesji z menu."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:73
+msgid "Manage Sessions"
+msgstr "Zarządzanie sesjami"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:74
+msgid "Open and delete your already saved sessions."
+msgstr "Otwieraj i usuwaj poprzednio zapisane sesje."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:76
+msgid "Manage sessions"
+msgstr "Zarządzanie sesjami"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:78
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Manage "
+"Saved Sessions…</gui></guiseq>"
+msgstr ""
+"Kliknij przycisk menu w górnym prawym rogu okna i wybierz <guiseq><gui style="
+"\"menuitem\">Narzędzia</gui> <gui style=\"menuitem\">Zarządzaj zapisanymi "
+"sesjami…</gui></guiseq>"
+
+#. (itstool) path: info/desc
+#: C/synctex.page:20
+msgid ""
+"Quickly switch between TeX source files and rendered PDF documents in evince."
+msgstr ""
+"Szybkie przełączanie między plikami źródłowymi TeX a gotowymi dokumentami "
+"PDF w programie Evince."
+
+#. (itstool) path: page/title
+#: C/synctex.page:24
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#. (itstool) path: page/p
+#: C/synctex.page:26
+msgid ""
+"SyncTeX is a method that enables synchronization between a TeX source file "
+"and the PDF output generated by a TeX/LaTeX compiler. This plugin allows to "
+"use SyncTeX in <app>gedit</app> to quickly switch from an opened TeX source "
+"file to a PDF document opened in <app>evince</app> and vice versa."
+msgstr ""
+"SyncTeX to metoda umożliwiają synchronizację między plikiem źródłowym TeX "
+"a wyjściowym plikiem PDF utworzonym przez kompilatora TeX/LaTeX. Ta wtyczka "
+"umożliwia używanie SyncTeX w programie <app>gedit</app> do szybkiego "
+"przełączania z otwartego pliku źródłowego TeX do dokumentu PDF otwartego "
+"w programie <app>Evince</app> i na odwrót."
+
+#. (itstool) path: note/p
+#: C/synctex.page:32
+msgid ""
+"To be useful, this plugin requires a TeX/LaTeX compiler and SyncTeX to be "
+"installed. Both are provided by TeX distributions such as TeX Live. Also "
+"<app>evince</app> must be installed."
+msgstr ""
+"Aby móc jej używać, ta wtyczka wymaga zainstalowania kompilatora TeX/LaTeX "
+"i SyncTeX. Oba programy są dostarczane przez dystrybucje TeX, takie jak TeX "
+"Live. Także program <app>Evince</app> musi być zainstalowany."
+
+#. (itstool) path: item/p
+#: C/synctex.page:39
+msgid ""
+"Some basic information on setting up SyncTeX and compiling LaTeX documents "
+"can be found in the <link xref=\"help:evince#synctex\"><app>evince</app>-"
+"SyncTeX documentation</link>."
+msgstr ""
+"Trochę podstawowych informacji o konfiguracji SyncTeX i kompilowaniu "
+"dokumentów LaTeX można znaleźć w <link xref=\"help:evince#synctex"
+"\">dokumentacji <app>Evince</app>-SyncTeX</link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:45
+msgid ""
+"Key shortcuts and mouse controls are also documented in the <link xref="
+"\"help:evince/synctex-search\"> <app>evince</app>-SyncTeX documentation</"
+"link>."
+msgstr ""
+"Informacje o skrótach klawiszowych i sterowaniu myszą są także dostępne "
+"w <link xref=\"help:evince/synctex-search\">dokumentacji <app>Evince</app>-"
+"SyncTeX</link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:50
+msgid ""
+"<link xref=\"help:gnome-latex\"> <app>Gnome-LaTeX</app></link> is an "
+"alternative text editor specifically designed for writing TeX code."
+msgstr ""
+"<link xref=\"help:gnome-latex\"> <app>GNOME LaTeX</app></link> jest "
+"alternatywnym edytorem tekstu specjalnie zaprojektowanym do pisania kodu TeX."
+
+#. (itstool) path: credit/name
+#: C/terminal.page:17 C/text-size.page:17 C/word-completion.page:20
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: info/desc
+#: C/terminal.page:23
+msgid "Add a terminal console to the bottom panel."
+msgstr "Terminal w dolnym panelu."
+
+#. (itstool) path: page/title
+#: C/terminal.page:26
+msgid "Embedded Terminal"
+msgstr "Osadzony terminal"
+
+#. (itstool) path: page/p
+#: C/terminal.page:28
+msgid ""
+"<app>gedit</app> makes it possible to include an embedded version of "
+"<app>GNOME Terminal</app>, the GNOME command-line application, in the bottom "
+"panel of the <app>gedit</app> window. This will let you run scripts, install "
+"needed software, or test your program without leaving <app>gedit</app>."
+msgstr ""
+"<app>gedit</app> umożliwia osadzenie <app>Terminala GNOME</app> w dolnym "
+"panelu okna programu. Umożliwia to wykonywanie skryptów, instalowanie "
+"potrzebnego oprogramowania i testowanie programu bez opuszczania edytora "
+"<app>gedit</app>."
+
+#. (itstool) path: section/title
+#: C/terminal.page:34
+msgid "Enable Embedded Terminal"
+msgstr "Włączanie osadzonego terminalu"
+
+#. (itstool) path: item/p
+#: C/terminal.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Osadzony terminal</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: section/title
+#: C/terminal.page:52
+msgid "Using Embedded Terminal"
+msgstr "Używanie osadzonego terminala"
+
+#. (itstool) path: section/p
+#: C/terminal.page:54
+msgid ""
+"Once you have enabled the plugin, to add a terminal to the bottom panel:"
+msgstr "Po włączeniu wtyczki dodaj terminal do dolnego panelu:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:59
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom Panel</"
+"gui></guiseq>."
+msgstr ""
+"Kliknij przycisk menu w górnym prawym rogu okna i wybierz <guiseq><gui style="
+"\"menu\">Widok</gui> <gui style=\"menuitem\">Panel boczny</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/text-size.page:23
+msgid "Increase or decrease text size."
+msgstr "Zwiększanie i zmniejszanie rozmiaru tekstu."
+
+#. (itstool) path: page/title
+#: C/text-size.page:26
+msgid "Text Size"
+msgstr "Rozmiar tekstu"
+
+#. (itstool) path: page/p
+#: C/text-size.page:28
+msgid ""
+"The text size plugin allows you to temporarily change the text size for "
+"better readability in <app>gedit</app> without changing the program's "
+"default text size."
+msgstr ""
+"Ta wtyczka umożliwia tymczasową zmianę rozmiaru tekstu w programie "
+"<app>gedit</app> bez zmiany domyślnego rozmiaru."
+
+#. (itstool) path: section/title
+#: C/text-size.page:33
+msgid "Enable Text Size Plugin"
+msgstr "Włączanie wtyczki rozmiaru tekstu"
+
+#. (itstool) path: item/p
+#: C/text-size.page:43
+msgid "Select <gui style=\"menuitem\">Text Size</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Rozmiar tekstu</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: section/title
+#: C/text-size.page:50
+msgid "Use the <app>Text Size</app> plugin"
+msgstr "Używanie wtyczki <app>Rozmiar tekstu</app>"
+
+#. (itstool) path: section/p
+#: C/text-size.page:52
+msgid ""
+"Once you have enabled the plugin, do any of the following to change the text "
+"size in <app>gedit</app>:"
+msgstr "Po włączeniu wtyczki można:"
+
+#. (itstool) path: item/p
+#: C/text-size.page:57
+msgid ""
+"To <em>increase</em> the text size, press <keyseq><key>Ctrl</key><key>+</"
+"key></keyseq>."
+msgstr ""
+"Nacisnąć klawisze <keyseq><key>Ctrl</key><key>+</key></keyseq>, aby "
+"<em>zwiększyć</em> rozmiar tekstu."
+
+#. (itstool) path: item/p
+#: C/text-size.page:61
+msgid ""
+"To <em>decrease</em> the text size, press <keyseq><key>Ctrl</key><key>-</"
+"key></keyseq>."
+msgstr ""
+"Nacisnąć klawisze <keyseq><key>Ctrl</key><key>-</key></keyseq>, aby "
+"<em>zmniejszyć</em> rozmiar tekstu."
+
+#. (itstool) path: item/p
+#: C/text-size.page:65
+msgid ""
+"To <em>reset</em> the text size to the default size, press "
+"<keyseq><key>Ctrl</key><key>0</key></keyseq>."
+msgstr ""
+"Nacisnąć klawisze <keyseq><key>Ctrl</key><key>0</key></keyseq>, aby "
+"<em>przywrócić</em> domyślny rozmiar tekstu."
+
+#. (itstool) path: info/desc
+#: C/translate.page:18
+msgid "Translate text into different languages"
+msgstr "Tłumaczenie tekstu na różne języki"
+
+#. (itstool) path: page/title
+#: C/translate.page:21
+msgid "Translate"
+msgstr "Tłumaczenie"
+
+#. (itstool) path: page/p
+#: C/translate.page:23
+msgid ""
+"The <app>Translate</app> plugin allows you to translate text from "
+"<app>gedit</app> using Apertium and Yandex engines."
+msgstr ""
+"Wtyczka <app>Tłumaczenie</app> umożliwia tłumaczenie tekstu z programu "
+"<app>gedit</app> za pomocą serwisów Apertium i Yandex."
+
+#. (itstool) path: section/title
+#: C/translate.page:26
+msgid "Enabling and configuring the Translate plugin"
+msgstr "Włączanie i konfigurowanie wtyczki tłumaczenia"
+
+#. (itstool) path: item/p
+#: C/translate.page:36
+msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Tłumaczenie</gui>, aby włączyć wtyczkę."
+
+#. (itstool) path: item/p
+#: C/translate.page:39
+msgid ""
+"Press <gui style=\"button\">Preferences</gui> to configure the translation "
+"engine to use and a language pair."
+msgstr ""
+"Kliknij przycisk <gui style=\"button\">Preferencje</gui>, aby skonfigurować "
+"używany serwis tłumaczenia i parę języków."
+
+#. (itstool) path: item/p
+#: C/translate.page:42
+msgid ""
+"In case you use the Yandex translation engine, you need an API key. You can "
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
+"site</link>."
+msgstr ""
+"Do użycia serwisu tłumaczenia Yandex wymagany jest klucz API. Można go "
+"uzyskać na stronie <link href=\"https://tech.yandex.com/translate/\">Yandex</"
+"link>."
+
+#. (itstool) path: note/p
+#: C/translate.page:46
+msgid ""
+"You can also customize the address of the Apertium server, you will need to "
+"use the <app>dconf-editor</app> application."
+msgstr ""
+"Można także dostosować adres serwera Apertium za pomocą programu <app>dconf-"
+"editor</app>."
+
+#. (itstool) path: item/p
+#: C/translate.page:48
+msgid ""
+"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+msgstr ""
+"Uruchom <app>dconf-editor</app> i wybierz <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/translate.page:51
+msgid ""
+"Double-click on the URL next to <gui>apertium-server</gui> and change the "
+"URL to your desired value."
+msgstr ""
+"Podwójnie kliknij adres URL obok napisu <gui>apertium-server</gui> i zmień "
+"go na wybraną wartość."
+
+#. (itstool) path: section/title
+#: C/translate.page:59
+msgid "Using the Translate plugin"
+msgstr "Używanie wtyczki tłumaczenia"
+
+#. (itstool) path: steps/title
+#: C/translate.page:62
+msgid "To translate a text:"
+msgstr "Aby przetłumaczyć tekst:"
+
+#. (itstool) path: item/p
+#: C/translate.page:64
+msgid "Select the part of text that you would like to translate."
+msgstr "Zaznacz część tekstu do przetłumaczenia."
+
+#. (itstool) path: item/p
+#: C/translate.page:67
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
+"to translate it."
+msgstr ""
+"Naciśnij klawisze <keyseq><key>Ctrl</key><key>K</key></keyseq> lub użyj menu "
+"kontekstowego, aby go przetłumaczyć."
+
+#. (itstool) path: item/p
+#: C/translate.page:68
+msgid ""
+"The translation appears in the document or in the bottom panel, depending on "
+"your configuration."
+msgstr ""
+"Tłumaczenie pojawi się w dokumencie lub w dolnym panelu, w zależności od "
+"konfiguracji."
+
+#. (itstool) path: info/desc
+#: C/word-completion.page:26
+msgid "Autocomplete words or portions of code as you type."
+msgstr "Automatyczne uzupełnianie słów lub części tekstu podczas pisania."
+
+#. (itstool) path: page/title
+#: C/word-completion.page:29
+msgid "Word Completion"
+msgstr "Uzupełnianie wyrazów"
+
+#. (itstool) path: page/p
+#: C/word-completion.page:31
+msgid ""
+"The <app>Word Completion</app> plugin can speed up your editing by "
+"suggesting completions of words as you type."
+msgstr ""
+"Wtyczka <app>Uzupełnianie wyrazów</app> może przyspieszyć pisanie przez "
+"podpowiadanie końcówek słów podczas pisania."
+
+#. (itstool) path: item/p
+#: C/word-completion.page:42
+msgid ""
+"Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr ""
+"Zaznacz <gui style=\"menuitem\">Uzupełnianie wyrazów</gui>, aby włączyć "
+"wtyczkę."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:47
+msgid ""
+"While editing, the <app>Word Completion</app> plugin will automatically "
+"display a pop-up list of words that begin with the letters you have already "
+"typed. Word suggestions are based upon words that appear elsewhere in your "
+"document and upon pre-defined keywords if your document is of a recognised "
+"format."
+msgstr ""
+"Podczas pisania wtyczka <app>Uzupełnianie wyrazów</app> będzie automatycznie "
+"wyświetlała listę słów zaczynających się od już wpisanych liter. Podpowiedzi "
+"są tworzone na podstawie słów pojawiających się w innych miejscach dokumentu "
+"i wcześniej określonych słów, jeśli dokument jest w znanym formacie."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:53
+msgid ""
+"To insert a suggested word, double-click on it in the pop-up list or press "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
+"number displayed next to your desired word."
+msgstr ""
+"Aby wstawić podpowiadane słowo, kliknij je podwójnie na liście lub naciśnij "
+"klawisze <keyseq><key>Alt</key><key>liczba</key></keyseq>, gdzie "
+"<key>liczba</key> to liczba wyświetlana obok danego słowa."

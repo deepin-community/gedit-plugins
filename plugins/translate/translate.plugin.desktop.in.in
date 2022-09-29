@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python3
+Module=translate
+IAge=3
+Name=Translate
+Description=Translates text into different languages
+Authors=Jordi Mas i Hernàndez <jmas@softcatala.org>
+Copyright=Copyright @ 2017 Jordi Mas i Hernàndez. Powered by Apertium and Yandex.Translate translation engines. 
+Website=http://www.gedit.org
+Version=@VERSION@

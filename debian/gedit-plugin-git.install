@@ -1,0 +1,4 @@
+usr/lib/*/gedit/plugins/git*
+usr/share/*/gedit-git.metainfo.xml usr/share/metainfo
+usr/share/help/*/gedit/git.page
+

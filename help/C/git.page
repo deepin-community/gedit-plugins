@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-git">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <revision version="3.10" date="2013-10-21" status="draft"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Aleksandra Hankus</name>
+      <email its:translate="no">ola.hankus@gmail.com</email>
+    </credit>
+
+    <desc>Highlight lines that have been changed since the last commit.</desc>
+  </info>
+
+  <title>Git</title>
+
+  <p>The <app>Git</app> plugin will highlight lines that have been changed since
+  the last commit. Lines will be highlighted only on files that are already
+  tracked by git.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Git</gui> to enable the plugin.</p>
+    </item>
+  </steps>
+
+  <p>The changes are shown in the margin of the document in three different
+  colors:</p>
+  <terms>
+    <item>
+      <title>Green</title>
+      <p>Shows the new lines added to the document.</p>
+    </item>
+    <item>
+      <title>Orange</title>
+      <p>Shows the lines that have been modified in the document.</p>
+    </item>
+    <item>
+      <title>Red</title>
+      <p>Shows the parts of the document that have been deleted.</p>
+    </item>
+  </terms>
+
+  <note>
+    <p>Hover the mouse pointer on the red or orange margin to view the original
+    text in a tool tip.</p>
+  </note>
+
+</page>

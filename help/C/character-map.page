@@ -1,0 +1,85 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-character-map">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <revision version="0.2" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+    <revision pkgversion="3.36" date="2020-05-26" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Paul Weaver</name>
+      <email its:translate="no">ch3pjw@bath.ac.uk</email>
+    </credit>
+
+    <desc>Insert special characters just by clicking on them.</desc>
+  </info>
+
+  <title>Character Map</title>
+
+  <comment>
+    <cite date="2013-02-24" href="mailto:ch3pjw@bath.ac.uk">Paul Weaver</cite>
+    <p>This assumes the reader knows how to use gedit in general. By the end of
+    this page, the reader will be able to use the character map plugin to
+    insert characters into their documents.</p>
+  </comment>
+
+  <p>The <app>Character Map</app> plugin enables you to insert characters into
+  your document that you may not be able to type easily using your keyboard.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Character Map</gui> to enable the plugin.</p>
+    </item>
+  </steps>
+
+<section id="using-character-map">
+  <title>Using Character Map</title>
+
+  <p>Once the plugin is enabled, you can add characters from the
+  <gui style="tab">Character Map</gui> view of the side panel.</p>
+  
+  <steps>
+    <item>
+      <p>Place the cursor at the point in your document at which you would like
+      your special character.</p>
+    </item>
+    <item>
+      <p>Open the side panel by pressing the menu button in the top-right corner
+      of the window and selecting <guiseq><gui>View</gui>
+      <gui>Side Panel</gui></guiseq>, or by pressing <key>F9</key>.</p>
+    </item>
+    <item>
+      <p>Select <gui>Character Map</gui> from the drop-down list at the top of
+      the side panel.</p>
+    </item>
+    <item>
+      <p>If necessary, choose the character set to which your character
+      belongs from the list at the top of the <gui>Character
+      Map</gui> side panel (for example, Arabic).</p>
+    </item>
+    <item>
+      <p>Double click your desired character to insert it.</p>
+    </item>
+  </steps>
+  
+  <note style="tip">
+    <p>You must click on the editing view of your document to continue editing
+    normally.</p>
+  </note>
+
+</section>
+
+</page>

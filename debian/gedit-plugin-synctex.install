@@ -1,0 +1,3 @@
+usr/lib/*/gedit/plugins/synctex*
+usr/share/*/gedit-synctex.metainfo.xml usr/share/metainfo
+usr/share/help/*/gedit/synctex.page

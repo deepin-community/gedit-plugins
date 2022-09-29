@@ -1,0 +1,2037 @@
+# gedit ja.po.
+# Copyright (C) 1999-2012, 2016, 2020 gedit-plugins' COPYRIGHT HOLDER
+# Akira Higuchi <a-higuti@math.sci.hokudai.ac.jp>, 1999.
+# Yuusuke Tahara <tahara@gnome.gr.jp>
+# Yukihiro Nakai <nakai@gnome.gr.jp>
+# Akira TAGOH <tagoh@gnome.gr.jp>, 2002.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2009.
+# Satoru SATOH <ss@gnome.gr.jp>, 2006.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
+# Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011.
+# OKANO Takayoshi <kano@na.rim.or.jp>, 2012.
+# Kenichi Ito <ken.i54k@gmail.com>, 2016.
+# sicklylife <translation@sicklylife.jp>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2020-04-25 19:54+0000\n"
+"PO-Revision-Date: 2020-05-07 20:15+0900\n"
+"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
+msgid "Bookmarks"
+msgstr "ブックマーク"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
+msgid "Easy document navigation with bookmarks"
+msgstr "ブックマークを使用して簡単にドキュメントを閲覧できるようにします"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "ブックマークを切り替え"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
+msgstr "次のブックマークへ移動"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
+msgstr "前のブックマークへ移動"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
+msgid "Bracket Completion"
+msgstr "カッコの補完"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "終わり括弧を自動的に追加します"
+
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "括弧を挿入したときに自動で終わり括弧を追加します"
+
+#: plugins/charmap/charmap/__init__.py:56
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
+msgid "Character Map"
+msgstr "文字マップ"
+
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
+msgid "Insert special characters just by clicking on them."
+msgstr "特殊な文字をクリックしながら挿入していきます"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
+msgid "Charmap"
+msgstr "文字マップ"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
+msgid "Select characters from a character map"
+msgstr "文字マップから文字を選択します"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
+msgid "Code Comment"
+msgstr "コードコメント"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
+msgstr "選択した範囲をコメントアウトしたり解除します"
+
+#: plugins/codecomment/codecomment.py:118
+msgid "Co_mment Code"
+msgstr "コメントアウト(_M)"
+
+#: plugins/codecomment/codecomment.py:124
+msgid "U_ncomment Code"
+msgstr "コメントアウトを解除(_N)"
+
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "コードブロックをコメントアウトしたり解除します"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
+msgid "Color Picker"
+msgstr "色選択"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "色選択ダイアログから色を取得して 16 進形式の文字列として挿入します"
+
+#: plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "色を選択(_C)…"
+
+#: plugins/colorpicker/colorpicker.py:172
+msgid "Pick Color"
+msgstr "色を選択"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "色選択"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "ダイアログから色を選択して HTML、CSS、PHP 向けの文字列として挿入します"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
+msgid "Color Scheme Editor"
+msgstr "カラースキームエディター"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
+msgid "Source code color scheme editor"
+msgstr "ソースコードのカラースキームエディター"
+
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "構文の強調表示に使用するカラースキームの作成と編集を行います"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "スキームの保存に問題がありました"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr ""
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr ""
+
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
+msgid "Bold"
+msgstr "太字"
+
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
+msgid "Italic"
+msgstr "斜体"
+
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
+msgid "Underline"
+msgstr "下線"
+
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
+msgid "Strikethrough"
+msgstr "打ち消し線"
+
+#: plugins/colorschemer/schemer.ui:243
+msgid "Pick the background color"
+msgstr "背景色を選択"
+
+#: plugins/colorschemer/schemer.ui:259
+msgid "Pick the foreground color"
+msgstr "前景色を選択"
+
+#: plugins/colorschemer/schemer.ui:270
+msgid "_Background"
+msgstr "背景(_B)"
+
+#: plugins/colorschemer/schemer.ui:288
+msgid "_Foreground"
+msgstr "前景(_F)"
+
+#: plugins/colorschemer/schemer.ui:341
+msgid "_Clear "
+msgstr "消去(_C) "
+
+#: plugins/colorschemer/schemer.ui:383
+msgid "Name"
+msgstr "名前"
+
+#: plugins/colorschemer/schemer.ui:408
+msgid "ID"
+msgstr "ID"
+
+#: plugins/colorschemer/schemer.ui:433
+msgid "Description"
+msgstr "説明"
+
+#: plugins/colorschemer/schemer.ui:459
+msgid "Author"
+msgstr "作者"
+
+#: plugins/colorschemer/schemer.ui:503
+msgid "Sample"
+msgstr "サンプル"
+
+#: plugins/commander/commander/appactivatable.py:56
+msgid "Commander Mode"
+msgstr "コマンダーモード"
+
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
+msgid "Commander"
+msgstr "コマンダー"
+
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
+msgid "Command line interface for advanced editing"
+msgstr "高度な編集向けのコマンドラインインターフェースです"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
+msgid "Draw Spaces"
+msgstr "空白を表示"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
+msgid "Draw spaces and tabs"
+msgstr "空白やタブ文字を表示します"
+
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show _White Space"
+msgstr "空白を表示(_W)"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
+msgid "Draw spaces"
+msgstr "スペースを表示する"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "タブを表示する"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "改行を表示する"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "ノーブレークスペースを表示する"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "行頭のスペースを表示する"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "文字列中のスペースを表示する"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "行末のスペースを表示する"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "空白やタブ文字を表示します"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "TRUE にすると表示が有効になります。"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "表示する空白の種類です。"
+
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
+msgid "Find in Files"
+msgstr "ファイル内を検索"
+
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
+msgid "_Close"
+msgstr "閉じる(_C)"
+
+#: plugins/findinfiles/dialog.ui:39
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "検索(_F)"
+
+#: plugins/findinfiles/dialog.ui:72
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind "
+msgstr "検索(_I) "
+
+#: plugins/findinfiles/dialog.ui:99
+msgid "_In "
+msgstr "対象(_I) "
+
+#: plugins/findinfiles/dialog.ui:115
+msgid "Select a _folder"
+msgstr "フォルダーを選択"
+
+#: plugins/findinfiles/dialog.ui:130
+msgid "_Match case"
+msgstr "大/小文字を区別する(_M)"
+
+#: plugins/findinfiles/dialog.ui:146
+msgid "Match _entire word only"
+msgstr "単語全体にマッチさせる(_E)"
+
+#: plugins/findinfiles/dialog.ui:162
+msgid "Re_gular expression"
+msgstr "正規表現(_G)"
+
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "フォルダーにあるすべてのファイルの文字列を検索します"
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "フォルダーにあるすべてのファイルの文字列を検索します"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "ファイル内を検索…"
+
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "個発見"
+
+#: plugins/findinfiles/result-panel.vala:196
+msgid "No results found"
+msgstr "見つかりませんでした"
+
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "ファイル"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:218
+msgid "Stop the search"
+msgstr "検索を停止"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
+msgid "Git"
+msgstr "Git"
+
+#: plugins/git/gedit-git.metainfo.xml.in:7
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr ""
+
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr ""
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
+msgid "Join lines/ Split lines"
+msgstr "行を結合/分割"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "Ctrl+J と Ctrl+Shift+J で複数の行を結合または分割します"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "行を結合/分割"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "複数の行と結合したり一行を分割したりします"
+
+#: plugins/joinlines/joinlines.py:111
+msgid "_Join Lines"
+msgstr "行を結合(_J)"
+
+#: plugins/joinlines/joinlines.py:117
+msgid "_Split Lines"
+msgstr "行を分割(_S)"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
+msgid "Multi edit"
+msgstr ""
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
+msgid "Edit document in multiple places at once"
+msgstr ""
+
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr ""
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
+msgid "Multi Edit"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "Enter column edit mode using selection"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
+msgid "<b>Smart</b> column align mode using selection"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Toggle edit point"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Add edit point at beginning of line/selection"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Add edit point at end of line/selection"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
+msgid "Align edit points"
+msgstr ""
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
+msgid "Align edit points with additional space"
+msgstr ""
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "保存したセッションを管理(_M)…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "セッションを保存(_S)…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "セッション“{0}”に復帰"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "セッション名"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "セッション保存"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "現在、作業中のセッションを保存したり復元したりします"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "セッションを保存"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "セッション名:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "保存したセッション一覧"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Smart Spaces"
+msgstr "スマートスペース"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr ""
+"インデントにスペースを使用しているときにタブ文字のようにインデントを解除しま"
+"す"
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+msgid "Forget you’re not using tabulations."
+msgstr ""
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "gedit と evince で LaTeX と PDF を同期します"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "gedit と evince で LaTeX と PDF を同期します"
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "前方検索"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:313
+msgid "Terminal"
+msgstr "端末"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "ボトムパネルにシンプルな端末を表示します"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
+msgid "Whether to silence terminal bell"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
+msgid "Number of lines to keep in scrollback"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
+msgid "Default color of text in the terminal"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
+msgid "Default color of terminal background"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
+msgid "Palette for terminal applications"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. “#FF00FF”"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+msgid "Whether to blink the cursor"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+msgid "The cursor appearance"
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+msgid "Whether to use the system font"
+msgstr "システムフォントを使用するかどうか"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"true にすると、端末はデスクトップの標準フォント (monospace) を使用します "
+"(monospace に設定されていない場合は最も monospace に近いフォントを使用しま"
+"す)。"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
+msgid "Font"
+msgstr "フォント"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr "Pango フォント名です (“Sans 12”や“Monospace Bold 14”など)。"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "組み込み端末"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "ボトムパネルに端末を組み込みます"
+
+#: plugins/terminal/terminal.py:334
+msgid "C_hange Directory"
+msgstr "ディレクトリを変更(_H)"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
+msgid "Text size"
+msgstr "文字サイズ"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "文字サイズを手軽に大きくしたり小さくしたりします"
+
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "通常サイズ(_N)"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "小さい文字(_M)"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "大きい文字(_L)"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "文字サイズ"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "翻訳"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "文字列を別の言語に翻訳します"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "翻訳の出力をどこに表示するか"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
+msgstr "true にすると、ドキュメントウィンドウ内に翻訳を表示します。"
+
+#. Translators: You can adjust the default pair for users in your locale.
+#. http://wiki.apertium.org/wiki/List_of_language_pairs has a list of valid pairs.
+#. Remember to keep formatting as-is, or things will break! Use ASCII quotation
+#. marks and | as the delimiter.
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:15
+msgid "'eng|spa'"
+msgstr ""
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "Language pair used"
+msgstr "使用する言語の組み合わせ"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used to translate from one language to another"
+msgstr "翻訳元と翻訳先の言語の組み合わせです"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:23
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+msgid "API key for remote web service"
+msgstr "リモートウェブサービスの API キー"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:30
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+msgid "Remote web service to use"
+msgstr "使用するリモートウェブサービス"
+
+#: plugins/translate/translate/__init__.py:72
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "{0} での翻訳"
+
+#: plugins/translate/translate/__init__.py:75
+msgid "Translate Console"
+msgstr "翻訳コンソール"
+
+#: plugins/translate/translate/__init__.py:157
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "選択箇所を翻訳 [{0}]"
+
+#: plugins/translate/translate/preferences.py:84
+msgid "API Key"
+msgstr "API キー"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr ""
+"次の場所でフリーの API キーを取得する必要があります: <a href='https://tech."
+"yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "翻訳言語:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "翻訳の出力場所:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "同じウィンドウ内"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "翻訳コンソール (ボトムパネル)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "翻訳サービス:"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
+msgid "Interactive completion"
+msgstr "対話的に保管する"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
+msgid "Minimum word size:"
+msgstr "最小単語サイズ:"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "単語補完"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr "ドキュメント内にすでに存在する単語の自動補完を提案します"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
+msgid "Document Words"
+msgstr "既存の単語"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
+msgid "Interactive Completion"
+msgstr "対話的補完"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
+msgid "Whether to enable interactive completion."
+msgstr "対話的な補完を有効にするかどうか"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
+msgid "Minimum Word Size"
+msgstr "最小単語サイズ"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
+msgid "The minimum word size to complete."
+msgstr "補完する単語の最小長"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "単語補完"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "補完フレームワークを使用した単語補完です"
+
+#, fuzzy
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "このウィンドウでステータスバーの表示/非表示を切り替えます"
+
+#, fuzzy
+#~ msgid "Goto the next bookmark"
+#~ msgstr "次に表示した場所へ進みます"
+
+#, fuzzy
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "前のページに戻ります"
+
+#, fuzzy
+#~ msgid "Comment the selected code"
+#~ msgstr "選択したテキストを削除します"
+
+#, fuzzy
+#~ msgid "Uncomment the selected code"
+#~ msgstr "選択したテキストを削除します"
+
+#~ msgid "Pick _Color..."
+#~ msgstr "色の取得(_C)..."
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "色選択ダイアログから色を取得します"
+
+#~ msgid "_Insert"
+#~ msgstr "挿入する(_I)"
+
+#~ msgid "Show spaces and tabs"
+#~ msgstr "空白やタブ文字を表示する"
+
+#~ msgid "Enabled"
+#~ msgstr "有効"
+
+#, fuzzy
+#~ msgid "Join the selected lines"
+#~ msgstr "指定した行のインデントを解除します"
+
+#, fuzzy
+#~ msgid "Split the selected lines"
+#~ msgstr "指定した行のインデントを解除します"
+
+#~ msgid "Sa_ved sessions"
+#~ msgstr "保存したセッション(_V)"
+
+#, fuzzy
+#~ msgid "_Save current session"
+#~ msgstr "現在の選択範囲を置き換える"
+
+#, fuzzy
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "このドキュメントを新しいウィンドウへ移動します"
+
+#, fuzzy
+#~ msgid "Open the saved session manager"
+#~ msgstr "gedit のマニュアルを開きます"
+
+#~ msgid "Tags"
+#~ msgstr "タグ"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "使用するタグのグループを選択してください"
+
+#~ msgid "_Preview"
+#~ msgstr "プレビュー(_P)"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "利用可能なタグの一覧"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "abbr 要素 (略語/頭文字を表す)"
+
+#~ msgid "Abbreviation"
+#~ msgstr "abbr 属性 (tr, th 要素の内容の省略形)"
+
+#~ msgid "Above"
+#~ msgstr "above (上の枠だけを表示する)"
+
+#~ msgid "Accessibility key character"
+#~ msgstr "accesskey 属性 (ショートカット・キーの割り当て)"
+
+#~ msgid "Acronym"
+#~ msgstr "acronym 要素 (略語/頭文字を表す)"
+
+#~ msgid "Align"
+#~ msgstr "align 属性 (要素内容の配置方向)"
+
+#~ msgid "Alignment character"
+#~ msgstr "char 属性 (表で位置揃えする文字)"
+
+#~ msgid "Alternative"
+#~ msgstr "alt 属性 (代替テキスト)"
+
+#~ msgid "Anchor"
+#~ msgstr "a 要素 (アンカー)"
+
+#~ msgid "Anchor URI"
+#~ msgstr "a 要素 href 属性付き (ハイパーリンク)"
+
+#~ msgid "Applet class file code"
+#~ msgstr "code 属性 (アプレット・クラスのファイル)"
+
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "code 属性 (アプレットのクラス・ファイル [非推奨])"
+
+#~ msgid "Array"
+#~ msgstr "array 要素"
+
+#~ msgid "Associated information"
+#~ msgstr "content 属性 (meta 要素の値)"
+
+#~ msgid "Axis related headers"
+#~ msgstr "axis 属性 (表のセルの分類)"
+
+#~ msgid "Background color (deprecated)"
+#~ msgstr "bgcolor 属性 (背景の色 [非推奨])"
+
+#~ msgid "Background texture tile"
+#~ msgstr "background 属性 (背景画像)"
+
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "background 属性 (背景画像 [非推奨])"
+
+#~ msgid "Base URI"
+#~ msgstr "codebase 属性 (code 属性等の基準 URI)"
+
+#~ msgid "Base font"
+#~ msgstr "basefont 要素 (font 要素の基準指定)"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "basefont 要素 (font 要素の基準指定 [非推奨])"
+
+#~ msgid "Border"
+#~ msgstr "border 属性 (画像や表の枠線の太さ)"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "border 属性 (画像や表の枠線の太さ [非推奨])"
+
+#~ msgid "Border color"
+#~ msgstr "bordercolor 属性 (枠線の色)"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "rowspan 属性 (セルの縦方向の連結)"
+
+#~ msgid "Center"
+#~ msgstr "center 要素 (中央揃え)"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "center 要素 (中央揃え [非推奨])"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "charset 属性 (リンク先のリソースの文字コード)"
+
+#~ msgid "Checked (state)"
+#~ msgstr "checked 属性 (状態)"
+
+#~ msgid "Checked state"
+#~ msgstr "checked 属性 (状態)"
+
+#~ msgid "Citation"
+#~ msgstr "cite 要素 (引用、参照)"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "cite 属性 (ins、del 要素で変更理由を説明する情報の URI)"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "classid 属性 (object の実装を指す URI)"
+
+#~ msgid "Class list"
+#~ msgstr "class 属性 (クラス名のリスト)"
+
+#~ msgid "Clear text flow control"
+#~ msgstr "clear 属性 (br で回り込みの解除の指定)"
+
+#~ msgid "Code content type"
+#~ msgstr "codetype 属性 (classid 属性で指定したオブジェクトの型)"
+
+#~ msgid "Color of selected links"
+#~ msgstr "alink 属性 (ユーザーが選択したリンクの色)"
+
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "alink 属性 (ユーザーが選択したリンクの色 [非推奨])"
+
+#~ msgid "Column span"
+#~ msgstr "colspan 属性 (セルの横方向の連結)"
+
+#~ msgid "Columns"
+#~ msgstr "cols 属性 (幅)"
+
+#~ msgid "Comment"
+#~ msgstr "<!--  --> (コメント) あるいは comment 要素"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "code 要素 (コンピューターのコード断片)"
+
+#~ msgid "Content scheme"
+#~ msgstr "scheme 属性 (meta 要素で content 属性の値を解釈するスキーム)"
+
+#~ msgid "Content type"
+#~ msgstr "type 属性 (コンテンツのMIME型)"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "type 属性 (コンテンツのMIME型 [非推奨])"
+
+#~ msgid "Coordinates"
+#~ msgstr "coords 属性 (座標)"
+
+#~ msgid "DIV Style container"
+#~ msgstr "div 要素 style 属性付き (コンテナー)"
+
+#~ msgid "DIV container"
+#~ msgstr "div 要素 (コンテナー)"
+
+#~ msgid "Date and time of change"
+#~ msgstr "datetime 属性 (ins、del 要素で変更した日時)"
+
+#~ msgid "Declare flag"
+#~ msgstr "declare 属性 (object 要素のフラグ)"
+
+#~ msgid "Defer attribute"
+#~ msgstr "defer 属性 (script 要素でドキュメントを生成しないことを宣言)"
+
+#~ msgid "Definition description"
+#~ msgstr "dd 要素 (定義型リストでの定義)"
+
+#~ msgid "Definition list"
+#~ msgstr "dl 要素 (定義型リスト)"
+
+#~ msgid "Definition term"
+#~ msgstr "dt 要素 (定義型リストでの用語)"
+
+#~ msgid "Deleted text"
+#~ msgstr "del 要素 (削除したテキスト)"
+
+#~ msgid "Direction"
+#~ msgstr "direction 属性 (marquee 要素でのスクロール方向)"
+
+#~ msgid "Directionality"
+#~ msgstr "dir 属性 (テキストや表の基本方向)"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "dir 属性 (テキストや表の基本方向 [非推奨])"
+
+#~ msgid "Directory list"
+#~ msgstr "dir 要素 (ディレクトリリスト)"
+
+#~ msgid "Disabled"
+#~ msgstr "disabled 属性 (ユーザー入力を受け付けない)"
+
+#~ msgid "Document base"
+#~ msgstr "base 要素 (相対URIの基準URI)"
+
+#~ msgid "Document body"
+#~ msgstr "body 要素 (ドキュメントの本文)"
+
+#~ msgid "Document head"
+#~ msgstr "head 要素 (ドキュメントのヘッダー)"
+
+#~ msgid "Document title"
+#~ msgstr "title 要素 (ドキュメントのタイトル)"
+
+#~ msgid "Document type"
+#~ msgstr "DOCTYPE 宣言 (文書型宣言)"
+
+#~ msgid "Element ID"
+#~ msgstr "id 属性 (要素に一意の名前を指定)"
+
+#~ msgid "Embedded object"
+#~ msgstr "embed 要素 (埋め込みオブジェクト)"
+
+#~ msgid "Emphasis"
+#~ msgstr "em 要素 (文字の強調)"
+
+#~ msgid "Encode type"
+#~ msgstr "enctype 属性 (form で送信する時の型)"
+
+#~ msgid "Figure"
+#~ msgstr "fig 要素 (図表)"
+
+#~ msgid "Font face"
+#~ msgstr "face 属性 (フォント名)"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "face 属性 (フォント名 [非推奨])"
+
+#~ msgid "For label"
+#~ msgstr "for 属性 (label 要素とコントロールの関連付け)"
+
+#~ msgid "Forced line break"
+#~ msgstr "br 要素 (強制行区切り)"
+
+#~ msgid "Form"
+#~ msgstr "form 要素 (フォーム)"
+
+#~ msgid "Form action handler"
+#~ msgstr "action 属性 (フォームのアクションハンドラー)"
+
+#~ msgid "Form control group"
+#~ msgstr "fieldset 要素 (コントロールとラベルのグループ化)"
+
+#~ msgid "Form field label text"
+#~ msgstr "label 要素 (コントロールの追加情報)"
+
+#~ msgid "Form input"
+#~ msgstr "input 要素 (入力コントロール)"
+
+#~ msgid "Form input type"
+#~ msgstr "input 要素 type 属性付き (type 属性付き入力コントロール)"
+
+#~ msgid "Form method"
+#~ msgstr "form 要素 method 属性付き あるいは method 属性"
+
+#~ msgid "Forward link"
+#~ msgstr "rel 属性 (正方向リンクの関係性)"
+
+#~ msgid "Frame"
+#~ msgstr "frame 要素 (フレーム)"
+
+#~ msgid "Frame border"
+#~ msgstr "frameborder 属性 (フレームの枠を描画するかどうか)"
+
+#~ msgid "Frame render parts"
+#~ msgstr "frame 属性 (表の枠のどれを表示するか)"
+
+#~ msgid "Frame source"
+#~ msgstr "frame 要素 src 属性付き (src 属性付きフレーム)"
+
+#~ msgid "Frame spacing"
+#~ msgstr "framespacing 属性"
+
+#~ msgid "Frame target"
+#~ msgstr "target 属性 (文書を開くフレームの名称)"
+
+#~ msgid "Frameborder"
+#~ msgstr "frameborder 属性 (フレームの枠を描画するかどうか)"
+
+#~ msgid "Frameset"
+#~ msgstr "frameset 要素 (フレームの割り付け)"
+
+#~ msgid "Frameset columns"
+#~ msgstr "frameset 要素 cols 属性付き (cols 属性付きフレームの割り付け)"
+
+#~ msgid "Frameset rows"
+#~ msgstr "frameset 要素 rows 属性付き (rows 属性付きフレームの割り付け)"
+
+#~ msgid "Framespacing"
+#~ msgstr "framespacing 属性"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "object 要素 (汎用埋め込みオブジェクト)"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "meta 要素 (汎用メタ情報)"
+
+#~ msgid "Generic span"
+#~ msgstr "span 要素 (汎用の構造化要素)"
+
+#~ msgid "HREF URI"
+#~ msgstr "href 属性 (ハイパーリンクでURIを指定)"
+
+#~ msgid "HTML root element"
+#~ msgstr "html 要素 (ルート要素)"
+
+#~ msgid "HTML version"
+#~ msgstr "version 属性 (HTML のバージョン)"
+
+#, fuzzy
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML - 特殊文字"
+
+#, fuzzy
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML - タグ"
+
+#~ msgid "HTTP header name"
+#~ msgstr "http-equiv 属性 (HTTP 応答ヘッダー名)"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "headers 属性 (見出しセルの id のリスト)"
+
+#~ msgid "Heading"
+#~ msgstr "h 要素"
+
+#~ msgid "Heading 1"
+#~ msgstr "h1 要素 (見出し1)"
+
+#~ msgid "Heading 2"
+#~ msgstr "h2 要素 (見出し2)"
+
+#~ msgid "Heading 3"
+#~ msgstr "h3 要素 (見出し3)"
+
+#~ msgid "Heading 4"
+#~ msgstr "h4 要素 (見出し4)"
+
+#~ msgid "Heading 5"
+#~ msgstr "h5 要素 (見出し5)"
+
+#~ msgid "Heading 6"
+#~ msgstr "h6 要素 (見出し6)"
+
+#~ msgid "Height"
+#~ msgstr "height 属性 (高さ)"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "hr 要素 (罫線)"
+
+#~ msgid "Horizontal space"
+#~ msgstr "hspace 属性 (左右の空白の量)"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "hspace 属性 (左右の空白の量 [非推奨])"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "bdo 要素 (文字固有の方向を上書き)"
+
+#~ msgid "Image"
+#~ msgstr "img 要素 (画像)"
+
+#~ msgid "Image map"
+#~ msgstr "map 要素 (クライアント側イメージマップ)"
+
+#~ msgid "Image map area"
+#~ msgstr "area 要素 (クライアント側イメージマップの区割り)"
+
+#~ msgid "Image map name"
+#~ msgstr "map 要素 name 属性付き (name 属性付きクライアント側イメージマップ)"
+
+#~ msgid "Image source"
+#~ msgstr "img 要素 src 属性付き (src 属性付き画像)"
+
+#~ msgid "Inline frame"
+#~ msgstr "iframe 要素 (インラインフレーム)"
+
+#~ msgid "Inline layer"
+#~ msgstr "ilayer 要素 (インラインレイヤー)"
+
+#~ msgid "Inserted text"
+#~ msgstr "ins 要素 (挿入したテキスト)"
+
+#~ msgid "Instance definition"
+#~ msgstr "dfn 要素 (用語の定義)"
+
+#~ msgid "Java applet"
+#~ msgstr "applet 要素 (Java アプレット)"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "applet 要素 (Java アプレット [非推奨])"
+
+#~ msgid "Label"
+#~ msgstr "label 属性 (ラベル指定)"
+
+#~ msgid "Layer"
+#~ msgstr "layer 要素"
+
+#~ msgid "Link color"
+#~ msgstr "link 属性 (未訪問のリンクの色)"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "link 属性 (未訪問のリンクの色 [非推奨])"
+
+#~ msgid "List item"
+#~ msgstr "li 要素 (リスト項目)"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "accept 属性 (アップロードで受け付けることのできるファイルのMIME型)"
+
+#~ msgid "List of supported character sets"
+#~ msgstr ""
+#~ "accept-charset 属性 (フォーム処理サーバーが受け付け可能な文字符号化のリス"
+#~ "ト)"
+
+#~ msgid "Listing"
+#~ msgstr "listing 要素"
+
+#~ msgid "Local change to font"
+#~ msgstr "font 要素 (テキストのフォントや色等を局所的に変更)"
+
+#~ msgid "Long description link"
+#~ msgstr "longdesc 属性 (詳細を説明した文章へのリンクのURI)"
+
+#~ msgid "Long quotation"
+#~ msgstr "blockquote 要素 (長い引用)"
+
+#~ msgid "Mail link"
+#~ msgstr "mailto 属性"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "marginheight 属性 (フレーム内容の上下のマージン量)"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "marginwidth 属性 (フレーム内容の左右のマージン量)"
+
+#~ msgid "Marquee"
+#~ msgstr "marquee 要素"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "maxlength 属性 (コントロールに入力できる最大文字数)"
+
+#~ msgid "Media-independent link"
+#~ msgstr "link 要素 rel 属性付き (メディア独立なリンク)"
+
+#~ msgid "Menu list"
+#~ msgstr "menu 要素 (メニューリスト)"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "menu 要素 (メニューリスト [非推奨])"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "textarea 要素 (複数行のテキスト入力コントロール)"
+
+#~ msgid "Multicolumn"
+#~ msgstr "multicol 要素"
+
+#~ msgid "Named property value"
+#~ msgstr "param 要素 (オブジェクトに指定する値)"
+
+#~ msgid "Next ID"
+#~ msgstr "nextid 要素"
+
+#~ msgid "No URI"
+#~ msgstr "nohref 属性 (area 要素が関連リンクを持たない)"
+
+#~ msgid "No embedded objects"
+#~ msgstr "noembed 要素 (embed 要素の代替コンテンツ)"
+
+#~ msgid "No frames"
+#~ msgstr "noframes 要素 (フレームの代替コンテンツ)"
+
+#~ msgid "No layers"
+#~ msgstr "nolayer 要素"
+
+#~ msgid "No line break"
+#~ msgstr "nobr 要素"
+
+#~ msgid "No script"
+#~ msgstr "noscript 要素 (スクリプト代替コンテンツ)"
+
+#~ msgid "No shade"
+#~ msgstr "noshade 属性 (溝ではなく塗り潰しで罫線を表示)"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "noshade 属性 (溝ではなく塗り潰しで罫線を表示 [非推奨])"
+
+#~ msgid "No word wrap"
+#~ msgstr "nowrap 属性 (表のセルにおいてテキスト折り返し不可)"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "nowrap 属性 (表のセルにおいてテキスト折り返し不可 [非推奨])"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "ノーブレークスペース"
+
+#~ msgid "Note"
+#~ msgstr "note 要素"
+
+#~ msgid "Object applet file"
+#~ msgstr "object 属性"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "object 属性 [非推奨]"
+
+#~ msgid "Object data reference"
+#~ msgstr "data 属性 (オブジェクトへの参照の URI)"
+
+#~ msgid "Offset for alignment character"
+#~ msgstr "charoff 属性 (表において桁揃え文字のオフセットを指定)"
+
+#~ msgid "OnBlur event"
+#~ msgstr "onblur 属性 (OnBlur イベント)"
+
+#~ msgid "OnChange event"
+#~ msgstr "onchange 属性 (OnChange イベント)"
+
+#~ msgid "OnClick event"
+#~ msgstr "onlick 属性 (OnClick イベント)"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "ondblclick 属性 (OnDblClick イベント)"
+
+#~ msgid "OnFocus event"
+#~ msgstr "onfocus 属性 (OnFoucs イベント)"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "onkeydown 属性 (OnKeyDown イベント)"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "onkeypress 属性 (OnKeyPress イベント)"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "onkeyup 属性 (OnKeyUp イベント)"
+
+#~ msgid "OnLoad event"
+#~ msgstr "onload 属性 (OnLoad イベント)"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "onmousedown 属性 (OnMouseDown イベント)"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "onmousemove 属性 (OnMouseMove イベント)"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "onmouseout 属性 (OnMouseOut イベント)"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "onmouseover 属性 (OnMouseOver イベント)"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "onmouseup 属性 (OnMouseUp イベント)"
+
+#~ msgid "OnReset event"
+#~ msgstr "onreset 属性 (OnReset イベント)"
+
+#~ msgid "OnSelect event"
+#~ msgstr "onselect 属性 (OnSelect イベント)"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "onsubmit 属性 (OnSubmit イベント)"
+
+#~ msgid "OnUnload event"
+#~ msgstr "onunload 属性 (OnUnload イベント)"
+
+#~ msgid "Option group"
+#~ msgstr "optgroup 要素 (option 要素の論理的グループ)"
+
+#~ msgid "Option selector"
+#~ msgstr "select 要素 (option による選択肢を選択するメニューを生成)"
+
+#~ msgid "Ordered list"
+#~ msgstr "ol 要素 (序列リスト)"
+
+#~ msgid "Output media"
+#~ msgstr "media 属性 (出力メディアを指定)"
+
+#~ msgid "Paragraph"
+#~ msgstr "p 要素 (段落)"
+
+#~ msgid "Paragraph class"
+#~ msgstr "p 要素 class 属性付き (class 属性付き段落)"
+
+#~ msgid "Paragraph style"
+#~ msgstr "p 要素 style 属性付き (style 属性付き段落)"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "xmp 要素"
+
+#~ msgid "Preformatted text"
+#~ msgstr "pre 要素 (整形済みテキスト)"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "profile 属性 (メタデータプロファイルを表わす URI)"
+
+#~ msgid "Prompt message"
+#~ msgstr "prompt 属性 (isindex 要素のプロンプト)"
+
+#~ msgid "Push button"
+#~ msgstr "button 要素 (押しボタン)"
+
+#~ msgid "Quote"
+#~ msgstr "quote 要素"
+
+#~ msgid "Range"
+#~ msgstr "range 要素"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "readonly 属性 (コントロール内容の変更を禁止)"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "compact 属性 (間隔を減らす)"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "compact 属性 (間隔を減らす [非推奨])"
+
+#~ msgid "Reverse link"
+#~ msgstr "rev 属性 (逆方向リンク)"
+
+#~ msgid "Root"
+#~ msgstr "root 要素"
+
+#~ msgid "Rows"
+#~ msgstr "rows 属性 (textarea の行数、フレームの水平方向の割り付け)"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "rules 属性 (表においてどの罫線が出現するか)"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "samp 要素 (プログラムやスクリプトの出力例)"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "scope 属性 (ヘッダーセルでカバーするスコープ)"
+
+#~ msgid "Script language name"
+#~ msgstr "language 属性 (スクリプト言語名)"
+
+#~ msgid "Script statements"
+#~ msgstr "script 要素 (スクリプト)"
+
+#~ msgid "Scrollbar"
+#~ msgstr "scrolling 属性 (フレームのスクロール情報)"
+
+#~ msgid "Selectable option"
+#~ msgstr "option 要素 (select 要素内での選択肢)"
+
+#~ msgid "Selected"
+#~ msgstr "selected 属性 (選択肢が選択済み)"
+
+#~ msgid "Server-side image map"
+#~ msgstr "ismap 属性 (サーバーサイドイメージマップ)"
+
+#~ msgid "Shape"
+#~ msgstr "shape 属性 (領域の形状)"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "q 要素 (短かいインラインの引用)"
+
+#~ msgid "Single line prompt"
+#~ msgstr "isindex 要素 (1行テキスト入力)"
+
+#~ msgid "Size"
+#~ msgstr "size 属性 (大きさ)"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "size 属性 (大きさ [非推奨])"
+
+#~ msgid "Soft line break"
+#~ msgstr "wbr 要素 (ソフト行区切り)"
+
+#~ msgid "Sound"
+#~ msgstr "sound 要素"
+
+#~ msgid "Source"
+#~ msgstr "src 属性 (ソースの URI)"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "archive 属性 (空白区切りのアーカイブの URI のリスト)"
+
+#~ msgid "Spacer"
+#~ msgstr "spacer 要素"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "cellspacing 属性 (表とセル、およびセル間の間隔)"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "cellpadding 属性 (セルの枠線とセルの内容の間隔)"
+
+#~ msgid "Span"
+#~ msgstr "span 属性 (col 要素が仕切る列の数、colgroup に属する列の数)"
+
+#~ msgid "Square root"
+#~ msgstr "sqrt 要素"
+
+#~ msgid "Standby load message"
+#~ msgstr ""
+#~ "standby 属性 (object 要素がロード中にレンダリングに使用できるメッセージ)"
+
+#~ msgid "Starting sequence number"
+#~ msgstr "start 属性 (ol 要素の属性。最初の項目の番号)"
+
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "start 属性 (ol 要素の属性。最初の項目の番号 [非推奨])"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "strike 要素 (取り消し線を引く [非推奨])"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "s 要素 (取り消し線を引く)"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "s 要素 (取り消し線を引く [非推奨])"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "strong 要素 (より強い強調)"
+
+#~ msgid "Style info"
+#~ msgstr "style 要素 または 属性 (スタイルシート情報)"
+
+#~ msgid "Subscript"
+#~ msgstr "sub 要素 (下付き)"
+
+#~ msgid "Superscript"
+#~ msgstr "sup 要素 (上付き)"
+
+#~ msgid "Tab order position"
+#~ msgstr "tabindex 属性 (タブ移動順位)"
+
+#~ msgid "Table"
+#~ msgstr "table 要素 (表)"
+
+#~ msgid "Table body"
+#~ msgstr "tbody 要素 (表本体)"
+
+#~ msgid "Table caption"
+#~ msgstr "caption 要素 (表のキャプション)"
+
+#~ msgid "Table column group properties"
+#~ msgstr "colgroup 要素 (列の構造的グループ化)"
+
+#~ msgid "Table column properties"
+#~ msgstr "col 要素 (列の属性指定のグループ化)"
+
+#~ msgid "Table data cell"
+#~ msgstr "td 要素 (表のデータセル)"
+
+#~ msgid "Table footer"
+#~ msgstr "tfoot 要素 (表のフッター)"
+
+#~ msgid "Table header"
+#~ msgstr "thead 要素 (表のヘッダー)"
+
+#~ msgid "Table header cell"
+#~ msgstr "th 要素 (表の見出しセル)"
+
+#~ msgid "Table row"
+#~ msgstr "tr 要素 (th および td から構成される行のコンテナー)"
+
+#~ msgid "Table summary"
+#~ msgstr "summary 属性 (表の目的と構造についての要約)"
+
+#, fuzzy
+#~ msgid "Target — Blank"
+#~ msgstr "a 要素 (target 属性 が \"_blank\")"
+
+#, fuzzy
+#~ msgid "Target — Parent"
+#~ msgstr "a 要素 (target 属性 が \"_parent\")"
+
+#, fuzzy
+#~ msgid "Target — Self"
+#~ msgstr "a 要素 (target 属性 が \"_self\")"
+
+#, fuzzy
+#~ msgid "Target — Top"
+#~ msgstr "a 要素 (target 属性 が \"_top\")"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "tt 要素 (テレタイプあるいは等幅)"
+
+#~ msgid "Text"
+#~ msgstr "text 要素"
+
+#~ msgid "Text color"
+#~ msgstr "text または color 属性 (テキストの文字色)"
+
+#~ msgid "Text color (deprecated)"
+#~ msgstr "text または color 属性 (テキストの文字色 [非推奨])"
+
+#~ msgid "Text entered by user"
+#~ msgstr "kbd 要素 (ユーザーが入力すべきテキスト)"
+
+#~ msgid "Title"
+#~ msgstr "title 属性 (助言的情報)"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "topmargin 属性"
+
+#~ msgid "URL"
+#~ msgstr "url 属性"
+
+#~ msgid "Unordered list"
+#~ msgstr "ul 要素 (順不同リスト)"
+
+#~ msgid "Use image map"
+#~ msgstr "usemap 属性 (要素とクライアント側イメージマップの関連付け)"
+
+#~ msgid "Value"
+#~ msgstr "value 属性 (コントロールの初期値、パラメーターの値)"
+
+#~ msgid "Value interpretation"
+#~ msgstr "valuetype 属性 (param 要素での value 属性の型)"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "var 要素 (変数またはプログラム引数のインスタンス)"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "valign 属性 (セル内での垂直方向の配置)"
+
+#~ msgid "Vertical space"
+#~ msgstr "vspace 属性 (上下に挿入すべき空白の量)"
+
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "vspace 属性 (上下に挿入すべき空白の量 [非推奨])"
+
+#~ msgid "Visited link color"
+#~ msgstr "vlink 属性 (訪問済のリンクの色)"
+
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "vlink 属性 (訪問済のリンクの色 [非推奨])"
+
+#~ msgid "Width"
+#~ msgstr "width 属性 (幅)"
+
+#, fuzzy
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 - タグ"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Bibliography (cite)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Bibliography (item)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Bibliography (shortcite)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Bibliography (thebibliography)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "カッコ ()"
+
+#~ msgid "Brackets <>"
+#~ msgstr "カッコ <>"
+
+#~ msgid "Brackets []"
+#~ msgstr "カッコ []"
+
+#~ msgid "Brackets {}"
+#~ msgstr "カッコ {}"
+
+#~ msgid "File input"
+#~ msgstr "ファイル入力"
+
+#~ msgid "Footnote"
+#~ msgstr "注釈"
+
+#~ msgid "Function cosine"
+#~ msgstr "関数 cosine"
+
+#~ msgid "Function e^"
+#~ msgstr "関数 e^"
+
+#~ msgid "Function exp"
+#~ msgstr "関数 exp"
+
+#~ msgid "Function log"
+#~ msgstr "関数 log"
+
+#~ msgid "Function log10"
+#~ msgstr "関数 log10"
+
+#~ msgid "Function sine"
+#~ msgstr "関数 sine"
+
+#~ msgid "Greek alpha"
+#~ msgstr "ギリシア文字 α"
+
+#~ msgid "Greek beta"
+#~ msgstr "ギリシア文字 β"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "ギリシア文字 ε"
+
+#~ msgid "Greek gamma"
+#~ msgstr "ギリシア文字 γ"
+
+#~ msgid "Greek lambda"
+#~ msgstr "ギリシア文字 λ"
+
+#~ msgid "Greek rho"
+#~ msgstr "ギリシア文字 ρ"
+
+#~ msgid "Greek tau"
+#~ msgstr "ギリシア文字 τ"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "ヘッダー 0 (chapter)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "ヘッダー 0 (chapter*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "ヘッダー 1 (section)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "ヘッダー 1 (section*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "ヘッダー 2 (subsection)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "ヘッダー 2 (subsection*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "ヘッダー 3 (subsubsection)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "ヘッダー 3 (subsubsection*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "ヘッダー 4 (paragraph)"
+
+#~ msgid "Header appendix"
+#~ msgstr "ヘッダーの目次"
+
+#~ msgid "Item"
+#~ msgstr "アイテム"
+
+#~ msgid "Item with label"
+#~ msgstr "ラベル付きアイテム"
+
+#, fuzzy
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex - タグ"
+
+#~ msgid "List enumerate"
+#~ msgstr "List enumerate"
+
+#~ msgid "List itemize"
+#~ msgstr "List itemize"
+
+#~ msgid "Maths (display)"
+#~ msgstr "数式 (display)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "数式 (inline)"
+
+#~ msgid "Operator fraction"
+#~ msgstr "Operator fraction"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Operator integral (display)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Operator integral (inline)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Operator sum (display)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Operator sum (inline)"
+
+#~ msgid "Reference label"
+#~ msgstr "Reference label"
+
+#~ msgid "Reference ref"
+#~ msgstr "Reference ref"
+
+#~ msgid "Symbol <<"
+#~ msgstr "記号 <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "記号 <="
+
+#~ msgid "Symbol >="
+#~ msgstr "記号 >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "記号 >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "記号 and"
+
+#~ msgid "Symbol const"
+#~ msgstr "記号 const"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "記号 d-by-dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "記号 d-by-dt-partial"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "記号 d2-by-dt2-partial"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "記号 dagger"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "記号 em-dash ---"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "記号 en-dash --"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "記号 equiv"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "記号 infinity"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "記号 mathspace ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "記号 mathspace ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "記号 mathspace _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "記号 mathspace __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "記号 simeq"
+
+#~ msgid "Symbol star"
+#~ msgstr "記号 star"
+
+#~ msgid "Typeface bold"
+#~ msgstr "Typeface bold"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Typeface italic"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Typeface slanted"
+
+#~ msgid "Typeface type"
+#~ msgstr "Typeface type"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Unbreakable text"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr ""
+#~ "よく利用するタグや文字列をキーボードを使わずにドキュメントに挿入する機能を"
+#~ "提供します。"
+
+#~ msgid "Tag list"
+#~ msgstr "タグの一覧"
+
+#, fuzzy
+#~ msgid "XSLT — Axes"
+#~ msgstr "XSLT - Axes"
+
+#, fuzzy
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT - 要素"
+
+#, fuzzy
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT - 関数"
+
+#~ msgid "ancestor"
+#~ msgstr "ancestor"
+
+#~ msgid "ancestor-or-self"
+#~ msgstr "ancestor-or-self"
+
+#~ msgid "attribute"
+#~ msgstr "attribute"
+
+#~ msgid "child"
+#~ msgstr "child"
+
+#~ msgid "descendant"
+#~ msgstr "descendant"
+
+#~ msgid "descendant-or-self"
+#~ msgstr "descendant-or-self"
+
+#~ msgid "following"
+#~ msgstr "following"
+
+#~ msgid "following-sibling"
+#~ msgstr "following-sibling"
+
+#~ msgid "namespace"
+#~ msgstr "namespace"
+
+#~ msgid "parent"
+#~ msgstr "parent"
+
+#~ msgid "preceding"
+#~ msgstr "preceding"
+
+#~ msgid "preceding-sibling"
+#~ msgstr "preceding-sibling"
+
+#~ msgid "self"
+#~ msgstr "self"
+
+#, fuzzy
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL - タグ"

@@ -1,0 +1,9 @@
+[Plugin]
+Module=smartspaces
+IAge=3
+Name=Smart Spaces
+Description=Forget you’re not using tabulations.
+Authors=Steve Frécinaux <steve@istique.net>;Sébastien Wilmet <swilmet@gnome.org>
+Copyright=Copyright © 2006 Steve Frécinaux;Copyright © 2020 Sébastien Wilmet
+Website=http://www.gedit.org
+Version=@VERSION@

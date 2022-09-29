@@ -1,0 +1,2137 @@
+# Basque translation for gedit-plugins
+# Copyright (C) 2001, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+#
+#
+# Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007, 2008, 2010, 2014, 2015.
+# Edurne Labaka <elabaka@uzei.com>, 2015.
+# Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2019, 2021.
+#
+msgid ""
+msgstr "Project-Id-Version: gedit-plugins master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2020-09-24 15:07+0000\n"
+"PO-Revision-Date: 2021-03-20 10:00+0100\n"
+"Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
+"Language-Team: Basque <librezale@librezale.eus>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
+msgid "Bookmarks"
+msgstr "Laster-markak"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
+msgid "Easy document navigation with bookmarks"
+msgstr "Nabigatu modu errazean dokumentuen artean laster-markekin"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "Txandakatu laster-markak"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
+msgstr "Joan hurrengo laster-markara"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
+msgstr "Joan aurreko laster-markara"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
+msgid "Bracket Completion"
+msgstr "Parentesien osaketa"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "Automatikoki gehitzen ditu itxierako parentesiak."
+
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "Automatikoki gehitzen du itxierako parentesiak bat txertatzean"
+
+#: plugins/charmap/charmap/__init__.py:56
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
+msgid "Character Map"
+msgstr "Karaktere-mapa"
+
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
+msgid "Insert special characters just by clicking on them."
+msgstr "Txertatu karaktere bereziak haien gainean klik eginez."
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
+msgid "Charmap"
+msgstr "Karaktere-mapa"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
+msgid "Select characters from a character map"
+msgstr "Hautatu karaktereak karaktere-mapatik"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
+msgid "Code Comment"
+msgstr "Kodearen iruzkina"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Jarri edo kendu iruzkina hautatutako kodearen blokeari."
+
+#
+#: plugins/codecomment/codecomment.py:118
+msgid "Co_mment Code"
+msgstr "_Jarri iruzkina kodeari"
+
+#: plugins/codecomment/codecomment.py:124
+msgid "U_ncomment Code"
+msgstr "_Kendu iruzkina kodeari"
+
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Jarri edo kendu iruzkina hautatutako kodearen blokeari"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
+msgid "Color Picker"
+msgstr "Kolore-hautatzailea"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Hautatu kolore bat elkarrizketa-koadrotik eta txertatu bere adierazpen hamaseitarra."
+
+#
+#: plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "Hautatu _kolorea…"
+
+#
+#: plugins/colorpicker/colorpicker.py:172
+msgid "Pick Color"
+msgstr "Hautatu kolorea"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "Kolore-hautatzailea"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "Hautatu eta txertatu kolorea elkarrizketa-koadrotik (HTML, CSS eta PHPRako)"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
+msgid "Color Scheme Editor"
+msgstr "Kolore-eskemaren editorea"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
+msgid "Source code color scheme editor"
+msgstr "Iturburuaren kodearen kolore-eskemaren editorea"
+
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "Sortu eta editatu kolore-eskema sintaxia nabarmentzean erabiltzeko"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Arazoa gertatu da eskema gordetzean"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr "Eskema berria sortzea aukeratu duzu, baina\n"
+"erabiltzen ari zaren izena edo IDa dagoeneko erabilita dago.\n"
+"\n"
+"Ziurtatu lehendik erabilita ez dagoen izen bat eta ID bat aukeratzen duzula.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr "Ez duzu baimenik aukeratu duzun eskema gainidazteko.\n"
+"Horren ordez, kopia bat sortuko da.\n"
+"\n"
+"Ziurtatu lehendik erabilita ez dagoen izen bat eta ID bat aukeratzen duzula.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Arazoa gertatu da fitxategia irekitzean"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Badirudi ID bera duten eskemak dituzula direktorio desberdinetan\n"
+
+#
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
+msgid "Bold"
+msgstr "Lodia"
+
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
+msgid "Italic"
+msgstr "Etzana"
+
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
+msgid "Underline"
+msgstr "Azpimarratua"
+
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
+msgid "Strikethrough"
+msgstr "Marratua"
+
+#: plugins/colorschemer/schemer.ui:243
+msgid "Pick the background color"
+msgstr "Hartu atzeko planoaren kolorea"
+
+#: plugins/colorschemer/schemer.ui:259
+msgid "Pick the foreground color"
+msgstr "Hartu aurreko planoaren kolorea"
+
+#: plugins/colorschemer/schemer.ui:270
+msgid "_Background"
+msgstr "A_tzeko planoa"
+
+#: plugins/colorschemer/schemer.ui:288
+msgid "_Foreground"
+msgstr "_Aurreko planoa"
+
+#: plugins/colorschemer/schemer.ui:341
+msgid "_Clear"
+msgstr "_Garbitu"
+
+#: plugins/colorschemer/schemer.ui:383
+msgid "Name"
+msgstr "Izena"
+
+#: plugins/colorschemer/schemer.ui:408
+msgid "ID"
+msgstr "IDa"
+
+#: plugins/colorschemer/schemer.ui:433
+msgid "Description"
+msgstr "Azalpena"
+
+#: plugins/colorschemer/schemer.ui:459
+msgid "Author"
+msgstr "Egilea"
+
+#: plugins/colorschemer/schemer.ui:503
+msgid "Sample"
+msgstr "Lagina"
+
+#: plugins/commander/commander/appactivatable.py:56
+msgid "Commander Mode"
+msgstr "Komandoaren modua"
+
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
+msgid "Commander"
+msgstr "Komando-lerroa"
+
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
+msgid "Command line interface for advanced editing"
+msgstr "Komando-lerroko interfazea edizio aurreratuarentzako"
+
+#
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
+msgid "Draw Spaces"
+msgstr "Marraztu zuriuneak"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
+msgid "Draw spaces and tabs"
+msgstr "Marraztu zuriuneak eta tabulazioak"
+
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+msgid "Show _White Space"
+msgstr "Erakutsi _zuriunea"
+
+#
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
+msgid "Draw spaces"
+msgstr "Marraztu zuriuneak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Marraztu tabulazioak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Marraztu lerro berriak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Marraztu zuriune zatiezinak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Marraztu hasierako zuriuneak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Marraztu zuriuneak testuan"
+
+#
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Marraztu amaierako zuriuneak"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "Marraztu zuriuneak eta tabulazioak"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Erakutsi zuriunea"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "TRUE (egia) bada, marrazketa gaituta egongo da."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "Zuriune mota marrazteko."
+
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
+msgid "Find in Files"
+msgstr "Bilatu fitxategietan"
+
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
+msgid "_Close"
+msgstr "It_xi"
+
+#: plugins/findinfiles/dialog.ui:39
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "A_urkitu"
+
+#: plugins/findinfiles/dialog.ui:72
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind:"
+msgstr "_Bilatu:"
+
+#: plugins/findinfiles/dialog.ui:99
+msgid "_In:"
+msgstr "_Hemen:"
+
+#: plugins/findinfiles/dialog.ui:115
+msgid "Select a _folder"
+msgstr "Hautatu ka_rpeta bat"
+
+#: plugins/findinfiles/dialog.ui:130
+msgid "_Match case"
+msgstr "_Maiuskula/minuskula"
+
+#: plugins/findinfiles/dialog.ui:146
+msgid "Match _entire word only"
+msgstr "_Hitz osoak soilik"
+
+#: plugins/findinfiles/dialog.ui:162
+msgid "Re_gular expression"
+msgstr "_Adierazpen erregularra"
+
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "Bilatu testua karpeta bateko fitxategi guztietan."
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "Bilatu testua karpeta bateko fitxategi guztietan"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "Bilatu fitxategietan…"
+
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "bat etortze"
+msgstr[1] "bat etortze"
+
+#: plugins/findinfiles/result-panel.vala:196
+msgid "No results found"
+msgstr "Ez da emaitzarik aurkitu"
+
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Fitxategia"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:218
+msgid "Stop the search"
+msgstr "Gelditu bilaketa"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
+msgid "Git"
+msgstr "Git"
+
+#: plugins/git/gedit-git.metainfo.xml.in:7
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr "Erabili Git-en informazioa azken egikaritzetik aldatutako lerroak eta fitxategiak bistaratzeko"
+
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Azken egikaritzetik aldatutako lerroak nabarmentzen ditu"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
+msgid "Join lines/ Split lines"
+msgstr "Elkartu/Zatitu lerroak"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "Elkartu edo zatitu lerro anitz Ctrl+J eta Ctrl+Shift+J erabilita"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Elkartu/Zatitu lerroak"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "Elkartu hainbat lerro edo zatitu luze batzuk"
+
+#: plugins/joinlines/joinlines.py:111
+msgid "_Join Lines"
+msgstr "_Elkartu lerroak"
+
+#: plugins/joinlines/joinlines.py:117
+msgid "_Split Lines"
+msgstr "_Zatitu lerroak"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
+msgid "Multi edit"
+msgstr "Edizio anitzekoa"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
+msgid "Edit document in multiple places at once"
+msgstr "Editatu dokumentua hainbat kokalekutan aldi berean"
+
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr "Edizio anitzeko modua"
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
+msgid "Multi Edit"
+msgstr "Edizio anitzekoa"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr "Edizio-puntua gehituta…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr "Zutabearen modua…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr "Edizio-puntua kenduta…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr "Zutabearen modua bertan behera utzita…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "Enter column edit mode using selection"
+msgstr "Sartu zutabearen edizio modua hautapena erabiliz"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "Sartu zutabearen edizio modu <b>azkarra</b> hautapena erabiltzean"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "Zutabearen lerrokatze modu <b>azkarra</b> hautapena erabiltzean"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr "Zutabearen lerrokatze modu <b>azkarra</b> zuriune gehigarriarekin hautapena erabiltzean"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Toggle edit point"
+msgstr "Txandakatu edizio-puntua"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Add edit point at beginning of line/selection"
+msgstr "Gehitu edizio-puntua lerroaren/hautapenaren hasieran"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Add edit point at end of line/selection"
+msgstr "Gehitu edizio-puntua lerroaren/hautapenaren amaieran"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
+msgid "Align edit points"
+msgstr "Lerrokatu edizio-puntuak"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
+msgid "Align edit points with additional space"
+msgstr "Lerrokatu edizio-puntuak tarte gehigarriarekin"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Kudeatu gordetako saioak…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Gorde saioa…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Leheneratu “{0}” saioa"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Saioaren izena"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Saioaren gordetzailea"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Gorde eta leheneratu zure laneko saioak"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Gorde saioa"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Saioaren izena:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Gordetako saioak"
+
+#
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Smart Spaces"
+msgstr "Tarte azkarrak"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr "Koska kentzea baimentzen du, zuriuneak erabiltzean tabulazioak erabiltzea bezala"
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+msgid "Forget you’re not using tabulations."
+msgstr "Ahaztu tabulazioak ez zarela erabiltzen ari."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Sinkronizatu LaTeX eta PDF artean gedit eta evince-rekin."
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Sinkronizatu LaTeX eta PDF artean gedit eta evince-rekin."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Bilatu aurrerantz"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:313
+msgid "Terminal"
+msgstr "Terminala"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Azpiko paneletik erabilgarri dagoen terminal xume baten trepeta"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
+msgid "Whether to silence terminal bell"
+msgstr "Terminalaren soinua isilarazi edo ez"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr "TRUE (egia) bada, ez egin zaratarik aplikazioek terminalaren soinuaren ihes-sekuentzia bidaltzen dutenean."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
+msgid "Number of lines to keep in scrollback"
+msgstr "Korritze-barran mantentzeko lerro-kopurua"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr "Korritze-barran zenbat lerro mantendu. Lerro horiek izango dituzu atzera korritu ahal izateko; kopuru hori gainditu ahala, lerroak galduz joango dira. 'scrollback_unlimited' TRUE (egia) bada, balio honi ez ikusi egingo zaio."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "Korritze-barran mugarik gabeko lerro-kopurua mantenduko diren ala ez"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr "TRUE (egia) bada, korritze-barrako lerroak ez dira inoiz baztertuko. Korritze-barraren historia aldi baterako diskoan gordeko denez, honek diskoan lekurik gabe gelditzea eragin dezake terminaleko irteera ugaria izanez gero."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Tekla bat sakatutakoan beheraino korritu behar den ala ez"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "Hautatzen bada, tekla bat sakatzean korritze-barra beheraino joango da."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr "Irteera berri bat dagoenean beheraino korritu behar den ala ez"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr "Hautatzen bada, irteera berri bat dagoenean terminala beheraino korrituko da."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
+msgid "Default color of text in the terminal"
+msgstr "Terminaleko testuaren kolore lehenetsia"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr "Terminaleko testuaren kolore lehenetsia, kolore-zehaztapen gisa (HTML estiloko digitu hamaseitarretan, edo kolore-izena emanda, adib. “red“)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
+msgid "Default color of terminal background"
+msgstr "Terminalaren atzeko planoko kolore lehenetsia"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr "Atzeko planoko kolore lehenetsia, kolore-zehaztapen gisa (HTML estiloko digitu hamaseitarretan, edo kolore-izena emanda, adib. “red“)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
+msgid "Palette for terminal applications"
+msgstr "Terminaleko aplikazioentzako paleta"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. “#FF00FF”"
+msgstr "Terminalek 16 koloreko paleta dute terminaleko aplikazioek erabiltzeko. Hau da paleta hori, kolore-izenak bi puntuz bereizita. Kolore-izenak formatu hamaseitarrean ematen dira, adib. “#FF00FF”"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Terminalean gaiaren koloreak erabili behar diren ala ez"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr "Hautatzen bada, testua sartzeko koadroetako gaiaren kolore-eskema bera erabiliko da terminalean, erabiltzaileak zehaztutako koloreak erabili beharrean."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+msgid "Whether to blink the cursor"
+msgstr "Kurtsorea keinuka egongo den ala ez"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr "Balio erabilgarriak: “system“, kurtsore globala ezarpen keinukariak erabiltzeko; “on” edo “off” modua esplizitoki ezartzeko."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+msgid "The cursor appearance"
+msgstr "Kurtsorearen itxura"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr "Balio erabilgarriak honakoak dira: “block” bloke formako kurtsorea, “ibeam” marra bertikal formakoa, edo “underline” azpimarra formakoa."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+msgid "Whether to use the system font"
+msgstr "Sistemaren letra-tipoa erabili edo ez"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr "Egia bada, terminalak desktop-global letra-tipo estandarra erabiliko du tarte bakarrekoa bada (eta bestela, antzekoena den letra-tipoa)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
+msgid "Font"
+msgstr "Letra-tipoa"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr "Pango letra-tipo baten izena. Adibidez, \"Sans 12\" edo \"Monospace Bold 14\"."
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Kapsulatutako terminala"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Kapsulatu terminal bat azpiko panelean."
+
+#
+#: plugins/terminal/terminal.py:334
+msgid "C_hange Directory"
+msgstr "_Aldatu direktorioa"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
+msgid "Text size"
+msgstr "Testuaren tamaina"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "Handiagotu eta txikiagotu testuaren tamaina erraz"
+
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "Tamaina _normala"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "Testu _txikiagoa"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "Testu _handiagoa"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "Testuaren tamaina"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "Itzuli"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "Testua hizkuntza anitzetara itzultzen du"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "Itzulpenaren irteera non erakutsiko den"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
+msgstr "Egia bada, itzulpenaren irteera dokumentu-leihoan txertatuko da; bestela, irteerako itzulpen-leihoan."
+
+#. Translators: You can adjust the default pair for users in your locale.
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "'eng|spa'"
+msgstr "'eng|spa'"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used"
+msgstr "Erabilitako hizkuntza-bikotea"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
+msgid "Language pair used to translate from one language to another"
+msgstr "Hizkuntza batetik bestera itzultzeko erabilitako hizkuntza-parea"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
+msgid "API key for remote web service"
+msgstr "Urruneko web zerbitzurako API gakoa"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "Remote web service to use"
+msgstr "Erabiliko den urruneko web zerbitzua"
+
+#: plugins/translate/translate/__init__.py:72
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "Itzulpena ahalbidetu duena: {0}"
+
+#: plugins/translate/translate/__init__.py:75
+msgid "Translate Console"
+msgstr "Itzuli kontsola"
+
+#: plugins/translate/translate/__init__.py:157
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "Itzuli hautatutako testua [{0}]"
+
+#: plugins/translate/translate/preferences.py:84
+msgid "API Key"
+msgstr "API gakoa"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr "Doako API gako bat eskuratu behar duzu hemen: <a href='https://tech.yandex.com/translate/'>https://tech.yandex.com/translate/</a>"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "Itzulpen-hizkuntzak:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "Itzulpenaren irteera non izango den:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "Dokumentu-leiho berean"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "Itzuli kontsola (beheko panela)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "Itzulpen-zerbitzua"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
+msgid "Interactive completion"
+msgstr "Osaketa interaktiboa"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
+msgid "Minimum word size:"
+msgstr "Hitzaren gutxieneko tamaina:"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "Hitz-osaketa"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr "Osaketa automatikoa proposatzen du dokumentuan jadanik agertzen diren hitzak erabiliz"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
+msgid "Document Words"
+msgstr "Dokumentuko hitzak"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
+msgid "Interactive Completion"
+msgstr "Osatze dinamikoa"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
+msgid "Whether to enable interactive completion."
+msgstr "Osaketa interaktiboa gaitu edo ez."
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
+msgid "Minimum Word Size"
+msgstr "Hitzaren gutxieneko tamaina"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
+msgid "The minimum word size to complete."
+msgstr "Hitzaren gutxieneko tamaina osatzeko."
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Hitz-osaketa"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Osaketaren lan-markoa darabilen hitz-osaketa"
+
+#~ msgid "_In "
+#~ msgstr "_Sarrera "
+
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Testu-formatu lodia onartzen den"
+
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Hautatzen bada, terminaleko aplikazioek testu-formatu lodia erabili ahal "
+#~ "izango dute."
+
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist datu-hornitzailea"
+
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Erabiltzailearen jarduerak erregistratzen ditu eta maiz erabilitako azken "
+#~ "fitxategiei atzipen azkarra ematen die"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist datu-hornitzailea"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Sarbidetzak eta saio amaierak erregistratzen ditu Gedit-ekin erabilitako "
+#~ "dokumentuentzako"
+
+#~ msgid "Pick _Color..."
+#~ msgstr "Hautatu _kolorea..."
+
+#~ msgid "Empty Document"
+#~ msgstr "Dokumentu hutsa"
+
+#~ msgid "Type here to search..."
+#~ msgstr "Idatzi bilatzeko..."
+
+#~ msgid "Dashboard"
+#~ msgstr "Aginte-panela"
+
+#~ msgid "A Dashboard for new tabs"
+#~ msgstr "Fitxa berrien aginte-panela"
+
+#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
+#~ msgstr ""
+#~ "Erabilitako azken fitxategiekin sareta bistaratzen du fitxa berri batean "
+#~ "irekitzeko"
+
+#~ msgid "Characters that are considered \"part of a word\""
+#~ msgstr "'Hitz baten zati' gisa hartzen diren karaktereak"
+
+#~ msgid ""
+#~ "When selecting text by word, sequences of these characters are considered "
+#~ "single words. Ranges can be given as \"A-Z\". Literal hyphen (not "
+#~ "expressing a range) should be the first character given."
+#~ msgstr ""
+#~ "Testua hitzez hitz hautatzen denean, karaktere-sekuentzia hauek hitz "
+#~ "bezala hartuko dira. Balio-bitarteak 'A-Z' moduan eman daitezke. Marratxo "
+#~ "literalak (balio-bitartea adierazten ez dutenak) lehen karaktere gisa "
+#~ "eman behar dira."
+
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "Txandakatu uneko lerroaren laster-markaren egoera"
+
+#~ msgid "Goto the next bookmark"
+#~ msgstr "Joan hurrengo laster-markara"
+
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "Joan aurreko laster-markara"
+
+#~ msgid "Comment the selected code"
+#~ msgstr "Jarri iruzkina hautatutako kodeari"
+
+#~ msgid "Uncomment the selected code"
+#~ msgstr "Kendu iruzkina hautatutako kodeari"
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "Hautatu kolore bat elkarrizketa-koadrotik"
+
+#~ msgid "Show spaces and tabs"
+#~ msgstr "Erakutsi zuriune eta tabulazioak"
+
+#~ msgid "Enabled"
+#~ msgstr "Gaituta"
+
+#~ msgid "Git differences"
+#~ msgstr "Git-eko diferentziak"
+
+#
+#~ msgid "Join the selected lines"
+#~ msgstr "Elkartu hautatutako lerroak"
+
+#~ msgid "Split the selected lines"
+#~ msgstr "Zatitu hautatutako lerroak"
+
+#~ msgid "Start multi edit mode"
+#~ msgstr "Hasi edizio anitzeko modua"
+
+#
+#~ msgid "_Insert"
+#~ msgstr "_Txertatu"
+
+#~ msgid "Sa_ved sessions"
+#~ msgstr "Gordetako _saioak"
+
+#~ msgid "_Save current session"
+#~ msgstr "_Gorde uneko saioa"
+
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "Gorde uneko dokumentuen zerrenda saio berri gisa"
+
+#~ msgid "Open the saved session manager"
+#~ msgstr "Ireki gordetako saioen kudeatzailea"
+
+#
+#~ msgid "Tags"
+#~ msgstr "Etiketak"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Hautatu erabili nahi duzun etiketa-taldea"
+
+#
+#~ msgid "_Preview"
+#~ msgstr "_Aurrebista"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "Erabil dauden etiketen zerrenda"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "Forma laburrak"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Laburdurak"
+
+#~ msgid "Above"
+#~ msgstr "Gainean"
+
+#~ msgid "Accessibility key character"
+#~ msgstr "Erabilerraztasunaren tekla karakterea"
+
+#~ msgid "Acronym"
+#~ msgstr "Akronimo"
+
+#
+#~ msgid "Align"
+#~ msgstr "Lerrokatu"
+
+#~ msgid "Alignment character"
+#~ msgstr "Lerrokatze-karakterea"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternatiba"
+
+#~ msgid "Anchor"
+#~ msgstr "Ainguratu"
+
+#~ msgid "Anchor URI"
+#~ msgstr "Ainguratu URIa"
+
+#
+#~ msgid "Applet class file code"
+#~ msgstr "Miniaplikazioaren klase-fitxategiaren kodea"
+
+#
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "Miniaplikazioaren klase-fitxategiaren kodea (zaharkitua)"
+
+#~ msgid "Array"
+#~ msgstr "Array-a"
+
+#~ msgid "Associated information"
+#~ msgstr "Elkartutako informazioa"
+
+#~ msgid "Axis related headers"
+#~ msgstr "Ardatzarekin zerikusia duten goiburuak"
+
+#
+#~ msgid "Background color (deprecated)"
+#~ msgstr "Atzeko planoaren kolorea (zaharkitua)"
+
+#
+#~ msgid "Background texture tile"
+#~ msgstr "Atzeko planoaren testuraren mosaikoa"
+
+#
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "Atzeko planoaren testuraren mosaikoa (zaharkitua)"
+
+#~ msgid "Base URI"
+#~ msgstr "Oinarrizko URIa"
+
+#~ msgid "Base font"
+#~ msgstr "Oinarriko letra-tipoa"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "Oinarrizko letra-tipoa (zaharkitua)"
+
+#
+#~ msgid "Border"
+#~ msgstr "Ertza"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "Ertza (zaharkitua)"
+
+#
+#~ msgid "Border color"
+#~ msgstr "Ertzaren kolorea"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "Gelaxkaren errenkada hedatzea"
+
+#~ msgid "Center"
+#~ msgstr "Zentratu"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "Zentratua (zaharkitua)"
+
+#
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "Karaktere-kodeketa (estekatutako baliabidearena)"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Egiaztatua (egoera)"
+
+#~ msgid "Checked state"
+#~ msgstr "Egoera egiaztatua"
+
+#
+#~ msgid "Citation"
+#~ msgstr "Aipua"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "Aipuaren arrazoia aldaketarako"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "Klase-inplementazioaren IDa"
+
+#~ msgid "Class list"
+#~ msgstr "Klase-zerrenda"
+
+#~ msgid "Clear text flow control"
+#~ msgstr "Garbitu testu-fluxuaren kontrola"
+
+#
+#~ msgid "Code content type"
+#~ msgstr "Kodearen eduki mota"
+
+#
+#~ msgid "Color of selected links"
+#~ msgstr "Kolorea hautatutako estekena"
+
+#
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "Hautatutako esteken kolorea (zaharkitua)"
+
+#~ msgid "Column span"
+#~ msgstr "Zutabea hedatzea"
+
+#~ msgid "Columns"
+#~ msgstr "Zutabeak"
+
+#
+#~ msgid "Comment"
+#~ msgstr "Iruzkina"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "Ordenagailuaren kode-zatia"
+
+#
+#~ msgid "Content scheme"
+#~ msgstr "Edukiaren eskema"
+
+#
+#~ msgid "Content type"
+#~ msgstr "Eduki mota"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "Eduki mota (zaharkitua)"
+
+#
+#~ msgid "Coordinates"
+#~ msgstr "Koordinatuak"
+
+#~ msgid "DIV Style container"
+#~ msgstr "DIV estiloko edukitzailea"
+
+#~ msgid "DIV container"
+#~ msgstr "DIV edukitzailea"
+
+#~ msgid "Date and time of change"
+#~ msgstr "Aldaketaren data eta ordua"
+
+#~ msgid "Declare flag"
+#~ msgstr "Deklarazioaren bandera"
+
+#~ msgid "Defer attribute"
+#~ msgstr "Geroratu atributua"
+
+#
+#~ msgid "Definition description"
+#~ msgstr "Definizioaren azalpena"
+
+#~ msgid "Definition list"
+#~ msgstr "Definizio-zerrenda"
+
+#~ msgid "Definition term"
+#~ msgstr "Definizioaren terminoa"
+
+#~ msgid "Deleted text"
+#~ msgstr "Ezabatutako testua"
+
+#~ msgid "Direction"
+#~ msgstr "Noranzkoa"
+
+#~ msgid "Directionality"
+#~ msgstr "Noranzkotasuna"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "Noranzkotasuna (zaharkitua)"
+
+#~ msgid "Directory list"
+#~ msgstr "Direktorio-zerrenda"
+
+#~ msgid "Disabled"
+#~ msgstr "Desgaituta"
+
+#~ msgid "Document base"
+#~ msgstr "Dokumentuaren oinarria"
+
+#~ msgid "Document body"
+#~ msgstr "Dokumentuaren gorputza"
+
+#~ msgid "Document head"
+#~ msgstr "Dokumentuaren goiburua"
+
+#~ msgid "Document title"
+#~ msgstr "Dokumentuaren titulua"
+
+#~ msgid "Document type"
+#~ msgstr "Dokumentu mota"
+
+#~ msgid "Element ID"
+#~ msgstr "Elementuaren IDa"
+
+#~ msgid "Embedded object"
+#~ msgstr "Objektu kapsulatua"
+
+#~ msgid "Emphasis"
+#~ msgstr "Enfasia"
+
+#~ msgid "Encode type"
+#~ msgstr "Kodeketa mota"
+
+#~ msgid "Figure"
+#~ msgstr "Irudia"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "Letra-tipoa (zaharkitua)"
+
+#~ msgid "For label"
+#~ msgstr "Etiketarena"
+
+#~ msgid "Forced line break"
+#~ msgstr "Derrigortu lerro-jauzia"
+
+#~ msgid "Form"
+#~ msgstr "Inprimakia"
+
+#~ msgid "Form action handler"
+#~ msgstr "Inprimaki-ekintzaren kudeatzailea"
+
+#~ msgid "Form control group"
+#~ msgstr "Inprimakiaren kontrol-taldea"
+
+#~ msgid "Form field label text"
+#~ msgstr "Inprimakiaren eremuaren etiketa-testua"
+
+#~ msgid "Form input"
+#~ msgstr "Inprimakiaren sarrera"
+
+#~ msgid "Form input type"
+#~ msgstr "Inprimakiaren sarrera mota"
+
+#~ msgid "Form method"
+#~ msgstr "Inprimakiaren metodoa"
+
+#~ msgid "Forward link"
+#~ msgstr "Birbidali esteka"
+
+#~ msgid "Frame"
+#~ msgstr "Markoa"
+
+#~ msgid "Frame border"
+#~ msgstr "Markoaren ertza"
+
+#~ msgid "Frame render parts"
+#~ msgstr "Markoaren errendatze-zatiak"
+
+#~ msgid "Frame source"
+#~ msgstr "Markoaren iturburua"
+
+#~ msgid "Frame spacing"
+#~ msgstr "Marko-tartea"
+
+#~ msgid "Frame target"
+#~ msgstr "Markoaren helburua"
+
+#~ msgid "Frameborder"
+#~ msgstr "Markoaren ertza"
+
+#
+#~ msgid "Frameset"
+#~ msgstr "Marko-multzoa"
+
+#
+#~ msgid "Frameset columns"
+#~ msgstr "Marko-multzoaren zutabeak"
+
+#~ msgid "Frameset rows"
+#~ msgstr "Marko-multzoaren errenkadak"
+
+#~ msgid "Framespacing"
+#~ msgstr "Marko-tartea"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "Objektu kapsulatu generikoa"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "Metadatu generikoak"
+
+#~ msgid "Generic span"
+#~ msgstr "Hedapen generikoa"
+
+#~ msgid "HREF URI"
+#~ msgstr "HREF URI"
+
+#~ msgid "HTML root element"
+#~ msgstr "HTMLko erroko elementua"
+
+#~ msgid "HTML version"
+#~ msgstr "HTML bertsioa"
+
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML — Karaktere bereziak"
+
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML — Etiketak"
+
+#~ msgid "HTTP header name"
+#~ msgstr "HTTP goiburuko izena"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "Goiburuko gelaxkaren IDak"
+
+#~ msgid "Heading"
+#~ msgstr "Izenburua"
+
+#~ msgid "Heading 1"
+#~ msgstr "Izenburua 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Izenburua 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Izenburua 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Izenburua 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Izenburua 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Izenburua 6"
+
+#~ msgid "Height"
+#~ msgstr "Altuera"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "Erregela horizontala"
+
+#~ msgid "Horizontal space"
+#~ msgstr "Tarte horizontala"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "Tarte horizontala (zaharkitua)"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "Gainidatzi l18n BiDi"
+
+#~ msgid "Image"
+#~ msgstr "Irudia"
+
+#~ msgid "Image map"
+#~ msgstr "Irudi-mapa"
+
+#~ msgid "Image map area"
+#~ msgstr "Irudi-maparen area"
+
+#~ msgid "Image map name"
+#~ msgstr "Irudi-maparen izena"
+
+#~ msgid "Image source"
+#~ msgstr "Irudiaren iturburua"
+
+#
+#~ msgid "Inline frame"
+#~ msgstr "Markoa lerroan"
+
+#~ msgid "Inline layer"
+#~ msgstr "Geruza lerroan"
+
+#
+#~ msgid "Inserted text"
+#~ msgstr "Txertatutako testua"
+
+#~ msgid "Instance definition"
+#~ msgstr "Instantziaren definizioa"
+
+#~ msgid "Java applet"
+#~ msgstr "Java miniaplikazioa"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "Java miniaplikazioa (zaharkitua)"
+
+#~ msgid "Label"
+#~ msgstr "Etiketa"
+
+#~ msgid "Layer"
+#~ msgstr "Geruza"
+
+#
+#~ msgid "Link color"
+#~ msgstr "Estekaren kolorea"
+
+#
+#~ msgid "Link color (deprecated)"
+#~ msgstr "Estekaren kolorea (zaharkitua)"
+
+#~ msgid "List item"
+#~ msgstr "Elementuen zerrenda"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "MIME moten zerrenda fitxategia kargatzeko"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "Onartutako karaktere-multzoaren zerrenda"
+
+#~ msgid "Listing"
+#~ msgstr "Zerrendatzea"
+
+#
+#~ msgid "Local change to font"
+#~ msgstr "Letra-tipoaren aldaketa lokala"
+
+#
+#~ msgid "Long description link"
+#~ msgstr "Azalpen luzeko esteka"
+
+#~ msgid "Long quotation"
+#~ msgstr "Aipu luzea"
+
+#~ msgid "Mail link"
+#~ msgstr "Postaren esteka"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "Marjinaren altuera (pixeletan)"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "Marjinaren zabalera (pixeletan)"
+
+#~ msgid "Marquee"
+#~ msgstr "Markesina"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "Testu-eremuaren gehienezko luzera"
+
+#~ msgid "Media-independent link"
+#~ msgstr "Esteka euskarritik independentea"
+
+#~ msgid "Menu list"
+#~ msgstr "Menu-zerrenda"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "Menu-zerrenda (zaharkitua)"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "Lerro anitzeko testu-eremua"
+
+#~ msgid "Multicolumn"
+#~ msgstr "Zutabe-anitza"
+
+#~ msgid "Multiple"
+#~ msgstr "Hainbat"
+
+#~ msgid "Named property value"
+#~ msgstr "Propietatearen balioa izenarekin"
+
+#~ msgid "Next ID"
+#~ msgstr "Hurrengo IDa"
+
+#~ msgid "No URI"
+#~ msgstr "URIrik ez"
+
+#~ msgid "No embedded objects"
+#~ msgstr "Objektu kapsulaturik ez"
+
+#~ msgid "No frames"
+#~ msgstr "Markorik ez"
+
+#~ msgid "No layers"
+#~ msgstr "Geruzarik ez"
+
+#~ msgid "No line break"
+#~ msgstr "Lerro-jauzirik ez"
+
+#~ msgid "No script"
+#~ msgstr "Script-ik ez"
+
+#~ msgid "No shade"
+#~ msgstr "Itzalik ez"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "Itzalik ez (zaharkitua)"
+
+#~ msgid "No word wrap"
+#~ msgstr "Hitzaren aingurarik ez"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "Hitzaren aingurarik ez (zaharkitua)"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "Zuriune zatiezina"
+
+#~ msgid "Note"
+#~ msgstr "Oharra"
+
+#~ msgid "Object applet file"
+#~ msgstr "Miniaplikazioaren objektu-fitxategia"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "Miniaplikazioaren objektu-fitxategia (zaharkitua)"
+
+#~ msgid "Object data reference"
+#~ msgstr "Objektuaren datuen erreferentzia"
+
+#~ msgid "Offset for alignment character"
+#~ msgstr "Desplazamendua karakterea lerrokatzeko"
+
+#~ msgid "OnBlur event"
+#~ msgstr "OnBlur gertaera"
+
+#
+#~ msgid "OnChange event"
+#~ msgstr "OnChange gertaera"
+
+#~ msgid "OnClick event"
+#~ msgstr "OnKlik gertaera"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "OnDblCklik gertaera"
+
+#~ msgid "OnFocus event"
+#~ msgstr "OnFocus gertaera"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "OnKeyDown gertaera"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "OnKeyPress gertaera"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "OnKeyUp gertaera"
+
+#~ msgid "OnLoad event"
+#~ msgstr "OnLoad gertaera"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "OnMouseDown gertaera"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "OnMouseMove gertaera"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "OnMouseOut gertaera"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "OnMouseOver gertaera"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "OnMouseUp gertaera"
+
+#~ msgid "OnReset event"
+#~ msgstr "OnReset gertaera"
+
+#~ msgid "OnSelect event"
+#~ msgstr "OnSelect gertaera"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "OnSubmit gertaera"
+
+#~ msgid "OnUnload event"
+#~ msgstr "OnUnload gertaera"
+
+#~ msgid "Option group"
+#~ msgstr "Aukera-taldea"
+
+#
+#~ msgid "Option selector"
+#~ msgstr "Aukeren hautatzailea"
+
+#~ msgid "Ordered list"
+#~ msgstr "Zerrenda ordenatua"
+
+#~ msgid "Output media"
+#~ msgstr "Irteerako euskarria"
+
+#~ msgid "Paragraph"
+#~ msgstr "Paragrafoa"
+
+#~ msgid "Paragraph class"
+#~ msgstr "Paragrafo-klasea"
+
+#~ msgid "Paragraph style"
+#~ msgstr "Paragrafo-estiloa"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "Aurrez formateatutako zerrenda"
+
+#
+#~ msgid "Preformatted text"
+#~ msgstr "Aurrez formateatutako testua"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "Profilaren metadatuen hiztegia"
+
+#~ msgid "Prompt message"
+#~ msgstr "Gonbitearen mezua"
+
+#~ msgid "Push button"
+#~ msgstr "Sakatze-botoia"
+
+#~ msgid "Quote"
+#~ msgstr "Aipua"
+
+#
+#~ msgid "Range"
+#~ msgstr "Barrutia"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "Testua eta pasahitza irakurtzeko soilik"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "Tarte gutxitua"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "Tarte gutxitua (zaharkitua)"
+
+#
+#~ msgid "Reverse link"
+#~ msgstr "Alderantzizko esteka"
+
+#~ msgid "Root"
+#~ msgstr "Erroa"
+
+#~ msgid "Rows"
+#~ msgstr "Errenkadak"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "Erregelak errenkaden eta zutabeen artean"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "Irteerako programen adibideak, script-ak"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "Gelaxken goiburuek betetzen duten esparrua"
+
+#~ msgid "Script language name"
+#~ msgstr "Script hizkuntzaren izena"
+
+#~ msgid "Script statements"
+#~ msgstr "Script-aren sententziak"
+
+#~ msgid "Scrollbar"
+#~ msgstr "Korritze-barra"
+
+#
+#~ msgid "Selectable option"
+#~ msgstr "Aukera hautagarria"
+
+#
+#~ msgid "Selected"
+#~ msgstr "Hautatuta"
+
+#~ msgid "Server-side image map"
+#~ msgstr "Zerbitzari-aldeko irudi-mapa"
+
+#~ msgid "Shape"
+#~ msgstr "Itzala"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "Lineako aipu laburra"
+
+#~ msgid "Single line prompt"
+#~ msgstr "Lerroko bakarreko gonbitea"
+
+#~ msgid "Size"
+#~ msgstr "Tamaina"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "Tamaina (zaharkitua)"
+
+#~ msgid "Soft line break"
+#~ msgstr "Lerro-jauzi biguna"
+
+#~ msgid "Sound"
+#~ msgstr "Soinua"
+
+#
+#~ msgid "Source"
+#~ msgstr "Iturburua"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "Zuriunez bereizitako artxibo-zerrenda"
+
+#~ msgid "Spacer"
+#~ msgstr "Bereizgailua"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "Gelaxken arteko tartea"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "Gelaxken barruko tartea"
+
+#~ msgid "Span"
+#~ msgstr "Hedatu"
+
+#~ msgid "Square root"
+#~ msgstr "Erro karratua"
+
+#~ msgid "Standby load message"
+#~ msgstr "Mezua kargatu bitartean"
+
+#
+#~ msgid "Starting sequence number"
+#~ msgstr "Zenbaki sekuentzia hastea"
+
+#
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "Zenbaki sekuentzia hastea (zaharkitua)"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "Testu-marratuaren estiloa (zaharkitua)"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "Testu-marratuaren estiloa"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "Testu-marratuaren estiloa (zaharkitua)"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "Enfasi lodia"
+
+#~ msgid "Style info"
+#~ msgstr "Estiloaren datuak"
+
+#~ msgid "Subscript"
+#~ msgstr "Azpi-indizea"
+
+#
+#~ msgid "Superscript"
+#~ msgstr "Goi-indizea"
+
+#~ msgid "Tab order position"
+#~ msgstr "Fitxen ordena"
+
+#~ msgid "Table"
+#~ msgstr "Taula"
+
+#~ msgid "Table body"
+#~ msgstr "Taularen gorputza"
+
+#
+#~ msgid "Table caption"
+#~ msgstr "Taularen epigrafea"
+
+#~ msgid "Table column group properties"
+#~ msgstr "Taulako zutabe-taldearen propietateak"
+
+#~ msgid "Table column properties"
+#~ msgstr "Taulako zutabearen propietateak"
+
+#~ msgid "Table data cell"
+#~ msgstr "Taulako datuen gelaxka"
+
+#~ msgid "Table footer"
+#~ msgstr "Taulako orri-oina"
+
+#~ msgid "Table header"
+#~ msgstr "Taulako goiburua"
+
+#~ msgid "Table header cell"
+#~ msgstr "Taulako goiburuaren gelaxka"
+
+#~ msgid "Table row"
+#~ msgstr "Taulako errenkada"
+
+#~ msgid "Table summary"
+#~ msgstr "Taulako laburpena"
+
+#~ msgid "Target — Blank"
+#~ msgstr "Helburua — Hutsa"
+
+#~ msgid "Target — Parent"
+#~ msgstr "Helburua — Gurasoa"
+
+#~ msgid "Target — Self"
+#~ msgstr "Helburua — Bera"
+
+#~ msgid "Target — Top"
+#~ msgstr "Helburua — Goian"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "Faxa edo tarte bakarreko testu-estiloa"
+
+#~ msgid "Text"
+#~ msgstr "Testua"
+
+#
+#~ msgid "Text color"
+#~ msgstr "Testuaren kolorea"
+
+#
+#~ msgid "Text color (deprecated)"
+#~ msgstr "Testuaren kolorea (zaharkitua)"
+
+#~ msgid "Text entered by user"
+#~ msgstr "Erabiltzaileak sartutako testua"
+
+#
+#~ msgid "Title"
+#~ msgstr "Izenburua"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "Goiko marjina (pixeletan)"
+
+#~ msgid "URL"
+#~ msgstr "URLa"
+
+#
+#~ msgid "Unordered list"
+#~ msgstr "Ordenatu gabeko zerrenda"
+
+#~ msgid "Use image map"
+#~ msgstr "Erabili irudi-mapa"
+
+#~ msgid "Value"
+#~ msgstr "Balioa"
+
+#~ msgid "Value interpretation"
+#~ msgstr "Balioaren interpretazioa"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "Aldagaia edo programaren argumentua"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Gelaxkaren lerrokadura bertikala"
+
+#
+#~ msgid "Vertical space"
+#~ msgstr "Tarte bertikala"
+
+#
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "Tarte bertikala (zaharkitua)"
+
+#
+#~ msgid "Visited link color"
+#~ msgstr "Bisitatutako esteken kolorea"
+
+#
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "Bisitatutako esteken kolorea (zaharkitua)"
+
+#~ msgid "Width"
+#~ msgstr "Zabalera"
+
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 — Etiketak"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Bibliografia (aipua)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Bibliografia (elementua)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Bibliografia (aipu laburra)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Bibliografia (bibliografia)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "Parentesiak ()"
+
+#~ msgid "Brackets <>"
+#~ msgstr "Parentesiak <>"
+
+#~ msgid "Brackets []"
+#~ msgstr "Parentesiak []"
+
+#~ msgid "Brackets {}"
+#~ msgstr "Parentesiak {}"
+
+#~ msgid "File input"
+#~ msgstr "Sarrerako fitxategia"
+
+#
+#~ msgid "Footnote"
+#~ msgstr "Orri-oina"
+
+#~ msgid "Function cosine"
+#~ msgstr "Funtzioa: kosinua"
+
+#~ msgid "Function e^"
+#~ msgstr "Funtzioa: e^"
+
+#~ msgid "Function exp"
+#~ msgstr "Funtzioa: ber"
+
+#~ msgid "Function log"
+#~ msgstr "Funtzioa: log"
+
+#~ msgid "Function log10"
+#~ msgstr "Funtzioa: log10"
+
+#~ msgid "Function sine"
+#~ msgstr "Funtzioa: sinua"
+
+#~ msgid "Greek alpha"
+#~ msgstr "Grekoa: alfa"
+
+#~ msgid "Greek beta"
+#~ msgstr "Grekoa: beta"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "Grekoa: epsilon"
+
+#~ msgid "Greek gamma"
+#~ msgstr "Grekoa: gamma"
+
+#~ msgid "Greek lambda"
+#~ msgstr "Grekoa: lambda"
+
+#~ msgid "Greek rho"
+#~ msgstr "Grekoa: rho"
+
+#~ msgid "Greek tau"
+#~ msgstr "Grekoa: tau"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Goiburua 0 (kapitulua)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Goiburua 0 (kapitulua*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "Goiburua 1 (atala)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Goiburua 1 (atala*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Goiburua 2 (azpiatala)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Goiburua 2 (azpiatala*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Goiburua 2 (azpiazpiatala)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Goiburua 3 (azpiazpiatala*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Goiburua 4 (paragrafoa)"
+
+#~ msgid "Header appendix"
+#~ msgstr "Goiburuaren eranskina"
+
+#~ msgid "Item"
+#~ msgstr "Elementua"
+
+#~ msgid "Item with label"
+#~ msgstr "Elementua etiketarekin"
+
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex — Etiketak"
+
+#~ msgid "List enumerate"
+#~ msgstr "Zenbatutako zerrenda"
+
+#~ msgid "List itemize"
+#~ msgstr "Elementuen zerrenda"
+
+#~ msgid "Maths (display)"
+#~ msgstr "Matematikak (adierazpena)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "Matematikak (lerroan)"
+
+#
+#~ msgid "Operator fraction"
+#~ msgstr "Eragilea: zatikia"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Eragilea: integrala (adierazpena)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Eragilea: integrala (lerroan)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Eragilea: batuketa (adierazpena)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Eragilea: batuketa (lerroan)"
+
+#~ msgid "Reference label"
+#~ msgstr "Erreferentzia-etiketa"
+
+#~ msgid "Reference ref"
+#~ msgstr "Erreferentziaren erref."
+
+#~ msgid "Symbol <<"
+#~ msgstr "Ikurra: <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "Ikurra: <="
+
+#~ msgid "Symbol >="
+#~ msgstr "Ikurra: >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "Ikurra: >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "Ikurra: and"
+
+#~ msgid "Symbol const"
+#~ msgstr "Ikurra: konst"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Ikurra: deribatua"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Ikurra: deribatu partziala"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Ikurra: 2. deribatu partziala"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "Ikurra: ezpata"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "Ikurra: hipenazioa ---"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "Ikurra: hipenazioa --"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "Ikurra: baliokidetasuna"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "Ikurra: infinitua"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Ikurra: bereizlea ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Ikurra: bereizlea ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Ikurra: bereizlea _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Ikurra: bereizlea __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "Ikurra: 'simeq'"
+
+#~ msgid "Symbol star"
+#~ msgstr "Ikurra: izarra"
+
+#~ msgid "Typeface bold"
+#~ msgstr "Letra-tipo lodia"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Letra-tipo etzana"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Letra-tipo okerra"
+
+#~ msgid "Typeface type"
+#~ msgstr "Letra-tipo mota"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Apurtu ezineko testua"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr ""
+#~ "Sarri erabiltzen diren etiketak/kateak dokumentu batean erraz sartzeko, "
+#~ "idatzi gabe, metodoa eskaintzen du."
+
+#~ msgid "Tag list"
+#~ msgstr "Etiketa-zerrenda"
+
+#~ msgid "XSLT — Axes"
+#~ msgstr "XSLT — Ardatzak"
+
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT — Elementuak"
+
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT — Funtzioak"
+
+#~ msgid "ancestor"
+#~ msgstr "asaba"
+
+#~ msgid "ancestor-or-self"
+#~ msgstr "asaba-edo-bera"
+
+#~ msgid "attribute"
+#~ msgstr "atributua"
+
+#~ msgid "child"
+#~ msgstr "umea"
+
+#~ msgid "descendant"
+#~ msgstr "ondorengoa"
+
+#~ msgid "descendant-or-self"
+#~ msgstr "ondorengoa-edo-bera"
+
+#~ msgid "following"
+#~ msgstr "hurrengoa"
+
+#~ msgid "following-sibling"
+#~ msgstr "hurrengoa-senidea"
+
+#
+#~ msgid "namespace"
+#~ msgstr "izen-lekua"
+
+#~ msgid "parent"
+#~ msgstr "gurasoa"
+
+#~ msgid "preceding"
+#~ msgstr "aurrekoa"
+
+#~ msgid "preceding-sibling"
+#~ msgstr "aurrekoa-senidea"
+
+#~ msgid "self"
+#~ msgstr "bera"
+
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL — Etiketak"

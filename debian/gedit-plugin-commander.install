@@ -1,0 +1,4 @@
+usr/lib/*/gedit/plugins/commander*
+usr/share/*/gedit-commander.metainfo.xml usr/share/metainfo
+usr/share/gedit/plugins/commander
+usr/share/help/*/gedit/commander.page

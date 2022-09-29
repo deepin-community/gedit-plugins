@@ -1,0 +1,1360 @@
+# Czech translation of gedit help.
+# Copyright (C) 2009 the author(s) of gedit.
+# This file is distributed under the same license as the gedit help.
+#
+# Lucas Lommer <llommer@svn.gnome.org>, 2009.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2013, 2014, 2018, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-plugins\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2020-11-13 17:38+0100\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:13
+#: C/code-comment.page:12 C/color-picker.page:12 C/commander.page:12
+#: C/draw-spaces.page:12 C/join-split-lines.page:12 C/multi-edit.page:12
+#: C/terminal.page:13 C/text-size.page:13 C/word-completion.page:12
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:17
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/bookmarks.page:19
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/bookmarks.page:22
+msgid "Record commonly-referenced locations with bookmarks."
+msgstr "Jak si poznačit často nahlížená místa pomocí záložek."
+
+#. (itstool) path: page/title
+#: C/bookmarks.page:25
+msgid "Bookmarks"
+msgstr "Záložky"
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:27
+msgid ""
+"<app>gedit</app> bookmarks allow you to highlight important lines of text "
+"within your document or program, making them easier to find. You can also "
+"move up or down between bookmarks, making document navigation a bit faster."
+msgstr ""
+"Záložky aplikace <app>gedit</app> umožňují zvýraznit si důležité řádky textu "
+"v rámci dokumentu nebo programu, aby šly snadno najít. Také mezi nimi můžete "
+"přeskakovat nahoru a dolů, takže je pohyb po dokumentu je o něco rychlejší."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:37
+#: C/code-comment.page:30 C/color-picker.page:26 C/commander.page:25
+#: C/draw-spaces.page:27 C/git.page:26 C/join-split-lines.page:25
+#: C/multi-edit.page:26 C/session-saver.page:30 C/terminal.page:37
+#: C/text-size.page:36 C/translate.page:29 C/word-completion.page:35
+msgid "To enable the plugin:"
+msgstr "Když chcete zásuvný modul povolit:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:39
+#: C/code-comment.page:32 C/color-picker.page:28 C/commander.page:27
+#: C/draw-spaces.page:29 C/git.page:28 C/join-split-lines.page:27
+#: C/multi-edit.page:28 C/session-saver.page:32 C/terminal.page:39
+#: C/text-size.page:38 C/translate.page:31 C/word-completion.page:37
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui style=\"tab"
+"\">Plugins</gui></guiseq>."
+msgstr ""
+"Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
+"style=\"menuitem\">Předvolby</gui> <gui style=\"tab\">Zásuvné moduly</gui></"
+"guiseq>."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:40
+msgid "Select <gui style=\"menuitem\">Bookmarks</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Záložky</gui>."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:45
+msgid ""
+"Bookmarks are inserted and removed by completing the same action. To insert "
+"or remove bookmarks:"
+msgstr ""
+"Záložky se vkládají a odebírají totožným příkazem. Pro vložení nebo odebrání "
+"záložky:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:48
+msgid "Navigate to the line where you want to insert or remove the bookmark."
+msgstr "Přejděte na řádek, kde chcete vložit nebo odebrat záložku."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:52
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or open "
+"the menu in the top-right corner and select <gui style=\"menuitem\">Toggle "
+"Bookmark</gui>."
+msgstr ""
+"Zmáčkněte <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq> nebo "
+"klikněte na nabídku v pravém horním rohu a vyberte <gui style=\"menuitem"
+"\">Přepnout záložku</gui>."
+
+#. (itstool) path: list/title
+#: C/bookmarks.page:59
+msgid "To move between bookmarks:"
+msgstr "Když se chcete přesouvat mezi záložkami:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:61
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
+"bookmark."
+msgstr ""
+"Zmáčkněte <keyseq><key>Ctrl</key><key>B</key></keyseq> pro přesun na "
+"následující záložku."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:65
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
+"to the previous bookmark."
+msgstr ""
+"Zmáčkněte <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> pro "
+"přesun na předchozí záložku."
+
+#. (itstool) path: note/p
+#: C/bookmarks.page:71
+msgid ""
+"If you prefer to use the mouse, you can open the menu in the top-right "
+"corner and select <gui style=\"menuitem\">Go to Next Bookmark</gui> or <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui>."
+msgstr ""
+"Jestli dáváte přednost myši, můžete otevřít nabídku v pravém horním rohu a "
+"vybrat <gui style=\"menuitem\">Přejít na následující záložku</gui> nebo <gui "
+"style=\"menuitem\">Přejít na předchozí záložku</gui>."
+
+#. (itstool) path: info/desc
+#: C/bracket-comp.page:16
+msgid "Auto-complete closing brackets."
+msgstr "Jak automaticky doplňovat zavírací závorky."
+
+#. (itstool) path: page/title
+#: C/bracket-comp.page:19
+msgid "Bracket Completion"
+msgstr "Dokončování závorek"
+
+#. (itstool) path: page/p
+#: C/bracket-comp.page:21
+msgid ""
+"The <app>Bracket Completion</app> plugin will auto-complete closing brackets "
+"for curly braces, parentheses and square brackets."
+msgstr ""
+"Zásuvný modul <app>Dokončování závorek</app> bude automaticky doplňovat "
+"zavírací závorky pro složené, kulaté a hranaté závorky."
+
+#. (itstool) path: item/p
+#: C/bracket-comp.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Doplňování závorek</gui>."
+
+#. (itstool) path: note/p
+#: C/bracket-comp.page:38
+msgid "This plugin does not automatically insert closing HTML or XML tags."
+msgstr "Tento zásuvný modul nevkládá automaticky zavírací značky HTML či XML."
+
+#. (itstool) path: credit/name
+#: C/character-map.page:17 C/word-completion.page:16
+msgid "Paul Weaver"
+msgstr "Paul Weaver"
+
+#. (itstool) path: info/desc
+#: C/character-map.page:21
+msgid "Insert special characters just by clicking on them."
+msgstr "Jak vkládat speciální znaky jediným kliknutím."
+
+#. (itstool) path: page/title
+#: C/character-map.page:24
+msgid "Character Map"
+msgstr "Mapa znaků"
+
+#. (itstool) path: page/p
+#: C/character-map.page:33
+msgid ""
+"The <app>Character Map</app> plugin enables you to insert characters into "
+"your document that you may not be able to type easily using your keyboard."
+msgstr ""
+"Díky zásuvnému modulu <app>Mapa znaků</app> můžete vkládat do svého "
+"dokumentu znaky, které není možné snadno napsat pomocí klávesnice."
+
+#. (itstool) path: item/p
+#: C/character-map.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Character Map</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Mapa "
+"znaků</gui>."
+
+#. (itstool) path: section/title
+#: C/character-map.page:49
+msgid "Using Character Map"
+msgstr "Používání mapy znaků"
+
+#. (itstool) path: section/p
+#: C/character-map.page:51
+msgid ""
+"Once the plugin is enabled, you can add characters from the <gui style=\"tab"
+"\">Character Map</gui> view of the side panel."
+msgstr ""
+"Jakmile je zásuvný modul povolen, můžete přidávat znaky z karty <gui style="
+"\"tab\">Mapa znaků</gui> v postranním panelu."
+
+#. (itstool) path: item/p
+#: C/character-map.page:56
+msgid ""
+"Place the cursor at the point in your document at which you would like your "
+"special character."
+msgstr ""
+"Umístěte kurzor do místa ve svém dokumentu, kde si přejete speciální znak."
+
+#. (itstool) path: item/p
+#: C/character-map.page:60
+msgid ""
+"Open the side panel by pressing the menu button in the top-right corner of "
+"the window and selecting <guiseq><gui>View</gui> <gui>Side Panel</gui></"
+"guiseq>, or by pressing <key>F9</key>."
+msgstr ""
+"Otevřete postranní panel zmáčknutím tlačítka nabídky v pravém horním rohu "
+"okna a následným vybráním <guiseq><gui>Zobrazit</gui><gui>Postranní panel</"
+"gui></guiseq>, nebo zmáčknutím <key>F9</key>."
+
+#. (itstool) path: item/p
+#: C/character-map.page:65
+msgid ""
+"Select <gui>Character Map</gui> from the drop-down list at the top of the "
+"side panel."
+msgstr ""
+"Vyberte <gui>Mapa znaků</gui> v rozbalovacím seznamu v horní části "
+"postranního panelu."
+
+#. (itstool) path: item/p
+#: C/character-map.page:69
+msgid ""
+"If necessary, choose the character set to which your character belongs from "
+"the list at the top of the <gui>Character Map</gui> side panel (for example, "
+"Arabic)."
+msgstr ""
+"Je-li potřeba, zvolte v seznamu v horní části <gui>Mapy znaků</gui> písmo, "
+"do kterého váš znak patří (např. Arabské)."
+
+#. (itstool) path: item/p
+#: C/character-map.page:74
+msgid "Double click your desired character to insert it."
+msgstr "Dvojitým kliknutím na požadovaný znak se onen znak vloží."
+
+#. (itstool) path: note/p
+#: C/character-map.page:79
+msgid ""
+"You must click on the editing view of your document to continue editing "
+"normally."
+msgstr ""
+"Pro normální pokračování v úpravách musíte kliknout do zobrazení "
+"upravovaného dokumentu."
+
+#. (itstool) path: info/desc
+#: C/code-comment.page:16
+msgid "Comment-out or uncomment a block of code."
+msgstr "Jak zkomentovat nebo odkomentovat blok kódu."
+
+#. (itstool) path: page/title
+#: C/code-comment.page:19
+msgid "Code comment"
+msgstr "Komentování kódu"
+
+#. (itstool) path: page/p
+#: C/code-comment.page:21
+msgid ""
+"Code comments are portions of text that make it easier for people to "
+"understand a program's code, but they don't affect how a program works. "
+"Comments are separated from other parts of a program by special characters."
+msgstr ""
+"Komentář kódu je část textu, která lidem usnadní pochopit daný programový "
+"kód, ale nemá vliv na fungování programu. Komentáře jsou od ostatních částí "
+"programu odděleny speciálními znaky."
+
+#. (itstool) path: page/p
+#: C/code-comment.page:26
+msgid ""
+"The <app>code comment</app> plugin makes it easier to quickly create or "
+"remove code comments."
+msgstr ""
+"Zásuvný modul <app>Komentování kódu</app> usnadňuje rychlé vytváření a "
+"odstraňování komentářových značek okolo kódu."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:37
+msgid "Select <gui style=\"menuitem\">Code comment</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Komentování kódu</gui>."
+
+#. (itstool) path: steps/title
+#: C/code-comment.page:42
+msgid "To create or remove a comment:"
+msgstr "Když chcete vytvořit nebo zrušit komentář:"
+
+#. (itstool) path: item/p
+#: C/code-comment.page:44
+msgid ""
+"Highlight the portion of text where you want to add or remove a comment."
+msgstr "Označte část textu, kde chcete přidat nebo zrušit komentář."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:48
+msgid ""
+"To add a comment, right click and select <gui style=\"menuitem\">Comment "
+"Code</gui>, or press <keyseq><key>Ctrl</key><key>M</key></keyseq>."
+msgstr ""
+"Pro přidání komentáře klikněte pravým tlačítkem a vyberte <gui style="
+"\"menuitem\">Zakomentovat kód</gui> nebo zmáčkněte <keyseq><key>Ctrl</"
+"key><key>M</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:52
+msgid ""
+"To remove a comment, right click and select <gui style=\"menuitem"
+"\">Uncomment Code</gui>, or press <keyseq><key>Shift</key> <key>Ctrl</"
+"key><key>M</key></keyseq>."
+msgstr ""
+"Pro zrušení komentáře klikněte pravým tlačítkem a vyberte <gui style="
+"\"menuitem\">Odkomentovat kód</gui> nebo zmáčkněte <keyseq><key>Shift</"
+"key><key>Ctrl</key><key>M</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/code-comment.page:59
+msgid ""
+"<app>gedit</app> will automatically use the correct style of comment based "
+"on the language or syntax of the file. If <app>gedit</app> doesn't identify "
+"your language or syntax, you can select it from the language list in the "
+"bottom <gui>Status bar</gui>."
+msgstr ""
+"<app>gedit</app> bude automaticky používat správný styl komentářů podle "
+"jazyka nebo syntaxe souboru. Pokud sem mu nepodaří určit jazyk nebo syntax, "
+"můžete jej vybrat ručně ze seznamu jazyků na spodní <gui>Stavové liště</gui>."
+
+#. (itstool) path: info/desc
+#: C/color-picker.page:16
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Jak vybrat barvu v dialogovém okně a vložit její šestnáctkovou podobu."
+
+#. (itstool) path: page/title
+#: C/color-picker.page:19
+msgid "Color Picker"
+msgstr "Barevná pipeta"
+
+#. (itstool) path: page/p
+#: C/color-picker.page:21
+msgid ""
+"The <app>Color Picker</app> plugin helps you to insert the character codes "
+"that represent a certain color. This can make it easier to choose and use "
+"the correct color in your programs."
+msgstr ""
+"Zásuvný modul <app>Barevná pipeta</app> pomáhá vkládat kódy, které "
+"představují barvu. To vám usnadní výběr a používání správných barev ve "
+"vašich programech."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:33
+msgid "Select <gui style=\"menuitem\">Color Picker</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Barevná "
+"pipeta</gui>."
+
+#. (itstool) path: steps/title
+#: C/color-picker.page:38
+msgid "To open and use the color picker:"
+msgstr "Když chcete otevřít a použít barevnou pipetu:"
+
+#. (itstool) path: item/p
+#: C/color-picker.page:40
+msgid ""
+"Place your cursor at the point in your document where you want to insert the "
+"color code."
+msgstr ""
+"Umístěte kurzor do místa ve svém dokumentu, kde si přejete vložit kód barvy."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:44
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Pick "
+"Color…</gui></guiseq>."
+msgstr ""
+"Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
+"style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Barevná pipeta…</"
+"gui></guiseq>"
+
+#. (itstool) path: item/p
+#: C/color-picker.page:49
+msgid "Click on the desired color in the color picker window."
+msgstr "V okně pro výběr barvy klikněte na požadovanou barvu."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:52
+msgid ""
+"The appropriate color code will be inserted where you had placed your cursor."
+msgstr "Příslušný kód barvy se vloží na místo, kde se nachází kurzor."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:56
+msgid "To close the <app>color picker</app>, click <gui>Cancel</gui>."
+msgstr "Kliknutím na <gui>Zrušit</gui> zavřete <app>výběr barvy</app>."
+
+#. (itstool) path: note/p
+#: C/color-picker.page:62
+msgid ""
+"You can make fine-grained adjustments to the color and adjust the values for "
+"Hue, Saturation, Value, Red, Green, or Blue by right clicking on a color and "
+"selecting <gui style=\"menuitem\">Customize</gui>."
+msgstr ""
+"Barvu si můžete jemně doladit úpravou hodnot Odstín, Sytost, Hodnota, "
+"Červená, Zelená a Modrá. Stačí na barvu kliknout pravým tlačítkem a vybrat "
+"<gui style=\"menuitem\">Přizpůsobit</gui>"
+
+#. (itstool) path: info/desc
+#: C/commander.page:16
+msgid "Use a command-line interface for advanced editing."
+msgstr "Jak používat rozhraní příkazové řádky k pokročilým úpravám."
+
+#. (itstool) path: page/title
+#: C/commander.page:19
+msgid "Commander"
+msgstr "Příkazový režim"
+
+#. (itstool) path: page/p
+#: C/commander.page:21
+msgid ""
+"The <app>Commander</app> plugin is a plugin for advanced <app>gedit</app> "
+"users that allows you to perform command-line actions on the current file."
+msgstr ""
+"Zásuvný modul <app>Příkazový režim</app> je určen pro pokročilé uživatele "
+"aplikace <app>gedit</app>, kterým umožní provádět činnosti na aktuálním "
+"souboru pomocí příkazového řádku."
+
+#. (itstool) path: item/p
+#: C/commander.page:32
+msgid "Select <gui style=\"menuitem\">Commander</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Příkazový režim</gui>."
+
+#. (itstool) path: page/p
+#: C/commander.page:36
+msgid ""
+"Once you have enabled the plugin, activate it by pressing <keyseq><key>Ctrl</"
+"key><key>,</key></keyseq>."
+msgstr ""
+"Když máte zásuvný modul povolen, aktivujte jej zmáčknutím <keyseq><key>Ctrl</"
+"key><key>,</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/commander.page:40
+msgid "The last key in the above key combination is a comma."
+msgstr "Druhou klávesou v předchozí kombinaci kláves je čárka."
+
+#. (itstool) path: td/p
+#: C/commander.page:46
+msgid "Action"
+msgstr "Činnost"
+
+#. (itstool) path: td/p
+#: C/commander.page:47
+msgid "Keyboard shortcut"
+msgstr "Klávesová zkratka"
+
+#. (itstool) path: td/p
+#: C/commander.page:52
+msgid "See an overview of available commands"
+msgstr "Zobrazit přehled dostupných příkazů"
+
+#. (itstool) path: td/p
+#: C/commander.page:53
+msgid "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+msgstr "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/commander.page:56
+msgid "Find a word within the current file"
+msgstr "Najít slovo v rámci aktuálního dokumentu"
+
+#. (itstool) path: td/p
+#: C/commander.page:58
+msgid "<key>/</key> <input>foo</input>"
+msgstr "<key>/</key> <input>pokus</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:59
+msgid "This will find the word <input>foo</input>."
+msgstr "Najde slovo <input>pokus</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:63
+msgid "Replace a word within the current file"
+msgstr "Nahradit slovo v aktuálním souboru"
+
+#. (itstool) path: td/p
+#: C/commander.page:65
+msgid "<keyseq><key>/</key><key>/</key></keyseq> <input>foo bar</input>"
+msgstr "<keyseq><key>/</key><key>/</key></keyseq> <input>hokus pokus</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:67
+msgid "This will replace <input>foo</input> with <input>bar</input>."
+msgstr "Nahradí slovo <input>hokus</input> za <input>pokus</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:72
+msgid "Move the cursor to a certain line number in your file"
+msgstr "Přesunout kurzor na konkrétní číslo řádku v aktuálním souboru"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'go'! It is a command
+#: C/commander.page:74
+msgid ""
+"<cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</"
+"key> <input>[line number]</input></cmd>"
+msgstr ""
+"<cmd>go <input>[číslo řádku]</input></cmd> <em>nebo</em> prostě jen "
+"<cmd><key>G</key> <input>[číslo řádku]</input></cmd>"
+
+#. (itstool) path: td/p
+#: C/commander.page:80
+msgid "Toggle the bookmark indicator for the current line"
+msgstr "Přepnout indikátor záložky v aktuálním souboru"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'bookmark'! It is a command
+#: C/commander.page:82
+msgid "<cmd>bookmark</cmd> <em>or</em> just <key>B</key>"
+msgstr "<cmd>bookmark</cmd> <em>nebo</em> prostě jen <key>B</key>"
+
+#. (itstool) path: note/p
+#: C/commander.page:88
+msgid ""
+"Some commands, such as the <cmd>bookmark</cmd> command require that the "
+"appropriate plugin be installed and activated. If you do not have the "
+"appropriate plugin installed and activated, you will receive an error "
+"message."
+msgstr ""
+"Některé příkazy, jako třeba <cmd>bookmark</cmd>, vyžadují, aby byl "
+"nainstalován příslušný zásuvný modul a byl aktivován. Pokud jej "
+"nainstalovaný a aktivovaný nemáte, obdržíte chybové hlášení."
+
+#. (itstool) path: info/desc
+#: C/draw-spaces.page:16
+msgid "Show white space between words or portions of code."
+msgstr "Jak zobrazovat bílé znaky mezi slovy nebo částmi kódu."
+
+#. (itstool) path: page/title
+#: C/draw-spaces.page:19
+msgid "Draw Spaces"
+msgstr "Vykreslovat mezery"
+
+#. (itstool) path: page/p
+#: C/draw-spaces.page:21
+msgid ""
+"The <app>Draw Spaces</app> plugin is a simple plugin that can mark spaces, "
+"tabs, and other types of whitespace with a small, visible marker. By making "
+"whitespace visible, you can more easily see how whitespace is used in a "
+"document, and can apply spacing strategies more consistently."
+msgstr ""
+"Zásuvný modul <app>Vykreslovat mezery</app> je jednoduchý zásuvný modul, "
+"který umí označovat mezery, tabulátory a další bílé znaky malými nenápadnými "
+"značkami. Díky zviditelnění bílých znaků můžete jednoduše vidět, kde v "
+"dokumentu jsou použity a mít v nich větší pořádek."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:34
+msgid "Select <gui style=\"menuitem\">Draw Spaces</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Vykreslovat mezery</gui>."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:37
+msgid "Press <gui style=\"button\">Preferences</gui> to set its options."
+msgstr ""
+"Abyste mohli nastavit tuto volbu, zmáčkněte <gui style=\"button\">Předvolby</"
+"gui>."
+
+#. (itstool) path: note/p
+#: C/draw-spaces.page:42
+msgid ""
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
+msgstr ""
+"Ačkoliv při práci se souborem budete vidět značky, tyo značky nebudou "
+"viditelné po vytisknutí souboru na papír."
+
+#. (itstool) path: credit/name
+#: C/git.page:12
+msgid "Aleksandra Hankus"
+msgstr "Aleksandra Hankus"
+
+#. (itstool) path: info/desc
+#: C/git.page:16
+msgid "Highlight lines that have been changed since the last commit."
+msgstr "Jak zvýraznit řádky, které byly změněny od doby posledního zařazení."
+
+#. (itstool) path: page/title
+#: C/git.page:19
+msgid "Git"
+msgstr "Git"
+
+#. (itstool) path: page/p
+#: C/git.page:21
+msgid ""
+"The <app>Git</app> plugin will highlight lines that have been changed since "
+"the last commit. Lines will be highlighted only on files that are already "
+"tracked by git."
+msgstr ""
+"Zásuvný modul <app>Git</app> bude zvýrazňovat řádky, které byly změněny od "
+"doby posledního zařazení. Řádky se budou zvýrazňovat jen u souborů, u "
+"kterých bylo zahájeno sledování systémem git."
+
+#. (itstool) path: item/p
+#: C/git.page:33
+msgid "Select <gui style=\"menuitem\">Git</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Git</"
+"gui>."
+
+#. (itstool) path: page/p
+#: C/git.page:37
+msgid ""
+"The changes are shown in the margin of the document in three different "
+"colors:"
+msgstr "Změny jsou zobrazeny u okraje dokumentu ve třech různých barvách."
+
+#. (itstool) path: item/title
+#: C/git.page:41
+msgid "Green"
+msgstr "Zelená"
+
+#. (itstool) path: item/p
+#: C/git.page:42
+msgid "Shows the new lines added to the document."
+msgstr "Ukazuje řádky do dokumentu nově přidané."
+
+#. (itstool) path: item/title
+#: C/git.page:45
+msgid "Orange"
+msgstr "Oranžová"
+
+#. (itstool) path: item/p
+#: C/git.page:46
+msgid "Shows the lines that have been modified in the document."
+msgstr "Ukazuje řádky, který byly v dokumentu změněny."
+
+#. (itstool) path: item/title
+#: C/git.page:49
+msgid "Red"
+msgstr "Červená"
+
+#. (itstool) path: item/p
+#: C/git.page:50
+msgid "Shows the parts of the document that have been deleted."
+msgstr "Ukazuje části, které byly z dokumentu vymazány."
+
+#. (itstool) path: note/p
+#: C/git.page:55
+msgid ""
+"Hover the mouse pointer on the red or orange margin to view the original "
+"text in a tool tip."
+msgstr ""
+"Když postojíte ukazatelem myši na červeném nebo oranžovém okraji, zobrazí se "
+"vám ve vysvětlivce původní text."
+
+#. (itstool) path: info/desc
+#: C/join-split-lines.page:16
+msgid "Join several lines of text or split long lines."
+msgstr "Jak spojit několik řádků textu nebo rozdělit dlouhé řádky."
+
+#. (itstool) path: page/title
+#: C/join-split-lines.page:19
+msgid "Join/Split Lines"
+msgstr "Spojit/rozdělit řádky"
+
+#. (itstool) path: page/p
+#: C/join-split-lines.page:21
+msgid ""
+"The <app>Join/Split Lines</app> plugin can join shorter lines into one "
+"longer line, or can split a long line into multiple shorter lines."
+msgstr ""
+"Zásuvný modul <app>Spojit/rozdělit řádky</app> umí spojit krátké řádky do "
+"jednoho dlouhého nebo naopak rozdělit dlouhý řádek do více krátkých."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Join/Split Lines</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem\">Spojit/"
+"rozdělit řádky</gui>."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:37
+msgid "To join multiple lines into one longer line:"
+msgstr "Když chcete spojit více řádků do jedno dlouhého:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:39
+msgid ""
+"Select the lines that you want to join. To do this, you can use the mouse, "
+"or you can press <keyseq><key>Shift</key><key>Up Arrow</key> </keyseq> or "
+"<keyseq><key>Shift</key><key>Down Arrow</key></keyseq>."
+msgstr ""
+"Vyberte řádky, které chcete spojit. To uděláte buď myší nebo zmáčknutím "
+"<keyseq><key>Shift</key><key>šipka nahoru</key> </keyseq> případně "
+"<keyseq><key>Shift</key><key>šipka dolů</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:44
+msgid "Press <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+msgstr "Zmáčkněte <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:45
+msgid "The lines that you selected will be joined into one longer line."
+msgstr "Řádky, které jste vybrali, budou spojeny do jednoho dlouhého řádku."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:50
+msgid "To split one line into multiple lines:"
+msgstr "Když chcete jeden řádek rozdělit na více řádků:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:52
+msgid ""
+"Select the line that you want to split by placing your cursor anywhere on "
+"that line."
+msgstr ""
+"Vyberte řádek, který chcete rozdělit, umístěním kurzoru kdekoliv do tohoto "
+"řádku."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:56
+msgid "Press <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
+msgstr ""
+"Zmáčkněte <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:58
+msgid ""
+"The line will be split into multiple lines. Spaces are used to determine "
+"where it is safe to split a line, and the length of each line will not "
+"exceed 80 characters."
+msgstr ""
+"Řádek bude rozdělen na více řádků. K určení, kde je řádek bezpečné rozdělit, "
+"se použijí mezery a pravidlo, že délka řádku nemá přesáhnout 80 znaků."
+
+#. (itstool) path: p/link
+#: C/legal-plugins.xml:7
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#. (itstool) path: license/p
+#: C/legal-plugins.xml:5
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Tato práce je licencována pod Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. Jestli si chcete licenci prohlédnout, navštivte <_:link-1/"
+"> nebo pošlete dopis na Creative Commons, 444 Castro Street, Suite 900, "
+"Mountain View, California, 94041, USA."
+
+#. (itstool) path: credit/years
+#: C/multi-edit.page:14
+msgid "2011"
+msgstr "2011"
+
+#. (itstool) path: info/desc
+#: C/multi-edit.page:17
+msgid "Edit a document in multiple places at once."
+msgstr "Jak upravovat dokument na více místech naráz."
+
+#. (itstool) path: page/title
+#: C/multi-edit.page:20
+msgid "Multi Edit"
+msgstr "Vícenásobná úprava"
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:22
+msgid ""
+"The <app>Multi Edit</app> plugin allows you to edit a document in multiple "
+"places at once. This can be helpful when performing tedious editing tasks."
+msgstr ""
+"Zásuvný modul <app>Vícenásobná úprava</app> umožňuje upravovat dokument na "
+"více místech naráz. To může být užitečné, když provádíte jednotvárné úpravy."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:33
+msgid "Select <gui style=\"menuitem\">Multi Edit</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Vícenásobná úprava</gui>."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:38
+msgid ""
+"After you have enabled the plugin, turn-on Multi Edit mode by pressing "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or press the "
+"menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Tools</gui><gui style=\"menuitem\">Multi Edit Mode</gui></"
+"guiseq>. You can then select the points in your file that you would like "
+"start editing."
+msgstr ""
+"Po té, co máte zásuvný modul povolen, zapněte režim vícenásobných úprav "
+"zmáčknutím <keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq> nebo "
+"zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
+"style=\"menuitem\">Režim vícenásobných úprav</gui></guiseq>. Po té můžete ve "
+"svém dokumentu vybrat místa, ve kterých mají úpravy začít."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:45
+msgid "To insert editing points in your file:"
+msgstr "Abyste vložili místa úprav ve svém souboru:"
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:48
+msgid "Place your cursor at your first desired editing point."
+msgstr "Umístěte kurzor na první požadované místo úprav."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:51
+msgid "Press <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+msgstr "Zmáčkněte <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:54
+msgid ""
+"Move to your next editing point, and press <keyseq><key>Ctrl</key> <key>E</"
+"key></keyseq> again."
+msgstr ""
+"Přesuňte se na následující místo úprav a zmáčkněte znovu <keyseq><key>Ctrl</"
+"key><key>E</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:58
+msgid "Continue inserting editing points, adding as many as you need."
+msgstr "Pokračujte ve vkládání míst úprav tolikrát, kolik jich potřebujete."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:62
+msgid ""
+"Once you have inserted all of your editing points, you can make your desired "
+"edits."
+msgstr ""
+"Jakmile máte všechna místa úprav vložena, můžete začít požadované úpravy "
+"vykonávat."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:65
+msgid ""
+"To remove editing points, press the <key>Esc</key> key. This will remove all "
+"of the editing points. Pressing the <key>Esc</key> key again will turn off "
+"Multi Edit mode, returning the editor back to its normal state."
+msgstr ""
+"Pro odebrání míst úprav zmáčkněte klávesu <key>Esc</key>. Tím se odeberou "
+"všechna místa úprav. Opětovným zmáčknutím klávesy <key>Esc</key> se vypne "
+"režim vícenásobných úprav a editor se vrátí do běžného stavu."
+
+#. (itstool) path: credit/name
+#: C/session-saver.page:12 C/translate.page:12
+msgid "Jordi Mas i Hernàndez"
+msgstr "Jordi Mas i Hernàndez"
+
+#. (itstool) path: info/desc
+#: C/session-saver.page:18
+msgid "Save and restore your working sessions"
+msgstr "Jak ukládat a obnovovat svá pracovní sezení."
+
+#. (itstool) path: page/title
+#: C/session-saver.page:21
+msgid "Session Saver"
+msgstr "Ukládání sezení"
+
+#. (itstool) path: page/p
+#: C/session-saver.page:23
+msgid ""
+"The <app>Session Saver</app> plugin allows you to remember which documents "
+"are currently open and open the same documents again at a later time."
+msgstr ""
+"Zásuvný modul <app>Ukládání sezení</app> si umí zapamatovat, které dokumenty "
+"máte právě otevřené a pozdějit je pak znovu otevřít."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:27
+msgid "Enable Session Saver Plugin"
+msgstr "Povolení zásuvného modulu Ukládání sezení"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:37
+msgid ""
+"Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Ukládání sezení</gui>."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:45
+msgid "Save a session"
+msgstr "Uložení sezení"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:46
+msgid "Save all your open files to be able to open them later."
+msgstr ""
+"Uložte si seznam všech svých otevřených souborů, abyste si je mohli později "
+"opět otevřít."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:48
+msgid "To save a session:"
+msgstr "Když chcete uložit sezení:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:50
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Save "
+"Session…</gui></guiseq>."
+msgstr ""
+"Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
+"style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Uložit sezení…</"
+"gui></guiseq>"
+
+#. (itstool) path: section/title
+#: C/session-saver.page:58
+msgid "Open a session"
+msgstr "Otevření sezení"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:59
+msgid "Open all the files from an already saved session."
+msgstr "Otevřete si všechny své soubory z dřívějšího uloženého sezení."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:61
+msgid "To open a session:"
+msgstr "Když chcete otevřít sezení:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:63
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Tools</gui>."
+msgstr ""
+"Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <gui style="
+"\"menuitem\">Nástroje</gui>."
+
+#. (itstool) path: item/p
+#: C/session-saver.page:67
+msgid "Select one of the saved sessions from the menu."
+msgstr "Vyberte z nabídky jedno u uložených sezení."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:73
+msgid "Manage Sessions"
+msgstr "Správa sezení"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:74
+msgid "Open and delete your already saved sessions."
+msgstr "Otevřete a smažte svá dříve uložená sezení."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:76
+msgid "Manage sessions"
+msgstr "Správa sezení"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:78
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Manage "
+"Saved Sessions…</gui></guiseq>"
+msgstr ""
+"Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
+"style=\"menuitem\">Nástroje</gui> <gui style=\"menuitem\">Správa uložených "
+"sezení…</gui></guiseq>"
+
+#. (itstool) path: info/desc
+#: C/synctex.page:20
+msgid ""
+"Quickly switch between TeX source files and rendered PDF documents in evince."
+msgstr ""
+"Jak rychle přepínat mezi zdrojovými soubory a jak vykreslit dokument PDF v "
+"prohlížeči evince."
+
+#. (itstool) path: page/title
+#: C/synctex.page:24
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#. (itstool) path: page/p
+#: C/synctex.page:26
+msgid ""
+"SyncTeX is a method that enables synchronization between a TeX source file "
+"and the PDF output generated by a TeX/LaTeX compiler. This plugin allows to "
+"use SyncTeX in <app>gedit</app> to quickly switch from an opened TeX source "
+"file to a PDF document opened in <app>evince</app> and vice versa."
+msgstr ""
+"SyncTeX je metoda, která umožňuje synchronizaci mezi zdrojovým souborem TeX "
+"a výstupem v PDF generovaným kompilátorem TeX/LaTeX. Tento zásuvný modul "
+"přináší SynTeX do editoru <app>gedit</app>, abyste se mohli rychle přepínat "
+"z otevřeného zdrojového souboru TeX do dokumentu PDF otevřeného v prohlížeči "
+"<app>evince</app> a naopak."
+
+#. (itstool) path: note/p
+#: C/synctex.page:32
+msgid ""
+"To be useful, this plugin requires a TeX/LaTeX compiler and SyncTeX to be "
+"installed. Both are provided by TeX distributions such as TeX Live. Also "
+"<app>evince</app> must be installed."
+msgstr ""
+"Aby se dal tento zásuvný modul používat, musí být nainstalovaný kopilátor "
+"TeX/LaTeX a SyncTeX. Obojí poskytují distribuce TeX, jako je TeX Live. "
+"Rovněž musí být nainstalována aplikace <app>evince</app>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:39
+msgid ""
+"Some basic information on setting up SyncTeX and compiling LaTeX documents "
+"can be found in the <link xref=\"help:evince#synctex\"><app>evince</app>-"
+"SyncTeX documentation</link>."
+msgstr ""
+"Některé základní informace, jak nastavit SyncTeX a jak kompilovat dokumenty "
+"LaTeX najdtete v <link xref=\"help:evince#synctex\">dokumentaci <app>evince</"
+"app>-SyncTeX</link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:45
+msgid ""
+"Key shortcuts and mouse controls are also documented in the <link xref="
+"\"help:evince/synctex-search\"> <app>evince</app>-SyncTeX documentation</"
+"link>."
+msgstr ""
+"Klávesové zkratky a ovládání myší jsou rovněž zdokumentované v <link xref="
+"\"help:evince/synctex-search\">dokumentaci <app>evince</app>-SyncTeX</link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:50
+msgid ""
+"<link xref=\"help:gnome-latex\"> <app>Gnome-LaTeX</app></link> is an "
+"alternative text editor specifically designed for writing TeX code."
+msgstr ""
+"<link xref=\"help:gnome-latex\"> <app>Gnome-LaTeX</app></link> je "
+"alternativní textový editor navržený speciálně pro psaní kódu TeX."
+
+#. (itstool) path: credit/name
+#: C/terminal.page:17 C/text-size.page:17 C/word-completion.page:20
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: info/desc
+#: C/terminal.page:23
+msgid "Add a terminal console to the bottom panel."
+msgstr "Jak přidat terminálovou konzolu do spodního panelu."
+
+#. (itstool) path: page/title
+#: C/terminal.page:26
+msgid "Embedded Terminal"
+msgstr "Vestavěný terminál"
+
+#. (itstool) path: page/p
+#: C/terminal.page:28
+msgid ""
+"<app>gedit</app> makes it possible to include an embedded version of "
+"<app>GNOME Terminal</app>, the GNOME command-line application, in the bottom "
+"panel of the <app>gedit</app> window. This will let you run scripts, install "
+"needed software, or test your program without leaving <app>gedit</app>."
+msgstr ""
+"Editor <app>gedit</app> umožňuje vložit vestavnou verzi <app>Terminálu "
+"GNOME</app>, což je aplikace GNOME pro příkazový řádek, do spodního panelu "
+"svého okna. Díky tomu budete moci spouštět skripty, instalovat potřebný "
+"software nebo testovat programy bez opuštění editoru <app>gedit</app>."
+
+#. (itstool) path: section/title
+#: C/terminal.page:34
+msgid "Enable Embedded Terminal"
+msgstr "Povolení vestavěného terminálu"
+
+#. (itstool) path: item/p
+#: C/terminal.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Vestavěný terminál</gui>."
+
+#. (itstool) path: section/title
+#: C/terminal.page:52
+msgid "Using Embedded Terminal"
+msgstr "Používání vestavěného terminálu"
+
+#. (itstool) path: section/p
+#: C/terminal.page:54
+msgid ""
+"Once you have enabled the plugin, to add a terminal to the bottom panel:"
+msgstr "Až zásuvný modul povolíte, můžete přidat terminál do spodního panelu:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:59
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom Panel</"
+"gui></guiseq>."
+msgstr ""
+"Zmáčkněte tlačítko nabídky v pravém horním rohu okna a vyberte <guiseq><gui "
+"style=\"menuitem\">Zobrazit</gui><gui style=\"menuitem\">Spodní panel</gui></"
+"guiseq>."
+
+#. (itstool) path: info/desc
+#: C/text-size.page:23
+msgid "Increase or decrease text size."
+msgstr "Jak zmenšit nebo zvětšit velikost textu."
+
+#. (itstool) path: page/title
+#: C/text-size.page:26
+msgid "Text Size"
+msgstr "Velikost textu"
+
+#. (itstool) path: page/p
+#: C/text-size.page:28
+msgid ""
+"The text size plugin allows you to temporarily change the text size for "
+"better readability in <app>gedit</app> without changing the program's "
+"default text size."
+msgstr ""
+"Zásuvný modul <app>Velikost textu</app> umožňuje v editoru <app>gedit</app> "
+"dočasně měnit velikost textu kvůli lepší čitelnosti a to aniž byste museli "
+"měnit nastavení výchozí velikosti písma programu."
+
+#. (itstool) path: section/title
+#: C/text-size.page:33
+msgid "Enable Text Size Plugin"
+msgstr "Povolení zásuvného modulu Velikost textu"
+
+#. (itstool) path: item/p
+#: C/text-size.page:43
+msgid "Select <gui style=\"menuitem\">Text Size</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Velikost textu</gui>."
+
+#. (itstool) path: section/title
+#: C/text-size.page:50
+msgid "Use the <app>Text Size</app> plugin"
+msgstr "Používání zásuvného modulu <app>Velikost textu</app>"
+
+#. (itstool) path: section/p
+#: C/text-size.page:52
+msgid ""
+"Once you have enabled the plugin, do any of the following to change the text "
+"size in <app>gedit</app>:"
+msgstr ""
+"Jakmile máte zásuvný modul povolen, můžete následujícími postupy měnit "
+"velikost textu v editoru <app>gedit</app>:"
+
+#. (itstool) path: item/p
+#: C/text-size.page:57
+msgid ""
+"To <em>increase</em> the text size, press <keyseq><key>Ctrl</key><key>+</"
+"key></keyseq>."
+msgstr ""
+"Pro <em>zvětšení</em> velikosti textu zmáčkněte <keyseq><key>Ctrl</key><key>"
+"+</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/text-size.page:61
+msgid ""
+"To <em>decrease</em> the text size, press <keyseq><key>Ctrl</key><key>-</"
+"key></keyseq>."
+msgstr ""
+"Pro <em>zmenšení</em> velikosti textu zmáčkněte <keyseq><key>Ctrl</key><key>-"
+"</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/text-size.page:65
+msgid ""
+"To <em>reset</em> the text size to the default size, press "
+"<keyseq><key>Ctrl</key><key>0</key></keyseq>."
+msgstr ""
+"Pro <em>vrácení</em> velikosti textu na výchozí velikost zmáčkněte "
+"<keyseq><key>Ctrl</key><key>0</key></keyseq>."
+
+#. (itstool) path: info/desc
+#: C/translate.page:18
+msgid "Translate text into different languages"
+msgstr "Jak překládat texty do různých národních jazyků"
+
+#. (itstool) path: page/title
+#: C/translate.page:21
+msgid "Translate"
+msgstr "Překlady"
+
+#. (itstool) path: page/p
+#: C/translate.page:23
+msgid ""
+"The <app>Translate</app> plugin allows you to translate text from "
+"<app>gedit</app> using Apertium and Yandex engines."
+msgstr ""
+"Zásuvný modul <app>Překlady</app> umožňuje překládat texty z editoru "
+"<app>gedit</app> pomocí strojů Apertium a Yandex."
+
+#. (itstool) path: section/title
+#: C/translate.page:26
+msgid "Enabling and configuring the Translate plugin"
+msgstr "Povolení a nastavení zásuvného modulu Překlady"
+
+#. (itstool) path: item/p
+#: C/translate.page:36
+msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Překlady</gui>."
+
+#. (itstool) path: item/p
+#: C/translate.page:39
+msgid ""
+"Press <gui style=\"button\">Preferences</gui> to configure the translation "
+"engine to use and a language pair."
+msgstr ""
+"Pro nastavení, který překladový server a pár jazyků se mají používat, "
+"vyberte <gui style=\"button\">Předvolby</gui>."
+
+#. (itstool) path: item/p
+#: C/translate.page:42
+msgid ""
+"In case you use the Yandex translation engine, you need an API key. You can "
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
+"site</link>."
+msgstr ""
+"V případě, že používáte překladový server Yandex, potřebujete klíč API. Ten "
+"můžete získat na <link href=\"https://tech.yandex.com/translate/\">webových "
+"stránkách Yandex</link>."
+
+#. (itstool) path: section/title
+#: C/translate.page:49
+msgid "Using the Translate plugin"
+msgstr "Používání zásuvného modulu Překlady"
+
+#. (itstool) path: steps/title
+#: C/translate.page:52
+msgid "To translate a text:"
+msgstr "Když chcete přeložit text:"
+
+#. (itstool) path: item/p
+#: C/translate.page:54
+msgid "Select the part of text that you would like to translate."
+msgstr "Vyberte část textu, kterou si přejete přeložit."
+
+#. (itstool) path: item/p
+#: C/translate.page:57
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
+"to translate it."
+msgstr ""
+"Zmáčknutím <keyseq><key>Ctrl</key><key>K</key></keyseq> nebo pomocí "
+"kontextové nabídky je přeložíte."
+
+#. (itstool) path: item/p
+#: C/translate.page:58
+msgid ""
+"The translation appears in the document or in the bottom panel, depending on "
+"your configuration."
+msgstr ""
+"Překlad se objeví v dokumentu nebo ve spodním panelu, záleží na vašem "
+"nastavení."
+
+#. (itstool) path: info/desc
+#: C/word-completion.page:26
+msgid "Autocomplete words or portions of code as you type."
+msgstr "Jak během psaní automaticky dokončovat slova nebo části kódu."
+
+#. (itstool) path: page/title
+#: C/word-completion.page:29
+msgid "Word Completion"
+msgstr "Dokončování slov"
+
+#. (itstool) path: page/p
+#: C/word-completion.page:31
+msgid ""
+"The <app>Word Completion</app> plugin can speed up your editing by "
+"suggesting completions of words as you type."
+msgstr ""
+"Zásuvný modul <app>Dokončování slov</app> může urychlit vaše psaní tím, že "
+"vám bude navrhovat, jak slova dokončit."
+
+#. (itstool) path: item/p
+#: C/word-completion.page:42
+msgid ""
+"Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr ""
+"Zásuvný modul povolíte zaškrtnutím políčka u <gui style=\"menuitem"
+"\">Dokončování slov</gui>."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:47
+msgid ""
+"While editing, the <app>Word Completion</app> plugin will automatically "
+"display a pop-up list of words that begin with the letters you have already "
+"typed. Word suggestions are based upon words that appear elsewhere in your "
+"document and upon pre-defined keywords if your document is of a recognised "
+"format."
+msgstr ""
+"Během úprav bude zásuvný modul <app>Dokončování slov</app> automaticky "
+"zobrazovat rozbalovací seznam se slovy začínajícími písmeny, která jste už "
+"napsali. Doporučovaná slova vychází ze slov, která se již vyskytla jinde v "
+"dokumentu a z předdefinovaných klíčových slov v případě, že dokument je v "
+"rozpoznaném formátu."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:53
+msgid ""
+"To insert a suggested word, double-click on it in the pop-up list or press "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
+"number displayed next to your desired word."
+msgstr ""
+"Aby se doporučované slovo vložilo, klikněte na něj v rozbalovacím seznamu "
+"nebo zmáčkněte <keyseq><key>Alt</key><key>číslo</key></keyseq>, kde "
+"<key>číslo</key> je číslo zobrazené vedle požadovaného slova."

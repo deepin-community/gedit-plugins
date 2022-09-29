@@ -1,0 +1,1210 @@
+# Translation of gedit-plugins to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Tomislav Cavrag <tcavrag@vuka.hr>,
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit-plugins 0\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2020-05-26 14:51+0000\n"
+"PO-Revision-Date: 2020-09-20 17:48+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
+msgid "Bookmarks"
+msgstr "Zabilješke"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
+msgid "Easy document navigation with bookmarks"
+msgstr "Lakša navigacija dokumenata sa zabilješkama"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "Zabilježi"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
+msgstr "Idi na sljedeću zabilješku"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
+msgstr "Idi na prijašnju zabilješku"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
+msgid "Bracket Completion"
+msgstr "Dovršavanje zagrada"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "Automatski zatvara zagrade."
+
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "Automatski zatvara zagrade kada umetnete jednu"
+
+#: plugins/charmap/charmap/__init__.py:56
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
+msgid "Character Map"
+msgstr "Tablica znakova"
+
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
+msgid "Insert special characters just by clicking on them."
+msgstr "Umeće posebne znakove klikom na njih."
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
+msgid "Charmap"
+msgstr "Znak"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
+msgid "Select characters from a character map"
+msgstr "Odabire znakove iz tablice znakova"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
+msgid "Code Comment"
+msgstr "Komentar kôda"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Komentirajte ili uklonite komentar sa odabranog bloka kôda."
+
+#: plugins/codecomment/codecomment.py:118
+msgid "Co_mment Code"
+msgstr "Ko_mentiraj kôd"
+
+#: plugins/codecomment/codecomment.py:124
+msgid "U_ncomment Code"
+msgstr "Ukloni _komentar kôda"
+
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Komentirajte ili uklonite komentar sa odabranog bloka kôda"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
+msgid "Color Picker"
+msgstr "Odabiratelj boje"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "Odaberite boju iz dijaloga i umetnite njen heksadecimalni prikaz."
+
+#: plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "Odaberi _boju…"
+
+#: plugins/colorpicker/colorpicker.py:172
+msgid "Pick Color"
+msgstr "Odaberi boju"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "Odabiratelj boje"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "Odaberite i umetnite boju s dijaloga (za HTML, CSS, PHP)"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
+msgid "Color Scheme Editor"
+msgstr "Uređivač sheme boje"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
+msgid "Source code color scheme editor"
+msgstr "Uređivač izvornog kôda sheme boje"
+
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "Stvorite i uredite shemu boje koja se koristi za isticanje sintakse"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Dogodio se problem pri spremanju sheme"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Odabrali ste stvaranje nove sheme\n"
+"ali Naziv ili ID koji koristite već se koristi.\n"
+"\n"
+"Odaberite Naziv i ID koji se još ne koriste.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Nemate dozvolu za prebrisivanje odabrane sheme.\n"
+"Umjesto kopiranja biti će stvorena nova.\n"
+"\n"
+"Odaberite Naziv i ID koji se još ne koriste.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Dogodio se problem pri otvaranju datoteke"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Izgleda da imate shemu s istim ID-om u drugim direktorijima\n"
+
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
+msgid "Bold"
+msgstr "Podebljano"
+
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
+msgid "Italic"
+msgstr "Ukošeno"
+
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
+msgid "Underline"
+msgstr "Podcrtano"
+
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
+msgid "Strikethrough"
+msgstr "Precrtano"
+
+#: plugins/colorschemer/schemer.ui:243
+msgid "Pick the background color"
+msgstr "Odaberi stražnju boju"
+
+#: plugins/colorschemer/schemer.ui:259
+msgid "Pick the foreground color"
+msgstr "Odaberi prednju boju"
+
+#: plugins/colorschemer/schemer.ui:270
+msgid "_Background"
+msgstr "_Stražnja"
+
+#: plugins/colorschemer/schemer.ui:288
+msgid "_Foreground"
+msgstr "_Prednja"
+
+#: plugins/colorschemer/schemer.ui:341
+msgid "_Clear"
+msgstr "_Obriši"
+
+#: plugins/colorschemer/schemer.ui:383
+msgid "Name"
+msgstr "Naziv"
+
+#: plugins/colorschemer/schemer.ui:408
+msgid "ID"
+msgstr "ID"
+
+#: plugins/colorschemer/schemer.ui:433
+msgid "Description"
+msgstr "Opis"
+
+#: plugins/colorschemer/schemer.ui:459
+msgid "Author"
+msgstr "Autor"
+
+#: plugins/colorschemer/schemer.ui:503
+msgid "Sample"
+msgstr "Primjerak"
+
+#: plugins/commander/commander/appactivatable.py:56
+msgid "Commander Mode"
+msgstr "Način naredbenog redka"
+
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
+msgid "Commander"
+msgstr "Naredbeni redak"
+
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
+msgid "Command line interface for advanced editing"
+msgstr "Sučelje naredbenog redka"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:20
+msgid "Draw Spaces"
+msgstr "Umetni razmak"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
+msgid "Draw spaces and tabs"
+msgstr "Umetni razmak i tabulatore"
+
+#: plugins/drawspaces/gedit-drawspaces-app-activatable.c:157
+msgid "Show _White Space"
+msgstr "Prikaži _prazan redak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:57
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
+msgid "Draw spaces"
+msgstr "Umetni razmak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:73
+msgid "Draw tabs"
+msgstr "Umetni tabulator"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:89
+msgid "Draw new lines"
+msgstr "Umetni novi redak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:104
+msgid "Draw non-breaking spaces"
+msgstr "Umetni neprekidajući razmak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:119
+msgid "Draw leading spaces"
+msgstr "Umetni slijedeći razmak"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:134
+msgid "Draw spaces in text"
+msgstr "Umetni razmak u tekst"
+
+#: plugins/drawspaces/gedit-drawspaces-configurable.ui:149
+msgid "Draw trailing spaces"
+msgstr "Umetni prateći razmak"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "Umetni razmak i Tab"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:15
+msgid "Show White Space"
+msgstr "Umetni prazan razmak"
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:16
+msgid "If TRUE drawing will be enabled."
+msgstr "Ako je ISTINA, umetanje će biti omogućeno."
+
+#: plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml:21
+msgid "The type of spaces to be drawn."
+msgstr "Vrsta razmaka koja će biti umetnuta."
+
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
+msgid "Find in Files"
+msgstr "Potraži u datotekama"
+
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
+msgid "_Close"
+msgstr "_Zatvori"
+
+#: plugins/findinfiles/dialog.ui:39
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "_Pretraži"
+
+#: plugins/findinfiles/dialog.ui:72
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind:"
+msgstr "P_otraži:"
+
+#: plugins/findinfiles/dialog.ui:99
+msgid "_In:"
+msgstr "_U:"
+
+#: plugins/findinfiles/dialog.ui:115
+msgid "Select a _folder"
+msgstr "Odaberi _mapu"
+
+#: plugins/findinfiles/dialog.ui:130
+msgid "_Match case"
+msgstr "_Uspoređuj mala i velika slova"
+
+#: plugins/findinfiles/dialog.ui:146
+msgid "Match _entire word only"
+msgstr "Podud_araj samo cijele riječi"
+
+#: plugins/findinfiles/dialog.ui:162
+msgid "Re_gular expression"
+msgstr "_Običan izraz"
+
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "Pretraži tekst u svim datotekama i mapama."
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "Pretraži tekst u svim datotekama i mapama"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "Pretraži u datotekama…"
+
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "pogodak"
+msgstr[1] "pogodaka"
+msgstr[2] "pogodaka"
+
+#: plugins/findinfiles/result-panel.vala:196
+msgid "No results found"
+msgstr "Nema pronađenih rezultata"
+
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Datoteka"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:218
+msgid "Stop the search"
+msgstr "Zaustavi pretragu"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
+msgid "Git"
+msgstr "Git"
+
+#: plugins/git/gedit-git.metainfo.xml.in:7
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr ""
+"Koristi git informacije za prikaz promijenjenih redaka i datoteka od zadnje "
+"primjene"
+
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Istakni redke koji su promijenjeni od zadnje primjene"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
+msgid "Join lines/ Split lines"
+msgstr "Spoji/Razdvoji redke"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr ""
+"Spaja ili razdvaja višestruke redke pomoću prečaca tipkovnice Ctrl+J i Ctrl"
+"+Shift+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Spoji/Razdvoji redke"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "Spoji nekoliko redaka ili razdvoji dugačke"
+
+#: plugins/joinlines/joinlines.py:111
+msgid "_Join Lines"
+msgstr "_Spoji redke"
+
+#: plugins/joinlines/joinlines.py:117
+msgid "_Split Lines"
+msgstr "_Razdvoji redke"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
+msgid "Multi edit"
+msgstr "Višestruko uređivanje"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
+msgid "Edit document in multiple places at once"
+msgstr "Uredi dokument na više mjesta odjednom"
+
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr "Način višestrukog uređivanja"
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
+msgid "Multi Edit"
+msgstr "Višestruko uređivanje"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr "Dodana točka uređivanja…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr "Način stupca…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr "Uklonjena točka uređivanja…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr "Prekinut način stupca…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "Enter column edit mode using selection"
+msgstr "Pokreni način uređivanja stupca koristeći odabir"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "Pokreni  <b>pametan</b> način uređivanja stupca koristeći odabir"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "<b>Pametan</b> način poravnanja stupca koristeći odabir"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"<b>Pametan</b> način poravnanja stupca s dodatnim razmakom koristeći odabir"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Toggle edit point"
+msgstr "Dodaj/Ukloni točku uređivanja"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Add edit point at beginning of line/selection"
+msgstr "Dodaj točku uređivanja na početak redka/odabira"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Add edit point at end of line/selection"
+msgstr "Dodaj točku uređivanja na kraj redka/odabira"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
+msgid "Align edit points"
+msgstr "Poravnaj točke uređivanja"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
+msgid "Align edit points with additional space"
+msgstr "Poravnaj točke uređivanja s dodatnim razmakom"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "_Upravljaj spremljenim sesijama…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Spremljene sesije…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Obnovi “{0}” sesiju"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Naziv sesije"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Sprematelj sesije"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Spremite i obnovite svoju radnu sesiju"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Spremi sesiju"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Naziv sesije:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Spremljene sesije"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Smart Spaces"
+msgstr "Pametni razmaci"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr ""
+"Dopusti uklanjanje uvlake kao da koristite tabulatore dok koristite razmake"
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:7
+msgid "Forget you’re not using tabulations."
+msgstr "Zaboravite da ne koristite tabulatore."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Uskladi između LaTeX i PDF-a s geditom i eviencom."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Brza pretraga"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:313
+msgid "Terminal"
+msgstr "Terminal"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Jednostavan widget terminala pristupačan iz donjeg panela"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
+msgid "Whether to silence terminal bell"
+msgstr "Treba li utišati terminalovo zvono"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Ako je odabrano, ne stvaraj zvuk kada aplikacija pošalje izlazni slijed za "
+"terminalovo zvono."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
+msgid "Number of lines to keep in scrollback"
+msgstr "Broj redaka u pomicnju"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"Broj redaka za pomicanje unatrag, koje treba zadržati. Možete pomicati "
+"unatrag u terminalu ovim brojem redaka. Retci koje ne pristaju u pomicanje "
+"su izuzeti. Ako je scrollback-unlimited postavljeno na istinu, ova "
+"vrijednost je zanemarena."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "Treba li biti neograničen broj pomicanja redaka"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Ako je istina, retci pomicanja nikada neće biti odbačeni. Povijest pomicanja "
+"redaka je spremljena privremeno na disku, stoga to može prouzrokovati "
+"pomanjkanje diskovnog prostora ako je puno izlaza na terminalu."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Treba li pomicati prema dnu ako je tipka pritisnuta"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "Ako je odabrano, pritisak tipke prebacuje traku pomicanja na dno."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr "Treba li pomicati prema dnu ako je dostupan novi izlaz"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
+"Ako je odabrano, novi izlaz u terminalu će prebaciti traku pomicanja na dno."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
+msgid "Default color of text in the terminal"
+msgstr "Zadana boja teksta u terminalu"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Zadana boja teksta u terminalu, kao specifikacija boje (može biti HTML "
+"heksadecimalni brojevi, ili nazivi boja poput \"red\")."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
+msgid "Default color of terminal background"
+msgstr "Zadana boja pozadine u terminalu"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Zadana boja pozadine u terminalu, specifikacija boje (može biti HTML-stil "
+"heksadecimalne znamenke, ili nazivi poput \"red\")."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
+msgid "Palette for terminal applications"
+msgstr "Paleta aplikacija terminala"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. “#FF00FF”"
+msgstr ""
+"Terminal ima 16-bojnu paletu koju aplikacije unutar terminala mogu "
+"koristiti. Ta paleta je u obliku naziva boja odvojenih dvotočkom. Nazivi "
+"boja trebaju biti u heksadecimalnom formatu npr. “#FF00FF”"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Treba li za terminal koristiti boje iz teme"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Ako je odabrano, shema boje teme korištena za okvir unosa teksta će se "
+"koristiti u terminalu, umjesto boja omogućenih od strane korisnika."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+msgid "Whether to blink the cursor"
+msgstr "Terebali pokazivač treperiti"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr ""
+"Moguće vrijednosti su \"system\" za korištenje općih postavki treperenja "
+"pokazivača, ili \"on\" ili \"off\" za postavljanje određenog načina rada."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+msgid "The cursor appearance"
+msgstr "Pojavljivanje pokazivača"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+"Moguće vrijednosti su \"block\" za blokiranje pokazivača, \"ibeam\" za "
+"korištenje pokazivača u okomitim redcima, ili \"underline\" za korištenje "
+"podcrtanog pokazivača."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+msgid "Whether to use the system font"
+msgstr "Treba li koristiti slova sustava"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Ako je odabrano, terminal će koristiti standardna slova radne površine ako "
+"je monospace (ili najsličnija slova)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
+msgid "Font"
+msgstr "Slovo"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr "Naziv slova Pango. Primjeri su \"Sans 12\" ili \"Monospace Bold 14\"."
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Ugrađeni Terminal"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Ugradi terminal u donje okno."
+
+#: plugins/terminal/terminal.py:334
+msgid "C_hange Directory"
+msgstr "P_romijeni direktorij"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
+msgid "Text size"
+msgstr "Veličina teksta"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "Lagano povećajte ili smanjite veličinu teksta"
+
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "_Normalna veličina"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "M_anji tekst"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "_Veći tekst"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "Veličina teksta"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "Prijevod"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "Prevodi tekst na razne jezike"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "Gdje je izlaz prijevoda prikazan"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
+msgstr ""
+"Ako je odabrano, izlaz prijevoda je umetnut u prozor dokumenta ako nije u "
+"prozoru izlaza prijevoda."
+
+#. Translators: You can adjust the default pair for users in your locale.
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "'eng|spa'"
+msgstr "'eng|hrv'"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used"
+msgstr "Korišteni jezični par"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
+msgid "Language pair used to translate from one language to another"
+msgstr "Jezični par koji se koristi za prijevod jednog jezika na drugog"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
+msgid "API key for remote web service"
+msgstr "API ključ za udaljenu web uslugu"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "Remote web service to use"
+msgstr "Udaljena web usluga koja se koristi"
+
+#: plugins/translate/translate/__init__.py:72
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "Prijevodi pogonjeni {0}om"
+
+#: plugins/translate/translate/__init__.py:75
+msgid "Translate Console"
+msgstr "Konzola prijevoda"
+
+#: plugins/translate/translate/__init__.py:157
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "Prevedi odabrani tekst [{0}]"
+
+#: plugins/translate/translate/preferences.py:84
+msgid "API Key"
+msgstr "API ključ"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain a free API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr ""
+"Morate nabaviti besplatan API ključ na <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "Jezici prijevoda:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "Gdje prikazati prijevod:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "U prozoru dokumenta"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "Konzoli prijevoda (donji panel)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "Usluga prijevoda:"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
+msgid "Interactive completion"
+msgstr "Interaktivno završavanje"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
+msgid "Minimum word size:"
+msgstr "Najkraća riječi:"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "Dovršavanje riječi"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Zatraži automatsko dovršavanje koristeći riječi koje su već prisutne u "
+"dokumentu"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
+msgid "Document Words"
+msgstr "Riječi dokumenta"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
+msgid "Interactive Completion"
+msgstr "Interaktivno dovršavanje"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
+msgid "Whether to enable interactive completion."
+msgstr "Treba li omogućiti interaktivno završavanje."
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
+msgid "Minimum Word Size"
+msgstr "Najkraća riječi"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
+msgid "The minimum word size to complete."
+msgstr "Najmanja veličina riječi za završiti."
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Dovršavanje riječi"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Dovršavanje riječi pomoću radnog okruženje dovršavanja"
+
+#~ msgid "_In "
+#~ msgstr "_U "
+
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Treba li dopustiti podebljani tekst"
+
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Ako je odabrano, dopusti aplikacijama u terminalu da podebljaju tekst."
+
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist pružatelj podataka"
+
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Bilježi aktivnost korisnika i omogućuje lagan pristup nedavno korištenim "
+#~ "i često korištenim korisnikovim datotekama"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist pružatelj podataka"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Pristup zapisima i događaji napuštanja za dokumente korištene u geditu"
+
+#~ msgid "accessories-character-map"
+#~ msgstr "accessories-character-map"
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
+
+#~ msgid "Empty Document"
+#~ msgstr "Prazan dokument"
+
+#~ msgid "Type here to search…"
+#~ msgstr "Upišite za pretragu…"
+
+#~ msgid "Dashboard"
+#~ msgstr "Nadzorna ploča"
+
+#~ msgid "A Dashboard for new tabs"
+#~ msgstr "Nadzorna ploča"
+
+#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
+#~ msgstr ""
+#~ "Prikazuje mrežu nedavno/najčešće korištenih datoteka nakon otvaranja u "
+#~ "novoj kartici"
+
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "Zabilježi stanje trenutnog redka"
+
+#~ msgid "Goto the next bookmark"
+#~ msgstr "Idi na sljedeću zabilješku"
+
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "Idi na prijašnju zabilješku"
+
+#~ msgid "Comment the selected code"
+#~ msgstr "Komentiraj odabrani kôd"
+
+#~ msgid "Uncomment the selected code"
+#~ msgstr "Ukloni komentar odabranog kôda"
+
+#~ msgid "Pick _Color..."
+#~ msgstr "Odaberi _boju..."
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "Odaberi boju iz dijaloga"
+
+#~ msgid "_Insert"
+#~ msgstr "_Umetni"
+
+#~ msgid "Draw Tabs"
+#~ msgstr "Umetni Tab"
+
+#~ msgid "Draw New lines"
+#~ msgstr "Umetni novi redak"
+
+#~ msgid "Draw Non-Breaking Spaces"
+#~ msgstr "Umetni neprekidajući razmak"
+
+#~ msgid "Draw Leading Spaces"
+#~ msgstr "Umetni slijedeći razmak"
+
+#~ msgid "Draw Spaces in Text"
+#~ msgstr "Umetni razmak u tekst"
+
+#~ msgid "Draw Trailing Spaces"
+#~ msgstr "Umetni prateći razmak"
+
+#~ msgid "Show spaces and tabs"
+#~ msgstr "Prikaži razmake i tabove"
+
+#~ msgid "Error dialog"
+#~ msgstr "Dijalog greške"
+
+#~ msgid "Join the selected lines"
+#~ msgstr "Spoji odabrane redke"
+
+#~ msgid "Split the selected lines"
+#~ msgstr "Razdvoji odabrane redke"
+
+#~ msgid "Start multi edit mode"
+#~ msgstr "Pokreni način višestrukog uređivanja"
+
+#~ msgid "Tab_bar"
+#~ msgstr "Tab _traka"
+
+#~ msgid "Show or hide the tabbar in the current window"
+#~ msgstr "Prikaži ili sakrij tab traku u trenutnom prozoru"
+
+#~ msgid "Tabbar is Visible"
+#~ msgstr "Tab traka je vidljiva"
+
+#~ msgid "Whether the tabbar should be visible in editing windows."
+#~ msgstr "Treba li tab traka biti vidljiva u prozoru uređivanja."
+
+#~ msgid "Show/Hide Tabbar"
+#~ msgstr "Prikaži/Sakrij Tab traku"
+
+#~ msgid "Add a menu entry to show/hide the tabbar."
+#~ msgstr "Dodaj unos izbornika u prikaži/sakrij tab traku"
+
+#~ msgid "Sa_ved sessions"
+#~ msgstr "Sp_remljene sesije"
+
+#~ msgid "_Save current session"
+#~ msgstr "_Spremi trenutnu sesiju"
+
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "Spremi trenutni popis dokumenata kao novu sesiju"
+
+#~ msgid "Open the saved session manager"
+#~ msgstr "Otvori upravitelja spremljenih sesija"
+
+#~ msgid "_ASCII Table"
+#~ msgstr "_ASCII tablica"
+
+#~ msgid "Pop-up a dialog containing an ASCII Table"
+#~ msgstr "Skočni dijalog koji sadrži ASCII tablicu"
+
+#~ msgid "Dec#"
+#~ msgstr "Dec#"
+
+#~ msgid "Hex#"
+#~ msgstr "Heks#"
+
+#~ msgid "ASCII Table"
+#~ msgstr "ASCII tablica"
+
+#~ msgid "ASCII table"
+#~ msgstr "ASCII tablica"
+
+#~ msgid "This plugin displays a pop-up dialog which contains an ASCII Table."
+#~ msgstr "Ovaj priključak prikazuje skočni dijalog koji sadrži ASCII tablicu."
+
+#~ msgid "Open CVS Chan_geLogs"
+#~ msgstr "Otvori CVS zaspis _promjena"
+
+#~ msgid "Searches for ChangeLogs in the current document and opens them"
+#~ msgstr "Pretražuje zapise promjena u trenutnom dokumentu i otvara ih"
+
+#~ msgid "A plugin that opens ChangeLogs found in CVS commit messages."
+#~ msgstr ""
+#~ "Priključak  koji otvara zapise promjena pronađene u CVS porukama "
+#~ "podnošenja."
+
+#~ msgid "CVS ChangeLog"
+#~ msgstr "CVS zapis promjena"
+
+#~ msgid "Co_mpare Files..."
+#~ msgstr "Us_poredi  datoteke..."
+
+#~ msgid "Makes a diff file from two documents or files"
+#~ msgstr "Izrađuje diff datoteku iz dva dokumenta ili datoteka"
+
+#~ msgid "Compare Files"
+#~ msgstr "Usporedi datoteke"
+
+#~ msgid "C_ompare"
+#~ msgstr "U_sporedi"
+
+#~ msgid "Executed command"
+#~ msgstr "Pokrenuta naredba"
+
+#~ msgid "The two documents you selected are the same."
+#~ msgstr "Odabrani dokumenti su isti."
+
+#~ msgid ""
+#~ "The \"first\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Prva datoteka koju ste odabrali ne postoji.\n"
+#~ " \n"
+#~ "Odaberite valjanu datoteku. "
+
+#~ msgid ""
+#~ "The \"second\" file you selected does not exist.\n"
+#~ "\n"
+#~ "Please provide a valid file."
+#~ msgstr ""
+#~ "Druga datoteka koju ste odabrali ne postoji.\n"
+#~ " \n"
+#~ "Odaberite valjanu datoteku. "
+
+#~ msgid "The two files you selected are the same."
+#~ msgstr "Odabrane datoteke su iste."
+
+#~ msgid "The \"first\" document contains no text."
+#~ msgstr "Prvi dokument ne sadrži tekst. "
+
+#~ msgid "The \"second\" document contains no text."
+#~ msgstr "Drugi dokument ne sadrži tekst. "
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "gedit could not create a temporary file."
+#~ msgstr ""
+#~ "Nemoguće je usporediti odabrane dokumente.\n"
+#~ "\n"
+#~ "gedit nije uspio stvoriti privremenu datoteku. "
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "Error executing the diff command."
+#~ msgstr ""
+#~ "Nemoguće je usporediti odabrane dokumente.\n"
+#~ "\n"
+#~ "Greška pokretanja diff naredbe."
+
+#~ msgid "No differences were found between the selected documents."
+#~ msgstr "Nema pronađenih razlika između odabranih dokumenata. "
+
+#~ msgid ""
+#~ "Impossible to compare the selected documents.\n"
+#~ "\n"
+#~ "The result contains invalid UTF-8 data."
+#~ msgstr ""
+#~ "Nemoguće je usporediti odabrane dokumente.\n"
+#~ "\n"
+#~ "Rezultat sadrži neispravne UTF-8 podatke. "
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Choose the files to compare."
+#~ msgstr "Odaberi datoteke za usporedbu. "
+
+#~ msgid "Compare files..."
+#~ msgstr "Usporedi datoteke..."
+
+#~ msgid "First"
+#~ msgstr "Prvi"
+
+#~ msgid "First file from disk"
+#~ msgstr "Prva datoteka s diska"
+
+#~ msgid "First file from open document"
+#~ msgstr "Prva datoteka iz otvorenog dokumenta"
+
+#~ msgid "From _document"
+#~ msgstr "Iz _dokumenta"
+
+#~ msgid "From a _file on disk"
+#~ msgstr "Iz _datoteke na disku"
+
+#~ msgid "From a file o_n disk"
+#~ msgstr "Iz datoteke _na disku"
+
+#~ msgid "Ignore _blanks (-b option)"
+#~ msgstr "Zanemari _praznine (-b mogućnost)"
+
+#~ msgid "Note that this option is only supported by GNU diff"
+#~ msgstr "Zapamtite da je ova mogućnost podržana samo u GNU diff aplikaciji. "
+
+#~ msgid "Second"
+#~ msgstr "Sekunda"
+
+#~ msgid "Second file from disk"
+#~ msgstr "Druga datoteka s diska"
+
+#~ msgid "Second file from open document"
+#~ msgstr "Druga datoteka iz otvorenog dokumenta"
+
+#~ msgid "Select the \"first\" file..."
+#~ msgstr "Odaberite prvu datoteku..."
+
+#~ msgid "Select the \"second\" file..."
+#~ msgstr "Odaberite drugu datoteku..."
+
+#~ msgid "Select the first file to compare"
+#~ msgstr "Odaberite prvu datoteku za usporedbu"
+
+#~ msgid "Select the first open document to compare"
+#~ msgstr "Odaberite prvi otvoreni dokument za usporedbu"
+
+#~ msgid "Select the second file to compare"
+#~ msgstr "Odaberite drugu datoteku za usporedbu"
+
+#~ msgid "Select the second open document to compare"
+#~ msgstr "Odaberite drugi otvoreni dokument za usporedbu"
+
+#~ msgid "Use the _unified output format (-u option)"
+#~ msgstr "Koristi _jedinstveni izlazni format (-u mogućnost)"
+
+#~ msgid ""
+#~ "The Compare Files plugin uses the \"diff\" program to compare two "
+#~ "documents or files on disk."
+#~ msgstr ""
+#~ "Priključak usporedbe datoteka koristi \"diff\" program za uspoređivanje "
+#~ "dva dokumenta ili datoteka na disku."

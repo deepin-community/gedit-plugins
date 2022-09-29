@@ -1,0 +1,1589 @@
+News in 40.1, 2021-04-28
+------------------------
+* Removes tepl dependency
+* Fixes SessionSaver plugin does not start problem
+* Translation updates
+
+News in 40.0, 2021-03-13
+------------------------
+* Draw Spaces plugin: new implementation based on TeplSpaceDrawerPrefs.
+* Smart Spaces plugin: Python to C rewrite, new implementation based on the
+  GtkSourceView:smart-backspace property.
+* Translate plugin: a few improvements.
+* Translation updates.
+
+News in 3.38.1, 2020-11-20
+--------------------------
+* Translation updates.
+
+News in 3.38.0, 2020-09-11
+--------------------------
+* Translation updates.
+
+News in 3.37.92, 2020-09-04
+---------------------------
+* Updates to the user manual.
+* Various small improvements.
+* Translation updates.
+
+News in 3.36.2, 2020-03-20
+--------------------------
+* Fix Session Saver plugin.
+* Fix crash in Find in Files plugin.
+
+News in 3.36.1, 2020-03-11
+--------------------------
+* Embedded terminal plugin: fix crash caused by removed gnome-terminal
+  GSettings key.
+
+News in 3.36.0, 2020-03-06
+--------------------------
+* Updates to the user manual.
+* Translation updates.
+
+News in 3.35.90, 2020-01-31
+---------------------------
+* Remove the Zeitgeist plugin. For the explanation see:
+  https://gitlab.gnome.org/GNOME/gedit-plugins/issues/9
+* Small code improvements.
+* Translation updates.
+
+News in 3.35.1, 2019-11-22
+--------------------------
+* Lots of improvements to the build system (meson).
+* Adapt file metadata key name for gedit 3.35.
+* Some small maintenance tasks.
+* Translation updates.
+
+News in 3.34.1, 2019-11-21
+--------------------------
+* Re-add the synctex plugin.
+* Some small maintenance tasks.
+* Translation updates.
+
+News in 3.34.0, 2019-09-09
+--------------------------
+* Small fix.
+* Translation updates.
+
+News in 3.33.92, 2019-09-03
+---------------------------
+* Small cleanup in top-level files (Sébastien Wilmet).
+* Translation updates.
+
+=====================
+gedit-plugins 3.33.90
+=====================
+Development release
+- Switch from Autotools to Meson (Martin)
+- Add CI to test buildability and enforce Flake8 (Jordi)
+- Add new session saver plugin (Jordi)
+- Remove synctex plugin (Jordi)
+- Update Commander activation shortcut to Ctrl+, (Jordi)
+- Many more fixes (Baschdel, Jordi, Piotr)
+
+Contributors: Baschdel, Martin Blanchard, Piotr Drąg, Jordi Mas
+
+====================
+gedit-plugins 3.32.2
+====================
+- Fix ColorSchemer plugin for GTKSourceView 4 (Jordi)
+- Cache language names per session to prevent unnecessary web requests
+  by Translate plugin (Jordi)
+- Fix enabling and disabling the Translate plugin (Jordi)
+
+Contributors: Jordi Mas
+
+====================
+gedit-plugins 3.32.0
+====================
+
+- Updated translations
+
+=====================
+gedit-plugins 3.31.90
+=====================
+Development release
+- Fix GtkSourceView 4 Python imports (Martin)
+- Update translations
+
+Contributors:
+ Martin Blanchard
+
+====================
+gedit-plugins 3.31.4
+====================
+Development release
+
+- Drop broken Dashboard plugin
+- Switch from GTKSourceView 3 to GTKSourceView 4 (Christian)
+- Stop using intltool (Jeremy)
+- Miscellaneous improvements (Andre, Jeremy, Piotr)
+- Updated translations
+
+Contributors:
+ Jeremy Bicha, Piotr Drąg, Christian Hergert, Andre Klapper
+
+====================
+gedit-plugins 3.30.1
+====================
+
+- Terminal: fix change directory with vte >= 0.52
+- Updated translations
+
+====================
+gedit-plugins 3.30.0
+====================
+
+- Updated translations
+
+====================
+gedit-plugins 3.28.1
+====================
+
+- Updated translations
+
+====================
+gedit-plugins 3.28.0
+====================
+- More fixes for the Translate plugin
+- Updated translations
+
+=====================
+gedit-plugins 3.27.92
+=====================
+
+- Fix the new Translate plugin
+- Updated translations
+
+====================
+gedit-plugins 3.27.1
+====================
+
+- Development release
+- Introduce new Translate plugin. Thanks Jordi Mas!
+- Several translation fixes
+
+====================
+gedit-plugins 3.22.0
+====================
+
+- Minor bugfixes, release the new stable version
+- Updated translations
+
+====================
+gedit-plugins 3.20.0
+====================
+
+- Minor bugfixes, release the new stable version
+- Updated translations
+
+====================
+gedit-plugins 3.18.0
+====================
+
+New features and fixes
+======================
+- No changes, release the new stable version
+
+====================
+gedit-plugins 3.17.1
+====================
+
+New features and fixes
+======================
+- Silence runtime warnings about gi.require_version in python
+- Misc bugfixes
+
+New and updated translations
+============================
+- ar (Khaled Hosny)
+- cs (Marek Černocký)
+- el (Dimitris Spingos (Δημήτρης Σπίγγος))
+- es (Daniel Mustieles)
+- he (Yosef Or Boczko)
+- hu (Gabor Kelemen)
+- it (Milo Casagrande)
+- ko (Changwoo Ryu)
+- lt (Aurimas Černius)
+- pl (Piotr Drąg)
+- pt (Pedro Albuquerque)
+- sk (Dušan Kazik)
+- tr (Simge Sezgin)
+
+====================
+gedit-plugins 3.17.0
+====================
+
+New features and fixes
+======================
+- Add Find in Files plugin
+- Misc bugfixes
+
+New and updated translations
+============================
+- ca (cubells)
+- cs (Marek Černocký)
+- it (Milo Casagrande)
+- pl (Piotr Drąg)
+- th (Akom Chotiphantawanon)
+
+====================
+gedit-plugins 3.16.0
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- lt (Aurimas Černius)
+
+====================
+gedit-plugins 3.15.1
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- bs (Emin Šehić)
+- el (Maria Mavridou)
+- sk (Dušan Kazik)
+- sv (Daniel Nylander)
+- zh_TW (Cheng-Chia Tseng)
+
+====================
+gedit-plugins 3.15.0
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- eu (Inaki Larranaga Murgoitio)
+- tr (Muhammet Kara)
+
+====================
+gedit-plugins 3.14.1
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- de (Wolfgang Stoeggl)
+- fi (Jiri Grönroos)
+- he (Yosef Or Boczko)
+- sr@latin (Miroslav Nikolić)
+- sr (Мирослав Николић)
+- th (Akom Chotiphantawanon)
+
+====================
+gedit-plugins 3.14.0
+====================
+
+New features and fixes
+======================
+- Improve joinlines plugin
+- Improve multiedit plugin
+- Improve commander plugin
+- Improve git plugin
+- terminal: Port to vte-2.91
+
+New and updated translations
+======================
+- cs (Marek Černocký)
+- el (Tom Tryfonidis)
+- fi (Jiri Grönroos)
+- fr (Alain Lojewski)
+- hu (Balázs Úr)
+- id (Andika Triwidada)
+- ko (Changwoo Ryu)
+
+====================
+gedit-plugins 3.13.2
+====================
+
+New features and fixes
+======================
+- Adapt to the rename of gedit's desktop file
+
+====================
+gedit-plugins 3.13.1
+====================
+
+New features and fixes
+======================
+- Adapt the plugins for the changes in GeditDocument
+- Various improvements and bug fixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- es (Daniel Mustieles)
+- eu (Iñaki Larrañaga Murgoitio)
+- pl (Piotr Drąg)
+- pt_BR (Rafael Ferreira)
+
+====================
+gedit-plugins 3.13.0
+====================
+
+New features and fixes
+======================
+- Moved zeitgeist plugin from gedit core to plugins
+
+New and updated translations
+============================
+- el (Tom Tryfonidis, MarMav)
+- es (Daniel Mustieles)
+- pt_BR (Rafael Ferreira)
+- fi (Lasse Liehu)
+- de (Christian Kirbach)
+
+====================
+gedit-plugins 3.12.1
+====================
+
+New features and fixes
+======================
+- Split drawspaces into app/window/view activatables
+- Fix bug preventing synctex to work.
+- Misc bugfixes
+
+New and updated translations
+============================
+- id (Andika Triwidada)
+
+====================
+gedit-plugins 3.12.0
+====================
+
+New features and fixes
+======================
+- Ignore remote files in the git plugin
+- Misc bugfixes
+
+New and updated translations
+============================
+- hu (Gabor Kelemen)
+
+====================
+gedit-plugins 3.11.91
+====================
+
+New features and fixes
+======================
+- Port synctex to new menu API
+- Misc bugfixes
+
+New and updated translations
+============================
+- he (Yosef Or Boczko)
+- hu (Balázs Úr)
+- lt (Aurimas Černius)
+- pt (Tiago S.)
+
+====================
+gedit-plugins 3.11.2
+====================
+
+New features and fixes
+======================
+- Port plugins to new menu API
+- Misc bugfixes
+
+New and updated translations
+============================
+- sr@latin (Miroslav Nikolić)
+- sr (Мирослав Николић)
+- zh_CN (YunQiang Su)
+
+====================
+gedit-plugins 3.11.1
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- de (Benjamin Steinwender)
+- es (Daniel Mustieles)
+- gl (Fran Dieguez)
+- he (Yosef Or Boczko)
+- it (Milo Casagrande)
+- pl (Piotr Drąg)
+- pt_BR (Enrico Nicoletto)
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 3.10.0
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- es (Daniel Mustieles)
+- fi (Jiri Grönroos)
+- gl (Fran Dieguez)
+- hu (Balázs Úr)
+- it (Milo Casagrande)
+- ko (Changwoo Ryu)
+- lt (Aurimas Černius)
+- lv (Rūdolfs Mazurs)
+- pl (Piotr Drąg)
+- pt_BR (Rafael Ferreira)
+- sl (Matej Urbančič)
+- sr@latin (Miroslav Nikolić)
+- sr (Мирослав Николић)
+
+====================
+gedit-plugins 3.9.2
+====================
+
+New features and fixes
+======================
+- word completion: add configure options (Sébastien Wilmet)
+- Show the file's git status in the file browser (Garrett Regier)
+- Misc bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- de (Christian Kirbach)
+- el (Dimitris Spingos)
+- es (Daniel Mustieles)
+- it (Milo Casagrande)
+- sl (Matej Urbančič)
+- zh_CN (Lu Gan)
+
+================================================
+gedit-plugins 3.9.1
+====================
+
+New features and fixes
+======================
+- Add user help translations (Ekaterina Gerasimova)
+- New git plugin (Ignacio Casal Quinteiro, Garrett Regier)
+- terminal: handle drag and drop of files (Ignacio Casal Quinteiro)
+- Follow gnome-terminal settings on terminal plugin (Ignacio Casal Quinteiro)
+- Misc bugfixes
+
+New and updated translations
+============================
+- ar (Khaled Hosny)
+- bg (Krasimir Chonov)
+- ca (Carles Ferrando Garcia)
+- cs (Marek Černocký)
+- da (Ask Hjorth Larsen)
+- de (Christian Kirbach)
+- el (Dimitris Spingos (Δημήτρης Σπίγγος))
+- es (Daniel Mustieles)
+- eu (Iñaki Larrañaga Murgoitio)
+- fi (sampo555)
+- fr (Alexandre Franke)
+- fr (Pierre Henry)
+- gl (Fran Dieguez)
+- hu (Gabor Kelemen)
+- it (Milo Casagrande)
+- ja (Carrot031)
+- ko (Changwoo Ryu)
+- lt (Aurimas Černius)
+- lv (Rūdolfs Mazurs)
+- nb (Kjartan Maraas)
+- oc (Yannig Marchegay (Kokoyaya))
+- pt_BR (Rafael Ferreira)
+- ru (Yuri Myasoedov)
+- sl (Andrej Žnidaršič)
+- sl (Matej Urbančič)
+- sr@latin (Miroslav Nikolić)
+- sr (Мирослав Николић)
+- sv (Daniel Nylander)
+- te (Bhuvan Krishna)
+- th (Kittiphong Meesawat)
+- uk (Maxim V. Dziumanenko)
+- zh_CN (Colin Zhao)
+- zh_HK (FULL NAME)
+- zh_TW (FULL NAME)
+
+====================
+gedit-plugins 3.8.1
+====================
+
+New features and fixes
+======================
+- Port Dashboard to use libzeitgeist2 (Seif Lotfy)
+- New Color Schemer plugin (Jono Finger)
+- Misc bugfixes
+
+New and updated translations
+============================
+- ca (cubells)
+- ca@valencia (cubells)
+- cs (Marek Černocký)
+- es (Daniel Mustieles)
+- hu (Balázs Úr)
+- lt (Aurimas Černius)
+- pl (Piotr Drąg)
+- pt_BR (Rafael Ferreira)
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 3.8.0
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- ar (Khaled Hosny)
+- pl (Piotr Drąg)
+- pt_BR (Rafael Ferreira)
+- ru (Yuri Myasoedov)
+
+====================
+gedit-plugins 3.7.1
+====================
+
+New features and fixes
+======================
+- Port plugins to python 3. (Ignacio Casal Quinteiro, Jesse van den Kieboom)
+- Drop session saver plugin. (Ignacio Casal Quinteiro)
+- Drop taglist plugin. (Ignacio Casal Quinteiro)
+- Misc bugfixes
+
+New and updated translations
+============================
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 3.6.1
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- be (Ihar Hrachyshka)
+- en_GB (Bruce Cowan)
+- lv (Rūdolfs Mazurs)
+- sk (Ivan Masár)
+
+====================
+gedit-plugins 3.6.0
+====================
+
+New features and fixes
+======================
+- Use the textview instead of the overlay for the overlayed color button (Ignacio Casal Quinteiro)
+
+====================
+gedit-plugins 3.5.2
+====================
+
+New features and fixes
+======================
+- Color picker now shows an overlayed color button when an hexadecimal color is selected (Ignacio Casal Quinteiro)
+- Misc bugfixes
+
+New and updated translations
+============================
+- el (Tom Tryfonidis)
+- id (Andika Triwidada)
+- lt (Aurimas Černius)
+- pl (Piotr Drąg)
+
+====================
+gedit-plugins 3.5.1
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- da (Joe Hansen)
+- de (Christian Kirbach)
+- eo (Kristjan SCHMIDT)
+- es (Gustavo Jasso Ahuja)
+- fr (Pierre Henry)
+- he (Yaron Shahrabani)
+- it (Milo Casagrande)
+- lv (Rūdolfs Mazurs)
+- pt_BR (Breno Felipe Morais de Santana)
+- sk (Ivan Masár)
+
+====================
+gedit-plugins 3.4.0
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- gl (Fran Dieguez)
+- hu (Gabor Kelemen)
+- lv (Anita Reitere)
+- ml (Afsal)
+- pl (Piotr Drąg)
+- pt (António Lima)
+
+====================
+gedit-plugins 3.3.4
+====================
+
+New features and fixes
+======================
+- Port colorpicker to new color chooser widget (Ignacio Casal Quinteiro)
+- Use GResource for drawspaces (Ignacio Casal Quinteiro)
+- Misc bugfixes
+
+New and updated translations
+============================
+- sr@latin (Miroslav Nikolić)
+- sr (Мирослав Николић)
+
+====================
+gedit-plugins 3.3.3
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- es (Daniel Mustieles)
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 3.3.2
+====================
+
+New features and fixes
+======================
+- Commander plugin bugfixes (Jesse van den Kieboom)
+- Misc bugfixes
+
+New and updated translations
+============================
+- de (Mario Blättermann)
+- es (Daniel Mustieles)
+- fr (Bruno Brouard)
+- ja (OKANO Takayoshi)
+
+====================
+gedit-plugins 3.3.1
+====================
+
+New features and fixes
+======================
+- New dashboard plugin (Seif Lotfy)
+- Misc bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 3.2.1
+====================
+
+New features and fixes
+======================
+- i18n fixes (Ignacio Casal Quinteiro)
+- Fix doc module in commander plugin (Ignacio Casal Quinteiro)
+- Misc bugfixes
+
+New and updated translations
+============================
+- lv (Rūdofls Mazurs)
+
+====================
+gedit-plugins 3.2.0
+====================
+
+New and updated translations
+============================
+- da (Joe Hansen)
+
+====================
+gedit-plugins 3.1.5
+====================
+
+New features and fixes
+======================
+- Misc bugfixes
+
+New and updated translations
+============================
+- en_GB (Bruce Cowan)
+- es (Daniel Mustieles)
+- lv (Rūdofls Mazurs)
+
+====================
+gedit-plugins 3.1.4
+====================
+
+New features and fixes
+======================
+Misc bugfixes
+
+====================
+gedit-plugins 3.1.3
+====================
+
+New features and fixes
+======================
+Misc bugfixes
+
+New and updated translations
+============================
+- gl (Fran Diéguez)
+- sr@latin (Miroslav Nikolić)
+- sr (Мирослав Николић)
+
+====================
+gedit-plugins 3.1.2
+====================
+
+New features and fixes
+======================
+Misc bugfixes
+
+====================
+gedit-plugins 3.1.1
+====================
+
+New features and fixes
+======================
+Misc bugfixes
+
+New and updated translations
+============================
+- ru (Yuri Myasoedov)
+
+====================
+gedit-plugins 3.0.3
+====================
+
+New features and fixes
+======================
+Misc bugfixes
+
+====================
+gedit-plugins 3.0.2
+====================
+
+New features and fixes
+======================
+Misc bugfixes
+
+New and updated translations
+============================
+- ja (Jiro Matsuzawa)
+
+====================
+gedit-plugins 3.0.1
+====================
+
+New features and fixes
+======================
+Misc bugfixes
+
+====================
+gedit-plugins 3.0.0
+====================
+
+New features and fixes
+======================
+- Port commander plugin to gtk+3
+
+====================
+gedit-plugins 2.91.3
+====================
+
+New features and fixes
+======================
+- Update autoconf (Javier Jardón)
+- Port bookmarks plugin to new message bus system (Paolo Borelli)
+- Update synctex to use the new dbus api (José Aliste)
+- Misc Bugfixes
+
+====================
+gedit-plugins 2.91.2
+====================
+
+New features and fixes
+======================
+- Misc Bugfixes
+
+New and updated translations
+============================
+- pl (Piotr Drąg)
+- pt (António Lima)
+- it (Milo Casagrande)
+
+====================
+gedit-plugins 2.91.1
+====================
+
+New features and fixes
+======================
+- Misc Bugfixes
+
+New and updated translations
+============================
+- es (Daniel Mustieles)
+
+====================
+gedit-plugins 2.91.0
+====================
+
+New features and fixes
+======================
+- Several plugins ported to gtk3/libpeas
+- Port charmap plugin to python. (Ignacio Casal Quinteiro)
+- Import the taglist plugin from gedit (Paolo Borelli)
+- Added new 'grep' commander module (Jesse van den Kieboom)
+- Added synctex plugin (José Aliste)
+- Misc Bugfixes
+
+New and updated translations
+============================
+- af (F Wolff)
+- am (Ge'ez Frontier Foundation)
+- ar (Khaled Hosny)
+- as ("Last-Translator: \n")
+- ast (Xandru Armesto)
+- az (Mətin Əmirov)
+- be (Ihar Hrachyshka)
+- be@latin (Alaksandar Navicki)
+- bg (Krasimir Chonov)
+- bn_IN (Runa Bhattacharjee)
+- bn (Sadia Afroz)
+- br ("Last-Translator: Denis\n")
+- bs (Kenan Hadžiavdić)
+- ca (Gil Forcada)
+- ca@valencia (Gil Forcada)
+- crh (Reşat SABIQ)
+- cs (Marek Černocký)
+- cy (Iestyn Pryce)
+- da (Joe Hansen)
+- de (Mario Blättermann)
+- dz (Dawa pemo)
+- el (Kostas Papadimas)
+- en_CA (Adam Weinberger)
+- en_GB (Philip Withnall)
+- en@shaw (Thomas Thurman)
+- eo (Kristjan SCHMIDT)
+- es (Daniel Mustieles)
+- et (Ivar Smolin)
+- eu (Iñaki Larrañaga Murgoitio)
+- fa (Elnaz Sarbar)
+- fi (Tommi Vainikainen)
+- fr (Claude Paroz)
+- ga (Seán de Búrca)
+- gl (Fran Dieguez)
+- gu (Sweta Kothari)
+- he (Yaron Shahrabani)
+- hi (Rajesh Ranjan)
+- hr (Launchpad Translations Administrators)
+- hu (Gabor Kelemen)
+- hy (Norayr Chilngaryan)
+- id (Dirgita)
+- is (helgi)
+- it (Milo Casagrande)
+- ja (Takayuki KUSANO)
+- ka (Alexander Didebulidze)
+- kk (Baurzhan Muftakhidinov)
+- kn (Shankar Prasad)
+- ko (Changwoo Ryu)
+- ku (Erdal Ronahi)
+- la (FULL NAME)
+- lt (Aurimas Černius)
+- lv (Rūdolfs Mazurs)
+- mai (Rajesh Ranjan)
+- mg (Fanomezana Rajaonarisoa)
+- mi (John C Barstow)
+- mk (Arangel Angov)
+- ml ("Last-Translator: \n")
+- mn (Sanlig Badral)
+- mr (Sandeep Shedmake)
+- ms (Hasbullah Bin Pit)
+- nb (Kjartan Maraas)
+- nds (Nils-Christoph Fiedler)
+- ne (Narayan Kumar Magar)
+- nl (Hannie Dumoleyn)
+- nn (Torstein Adolf Winterseth)
+- oc (Yannig Marchegay (Kokoyaya))
+- or (Manoj Kumar Giri)
+- pa (A S Alam)
+- pl (Piotr Drąg)
+- ps (Zabeeh Khan)
+- pt_BR (Krix Apolinário)
+- pt (Duarte Loreto)
+- ro (Gabriel Șerbănescu)
+- ru (Alexander Saprykin)
+- rw (Steve Murphy)
+- si (Danishka Navin)
+- sk (Marcel Telka)
+- sl (Matej Urbančič)
+- sq (Laurent Dhima)
+- sr@latin (Goran Rakić)
+- sr (Горан Ракић)
+- sv (Daniel Nylander)
+- ta (Dr,T,Vasudevan)
+- te (Arjuna Rao Chavala)
+- th (Kittiphong Meesawat)
+- tk (Gurban Mühemmet Tewekgeli)
+- tr (Baris Cicek)
+- uk (Maxim Dziumanenko)
+- vi (Clytie Siddall)
+- wa (Pablo Saratxaga)
+- xh (Canonical Ltd)
+- zh_CN (Yinghua Wang)
+- zh_HK (Chao-Hsiung Liao)
+- zh_TW (Chao-Hsiung Liao)
+
+====================
+gedit-plugins 2.90.0
+====================
+
+New features and fixes
+======================
+- Ported textsize plugin to libpeas (Ignacio Casal Quinteiro).
+- Update several plugins to new libpeas API (Ignacio Casal Quinteiro).
+
+====================
+gedit-plugins 2.31.4
+====================
+
+New features and fixes
+======================
+- Ported several plugins to libpeas. (Ignacio Casal Quinteiro)
+- Require gtk+ 3 and gtksourceview 3
+- Misc Bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- de (Mario Blättermann)
+- es (Jorge González)
+- gl (Fran Diéguez)
+- pt (António Lima)
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 2.31.3
+====================
+
+New features and fixes
+======================
+- Removed ShowTabbar plugin (Garrett Regier)
+- Misc Bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- de (Christian Kirbach)
+- hu (Gabor Kelemen)
+
+====================
+gedit-plugins 2.31.2
+====================
+
+New features and fixes
+======================
+- Port C plugins to GSettings (Ignacio Casal Quinteiro)
+- Misc Bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- de (Christian Kirbach)
+- es (Jorge González)
+- fr (Claude Paroz)
+- pt_BR (Henrique P. Machado)
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 2.31.1
+====================
+
+New features and fixes
+======================
+- New text size plugin (Jesse van den Kieboom, Konstantin Mikhaylov, Wouter Bolsterlee)
+- Implement immediate single column mode (Jesse van den Kieboom)
+- Implement multiedit pasting (Jesse van den Kieboom)
+- Implemented _smart_ column selection mode (Jesse van den Kieboom)
+- Implemented smart align multi edit mode (Jesse van den Kieboom)
+- Implemented align for multi edit (Jesse van den Kieboom)
+- Depend on gedit 3.0 api
+- Misc Bugfixes
+
+New and updated translations
+============================
+- id (Andika Triwidada)
+- sl (Matej Urbančič)
+
+====================
+gedit-plugins 2.30.0
+====================
+
+New features and fixes
+======================
+- Several bugfixes in the commander plugin
+
+New and updated translations
+============================
+ar (Khaled Hosny)
+ca (David Espinosa Alentorn)
+cs (Marek Černocký)
+cs (Marek Černocký)
+de (Mario Blättermann)
+es (Jorge González)
+fr (Bruno Brouard)
+gl (Fran Diéguez)
+hu (Gabor Kelemen)
+hu (Gabor Kelemen)
+it (Milo Casagrande)
+pa (A S Alam)
+pl (Piotr Drąg)
+pt (António Lima)
+pt (António Lima)
+sl (Matej Urbančič)
+sv (Daniel Nylander)
+zh_CN (Aron Xu)
+
+====================
+gedit-plugins 2.29.4
+====================
+
+New features and fixes
+======================
+- Added new plugin commander (Jesse van den Kieboom)
+- Added message bus bindings for bookmarks actions (Jesse van den Kieboom)
+- Misc Bugfixes
+
+New and updated translations
+============================
+- es (Jorge González)
+- fr (Claude Paroz)
+- pt_BR (Antonio Fernandes C. Neto)
+- sl (Matej Urbančič)
+- sv (Daniel Nylander)
+
+====================
+gedit-plugins 2.29.3
+====================
+
+New features and fixes
+======================
+- Misc Bugfixes
+
+New and updated translations
+============================
+- es (Jorge González)
+- pt (António Lima)
+
+====================
+gedit-plugins 2.29.2
+====================
+
+New features and fixes
+======================
+- Added multi edit plugin (Jesse van den Kieboom)
+- Misc Bugfixes
+
+New and updated translations
+============================
+- bn_IN (Runa Bhattacharjee)
+- cs (Marek Černocký)
+- es (Jorge González)
+- gu (Sweta Kothari)
+- kn (Shankar Prasad)
+- or (Manoj Kumar Giri)
+- pt_BR (Og Maciel)
+- sv (Daniel Nylander)
+- ta (I. Felix)
+- te (Krishna Babu K)
+
+====================
+gedit-plugins 2.29.1
+====================
+
+New features and fixes
+======================
+- Added word completion plugin (Jesse van den Kieboom, Ignacio Casal Quinteiro)
+- Added support for drawing leading, text and trailing spaces (Jesse van den Kieboom)
+- Misc Bugfixes
+
+New and updated translations
+============================
+- cs (Marek Černocký)
+- de (Mario Blättermann)
+- sv (Daniel Nylander)
+
+====================
+gedit-plugins 2.28.0
+====================
+
+New features and fixes
+======================
+- Misc Bugfixes
+
+New and updated translations
+============================
+- bg (Yavor Doganov)
+
+====================
+gedit-plugins 2.27.1
+====================
+
+New features and fixes
+======================
+- Remember bookmarks on files using metadata (Ignacio Casal Quinteiro)
+- Misc Bugfixes
+
+New and updated translations
+============================
+- ar (Khaled Hosny)
+- ml (Ani)
+- ne (Mahesh subedi)
+- pl (Tomasz Dominikowski)
+
+====================
+gedit-plugins 2.26.3
+====================
+
+New features and fixes
+======================
+- Misc Bugfixes
+
+New and updated translations
+============================
+ - as (Amitakhya Phukan )
+ - bn_IN (Runa Bhattacharjee )
+ - gl (Antón Méixome )
+ - kn (Shankar Prasad )
+ - or (Manoj Kumar Giri )
+ - pa (A S Alam )
+ - ta (I. Felix )
+
+====================
+gedit-plugins 2.26.2
+====================
+
+New features and fixes
+======================
+- Misc Bugfixes.
+
+New and updated translations
+============================
+- Sweta Kothari (gu)
+
+====================
+gedit-plugins 2.26.1
+====================
+
+New features and fixes
+======================
+- Bugfixes to drawspaces plugin (Ignacio Casal Quinteiro)
+
+New and updated translations
+============================
+- Jen Ockwell (en_GB)
+- Kamil Paral (cs)
+- Krishnababu K  (te)
+- Sandeep Shedmake (mr)
+- Takeshi AIHANA (ja)
+
+====================
+gedit-plugins 2.26.0
+====================
+
+New features and fixes
+======================
+
+New and updated translations
+============================
+- Claude Paroz (fr)
+- David Planella (ca)
+- Og Maciel (it)
+
+====================
+gedit-plugins 2.25.3
+====================
+
+New features and fixes
+======================
+- Misc bugfixes.
+
+New and updated translations
+============================
+- Daniel Nylander (sv)
+- Duarte Loreto (pt)
+- Gabor Kelemen (hu)
+- Og Maciel (pt_BR)
+- Raivis DEjus (lv)
+
+====================
+gedit-plugins 2.25.2
+====================
+
+New features and fixes
+======================
+- Skip closing brackets (Ignacio Casal Quinteiro)
+- New bookmarks plugin (Jesse van den Kieboom)
+- Added bracket completion for <> in php (Jesse van den Kieboom)
+- Show non-breaking spaces in drawspace plugin (Ignacio Casal Quinteiro)
+- Misc bugfixes.
+
+New and updated translations
+============================
+- Claude Paroz (fr)
+- Gabor Kelemen (hu)
+- Jorge Gonzalez (es)
+- Leonardo Ferreira Fontenelle (pt_BR)
+- Mario Blättermann (de)
+
+====================
+gedit-plugins 2.25.1
+====================
+
+New features and fixes
+======================
+- Use vte api to set cursor shape and blink mode in terminal (Paolo Borelli)
+- Ported to GIO and gtkbuilder (Ignacio Casal Quinteiro)
+- New implementation of drawspaces plugin (Paolo Borelli, Ignacio Casal Quinteiro)
+- Misc bugfixes.
+
+New and updated translations
+============================
+- Daniel Nylander (sv)
+- Jorge Gonzalez (es)
+- Nickolay V. Shmyrev (ru)
+
+====================
+gedit-plugins 2.22.5
+====================
+
+New features and fixes
+======================
+- Fix problem with gucharmap2 api ()
+- Draw more utf-8 spaces
+
+
+====================
+gedit-plugins 2.22.4
+====================
+
+New features and fixes
+======================
+- Respect gnome-terminal colors more carefully (Fabricio Silva, Paolo Borelli)
+- Misc bugfixes
+
+New and updated translations
+============================
+- Djihed Afifi (ar)
+- Gabor Kelemen (hu)
+- Kjartan Maraas (nb)
+- Visal Srivisal (th)
+
+
+====================
+gedit-plugins 2.22.3
+====================
+
+New features and fixes
+======================
+- Respect some more gnome-terminal gconf keys (Kurt Litsch, Paolo Borelli)
+- Misc bugfixes
+
+New and updated translations
+============================
+- Clytie Siddall (vi)
+- Djihed Afifi (ar)
+- Fábio Nogueira (pt_BR)
+- Francesc Vilches (ca)
+- Funda Wang (zh_CN.po)
+- Wadim Dziedzic (pl)
+
+
+====================
+gedit-plugins 2.22.2
+====================
+
+New features and fixes
+======================
+- Fix problem with glade translation setup in the drawspaces plugin (Paolo Borelli)
+- Fix smartspaces behavior at the start of the text buffer (Paolo Borelli)
+
+New and updated translations
+============================
+- Yavor Doganov (bg)
+- Andre Klapper (de)
+
+
+====================
+gedit-plugins 2.22.1
+====================
+
+New features and fixes
+======================
+- Just watch the required keystrokes for bracket completion (Paolo Borelli)
+- Allow building with either gucharmap stable or gucharmap trunk (Christian Persch)
+
+New and updated translations
+============================
+- António Lima (pt)
+- Gabor Kelemen (hu)
+- Takeshi AIHANA (ja)
+- Andre Klapper (de)
+
+
+====================
+gedit-plugins 2.22.0
+====================
+
+New features and fixes
+======================
+- menu item to toggle drawing of spaces (Stefan Schweizer)
+- misc bugfixes
+
+New and updated translations
+============================
+- António Lima (pt)
+- Daniel Nylander 
+- Daniel Nylander (sv)
+- Djihed Afifi (ar)
+- Ihar Hrachyshka (be@latin)
+- Ilkka Tuohela (fi)
+- Joan Duran (ca)
+- Jorge Gonzalez (es)
+- Kamil Paral (cs)
+- Kenneth Nielsen (da)
+- Kostas Papadimas (el)
+- Leonardo Ferreira Fontenelle (pt_BR)
+- Milo Casagrande (it)
+- Nguyễn Thái Ngọc Duy (vi)
+- Philip Withnall (en_GB)
+- Robert-André Mauchin (fr)
+- Yannig Marchegay (oc)
+
+
+====================
+gedit-plugins 2.20.0
+====================
+
+New features and fixes
+======================
+- require gedit 2.20 (Jürg Billeter)
+- improve joinlines plugin (André Homeyer)
+
+New and updated translations
+============================
+- Clytie Siddall (vi)
+- Francesc Vilches (ca)
+- Gabor Kelemen (hu)
+- Ilkka Tuohela (fi)
+- Milo Casagrande (it)
+- Og Maciel (pt_BR)
+- Takeshi AIHANA (ja)
+
+
+=====================
+gedit-plugins 2.19.90
+=====================
+
+New features and fixes
+======================
+- port to GtkSourceView2 API so that plugins work with gedit 2.20 (Steve Frécinaux)
+- draw non-blocking spaces in drawspaces plugin (Bob Mauchin)
+
+New and updated translations
+============================
+- Daniel Nylander (sv)
+- Djihed Afifi (ar)
+- Ilkka Tuohela (fi)
+- Jorge Gonzalez (es)
+- Milo Casagrande (it)
+- Pema Geyleg (dz)
+- Robert-André Mauchin (fr)
+- Takeshi AIHANA (ja)
+- Wouter Bolsterlee  (nl)
+- Yannig MARCHEGAY (oc)
+
+
+====================
+gedit-plugins 2.18.0
+====================
+
+New features and fixes
+======================
+- New Draw Spaces plugin (Paolo Borelli, Steve Frécinaux)
+- Misc i18n fixes
+
+New and updated translations
+============================
+fi (Ilkka Tuohela)
+fr (Stéphane Raimbault)
+hu (Gabor Kelemen)
+ja (Takeshi Aihana)
+pt_BR (Leonardo Ferreira Fontenelle)
+sv (Daniel Nylander)
+zh_CN (Abel Cheung)
+
+====================
+gedit-plugins 2.17.2
+====================
+
+New features and fixes
+======================
+- New Session Saver plugin (Steve Frécinaux)
+- Fix selection deletion when using SmartSpaces (Steve Frécinaux)
+
+New and updated translations
+============================
+- el (Dimitris Glezos)
+- sv (Daniel Nylander)
+- ca (Josep Puigdemont i Casamajó)
+- en_GB (David Lodge)
+
+====================
+gedit-plugins 2.17.1
+====================
+
+New features and fixes
+======================
+- Bug 381885: terminal plugin can change directory (Osmo Salomaa)
+- Bug 351630: terminal plugin honours ctrl+tab (Steve Frécinaux)
+- Bug 359494: fix the way the last selected line is handled (Steve Frécinaux)
+
+New and updated translations
+============================
+
+- ar (Djihed Afifi)
+- bg (Alexander Shopov)
+- ca (Josep Puigdemont i Casamajó)
+- cs (Jakub Friedl)
+- dz (Pema Geyleg)
+- en_CA (Adam Weinberger)
+- en_GB (David Lodge)
+- es (Francisco Javier F. Serrador)
+- et (Priit Laes)
+- fi (Ilkka Tuohela)
+- fr (Jonathan Ernst)
+- hu (Gabor Kelemen)
+- ja (Takeshi Aihana)
+- ne (Pawan Chitrakar)
+- nl (Vincent van Adrighem)
+- pt_BR (Leonardo Ferreira Fontenelle)
+- sv (Daniel Nylander)
+
+====================
+gedit-plugins 2.16.0
+====================
+
+New features and fixes
+======================
+
+- New Bracket Completion Plugin (Steve Frécinaux)
+
+New and updated translations
+============================
+- Daniel Nylander (sv)
+- Clytie Siddall (vi)
+- Josep Puigdemont i Casamajó (ca)
+
+====================
+gedit-plugins 2.15.5
+====================
+
+New features and fixes
+======================
+
+- New Code Comment plugin (Alejandro Garcia Castro)
+- Update to latest gedit 2.15 API (Jesse van den Kieboom)
+- Fix plugin l10n (Steve Frécinaux)
+- Fixes to configure (Jesse van den Kieboom)
+- Various fixes.
+
+New and updated translations
+============================
+- Clytie Siddall (vi)
+- Gabor Kelemen (hu)
+- Christophe Merlet (fr)
+
+====================
+gedit-plugins 2.15.4
+====================
+
+New features and fixes
+======================
+- Fixes to configure (Christian Persch, Joe Marcus Clarke, 
+  Fryderyk Dziarmagowski)
+- Terminal setting proper sensitivity to copy button (Steve Frécinaux)
+
+New and updated translations
+============================
+- Daniel Nylander (sv)
+- Francisco Javier F. Serrador (es)
+- Gabor Kelemen (hu)
+- Hendrik Richter (de)
+- Ilkka Tuohela (fi)
+- Nickolay V. Shmyrev (ru)
+
+====================
+gedit-plugins 2.15.3
+====================
+
+New features and fixes
+======================
+- Autotools fixes (Jesse van den Kieboom, Steve Frécinaux)
+- Terminal uses gnome-terminal default profile (Steve Frécinaux)
+- New Smart Spaces unindent plugin (Steve Frécinaux)
+- various fixes
+
+New and updated translations
+============================
+- cs (Jakub Friedl)
+- pt_BR (Raphael Higino)
+
+====================
+gedit-plugins 2.15.2
+====================
+
+New features and fixes
+======================
+- New Terminal plugin (Paolo Borelli)
+- New Character Map plugin (Steve Frécinaux)
+- New Color Picker plugin (Jesse van den Kieboom)
+- New Show/Hide Tabbar plugin (Steve Frécinaux)
+- New Join/Split Lines plugin (Steve Frécinaux)

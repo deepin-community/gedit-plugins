@@ -1,0 +1,67 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-terminal">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <link type="seealso" xref="gedit-plugins-pyconsole"/>
+    <revision pkgversion="3.8" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Sindhu S</name>
+      <email its:translate="no">sindhus@live.in</email>
+    </credit>
+
+    <include href="legal-plugins.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Add a terminal console to the bottom panel.</desc>
+  </info>
+
+  <title>Embedded Terminal</title>
+
+  <p><app>gedit</app> makes it possible to include an embedded version of
+  <app>GNOME Terminal</app>, the GNOME command-line application, in the bottom
+  panel of the <app>gedit</app> window. This will let you run scripts, install
+  needed software, or test your program without leaving <app>gedit</app>.</p>
+
+<section id="enable-embedded-terminal">
+  <title>Enable Embedded Terminal</title>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Embedded Terminal</gui> to enable the
+      plugin.</p>
+    </item>
+  </steps>
+
+</section>
+
+<section id="using-embedded-terminal">
+  <title>Using Embedded Terminal</title>
+
+  <p>Once you have enabled the plugin, to add a terminal to the bottom
+  panel:</p>
+
+  <steps>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menu">View</gui>
+      <gui style="menuitem">Bottom Panel</gui></guiseq>.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

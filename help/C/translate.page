@@ -1,0 +1,74 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-translate">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <revision version="1.0" date="2018-03-04" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Jordi Mas i Hernàndez</name>
+      <email its:translate="no">jmas@softcatala.org</email>
+    </credit>
+
+    <include href="legal-plugins.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+
+    <desc>Translate text into different languages</desc>
+  </info>
+
+  <title>Translate</title>
+
+  <p>The <app>Translate</app> plugin allows you to translate text from <app>gedit</app> using Apertium and Yandex engines.</p>
+
+<section id="enable-translate">
+  <title>Enabling and configuring the Translate plugin</title>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Translate</gui> to enable the plugin.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Preferences</gui> to configure the translation engine to use and a language pair.</p>
+    </item>
+    <item>
+      <p>In case you use the Yandex translation engine, you need an API key. You can obtain a key at <link href="https://tech.yandex.com/translate/">Yandex web site</link>.</p>
+    </item>
+  </steps>
+
+<note style="advanced"><p>You can also customize the address of the Apertium server, you will need to use the <app>dconf-editor</app> application.</p>
+    <list>
+      <item><p>Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui>
+      <gui>gnome</gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui>
+      <gui>apertium-server</gui></guiseq>.</p></item>
+      <item><p>Double-click on the URL next to <gui>apertium-server</gui> and
+      change the URL to your desired value.</p></item>
+    </list>
+</note>
+
+</section>
+
+<section id="use-translate">
+  <title>Using the Translate plugin</title>
+
+ <steps>
+    <title>To translate a text:</title>
+    <item>
+      <p>Select the part of text that you would like to translate.</p>
+    </item>
+    <item>
+      <p>Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu to translate it.</p>
+      <p>The translation appears in the document or in the bottom panel, depending on your configuration.</p>
+    </item>
+  </steps>
+
+</section>
+
+</page>

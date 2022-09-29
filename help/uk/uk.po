@@ -1,0 +1,1442 @@
+# Ukrainian translation to gedit manual.
+# Copyright © Free Software Foundation, 2007
+# This file is distributed under the same license as the gedit package.
+#
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2007.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit manual\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-19 21:21+0000\n"
+"PO-Revision-Date: 2021-02-20 10:26+0200\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 20.11.70\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Юрій Чорноіван <yurchor@ukr.net>, 2020"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:13
+#: C/code-comment.page:12 C/color-picker.page:12 C/commander.page:12
+#: C/draw-spaces.page:12 C/join-split-lines.page:12 C/multi-edit.page:12
+#: C/terminal.page:13 C/text-size.page:13 C/word-completion.page:12
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:17
+msgid "Ekaterina Gerasimova"
+msgstr "Єкатерина Герасимова (Ekaterina Gerasimova)"
+
+#. (itstool) path: credit/years
+#: C/bookmarks.page:19
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/bookmarks.page:22
+msgid "Record commonly-referenced locations with bookmarks."
+msgstr "Запис типових місць за допомогою закладок."
+
+#. (itstool) path: page/title
+#: C/bookmarks.page:25
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:27
+msgid ""
+"<app>gedit</app> bookmarks allow you to highlight important lines of text "
+"within your document or program, making them easier to find. You can also "
+"move up or down between bookmarks, making document navigation a bit faster."
+msgstr ""
+"За допомогою закладок <app>gedit</app> ви можете позначити важливі рядки "
+"тексту у вашому документі або програмі, спрощуючи їхній пошук. Ви також "
+"можете пересувати вгору і вниз списком закладок — це пришвидшує навігацію "
+"документом."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:37
+#: C/code-comment.page:30 C/color-picker.page:26 C/commander.page:25
+#: C/draw-spaces.page:27 C/git.page:26 C/join-split-lines.page:25
+#: C/multi-edit.page:26 C/session-saver.page:30 C/terminal.page:37
+#: C/text-size.page:36 C/translate.page:29 C/word-completion.page:35
+msgid "To enable the plugin:"
+msgstr "Щоб увімкнути додаток:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:39
+#: C/code-comment.page:32 C/color-picker.page:28 C/commander.page:27
+#: C/draw-spaces.page:29 C/git.page:28 C/join-split-lines.page:27
+#: C/multi-edit.page:28 C/session-saver.page:32 C/terminal.page:39
+#: C/text-size.page:38 C/translate.page:31 C/word-completion.page:37
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui style=\"tab"
+"\">Plugins</gui></guiseq>."
+msgstr ""
+"Натисніть кнопку меню у верхньому правому куті вікна і виберіть <guiseq><gui "
+"style=\"menuitem\">Параметри</gui> <gui style=\"tab\">Додатки</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:40
+msgid "Select <gui style=\"menuitem\">Bookmarks</gui> to enable the plugin."
+msgstr ""
+"Виберіть «<gui style=\"menuitem\">Закладки</gui>, щоб увімкнути додаток."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:45
+msgid ""
+"Bookmarks are inserted and removed by completing the same action. To insert "
+"or remove bookmarks:"
+msgstr ""
+"Закладки вставляються і вилучаються виконанням тієї самої дії. Щоб вставити "
+"або вилучити закладку, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:48
+msgid "Navigate to the line where you want to insert or remove the bookmark."
+msgstr ""
+"Перейдіть до рядка, куди ви хочете вставити закладку, або звідки ви хочете "
+"вилучити закладку."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:52
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or open "
+"the menu in the top-right corner and select <gui style=\"menuitem\">Toggle "
+"Bookmark</gui>."
+msgstr ""
+"Натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>Alt</key><key>B</"
+"key></keyseq> або відкрийте меню у верхньому правому куті вікна програми і "
+"виберіть <gui style=\"menuitem\">Перемкнути закладку</gui>."
+
+#. (itstool) path: list/title
+#: C/bookmarks.page:59
+msgid "To move between bookmarks:"
+msgstr "Для пересування між закладками, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:61
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
+"bookmark."
+msgstr ""
+"Натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>B</key></keyseq> для "
+"переходу до наступної закладки."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:65
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
+"to the previous bookmark."
+msgstr ""
+"Натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>Shift</key><key>B</"
+"key></keyseq> для переходу до попередньої закладки."
+
+#. (itstool) path: note/p
+#: C/bookmarks.page:71
+msgid ""
+"If you prefer to use the mouse, you can open the menu in the top-right "
+"corner and select <gui style=\"menuitem\">Go to Next Bookmark</gui> or <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui>."
+msgstr ""
+"Якщо ви надаєте перевагу керуванню за допомогою миші, ви можете відкрити "
+"меню у верхньому правому куті вікна програми і вибрати пункт <gui style="
+"\"menuitem\">Перейти до наступної закладки</gui> або <gui style=\"menuitem"
+"\">Перейти до попередньої закладки</gui>."
+
+#. (itstool) path: info/desc
+#: C/bracket-comp.page:16
+msgid "Auto-complete closing brackets."
+msgstr "Автоматичне закриття дужок."
+
+#. (itstool) path: page/title
+#: C/bracket-comp.page:19
+msgid "Bracket Completion"
+msgstr "Доповнення дужок"
+
+#. (itstool) path: page/p
+#: C/bracket-comp.page:21
+msgid ""
+"The <app>Bracket Completion</app> plugin will auto-complete closing brackets "
+"for curly braces, parentheses and square brackets."
+msgstr ""
+"Додаток <app>Доповнення дужок</app> автоматично закриватиме фігурні, круглі "
+"та квадратні дужки."
+
+#. (itstool) path: item/p
+#: C/bracket-comp.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Доповнення дужок</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: note/p
+#: C/bracket-comp.page:38
+msgid "This plugin does not automatically insert closing HTML or XML tags."
+msgstr ""
+"Цей додаток не виконує автоматичного вставлення завершальних теґів HTML або "
+"XML."
+
+#. (itstool) path: credit/name
+#: C/character-map.page:17 C/word-completion.page:16
+msgid "Paul Weaver"
+msgstr "Paul Weaver"
+
+#. (itstool) path: info/desc
+#: C/character-map.page:21
+msgid "Insert special characters just by clicking on them."
+msgstr "Вставлення спеціальних символів клацанням на їхніх кнопках."
+
+#. (itstool) path: page/title
+#: C/character-map.page:24
+msgid "Character Map"
+msgstr "Таблиця символів"
+
+#. (itstool) path: page/p
+#: C/character-map.page:33
+msgid ""
+"The <app>Character Map</app> plugin enables you to insert characters into "
+"your document that you may not be able to type easily using your keyboard."
+msgstr ""
+"За допомогою додатка <app>Таблиця символів</app> ви можете вставляти до "
+"вашого документа символи, які складно ввести за допомогою клавіатури."
+
+#. (itstool) path: item/p
+#: C/character-map.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Character Map</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Таблиця символів</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: section/title
+#: C/character-map.page:49
+msgid "Using Character Map"
+msgstr "Користування таблицею символів"
+
+#. (itstool) path: section/p
+#: C/character-map.page:51
+msgid ""
+"Once the plugin is enabled, you can add characters from the <gui style=\"tab"
+"\">Character Map</gui> view of the side panel."
+msgstr ""
+"Після вмикання додатка ви можете додавати символи за допомогою панелі <gui "
+"style=\"tab\">Таблиця символів</gui> на бічній панелі."
+
+#. (itstool) path: item/p
+#: C/character-map.page:56
+msgid ""
+"Place the cursor at the point in your document at which you would like your "
+"special character."
+msgstr ""
+"Розташуйте курсор у позиції вашого документа, у якій ви хочете вставити "
+"спеціальний символ."
+
+#. (itstool) path: item/p
+#: C/character-map.page:60
+msgid ""
+"Open the side panel by pressing the menu button in the top-right corner of "
+"the window and selecting <guiseq><gui>View</gui> <gui>Side Panel</gui></"
+"guiseq>, or by pressing <key>F9</key>."
+msgstr ""
+"Відкрийте бічну панель натисканням кнопки меню у верхньому правому куті "
+"вікна програми і вибором пункту <guiseq><gui>Перегляд</gui> <gui>Бічна "
+"панель</gui></guiseq> або натисканням клавіші <key>F9</key>."
+
+#. (itstool) path: item/p
+#: C/character-map.page:65
+msgid ""
+"Select <gui>Character Map</gui> from the drop-down list at the top of the "
+"side panel."
+msgstr ""
+"Виберіть <gui>Таблиця символів</gui> зі спадного списку у верхній частині "
+"бічної панелі."
+
+#. (itstool) path: item/p
+#: C/character-map.page:69
+msgid ""
+"If necessary, choose the character set to which your character belongs from "
+"the list at the top of the <gui>Character Map</gui> side panel (for example, "
+"Arabic)."
+msgstr ""
+"Якщо потрібно, виберіть набір символів, до якого належить символ, зі списку "
+"верхній частині бічної панелі <gui>Таблиця символів</gui> (наприклад, набір "
+"арабської абетки)."
+
+#. (itstool) path: item/p
+#: C/character-map.page:74
+msgid "Double click your desired character to insert it."
+msgstr "Двічі клацніть на бажаному символі, щоб вставити його."
+
+#. (itstool) path: note/p
+#: C/character-map.page:79
+msgid ""
+"You must click on the editing view of your document to continue editing "
+"normally."
+msgstr ""
+"Вам слід клацнути на панелі редагування вашого документа, щоб продовжити "
+"редагування у звичайному режимі."
+
+#. (itstool) path: info/desc
+#: C/code-comment.page:16
+msgid "Comment-out or uncomment a block of code."
+msgstr "Коментування і скасування коментування блоку коду."
+
+#. (itstool) path: page/title
+#: C/code-comment.page:19
+msgid "Code comment"
+msgstr "Коментування коду"
+
+#. (itstool) path: page/p
+#: C/code-comment.page:21
+msgid ""
+"Code comments are portions of text that make it easier for people to "
+"understand a program's code, but they don't affect how a program works. "
+"Comments are separated from other parts of a program by special characters."
+msgstr ""
+"Коментарі у коді — текстові фрагменти, які полегшують читачам розуміння "
+"програмного коду, але не впливають на роботу програми. Коментарі "
+"відокремлено від інших частин програми спеціальними символами."
+
+#. (itstool) path: page/p
+#: C/code-comment.page:26
+msgid ""
+"The <app>code comment</app> plugin makes it easier to quickly create or "
+"remove code comments."
+msgstr ""
+"Додаток <app>Коментування коду</app> пришвидшує створення і вилучення "
+"коментарів у коді."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:37
+msgid "Select <gui style=\"menuitem\">Code comment</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Коментування коду</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: steps/title
+#: C/code-comment.page:42
+msgid "To create or remove a comment:"
+msgstr "Щоб створити або вилучити коментар, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/code-comment.page:44
+msgid ""
+"Highlight the portion of text where you want to add or remove a comment."
+msgstr ""
+"Позначте частину тексту, яку ви хочете закоментувати або з якої ви хочете "
+"вилучити коментування."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:48
+msgid ""
+"To add a comment, right click and select <gui style=\"menuitem\">Comment "
+"Code</gui>, or press <keyseq><key>Ctrl</key><key>M</key></keyseq>."
+msgstr ""
+"Щоб додати коментар, клацніть правою кнопкою миші і виберіть у контекстному "
+"меню пункт <gui style=\"menuitem\">Коментувати код</gui> або натисніть "
+"комбінацію клавіш <keyseq><key>Ctrl</key><key>M</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:52
+msgid ""
+"To remove a comment, right click and select <gui style=\"menuitem"
+"\">Uncomment Code</gui>, or press <keyseq><key>Shift</key> <key>Ctrl</"
+"key><key>M</key></keyseq>."
+msgstr ""
+"Щоб вилучити коментар, клацніть правою кнопкою миші і виберіть у "
+"контекстному меню пункт <gui style=\"menuitem\">Розкоментувати код</gui> або "
+"натисніть комбінацію клавіш <keyseq><key>Shift</key> <key>Ctrl</key><key>M</"
+"key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/code-comment.page:59
+msgid ""
+"<app>gedit</app> will automatically use the correct style of comment based "
+"on the language or syntax of the file. If <app>gedit</app> doesn't identify "
+"your language or syntax, you can select it from the language list in the "
+"bottom <gui>Status bar</gui>."
+msgstr ""
+"<app>gedit</app> автоматично використовуватиме належний стиль коментування "
+"на основі мови програмування та синтаксису файла. Якщо <app>gedit</app> не "
+"вдається визначити мову програмування або синтаксис, ви можете вибрати "
+"відповідний пункт зі списку мов на <gui>смужці стану</gui> у нижній частині "
+"вікна програми."
+
+#. (itstool) path: info/desc
+#: C/color-picker.page:16
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Виберіть колір з діалогового вікна або вкажіть його шістнадцяткове "
+"представлення."
+
+#. (itstool) path: page/title
+#: C/color-picker.page:19
+msgid "Color Picker"
+msgstr "Піпетка"
+
+#. (itstool) path: page/p
+#: C/color-picker.page:21
+msgid ""
+"The <app>Color Picker</app> plugin helps you to insert the character codes "
+"that represent a certain color. This can make it easier to choose and use "
+"the correct color in your programs."
+msgstr ""
+"Додаток <app>Піпетка</app> допоможе вам вставляти коди символів, які "
+"відповідають певному кольору. Це спрощує вибір і використання належного "
+"кольору у ваших програмах."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:33
+msgid "Select <gui style=\"menuitem\">Color Picker</gui> to enable the plugin."
+msgstr "Виберіть <gui style=\"menuitem\">Піпетка</gui>, щоб увімкнути додаток."
+
+#. (itstool) path: steps/title
+#: C/color-picker.page:38
+msgid "To open and use the color picker:"
+msgstr "Щоб скористатися піпеткою, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/color-picker.page:40
+msgid ""
+"Place your cursor at the point in your document where you want to insert the "
+"color code."
+msgstr ""
+"Розташуйте курсор на позиції у документі, куди ви хочете вставити код "
+"кольору."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:44
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Pick "
+"Color…</gui></guiseq>."
+msgstr ""
+"Натисніть кнопку меню у верхньому правому куті вікна програми і виберіть "
+"пункт <guiseq><gui style=\"menuitem\">Інструменти</gui> <gui style=\"menuitem"
+"\">Вибрати колір…</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:49
+msgid "Click on the desired color in the color picker window."
+msgstr "Клацніть на області із бажаним кольором у вікні вибору кольору."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:52
+msgid ""
+"The appropriate color code will be inserted where you had placed your cursor."
+msgstr ""
+"Відповідний код кольору буде вставлено туди, де було розташовано курсор."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:56
+msgid "To close the <app>color picker</app>, click <gui>Cancel</gui>."
+msgstr "Щоб закрити <app>піпетку</app>, натисніть кнопку <gui>Скасувати</gui>."
+
+#. (itstool) path: note/p
+#: C/color-picker.page:62
+msgid ""
+"You can make fine-grained adjustments to the color and adjust the values for "
+"Hue, Saturation, Value, Red, Green, or Blue by right clicking on a color and "
+"selecting <gui style=\"menuitem\">Customize</gui>."
+msgstr ""
+"Ви можете виконати точне налаштування кольору і скоригувати значення "
+"відтінку, насиченості, значення, червоного, зеленого або синього — клацніть "
+"правою кнопкою на кольорі і виберіть у контекстному меню пункт <gui style="
+"\"menuitem\">Налаштувати</gui>."
+
+#. (itstool) path: info/desc
+#: C/commander.page:16
+msgid "Use a command-line interface for advanced editing."
+msgstr "Використання інтерфейсу командного рядка для розширеного редагування."
+
+#. (itstool) path: page/title
+#: C/commander.page:19
+msgid "Commander"
+msgstr "Командувач"
+
+#. (itstool) path: page/p
+#: C/commander.page:21
+msgid ""
+"The <app>Commander</app> plugin is a plugin for advanced <app>gedit</app> "
+"users that allows you to perform command-line actions on the current file."
+msgstr ""
+"Додаток <app>Командувач</app> призначено для досвідчених користувачів "
+"<app>gedit</app>, які хочуть виконувати дії над поточним файлом з командного "
+"рядка."
+
+#. (itstool) path: item/p
+#: C/commander.page:32
+msgid "Select <gui style=\"menuitem\">Commander</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Командувач</gui>, щоб увімкнути додаток."
+
+#. (itstool) path: page/p
+#: C/commander.page:36
+msgid ""
+"Once you have enabled the plugin, activate it by pressing <keyseq><key>Ctrl</"
+"key><key>,</key></keyseq>."
+msgstr ""
+"Після вмикання додатка активуйте його натисканням комбінації клавіш "
+"<keyseq><key>Ctrl</key><key>,</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/commander.page:40
+msgid "The last key in the above key combination is a comma."
+msgstr "Останньою клавішею у наведеній вище комбінації є кома."
+
+#. (itstool) path: td/p
+#: C/commander.page:46
+msgid "Action"
+msgstr "Дія"
+
+#. (itstool) path: td/p
+#: C/commander.page:47
+msgid "Keyboard shortcut"
+msgstr "Клавіатурне скорочення"
+
+#. (itstool) path: td/p
+#: C/commander.page:52
+msgid "See an overview of available commands"
+msgstr "Переглянути огляд доступних команд"
+
+#. (itstool) path: td/p
+#: C/commander.page:53
+msgid "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+msgstr "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/commander.page:56
+msgid "Find a word within the current file"
+msgstr "Пошук слова у поточному файлі"
+
+#. (itstool) path: td/p
+#: C/commander.page:58
+msgid "<key>/</key> <input>foo</input>"
+msgstr "<key>/</key> <input>щось</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:59
+msgid "This will find the word <input>foo</input>."
+msgstr "Буде знайдено слово <input>щось</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:63
+msgid "Replace a word within the current file"
+msgstr "Замінити слово у поточному файлі"
+
+#. (itstool) path: td/p
+#: C/commander.page:65
+msgid "<keyseq><key>/</key><key>/</key></keyseq> <input>foo bar</input>"
+msgstr "<keyseq><key>/</key><key>/</key></keyseq> <input>щось десь</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:67
+msgid "This will replace <input>foo</input> with <input>bar</input>."
+msgstr "У результаті буде замінено <input>щось</input> на <input>десь</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:72
+msgid "Move the cursor to a certain line number in your file"
+msgstr "Пересування курсора до рядка із певним номером у вашому файлі"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'go'! It is a command
+#: C/commander.page:74
+msgid ""
+"<cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</"
+"key> <input>[line number]</input></cmd>"
+msgstr ""
+"<cmd>go <input>[номер рядка]</input></cmd> <em>або</em> просто <cmd><key>G</"
+"key> <input>[номер рядка]</input></cmd>"
+
+#. (itstool) path: td/p
+#: C/commander.page:80
+msgid "Toggle the bookmark indicator for the current line"
+msgstr "Вмикання і вимикання індикатора закладок для поточного рядка"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'bookmark'! It is a command
+#: C/commander.page:82
+msgid "<cmd>bookmark</cmd> <em>or</em> just <key>B</key>"
+msgstr "<cmd>bookmark</cmd> <em>або</em> просто <key>B</key>"
+
+#. (itstool) path: note/p
+#: C/commander.page:88
+msgid ""
+"Some commands, such as the <cmd>bookmark</cmd> command require that the "
+"appropriate plugin be installed and activated. If you do not have the "
+"appropriate plugin installed and activated, you will receive an error "
+"message."
+msgstr ""
+"Для забезпечення працездатності деяких команд, зокрема команди "
+"<cmd>bookmark</cmd>, слід встановити і активувати відповідний додаток. Якщо "
+"відповідний додаток не встановлено і не активовано, програма повідомить вам "
+"про помилку."
+
+#. (itstool) path: info/desc
+#: C/draw-spaces.page:16
+msgid "Show white space between words or portions of code."
+msgstr "Показ пробілів між словами та частинами коду."
+
+#. (itstool) path: page/title
+#: C/draw-spaces.page:19
+msgid "Draw Spaces"
+msgstr "Візуалізація пробілів"
+
+#. (itstool) path: page/p
+#: C/draw-spaces.page:21
+msgid ""
+"The <app>Draw Spaces</app> plugin is a simple plugin that can mark spaces, "
+"tabs, and other types of whitespace with a small, visible marker. By making "
+"whitespace visible, you can more easily see how whitespace is used in a "
+"document, and can apply spacing strategies more consistently."
+msgstr ""
+"Додаток <app>Візуалізація пробілів</app> є простим додатком, який може "
+"позначати пробіли, табуляції та інші пробільні символи малою видимою "
+"позначкою. Візуалізація пробілів полегшує спостереження за використанням "
+"пробілів у документі і надає змогу послідовніше застосовувати форматування "
+"пробілами у документі."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:34
+msgid "Select <gui style=\"menuitem\">Draw Spaces</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Візуалізація пробілів</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:37
+msgid "Press <gui style=\"button\">Preferences</gui> to set its options."
+msgstr ""
+"Натисніть кнопку <gui style=\"button\">Параметри</gui>, щоб налаштувати його "
+"параметри."
+
+#. (itstool) path: note/p
+#: C/draw-spaces.page:42
+msgid ""
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
+msgstr ""
+"Хоча ви бачитимете позначки під час роботи з файлом, ці позначки не буде "
+"показано, якщо ви надрукуєте файл на папері."
+
+#. (itstool) path: credit/name
+#: C/git.page:12
+msgid "Aleksandra Hankus"
+msgstr "Aleksandra Hankus"
+
+#. (itstool) path: info/desc
+#: C/git.page:16
+msgid "Highlight lines that have been changed since the last commit."
+msgstr "Підсвічування рядків, які було змінено з часу останнього внеску."
+
+#. (itstool) path: page/title
+#: C/git.page:19
+msgid "Git"
+msgstr "Git"
+
+#. (itstool) path: page/p
+#: C/git.page:21
+msgid ""
+"The <app>Git</app> plugin will highlight lines that have been changed since "
+"the last commit. Lines will be highlighted only on files that are already "
+"tracked by git."
+msgstr ""
+"Додаток <app>Git</app> позначатиме рядки, які було змінено з часу останнього "
+"запису внеску. Рядки буде позначено лише у файлах, керування версіями яких "
+"вже виконується за допомогою git."
+
+#. (itstool) path: item/p
+#: C/git.page:33
+msgid "Select <gui style=\"menuitem\">Git</gui> to enable the plugin."
+msgstr "Виберіть <gui style=\"menuitem\">Git</gui>, щоб увімкнути додаток."
+
+#. (itstool) path: page/p
+#: C/git.page:37
+msgid ""
+"The changes are shown in the margin of the document in three different "
+"colors:"
+msgstr "Зміни буде показано на полях документа трьома різними кольорами:"
+
+#. (itstool) path: item/title
+#: C/git.page:41
+msgid "Green"
+msgstr "Зелений"
+
+#. (itstool) path: item/p
+#: C/git.page:42
+msgid "Shows the new lines added to the document."
+msgstr "Показує нові додані документи."
+
+#. (itstool) path: item/title
+#: C/git.page:45
+msgid "Orange"
+msgstr "Помаранчевий"
+
+#. (itstool) path: item/p
+#: C/git.page:46
+msgid "Shows the lines that have been modified in the document."
+msgstr "Показує рядки, які було змінено у документі."
+
+#. (itstool) path: item/title
+#: C/git.page:49
+msgid "Red"
+msgstr "Червоний"
+
+#. (itstool) path: item/p
+#: C/git.page:50
+msgid "Shows the parts of the document that have been deleted."
+msgstr "Показує частини документа, які було вилучено."
+
+#. (itstool) path: note/p
+#: C/git.page:55
+msgid ""
+"Hover the mouse pointer on the red or orange margin to view the original "
+"text in a tool tip."
+msgstr ""
+"Наведіть вказівник миші на червоне або помаранчеве поле для перегляду "
+"початкового тексту на панелі підказки."
+
+#. (itstool) path: info/desc
+#: C/join-split-lines.page:16
+msgid "Join several lines of text or split long lines."
+msgstr ""
+"Об'єднання декількох рядків тексту або поділ на окремі рядки довгих рядків."
+
+#. (itstool) path: page/title
+#: C/join-split-lines.page:19
+msgid "Join/Split Lines"
+msgstr "Об'єднати/роз'єднати рядки"
+
+#. (itstool) path: page/p
+#: C/join-split-lines.page:21
+msgid ""
+"The <app>Join/Split Lines</app> plugin can join shorter lines into one "
+"longer line, or can split a long line into multiple shorter lines."
+msgstr ""
+"Додаток <app>Об'єднати/роз'єднати рядки</app> може об'єднувати короткі рядки "
+"в один довший рядок або роз'єднувати довгий рядок на декілька коротших "
+"рядків."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Join/Split Lines</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Об'єднати рядки/Розділити рядки</gui>, щоб "
+"увімкнути додаток."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:37
+msgid "To join multiple lines into one longer line:"
+msgstr "Щоб об'єднати декілька рядків у один довший рядок, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:39
+msgid ""
+"Select the lines that you want to join. To do this, you can use the mouse, "
+"or you can press <keyseq><key>Shift</key><key>Up Arrow</key> </keyseq> or "
+"<keyseq><key>Shift</key><key>Down Arrow</key></keyseq>."
+msgstr ""
+"Позначте рядки, які ви хочете об'єднати. Для цього ви можете скористатися "
+"вказівником миші або натисканням комбінацій клавіш <keyseq><key>Shift</"
+"key><key>↑</key> </keyseq> чи <keyseq><key>Shift</key><key>↓</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:44
+msgid "Press <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+msgstr ""
+"Натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:45
+msgid "The lines that you selected will be joined into one longer line."
+msgstr "Позначені вами рядки буде об'єднано у один довгий рядок."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:50
+msgid "To split one line into multiple lines:"
+msgstr "Щоб поділити один рядок на декілька рядків, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:52
+msgid ""
+"Select the line that you want to split by placing your cursor anywhere on "
+"that line."
+msgstr ""
+"Позначте рядок, який ви хочете розділити, розташувавши курсор у довільному "
+"місці цього рядка."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:56
+msgid "Press <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
+msgstr ""
+"Натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>Shift</key> <key>J</"
+"key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:58
+msgid ""
+"The line will be split into multiple lines. Spaces are used to determine "
+"where it is safe to split a line, and the length of each line will not "
+"exceed 80 characters."
+msgstr ""
+"Рядок буде поділено на декілька рядків. Для визначення місць, де можна "
+"поділити рядок, буде використано пробіли, а довжина рядків не перевищуватиме "
+"80 символів."
+
+#. (itstool) path: p/link
+#: C/legal-plugins.xml:7
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#. (itstool) path: license/p
+#: C/legal-plugins.xml:5
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Цю роботу ліцензовано відповідно до умов ліцензування Creative Commons "
+"Attribution-ShareAlike 3.0 Unported License. Щоб переглянути копію "
+"ліцензійної угоди, відвідайте <_:link-1/> або надішліть листа за адресою "
+"Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, "
+"94041, USA."
+
+#. (itstool) path: credit/years
+#: C/multi-edit.page:14
+msgid "2011"
+msgstr "2011"
+
+#. (itstool) path: info/desc
+#: C/multi-edit.page:17
+msgid "Edit a document in multiple places at once."
+msgstr "Редагування документа у декількох місцях одночасно."
+
+#. (itstool) path: page/title
+#: C/multi-edit.page:20
+msgid "Multi Edit"
+msgstr "Мультиредагування"
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:22
+msgid ""
+"The <app>Multi Edit</app> plugin allows you to edit a document in multiple "
+"places at once. This can be helpful when performing tedious editing tasks."
+msgstr ""
+"За допомогою додатка <app>Мультиредагування</app> ви зможете редагувати "
+"документ у декількох місцях одночасно. Ця можливість корисна, коли вам "
+"доводиться виконувати марудні завдання з редагування."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:33
+msgid "Select <gui style=\"menuitem\">Multi Edit</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Мультиредагування</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:38
+msgid ""
+"After you have enabled the plugin, turn-on Multi Edit mode by pressing "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or press the "
+"menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Tools</gui><gui style=\"menuitem\">Multi Edit Mode</gui></"
+"guiseq>. You can then select the points in your file that you would like "
+"start editing."
+msgstr ""
+"Після вмикання додатка увімкніть режим мультиредагування натисканням "
+"комбінації клавіш <keyseq><key>Ctrl</key><key>Shift</key><key>C</key></"
+"keyseq> або натисніть кнопку меню у верхньому правому куті вікна програми і "
+"виберіть пункт меню <guiseq><gui style=\"menuitem\">Інструменти</gui><gui "
+"style=\"menuitem\">Режим мультиредагування</gui></guiseq>. Далі, ви можете "
+"вибрати позиції у вашому файлів, у яких ви хочете розпочати редагування."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:45
+msgid "To insert editing points in your file:"
+msgstr "Щоб вставити позиції редагування до вашого файла, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:48
+msgid "Place your cursor at your first desired editing point."
+msgstr "Розташуйте курсор у першій бажаній позиції редагування."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:51
+msgid "Press <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+msgstr ""
+"Натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:54
+msgid ""
+"Move to your next editing point, and press <keyseq><key>Ctrl</key> <key>E</"
+"key></keyseq> again."
+msgstr ""
+"Перейдіть до наступної позиції редагування і натисніть комбінацію клавіш "
+"<keyseq><key>Ctrl</key> <key>E</key></keyseq> ще раз."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:58
+msgid "Continue inserting editing points, adding as many as you need."
+msgstr ""
+"Продовжуйте вставляти позиції редагування, аж доки не буде додано усі "
+"позиції."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:62
+msgid ""
+"Once you have inserted all of your editing points, you can make your desired "
+"edits."
+msgstr ""
+"Після вставлення усіх позицій редагування ви можете внести бажані "
+"редагування."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:65
+msgid ""
+"To remove editing points, press the <key>Esc</key> key. This will remove all "
+"of the editing points. Pressing the <key>Esc</key> key again will turn off "
+"Multi Edit mode, returning the editor back to its normal state."
+msgstr ""
+"Щоб вилучити позиції редагування, натисніть клавішу <key>Esc</key>. У "
+"результаті буде вилучено усі позиції редагування. Натисніть клавішу "
+"<key>Esc</key> ще раз, щоб вимкнути режим мультиредагування, повернувши "
+"редактор до звичайного стану."
+
+#. (itstool) path: credit/name
+#: C/session-saver.page:12 C/translate.page:12
+msgid "Jordi Mas i Hernàndez"
+msgstr "Jordi Mas i Hernàndez"
+
+#. (itstool) path: info/desc
+#: C/session-saver.page:18
+msgid "Save and restore your working sessions"
+msgstr "Збереження і відновлення ваших робочих сеансів"
+
+#. (itstool) path: page/title
+#: C/session-saver.page:21
+msgid "Session Saver"
+msgstr "Зберігач сеансів"
+
+#. (itstool) path: page/p
+#: C/session-saver.page:23
+msgid ""
+"The <app>Session Saver</app> plugin allows you to remember which documents "
+"are currently open and open the same documents again at a later time."
+msgstr ""
+"За допомогою додатка <app>Зберігач сеансів</app> ви можете зберігати стан "
+"відкритих документів і відкривати ці документи у потрібному стані знову."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:27
+msgid "Enable Session Saver Plugin"
+msgstr "Вмикання додатка збереження сеансу"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:37
+msgid ""
+"Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Зберігач сеансів</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:45
+msgid "Save a session"
+msgstr "Збереження сеансу"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:46
+msgid "Save all your open files to be able to open them later."
+msgstr "Збережіть дані щодо усіх відкритих файлів, щоб відкрити їх згодом."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:48
+msgid "To save a session:"
+msgstr "Щоб зберегти сеанс, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:50
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Save "
+"Session…</gui></guiseq>."
+msgstr ""
+"Натисніть кнопку меню у верхньому правому куті вікна програми і виберіть "
+"пункт <guiseq><gui style=\"menuitem\">Інструменти</gui> <gui style=\"menuitem"
+"\">Зберегти сеанс…</gui></guiseq>"
+
+#. (itstool) path: section/title
+#: C/session-saver.page:58
+msgid "Open a session"
+msgstr "Відкриття сеансу"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:59
+msgid "Open all the files from an already saved session."
+msgstr "Відкриття усіх файлів із вже збереженого сеансу."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:61
+msgid "To open a session:"
+msgstr "Щоб відкрити сеанс, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:63
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Tools</gui>."
+msgstr ""
+"Натисніть кнопку меню у верхньому правому куті вікна програми і виберіть "
+"пункт <gui style=\"menuitem\">Інструменти</gui>."
+
+#. (itstool) path: item/p
+#: C/session-saver.page:67
+msgid "Select one of the saved sessions from the menu."
+msgstr "Виберіть один зі збережених сеансів з меню."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:73
+msgid "Manage Sessions"
+msgstr "Керування сеансами"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:74
+msgid "Open and delete your already saved sessions."
+msgstr "Відкриття і вилучення вже збережених сеансів."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:76
+msgid "Manage sessions"
+msgstr "Керування сеансами"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:78
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Manage "
+"Saved Sessions…</gui></guiseq>"
+msgstr ""
+"Натисніть кнопку меню у верхньому правому куті вікна програми і виберіть "
+"пункт <guiseq><gui style=\"menuitem\">Інструменти</gui> <gui style=\"menuitem"
+"\">Керування збереженими сеансами…</gui></guiseq>"
+
+#. (itstool) path: info/desc
+#: C/synctex.page:20
+msgid ""
+"Quickly switch between TeX source files and rendered PDF documents in evince."
+msgstr ""
+"Швидке перемикання між файлами з початковим кодом TeX та створеними на їх "
+"основі документами PDF в evince."
+
+#. (itstool) path: page/title
+#: C/synctex.page:24
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#. (itstool) path: page/p
+#: C/synctex.page:26
+msgid ""
+"SyncTeX is a method that enables synchronization between a TeX source file "
+"and the PDF output generated by a TeX/LaTeX compiler. This plugin allows to "
+"use SyncTeX in <app>gedit</app> to quickly switch from an opened TeX source "
+"file to a PDF document opened in <app>evince</app> and vice versa."
+msgstr ""
+"SyncTeX — метод, який уможливлює синхронізацію між файлами коду TeX і "
+"файлами результатів обробки PDF, які створюються компілятором TeX/LaTeX. За "
+"допомогою цього додатка ви зможете скористатися SyncTeX у <app>gedit</app> "
+"для швидкого перемикання між відкритим файлом з кодом TeX і документом PDF, "
+"який відкрито в <app>evince</app>, і навпаки."
+
+#. (itstool) path: note/p
+#: C/synctex.page:32
+msgid ""
+"To be useful, this plugin requires a TeX/LaTeX compiler and SyncTeX to be "
+"installed. Both are provided by TeX distributions such as TeX Live. Also "
+"<app>evince</app> must be installed."
+msgstr ""
+"Для працездатності цього додатка слід встановити компілятор TeX/LaTeX і "
+"SyncTeX. Обидва ці компоненти є частиною дистрибутивів TeX, зокрема TeX "
+"Live. Також має бути встановлено <app>evince</app>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:39
+msgid ""
+"Some basic information on setting up SyncTeX and compiling LaTeX documents "
+"can be found in the <link xref=\"help:evince#synctex\"><app>evince</app>-"
+"SyncTeX documentation</link>."
+msgstr ""
+"Деякі базові відомості щодо налаштовування SyncTeX та збирання документів "
+"LaTeX можна знайти у <link xref=\"help:evince#synctex\">документації з "
+"<app>evince</app>-SyncTeX</link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:45
+msgid ""
+"Key shortcuts and mouse controls are also documented in the <link xref="
+"\"help:evince/synctex-search\"> <app>evince</app>-SyncTeX documentation</"
+"link>."
+msgstr ""
+"Клавіатурні скорочення та засоби керування за допомогою миші описано у <link "
+"xref=\"help:evince/synctex-search\">документації з SyncTeX <app>evince</"
+"app></link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:50
+msgid ""
+"<link xref=\"help:gnome-latex\"> <app>Gnome-LaTeX</app></link> is an "
+"alternative text editor specifically designed for writing TeX code."
+msgstr ""
+"<link xref=\"help:gnome-latex\"><app>Gnome-LaTeX</app></link> є "
+"альтернативним текстовим редактором, який спеціально розроблено для "
+"написання коду TeX."
+
+#. (itstool) path: credit/name
+#: C/terminal.page:17 C/text-size.page:17 C/word-completion.page:20
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: info/desc
+#: C/terminal.page:23
+msgid "Add a terminal console to the bottom panel."
+msgstr "Додавання консолі термінала на нижню панель програми."
+
+#. (itstool) path: page/title
+#: C/terminal.page:26
+msgid "Embedded Terminal"
+msgstr "Вбудований термінал"
+
+#. (itstool) path: page/p
+#: C/terminal.page:28
+msgid ""
+"<app>gedit</app> makes it possible to include an embedded version of "
+"<app>GNOME Terminal</app>, the GNOME command-line application, in the bottom "
+"panel of the <app>gedit</app> window. This will let you run scripts, install "
+"needed software, or test your program without leaving <app>gedit</app>."
+msgstr ""
+"У <app>gedit</app> передбачено можливість включення до вікна програми "
+"вбудованої версії <app>Термінала GNOME</app> — емулятора командного рядка "
+"GNOME — на нижню панель вікна <app>gedit</app>. За її допомогою ви зможете "
+"запускати скрипти, встановлювати потрібне програмне забезпечення або "
+"тестувати програми не полишаючи вікна <app>gedit</app>."
+
+#. (itstool) path: section/title
+#: C/terminal.page:34
+msgid "Enable Embedded Terminal"
+msgstr "Вмикання вбудованого термінала"
+
+#. (itstool) path: item/p
+#: C/terminal.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Вбудований термінал</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: section/title
+#: C/terminal.page:52
+msgid "Using Embedded Terminal"
+msgstr "Користування вбудованим терміналом"
+
+#. (itstool) path: section/p
+#: C/terminal.page:54
+msgid ""
+"Once you have enabled the plugin, to add a terminal to the bottom panel:"
+msgstr ""
+"Після вмикання додатка, щоб додати термінал на нижню панель програми, "
+"виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:59
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom Panel</"
+"gui></guiseq>."
+msgstr ""
+"Натисніть кнопку меню у верхньому правому куті вікна програми і виберіть "
+"пункт <guiseq><gui style=\"menu\">Перегляд</gui> <gui style=\"menuitem"
+"\">Нижня панель</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/text-size.page:23
+msgid "Increase or decrease text size."
+msgstr "Збільшення або зменшення розмірів тексту."
+
+#. (itstool) path: page/title
+#: C/text-size.page:26
+msgid "Text Size"
+msgstr "Розмір шрифту"
+
+#. (itstool) path: page/p
+#: C/text-size.page:28
+msgid ""
+"The text size plugin allows you to temporarily change the text size for "
+"better readability in <app>gedit</app> without changing the program's "
+"default text size."
+msgstr ""
+"За допомогою додатка розмірів тексту ви можете тимчасово змінити розмір "
+"тексту для поліпшення умов читання у вікні <app>gedit</app> без зміни "
+"типового розміру тексту програми."
+
+#. (itstool) path: section/title
+#: C/text-size.page:33
+msgid "Enable Text Size Plugin"
+msgstr "Вмикання додатка розмірів тексту"
+
+#. (itstool) path: item/p
+#: C/text-size.page:43
+msgid "Select <gui style=\"menuitem\">Text Size</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Розмір тексту</gui>, щоб увімкнути додаток."
+
+#. (itstool) path: section/title
+#: C/text-size.page:50
+msgid "Use the <app>Text Size</app> plugin"
+msgstr "Користування додатком <app>Розмір тексту</app>"
+
+#. (itstool) path: section/p
+#: C/text-size.page:52
+msgid ""
+"Once you have enabled the plugin, do any of the following to change the text "
+"size in <app>gedit</app>:"
+msgstr ""
+"Після вмикання додатка виконайте одну з таких дій, щоб змінити розмір тексту "
+"у <app>gedit</app>:"
+
+#. (itstool) path: item/p
+#: C/text-size.page:57
+msgid ""
+"To <em>increase</em> the text size, press <keyseq><key>Ctrl</key><key>+</"
+"key></keyseq>."
+msgstr ""
+"Щоб <em>збільшити</em> розмір тексту, натисніть комбінацію клавіш "
+"<keyseq><key>Ctrl</key><key>+</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/text-size.page:61
+msgid ""
+"To <em>decrease</em> the text size, press <keyseq><key>Ctrl</key><key>-</"
+"key></keyseq>."
+msgstr ""
+"Щоб <em>зменшити</em> розмір тексту, натисніть комбінацію клавіш "
+"<keyseq><key>Ctrl</key><key>-</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/text-size.page:65
+msgid ""
+"To <em>reset</em> the text size to the default size, press "
+"<keyseq><key>Ctrl</key><key>0</key></keyseq>."
+msgstr ""
+"Щоб <em>відновити початковий типовий</em> розмір тексту, натисніть "
+"комбінацію клавіш <keyseq><key>Ctrl</key><key>0</key></keyseq>."
+
+#. (itstool) path: info/desc
+#: C/translate.page:18
+msgid "Translate text into different languages"
+msgstr "Переклад тексту іншими мовами"
+
+#. (itstool) path: page/title
+#: C/translate.page:21
+msgid "Translate"
+msgstr "Переклад"
+
+#. (itstool) path: page/p
+#: C/translate.page:23
+msgid ""
+"The <app>Translate</app> plugin allows you to translate text from "
+"<app>gedit</app> using Apertium and Yandex engines."
+msgstr ""
+"Додаток <app>Переклад</app> надає вам змогу перекладати текст у <app>gedit</"
+"app> за допомогою рушіїв Apertium і Yandex."
+
+#. (itstool) path: section/title
+#: C/translate.page:26
+msgid "Enabling and configuring the Translate plugin"
+msgstr "Вмикання і вимикання додатка перекладу"
+
+#. (itstool) path: item/p
+#: C/translate.page:36
+msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Переклад</gui>, щоб увімкнути додаток."
+
+#. (itstool) path: item/p
+#: C/translate.page:39
+msgid ""
+"Press <gui style=\"button\">Preferences</gui> to configure the translation "
+"engine to use and a language pair."
+msgstr ""
+"Натисніть кнопку <gui style=\"button\">Параметри</gui> для налаштовування "
+"рушія перекладу, яким слід скористатися, і пари мов."
+
+#. (itstool) path: item/p
+#: C/translate.page:42
+msgid ""
+"In case you use the Yandex translation engine, you need an API key. You can "
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
+"site</link>."
+msgstr ""
+"Якщо ви захочете скористатися рушієм перекладу Yandex, вам знадобиться ключ "
+"до програмного інтерфейсу. Отримати ключ можна на <link href=\"https://tech."
+"yandex.com/translate/\">сайті Yandex</link>."
+
+#. (itstool) path: note/p
+#: C/translate.page:46
+msgid ""
+"You can also customize the address of the Apertium server, you will need to "
+"use the <app>dconf-editor</app> application."
+msgstr ""
+"Ви також можете налаштувати адресу сервера Apertium. Для цього знадобиться програма <app>dconf-editor</app>."
+
+#. (itstool) path: item/p
+#: C/translate.page:48
+msgid ""
+"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+msgstr ""
+"Запустіть <app>dconf-editor</app> і виберіть <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/translate.page:51
+msgid ""
+"Double-click on the URL next to <gui>apertium-server</gui> and change the "
+"URL to your desired value."
+msgstr ""
+"Двічі клацніть на адресі поряд із <gui>apertium-server</gui> і змініть значення адреси на бажане."
+
+#. (itstool) path: section/title
+#: C/translate.page:59
+msgid "Using the Translate plugin"
+msgstr "Користування додатком перекладу"
+
+#. (itstool) path: steps/title
+#: C/translate.page:62
+msgid "To translate a text:"
+msgstr "Щоб перекласти текст, виконайте такі дії:"
+
+#. (itstool) path: item/p
+#: C/translate.page:64
+msgid "Select the part of text that you would like to translate."
+msgstr "Позначте частину тексту, яку ви хочете перекласти."
+
+#. (itstool) path: item/p
+#: C/translate.page:67
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
+"to translate it."
+msgstr ""
+"Натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>K</key></keyseq> або "
+"скористайтеся контекстним меню для перекладу тексту."
+
+#. (itstool) path: item/p
+#: C/translate.page:68
+msgid ""
+"The translation appears in the document or in the bottom panel, depending on "
+"your configuration."
+msgstr ""
+"Переклад буде показано у документі або на нижній панелі, залежно від "
+"налаштувань."
+
+#. (itstool) path: info/desc
+#: C/word-completion.page:26
+msgid "Autocomplete words or portions of code as you type."
+msgstr "Автоматичне доповнення слів або частини коду під час введення."
+
+#. (itstool) path: page/title
+#: C/word-completion.page:29
+msgid "Word Completion"
+msgstr "Завершення слів"
+
+#. (itstool) path: page/p
+#: C/word-completion.page:31
+msgid ""
+"The <app>Word Completion</app> plugin can speed up your editing by "
+"suggesting completions of words as you type."
+msgstr ""
+"Додаток <app>Завершення слів</app> може пришвидшити редагування, надаючи вам "
+"пропозиції щодо завершення слів, які ви вводите."
+
+#. (itstool) path: item/p
+#: C/word-completion.page:42
+msgid ""
+"Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr ""
+"Виберіть <gui style=\"menuitem\">Доповнення слів</gui>, щоб увімкнути "
+"додаток."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:47
+msgid ""
+"While editing, the <app>Word Completion</app> plugin will automatically "
+"display a pop-up list of words that begin with the letters you have already "
+"typed. Word suggestions are based upon words that appear elsewhere in your "
+"document and upon pre-defined keywords if your document is of a recognised "
+"format."
+msgstr ""
+"Під час редагування додаток <app>Завершення слів</app> автоматично "
+"показуватиме контекстний список слів, які починаються із літер, які ви вже "
+"ввели. Перелік пропозицій засновано на наявних словах документа і попередньо "
+"визначених ключових словах, якщо ваш документ належатиме до одного з "
+"форматів, підтримку яких передбачено у програмі."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:53
+msgid ""
+"To insert a suggested word, double-click on it in the pop-up list or press "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
+"number displayed next to your desired word."
+msgstr ""
+"Щоб вставити пропоноване слово, двічі клацніть на ньому у контекстному "
+"списку або натисніть комбінацію клавіш <keyseq><key>Alt</key><key>Цифра</"
+"key></keyseq>, де <key>Цифра</key> — номер, який показано поряд із "
+"відповідним словом у списку."
+
+#~ msgid ""
+#~ "By default, the <app>Draw Spaces</app> plugin will mark the following "
+#~ "types of whitespace in a file:"
+#~ msgstr ""
+#~ "Типово, додаток <app>Візуалізація пробілів</app> позначає такі типи "
+#~ "пробілів у файлі:"
+
+#~ msgid "Spaces"
+#~ msgstr "Пробіли"
+
+#~ msgid "Tabs"
+#~ msgstr "Табуляції"
+
+#~ msgid "Leading spaces"
+#~ msgstr "Початкові пробіли"
+
+#~ msgid "Spaces in text"
+#~ msgstr "Пробіли у тексті"
+
+#~ msgid "Trailing spaces"
+#~ msgstr "Кінцеві пробіли"
+
+#~ msgid "You can also set the plugin to mark:"
+#~ msgstr "Ви можете також налаштувати додаток для позначення:"
+
+#~ msgid "New lines"
+#~ msgstr "Нові рядки"
+
+#~ msgid "Non-breaking spaces"
+#~ msgstr "Нерозривний пропуск"

@@ -1,0 +1,2155 @@
+# Dutch translation for gedit
+#
+# This file is distributed under the same license as the gedit package.
+#
+# Dennis Smit <synap@area101.penguin.nl>, 2000.
+# Ludootje <ludootje@linux.be>, 2001.
+# Jan-Willem Harmanny <jwharmanny@hotmail.com>, 2002.
+# Ronald Hummelink <ronald@hummelink.xs4all.nl>, 2002.
+# Sander Knopper <sander@knopper.dhs.org>, 2002.
+# Reinout van Schouwen <reinout@cs.vu.nl>, 2002–2007.
+# Taco Witte <T.C.Witte@phys.uu.nl>, 2002.
+# Daniel van Eeden <daniel_e@dds.nl>, 2004.
+# Tino Meinen <a.t.meinen@chello.nl>, 2005, 2006.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2008–2010.
+# Rob van den Berg <linuxned@gmail.com>, 2010.
+# Kenneth Venken <kenneth.venken@gmail.com>, 2010.
+# Hannie Dumoleyn <lafeber-dumoleyn2@zonnet.nl>, 2010.
+# Justin van Steijn <jvs@fsfe.org>, 2016, 2018.
+# Nathan Follens <nthn@unseen.is>, 2017-2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2021-02-19 22:14+0000\n"
+"PO-Revision-Date: 2021-04-02 16:31+0200\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
+msgid "Bookmarks"
+msgstr "Bladwijzers"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
+msgid "Easy document navigation with bookmarks"
+msgstr "Gemakkelijke documentnavigatie met bladwijzers"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "Bladwijzer aan/uit"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
+msgstr "Ga naar volgende bladwijzer"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
+msgstr "Ga naar vorige bladwijzer"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
+msgid "Bracket Completion"
+msgstr "Haakjes-voltooiing"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "Voegt automatisch ‘haakjes sluiten’ toe."
+
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "Als u een haakje invoegt, automatisch een haakje sluiten toevoegen"
+
+#: plugins/charmap/charmap/__init__.py:56
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
+msgid "Character Map"
+msgstr "Tekens- en symbolenlijst"
+
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
+msgid "Insert special characters just by clicking on them."
+msgstr "Speciale tekens en symbolen invoegen door erop te klikken."
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
+msgid "Charmap"
+msgstr "Tekenlijst"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
+msgid "Select characters from a character map"
+msgstr "Tekens selecteren in een tekenlijst"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
+msgid "Code Comment"
+msgstr "Commentaar"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Een blok code van commentaar voorzien of uit commentaar halen."
+
+#: plugins/codecomment/codecomment.py:118
+msgid "Co_mment Code"
+msgstr "Co_mmentaar"
+
+#: plugins/codecomment/codecomment.py:124
+msgid "U_ncomment Code"
+msgstr "Code ui_t commentaar halen"
+
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Een blok code van commentaar voorzien of uit commentaar halen"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
+msgid "Color Picker"
+msgstr "Kleurenkiezer"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Een kleur uit een dialoogvenster kiezen en de hexadecimale representatie "
+"ervan invoegen."
+
+#: plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "_Kleur kiezen…"
+
+#: plugins/colorpicker/colorpicker.py:172
+msgid "Pick Color"
+msgstr "Kleur kiezen"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "Kleurenkiezer"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr ""
+"Een kleur uit een dialoogvenster selecteren en invoegen (voor HTML, CSS, PHP)"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
+msgid "Color Scheme Editor"
+msgstr "Kleurenschemabewerker"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
+msgid "Source code color scheme editor"
+msgstr "Broncode van kleurenschemabewerker"
+
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "Het kleurenschema gebruikt voor syntax-markering maken en bewerken"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "Er is een probleem opgetreden bij het opslaan van het schema"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"U heeft ervoor gekozen een nieuw schema aan te maken\n"
+"maar de naam of ID die u gebruikt is al in gebruik.\n"
+"\n"
+"Kies een naam en ID die nog niet in gebruik zijn.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"U heeft geen toestemming om dit schema te overschrijven.\n"
+"In plaats daarvan zal er een kopie gemaakt worden.\n"
+"\n"
+"Kies een naam en ID die nog niet in gebruik zijn.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "Er is een probleem opgetreden bij het openen van het bestand"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr ""
+"Het lijkt erop dat u schema’s met dezelfde ID’s in verschillende mappen "
+"heeft\n"
+
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
+msgid "Bold"
+msgstr "Vetgedrukt"
+
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
+msgid "Italic"
+msgstr "Schuingedrukt"
+
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
+msgid "Underline"
+msgstr "Onderstreept"
+
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
+msgid "Strikethrough"
+msgstr "Doorgestreept"
+
+#: plugins/colorschemer/schemer.ui:243
+msgid "Pick the background color"
+msgstr "Achtergrondkleur kiezen"
+
+#: plugins/colorschemer/schemer.ui:259
+msgid "Pick the foreground color"
+msgstr "Voorgrondkleur kiezen"
+
+#: plugins/colorschemer/schemer.ui:270
+msgid "_Background"
+msgstr "_Achtergrond"
+
+#: plugins/colorschemer/schemer.ui:288
+msgid "_Foreground"
+msgstr "_Voorgrond"
+
+#: plugins/colorschemer/schemer.ui:341
+msgid "_Clear"
+msgstr "Wi_ssen"
+
+#: plugins/colorschemer/schemer.ui:383
+msgid "Name"
+msgstr "Naam"
+
+#: plugins/colorschemer/schemer.ui:408
+msgid "ID"
+msgstr "ID"
+
+#: plugins/colorschemer/schemer.ui:433
+msgid "Description"
+msgstr "Beschrijving"
+
+#: plugins/colorschemer/schemer.ui:459
+msgid "Author"
+msgstr "Auteur"
+
+#: plugins/colorschemer/schemer.ui:503
+msgid "Sample"
+msgstr "Voorbeeld"
+
+#: plugins/commander/commander/appactivatable.py:56
+msgid "Commander Mode"
+msgstr "Opdrachtlijn-modus"
+
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
+msgid "Commander"
+msgstr "Opdrachtlijn"
+
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
+msgid "Command line interface for advanced editing"
+msgstr "Opdrachtlijn-interface voor geavanceerd bewerken"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+msgid "Draw Spaces"
+msgstr "Spaties weergeven"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
+msgid "Draw spaces and tabs"
+msgstr "Spaties en tabs tonen"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
+msgid "Draw spaces"
+msgstr "Spaties tonen"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "Spaties en tabs tonen"
+
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
+msgid "Find in Files"
+msgstr "In bestanden vinden"
+
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
+msgid "_Close"
+msgstr "_Sluiten"
+
+#: plugins/findinfiles/dialog.ui:39
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "_Zoeken"
+
+#: plugins/findinfiles/dialog.ui:72
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind:"
+msgstr "Z_oeken:"
+
+#: plugins/findinfiles/dialog.ui:99
+msgid "_In:"
+msgstr "_In:"
+
+#: plugins/findinfiles/dialog.ui:115
+msgid "Select a _folder"
+msgstr "Een _map selecteren"
+
+#: plugins/findinfiles/dialog.ui:130
+msgid "_Match case"
+msgstr "Hoo_fdlettergevoelig"
+
+#: plugins/findinfiles/dialog.ui:146
+msgid "Match _entire word only"
+msgstr "_Alleen hele woorden"
+
+#: plugins/findinfiles/dialog.ui:162
+msgid "Re_gular expression"
+msgstr "_Reguliere expressie"
+
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "Tekst zoeken in alle bestanden in een map."
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "Tekst zoeken in alle bestanden in een map"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "In bestanden vinden…"
+
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "resultaat"
+msgstr[1] "resultaten"
+
+#: plugins/findinfiles/result-panel.vala:196
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Bestand"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:218
+msgid "Stop the search"
+msgstr "Zoeken stoppen"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
+msgid "Git"
+msgstr "Git"
+
+#: plugins/git/gedit-git.metainfo.xml.in:7
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr ""
+"Git-informatie gebruiken om weer te geven welke regels en bestanden zijn "
+"veranderd sinds de laatste commit"
+
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Regels markeren die veranderd zijn sinds de laatste commit"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Regels aaneenvoegen/splitsen"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "Meerdere regels samenvoegen of splitsen met Ctrl+J en Ctrl+Shift+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "Meerdere lange regels aaneenvoegen of lange regels splitsen"
+
+#: plugins/joinlines/joinlines.py:111
+msgid "_Join Lines"
+msgstr "Regels samen_voegen"
+
+#: plugins/joinlines/joinlines.py:117
+msgid "_Split Lines"
+msgstr "Regels _splitsen"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
+msgid "Multi edit"
+msgstr "Multi-bewerken"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
+msgid "Edit document in multiple places at once"
+msgstr "Een document op meerdere plaatsen tegelijk bewerken"
+
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr "Multi-bewerkmodus"
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
+msgid "Multi Edit"
+msgstr "Multi-bewerken"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr "Bewerkpunt toegevoegd…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr "Kolommodus…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr "Bewerkpunt verwijderd…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr "Kolommodus geannuleerd…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "Enter column edit mode using selection"
+msgstr "Kolom-bewerkmodus invoeren gebruikmakend van selectie"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "<b>Slimme</b> kolom-bewerkmodus invoeren gebruikmakend van selectie"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "<b>Slimme</b> kolomuitlijnmodus gebruikmakend van selectie"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"<b>Slimme</b> kolomuitlijnmodus met toegevoegde spatie gebruikmakend van "
+"selectie"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Toggle edit point"
+msgstr "Bewerklocatie aan/uit"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Add edit point at beginning of line/selection"
+msgstr "Bewerklocatie toevoegen aan het begin van regel/selectie"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Add edit point at end of line/selection"
+msgstr "Bewerklocatie toevoegen aan het einde van regel/selectie"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
+msgid "Align edit points"
+msgstr "Bewerklocaties uitlijnen"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
+msgid "Align edit points with additional space"
+msgstr "Bewerklocaties uitlijnen met toegevoegde spatie"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "Opgeslagen sessies _beheren…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "Sessie op_slaan…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Sessie ‘{0}’ herstellen"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Sessienaam"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Sessies Opslaan"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Werksessies opslaan en weer openen"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Sessie opslaan"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Sessienaam:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Opgeslagen sessies"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+msgid "Smart Spaces"
+msgstr "Slimme spaties"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr "Uitlijnen met tabs terwijl u eigenlijk spaties gebruikt"
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Forget you’re not using tabulations."
+msgstr "Vergeet dat u geen tabs gebruikt."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Tussen LaTeX en PDF synchroniseren met gedit en evince"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Tussen LaTeX en PDF synchroniseren met gedit en evince."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Voorwaarts zoeken"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:313
+msgid "Terminal"
+msgstr "Terminal"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Een simpele terminal-widget, toegankelijk van het paneel beneden"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
+msgid "Whether to silence terminal bell"
+msgstr "Of terminal-rinkelbel stil is"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Indien ingeschakeld, maak geen geluid wanneer toepassingen de ‘escape "
+"sequence’ versturen voor de terminal-rinkelbel."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
+msgid "Number of lines to keep in scrollback"
+msgstr "Hoeveelheid regels te behouden in de terugscroll"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"Hoeveelheid regels om te behouden. U kunt terugscrollen in de terminal met "
+"deze hoeveelheid regels; regels die niet in de terugscroll passen worden "
+"verworpen. Als scrollback-unlimited ingeschakeld is, wordt deze waarde "
+"genegeerd."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr ""
+"Of een ongelimiteerde hoeveelheid regels moet worden behouden in de "
+"terugscroll"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Indien ingeschakeld, zullen de terugscroll-regels nooit worden verworpen. De "
+"terugscroll-geschiedenis wordt tijdelijk op schijf opgeslagen, dus dit zou "
+"er voor kunnen zorgen dat het systeem de hoeveelheid schrijfruimte opmaakt "
+"als er veel uitvoer is naar het terminalvenster."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Of er naar de onderkant wordt gescrolld als een toets wordt ingedrukt"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+"Indien ingeschakeld springt bij indrukken van een toets de schuifbalk naar "
+"beneden."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr "Of er naar de onderkant wordt gescrold als er nieuwe uitvoer is"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
+"Indien ingeschakeld zal de terminal naar onderen scrollen als er nieuwe "
+"uitvoer is."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
+msgid "Default color of text in the terminal"
+msgstr "Standaardkleur van tekst in de terminal"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Standaardkleur van tekst in de terminal, als een kleurspecificatie (kan een "
+"hexadecimaal getal zijn in HTML-stijl, of een kleurnaam zoals ‘red’)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
+msgid "Default color of terminal background"
+msgstr "Standaardkleur van terminalachtergrond"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Standaardkleur van terminalachtergrond, als een kleurspecificatie (kan een "
+"hexadecimaal getal zijn in HTML-stijl, of een kleurnaam zoals ‘red’)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
+msgid "Palette for terminal applications"
+msgstr "Palet voor terminaltoepassingen"
+
+# Wat is de vertaling van colon?
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. “#FF00FF”"
+msgstr ""
+"Terminals hebben een 16-kleurenpalet die door toepassingen in de terminal "
+"kunnen worden gebruikt. Dit is dat palet, in de vorm van een dubbelepunt-"
+"gescheiden lijst van kleurnamen. Kleurnamen moeten in hexadecimaal formaat "
+"zijn, bijv. ‘#FF00FF’"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Of de kleur van het thema voor de terminal-widget wordt gebruikt"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Indien ingeschakeld, zal het themakleurenschema dat gebruikt wordt voor "
+"tekstinvoervakken worden gebruikt voor de terminal, in plaats van kleuren "
+"die zijn ingevoerd door de gebruiker."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+msgid "Whether to blink the cursor"
+msgstr "Of de cursor knippert"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr ""
+"De mogelijke waardes zijn ‘system’ om de systeembrede "
+"cursorknipperinstellingen te gebruiken, of ‘on’ of ‘off’ of de modus "
+"expliciet in te stellen."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+msgid "The cursor appearance"
+msgstr "De cursorvertoning"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+"De mogelijke waardes zijn ‘block’ om een blokcursor te gebruiken, ‘ibeam’ om "
+"een verticaleregelcursor te gebruiken, of ‘underline’ om een onderstreep-"
+"cursor te gebruiken."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+msgid "Whether to use the system font"
+msgstr "Of het systeemlettertype wordt gebruikt"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Indien ingeschakeld zal de terminal het bureaublad-brede standaardlettertype "
+"gebruiken als het monospace is (en het meest gelijke lettertype in andere "
+"gevallen)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
+msgid "Font"
+msgstr "Lettertype"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr ""
+"Een Pango-lettertypenaam. Voorbeelden zijn ‘Sans 12’ of ‘Monospace Bold 14’."
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Ingebedde terminal"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Een terminalvenster inbedden in het paneel beneden."
+
+#: plugins/terminal/terminal.py:334
+msgid "C_hange Directory"
+msgstr "_Map wijzigen"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
+msgid "Text size"
+msgstr "Tekstgrootte"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "De tekst gemakkelijk groter of kleiner maken"
+
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "_Normale grootte"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "_Kleinere tekst"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "_Grotere tekst"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "Tekstgrootte"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "Vertalen"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "Vertaalt tekst in verschillende talen"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "Waar vertalingsuitvoer wordt weergegeven"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Translate console."
+msgstr ""
+"Indien ingeschakeld wordt de uitvoer van de vertaling in het documentvenster "
+"ingevoegd indien niet in de vertalingsconsole."
+
+# ? - Nathan
+#. Translators: You can adjust the default pair for users in your locale.
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "'eng|spa'"
+msgstr "'en|nl'"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used"
+msgstr "Gebruikt taalpaar"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
+msgid "Language pair used to translate from one language to another"
+msgstr ""
+"Taalpaar dat wordt gebruikt om van de ene naar de andere taal te vertalen"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
+msgid "Apertium server end point"
+msgstr "Apertium-servereindpunt"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "API-sleutel voor de externe webdienst"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+msgid "Remote web service to use"
+msgstr "Te gebruiken externe webdienst"
+
+#: plugins/translate/translate/__init__.py:88
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "Vertalingen aangeboden door {0}"
+
+#: plugins/translate/translate/__init__.py:91
+msgid "Translate Console"
+msgstr "Vertalingsconsole"
+
+#: plugins/translate/translate/__init__.py:166
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "Geselecteerde tekst vertalen [{0}]"
+
+#: plugins/translate/translate/preferences.py:84
+msgid "API Key"
+msgstr "API-sleutel"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr ""
+"U dient een API-sleutel te verkrijgen op <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "Talen voor vertaling:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "Waar moet vertaling uitgevoerd worden:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "Zelfde documentvenster"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "Vertalingsconsole (onderpaneel)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "Vertalingsdienst:"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
+msgid "Interactive completion"
+msgstr "Interactieve aanvulling"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
+msgid "Minimum word size:"
+msgstr "Minimum woordgrootte:"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "Woordaanvulling"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Automatische aanvulling voorstellen gebruikmakend van woorden die al in het "
+"document voorkomen"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
+msgid "Document Words"
+msgstr "Woorden in document"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
+msgid "Interactive Completion"
+msgstr "Interactieve aanvulling"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
+msgid "Whether to enable interactive completion."
+msgstr "Of interactieve aanvulling ingeschakeld is."
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
+msgid "Minimum Word Size"
+msgstr "Minimum woordgrootte"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
+msgid "The minimum word size to complete."
+msgstr "De minimum woordgrootte om aan te vullen."
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Woordaanvulling"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Woordaanvulling gebruikmakend van het aanvullingsraamwerk"
+
+#~ msgid "Show _White Space"
+#~ msgstr "_Witspaties tonen"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Tabs tonen"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Nieuwe regels tonen"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Niet-afbrekende spaties tonen"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Leidende spaties tonen"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Spaties in tekst tonen"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Afsluitende spaties tonen"
+
+#~ msgid "Show White Space"
+#~ msgstr "Witspaties tonen"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Als WAAR zal weergeven worden ingeschakeld."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Het type spaties om te tonen."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Regels samenvoegen/splitsen"
+
+#~ msgid "_In "
+#~ msgstr "_In "
+
+#~ msgid "Whether to allow bold text"
+#~ msgstr "Of vetgedrukte tekst wordt toegestaan"
+
+#~ msgid "If true, allow applications in the terminal to make text boldface."
+#~ msgstr ""
+#~ "Indien ingeschakeld is het toegestaan voor toepassingen in de terminal om "
+#~ "tekst vetgedrukt te maken."
+
+#~ msgid "Zeitgeist Data provider"
+#~ msgstr "Zeitgeist-gegevensverstrekker"
+
+#~ msgid ""
+#~ "Records user activity and giving easy access to recently-used and "
+#~ "frequently-used files"
+#~ msgstr ""
+#~ "Neemt gebruikersactiviteiten op en geeft gemakkelijk toegang tot vaak "
+#~ "gebruikte en recente bestanden"
+
+#~ msgid "Zeitgeist dataprovider"
+#~ msgstr "Zeitgeist-gegevensverstrekker"
+
+#~ msgid "Logs access and leave event for documents used with gedit"
+#~ msgstr ""
+#~ "Logboek-toegang en verlaat-gebeurtenissen voor documenten gebruikt met "
+#~ "gedit"
+
+# Wazige string, juiste vertaling?
+#~| msgid "Accessibility key character"
+#~ msgid "accessories-character-map"
+#~ msgstr "accessories-character-map"
+
+#~ msgid "utilities-terminal"
+#~ msgstr "utilities-terminal"
+
+#~ msgid "Empty Document"
+#~ msgstr "Leeg document"
+
+#~ msgid "Type here to search…"
+#~ msgstr "Hier typen om te zoeken…"
+
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#~ msgid "A Dashboard for new tabs"
+#~ msgstr "Een dashboard voor nieuwe tabbladen"
+
+#~ msgid "Displays a grid of recently/most used files upon opening a new tab"
+#~ msgstr ""
+#~ "Een raster van recent/meest gebruikte bestanden weergeven bij het openen "
+#~ "van een nieuw tabblad"
+
+#, fuzzy
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "De statusbalk in het huidige venster tonen of verbergen"
+
+#, fuzzy
+#~ msgid "Goto the next bookmark"
+#~ msgstr "Ga naar de volgende bezochte locatie"
+
+#, fuzzy
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "Vorige pagina tonen"
+
+#, fuzzy
+#~ msgid "Comment the selected code"
+#~ msgstr "Geselecteerde tekst verwijderen"
+
+#, fuzzy
+#~ msgid "Uncomment the selected code"
+#~ msgstr "Geselecteerde tekst verwijderen"
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "Kleur uit dialoogvenster kiezen"
+
+#~ msgid "_Insert"
+#~ msgstr "_Invoegen"
+
+#, fuzzy
+#~ msgid "Show spaces and tabs"
+#~ msgstr "_Spaties invoegen in plaats van tabs"
+
+#~ msgid "Enabled"
+#~ msgstr "Ingeschakeld"
+
+#, fuzzy
+#~ msgid "Join the selected lines"
+#~ msgstr "De geselecteerde regels uitspringen"
+
+#, fuzzy
+#~ msgid "Split the selected lines"
+#~ msgstr "De geselecteerde regels uitspringen"
+
+#, fuzzy
+#~ msgid "_Save current session"
+#~ msgstr "Huidige selectie vervangen"
+
+#, fuzzy
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "Huidige document naar nieuw venster verplaatsen"
+
+#, fuzzy
+#~ msgid "Open the saved session manager"
+#~ msgstr "De gedit-handleiding openen"
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Selecteer de tag-groep die u wilt gebruiken."
+
+#~ msgid "_Preview"
+#~ msgstr "_Voorbeeld"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "Beschikbare tag-lijsten"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "Afgekorte vorm"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Afkorting"
+
+#~ msgid "Above"
+#~ msgstr "Boven"
+
+#~ msgid "Acronym"
+#~ msgstr "Acroniem"
+
+#~ msgid "Align"
+#~ msgstr "Uitlijnen"
+
+#~ msgid "Alignment character"
+#~ msgstr "Uitlijningsteken"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternatief"
+
+#~ msgid "Anchor"
+#~ msgstr "Anker"
+
+#~ msgid "Anchor URI"
+#~ msgstr "Anker-URI"
+
+#~ msgid "Applet class file code"
+#~ msgstr "Code van het applet-classbestand"
+
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "Code van het applet-classbestand (achterhaald)"
+
+#~ msgid "Array"
+#~ msgstr "Array"
+
+#~ msgid "Associated information"
+#~ msgstr "Geassocieerde informatie"
+
+#~ msgid "Axis related headers"
+#~ msgstr "As-gerelateerde kopteksten"
+
+#~ msgid "Background color (deprecated)"
+#~ msgstr "Achtergrondkleur (achterhaald)"
+
+#~ msgid "Background texture tile"
+#~ msgstr "Getegeld achtergrondpatroon"
+
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "Getegeld achtergrondpatroon (achterhaald)"
+
+#~ msgid "Base URI"
+#~ msgstr "Basis-URI"
+
+#~ msgid "Base font"
+#~ msgstr "Basislettertype"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "Basislettertype (achterhaald)"
+
+#~ msgid "Border"
+#~ msgstr "Rand"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "Rand (achterhaald)"
+
+#~ msgid "Border color"
+#~ msgstr "Randkleur:"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "Cel-rijomspanning"
+
+#~ msgid "Center"
+#~ msgstr "Gecentreerd"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "Gecentreerd (achterhaald)"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "Tekenset van bron waarnaar verwezen wordt"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Aangekruist (status)"
+
+#~ msgid "Checked state"
+#~ msgstr "Aangekruiste staat"
+
+#~ msgid "Citation"
+#~ msgstr "Citaat"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "Meld reden voor wijziging"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "Classimplementatie-ID"
+
+#~ msgid "Class list"
+#~ msgstr "Classlijst"
+
+# Help, wat moet dit zijn?
+# Er is een tag genaamd 'clear' die bepaalt hoe tekst bij plaatjes gezet wordt.
+# clear="left"  zet plaatjes aan de linkerkant
+# clear="right" zet plaatjes aan de rechterkant
+# bij clear="all" komt de tekst onder het plaatje
+#~ msgid "Clear text flow control"
+#~ msgstr "Tekstplaatsing met 'clear'"
+
+#~ msgid "Code content type"
+#~ msgstr "Code inhoudstype"
+
+#~ msgid "Color of selected links"
+#~ msgstr "Kleur van geselecteerde verwijzingen"
+
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "Kleur van geselecteerde verwijzingen (achterhaald)"
+
+#~ msgid "Column span"
+#~ msgstr "Kolomomspanning"
+
+#~ msgid "Columns"
+#~ msgstr "Kolommen"
+
+#~ msgid "Comment"
+#~ msgstr "Commentaar"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "Fragment computercode"
+
+#~ msgid "Content scheme"
+#~ msgstr "Inhoudsschema"
+
+#~ msgid "Content type"
+#~ msgstr "Inhoudstype"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "Inhoudstype (achterhaald)"
+
+#~ msgid "Coordinates"
+#~ msgstr "Coördinaten"
+
+#~ msgid "DIV Style container"
+#~ msgstr "DIV-stijl-container"
+
+#~ msgid "DIV container"
+#~ msgstr "DIV-container"
+
+#~ msgid "Date and time of change"
+#~ msgstr "Datum en tijd van wijziging"
+
+#~ msgid "Declare flag"
+#~ msgstr "Declaratievlag"
+
+# de download-performance van een pagina kan worden verbeterd
+# als de browser het attribuut niet eerst hoeft te verwerken
+# en kan doorgaan met het downloaden en verwerken met de rest
+# van de pagina, dus: uitstel van executie
+# uitstelen/uitstel attribuut
+#~ msgid "Defer attribute"
+#~ msgstr "Uitstellen-attribuut"
+
+#~ msgid "Definition description"
+#~ msgstr "Definitiebeschrijving"
+
+#~ msgid "Definition list"
+#~ msgstr "Definitielijst"
+
+#~ msgid "Definition term"
+#~ msgstr "Definitieterm"
+
+#~ msgid "Deleted text"
+#~ msgstr "Verwijderde tekst"
+
+#~ msgid "Direction"
+#~ msgstr "Richting"
+
+#~ msgid "Directionality"
+#~ msgstr "Richting"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "Richting (achterhaald)"
+
+# Juiste vertaling?!
+#~ msgid "Directory list"
+#~ msgstr "Overzichtslijst"
+
+#~ msgid "Disabled"
+#~ msgstr "Uitgeschakeld"
+
+#~ msgid "Document base"
+#~ msgstr "Basis van document"
+
+#~ msgid "Document body"
+#~ msgstr "Documentinhoud"
+
+#~ msgid "Document head"
+#~ msgstr "Documentkop"
+
+#~ msgid "Document title"
+#~ msgstr "Documenttitel"
+
+#~ msgid "Document type"
+#~ msgstr "Documenttype"
+
+#~ msgid "Element ID"
+#~ msgstr "Elementen-ID"
+
+#~ msgid "Embedded object"
+#~ msgstr "Ingebed object"
+
+#~ msgid "Emphasis"
+#~ msgstr "Nadruk"
+
+#~ msgid "Encode type"
+#~ msgstr "Coderingstype"
+
+#~ msgid "Figure"
+#~ msgstr "Figuur"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "Lettertypenaam (achterhaald)"
+
+#~ msgid "For label"
+#~ msgstr "Voor label"
+
+#~ msgid "Forced line break"
+#~ msgstr "Gedwongen regelafbreking"
+
+#~ msgid "Form"
+#~ msgstr "Formulier"
+
+#~ msgid "Form action handler"
+#~ msgstr "Formulier-actieafhandeling"
+
+#~ msgid "Form control group"
+#~ msgstr "Formuliercontrolegroep"
+
+#~ msgid "Form field label text"
+#~ msgstr "Labeltekst formulierveld"
+
+#~ msgid "Form input"
+#~ msgstr "Formulierinvoer"
+
+#~ msgid "Form input type"
+#~ msgstr "Formulierinvoertype"
+
+#~ msgid "Form method"
+#~ msgstr "Formuliermethode"
+
+#~ msgid "Forward link"
+#~ msgstr "Voorwaartse verwijzing"
+
+#~ msgid "Frame"
+#~ msgstr "Frame"
+
+#~ msgid "Frame border"
+#~ msgstr "Framerand"
+
+#~ msgid "Frame render parts"
+#~ msgstr "Weergavegedeeltes frame"
+
+#~ msgid "Frame source"
+#~ msgstr "Framebron"
+
+#~ msgid "Frame spacing"
+#~ msgstr "Framespatiëring"
+
+#~ msgid "Frame target"
+#~ msgstr "Framedoel"
+
+#~ msgid "Frameborder"
+#~ msgstr "Framerand"
+
+#~ msgid "Frameset"
+#~ msgstr "Frameset"
+
+#~ msgid "Frameset columns"
+#~ msgstr "Framset-kolommen"
+
+#~ msgid "Frameset rows"
+#~ msgstr "Frameset-rijen"
+
+#~ msgid "Framespacing"
+#~ msgstr "Framespatiëring"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "Generiek ingebed object"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "Generieke meta-informatie"
+
+#~ msgid "Generic span"
+#~ msgstr "Generieke span"
+
+#~ msgid "HREF URI"
+#~ msgstr "HREF URI"
+
+#~ msgid "HTML root element"
+#~ msgstr "HTML topelement"
+
+#~ msgid "HTML version"
+#~ msgstr "HTML-versie"
+
+#, fuzzy
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML - speciale tekens"
+
+#, fuzzy
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML - tags"
+
+#~ msgid "HTTP header name"
+#~ msgstr "HTTP-headernaam"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "Headercell-ID's"
+
+#~ msgid "Heading"
+#~ msgstr "Kop"
+
+#~ msgid "Heading 1"
+#~ msgstr "Kop 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Kop 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Kop 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Kop 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Kop 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Kop 6"
+
+#~ msgid "Height"
+#~ msgstr "Hoogte"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "Horizontale lijn"
+
+#~ msgid "Horizontal space"
+#~ msgstr "Horizontale ruimte"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "Horizontale ruimte (achterhaald)"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "I18N BiDi override"
+
+#~ msgid "Image"
+#~ msgstr "Afbeelding"
+
+#~ msgid "Image map"
+#~ msgstr "Afbeeldingskaart"
+
+#~ msgid "Image map area"
+#~ msgstr "Gebied afbeeldingskaart"
+
+#~ msgid "Image map name"
+#~ msgstr "Naam afbeeldingskaart"
+
+#~ msgid "Image source"
+#~ msgstr "Afbeeldingsbron"
+
+#~ msgid "Inline frame"
+#~ msgstr "Inline frame"
+
+#~ msgid "Inline layer"
+#~ msgstr "Inline laag"
+
+#~ msgid "Inserted text"
+#~ msgstr "Ingevoegde tekst"
+
+#~ msgid "Instance definition"
+#~ msgstr "Instantie-definitie"
+
+#~ msgid "Java applet"
+#~ msgstr "Java-applet"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "Java-applet (achterhaald)"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Layer"
+#~ msgstr "Laag"
+
+#~ msgid "Link color"
+#~ msgstr "Verwijzingskleur"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "Verwijzingskleur (achterhaald)"
+
+#~ msgid "List item"
+#~ msgstr "Lijst-item"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "Lijst van MIME-types voor bestandsupload"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "Lijst van ondersteunde tekensets"
+
+#~ msgid "Listing"
+#~ msgstr "Opsomming"
+
+#~ msgid "Local change to font"
+#~ msgstr "Plaatselijke lettertypewijziging"
+
+#~ msgid "Long description link"
+#~ msgstr "Lange omschrijving verwijzing"
+
+#~ msgid "Long quotation"
+#~ msgstr "Lang citaat"
+
+#~ msgid "Mail link"
+#~ msgstr "E-mailverwijzing"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "Pixelhoogte marge"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "Pixelbreedte marge"
+
+#~ msgid "Marquee"
+#~ msgstr "Lichtkrant"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "Maximale lengte van tekstveld"
+
+#~ msgid "Media-independent link"
+#~ msgstr "Media-onafhankelijke verwijzing"
+
+#~ msgid "Menu list"
+#~ msgstr "Menulijst"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "Menulijst (achterhaald)"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "Meerregelig tekstveld"
+
+#~ msgid "Multicolumn"
+#~ msgstr "Multikolom"
+
+#~ msgid "Named property value"
+#~ msgstr "Benoemde eigenschapswaarde"
+
+#~ msgid "Next ID"
+#~ msgstr "Volgend ID"
+
+#~ msgid "No URI"
+#~ msgstr "Geen URI"
+
+#~ msgid "No embedded objects"
+#~ msgstr "Geen ingebedde objecten"
+
+#~ msgid "No frames"
+#~ msgstr "Geen frames"
+
+#~ msgid "No layers"
+#~ msgstr "Geen lagen"
+
+#~ msgid "No line break"
+#~ msgstr "Geen regelafbreking"
+
+#~ msgid "No script"
+#~ msgstr "Geen script"
+
+#~ msgid "No shade"
+#~ msgstr "Geen schaduw"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "Geen schaduw (achterhaald)"
+
+#~ msgid "No word wrap"
+#~ msgstr "Geen regelterugloop"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "Geen regelterugloop (achterhaald)"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "Niet-afbrekende spatie"
+
+#~ msgid "Note"
+#~ msgstr "Notitie"
+
+#~ msgid "Object applet file"
+#~ msgstr "Object-appletbestand"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "Object-appletbestand (achterhaald)"
+
+#~ msgid "Object data reference"
+#~ msgstr "Object-datareferentie"
+
+# Juiste vertaling?!
+#~ msgid "Offset for alignment character"
+#~ msgstr "Afstand voor uitlijningsteken"
+
+#~ msgid "OnBlur event"
+#~ msgstr "OnBlur-gebeurtenis"
+
+#~ msgid "OnChange event"
+#~ msgstr "OnChange-gebeurtenis"
+
+#~ msgid "OnClick event"
+#~ msgstr "OnClick-gebeurtenis"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "OnDblClick-gebeurtenis"
+
+#~ msgid "OnFocus event"
+#~ msgstr "OnFocus-gebeurtenis"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "OnKeyDown-gebeurtenis"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "OnKeyPress-gebeurtenis"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "OnKeyUp-gebeurtenis"
+
+#~ msgid "OnLoad event"
+#~ msgstr "OnLoad-gebeurtenis"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "OnMouseDown-gebeurtenis"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "OnMouseMove-gebeurtenis"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "OnMouseOut-gebeurtenis"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "OnMouseOver-gebeurtenis"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "OnMouseUp-gebeurtenis"
+
+#~ msgid "OnReset event"
+#~ msgstr "OnReset-gebeurtenis"
+
+#~ msgid "OnSelect event"
+#~ msgstr "OnSelect-gebeurtenis"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "OnSubmit-gebeurtenis"
+
+#~ msgid "OnUnload event"
+#~ msgstr "OnUnload-gebeurtenis"
+
+#~ msgid "Option group"
+#~ msgstr "Optiegroep"
+
+#~ msgid "Option selector"
+#~ msgstr "Optieselectie"
+
+#~ msgid "Ordered list"
+#~ msgstr "Geordende lijst"
+
+#~ msgid "Output media"
+#~ msgstr "Uitvoermedia"
+
+#~ msgid "Paragraph"
+#~ msgstr "Alinea"
+
+#~ msgid "Paragraph class"
+#~ msgstr "Alineaklasse"
+
+#~ msgid "Paragraph style"
+#~ msgstr "Alineastijl"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "Vooraf vormgegeven opsomming"
+
+#~ msgid "Preformatted text"
+#~ msgstr "Vooraf opgemaakte tekst"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "Profiel-metainfo woordenboek"
+
+#~ msgid "Prompt message"
+#~ msgstr "Vraagbericht"
+
+#~ msgid "Push button"
+#~ msgstr "Drukknop"
+
+#~ msgid "Quote"
+#~ msgstr "Aanhalingsteken"
+
+#~ msgid "Range"
+#~ msgstr "Bereik"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "AlleenLezen tekst-en-wachtwoord"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "Gereduceerde spatiëring"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "Gereduceerde spatiëring (achterhaald)"
+
+#~ msgid "Reverse link"
+#~ msgstr "Omgekeerde verwijzing"
+
+# Betere vertaling?
+#~ msgid "Root"
+#~ msgstr "Beginpunt"
+
+#~ msgid "Rows"
+#~ msgstr "Rijen"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "Regels tussen rijen en kolommen"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "Voorbeeld-programmauitvoer, scripts"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "Bereik gedekt door header-cellen"
+
+#~ msgid "Script language name"
+#~ msgstr "Naam scripttaal"
+
+#~ msgid "Script statements"
+#~ msgstr "Script-statements"
+
+#~ msgid "Scrollbar"
+#~ msgstr "Schuifbalk"
+
+#~ msgid "Selectable option"
+#~ msgstr "Selecteerbare optie"
+
+#~ msgid "Selected"
+#~ msgstr "Geselecteerd"
+
+#~ msgid "Server-side image map"
+#~ msgstr "Server-side afbeeldingskaart"
+
+#~ msgid "Shape"
+#~ msgstr "Vorm"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "Kort tussengevoegd citaat"
+
+# Dit schijnt al een 'deprecated' tag te zijn
+# Creates a single-line text input control.
+#~ msgid "Single line prompt"
+#~ msgstr "Één-lijns invoerregel"
+
+#~ msgid "Size"
+#~ msgstr "Grootte"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "Grootte (achterhaald)"
+
+#~ msgid "Soft line break"
+#~ msgstr "Zachte regelafbreking"
+
+#~ msgid "Sound"
+#~ msgstr "Geluid"
+
+#~ msgid "Source"
+#~ msgstr "Bron"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "Archieflijst gescheiden door spaties"
+
+#~ msgid "Spacer"
+#~ msgstr "Afstandshouder"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "Spatiëring tussen cellen"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "Spatiëring binnen cellen"
+
+# Betere vertaling? Omspanning?
+#~ msgid "Span"
+#~ msgstr "Span"
+
+#~ msgid "Square root"
+#~ msgstr "Vierkantswortel"
+
+# This attribute contains a text message to be displayed while the object is loading.
+#~ msgid "Standby load message"
+#~ msgstr "'Ogenblik geduld'-bericht"
+
+#~ msgid "Starting sequence number"
+#~ msgstr "Begingetal opsomming"
+
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "Begingetal opsomming (achterhaald)"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "Doorgestreepte tekst (achterhaald)"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "Doorgestreepte tekststijl"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "Doorgestreepte tekststijl (achterhaald)"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "Sterke nadruk"
+
+#~ msgid "Style info"
+#~ msgstr "Stijlinfo"
+
+#~ msgid "Subscript"
+#~ msgstr "Subscript"
+
+#~ msgid "Superscript"
+#~ msgstr "Superscript"
+
+#~ msgid "Tab order position"
+#~ msgstr "Tabvolgorde-postitie"
+
+#~ msgid "Table"
+#~ msgstr "Tabel"
+
+#~ msgid "Table body"
+#~ msgstr "Tabelinhoud"
+
+#~ msgid "Table caption"
+#~ msgstr "Tabelbijschrift"
+
+#~ msgid "Table column group properties"
+#~ msgstr "Tabelkolomgroep-eigenschappen"
+
+#~ msgid "Table column properties"
+#~ msgstr "Tabelkolom-eigenschappen"
+
+#~ msgid "Table data cell"
+#~ msgstr "Tabeldatacel"
+
+#~ msgid "Table footer"
+#~ msgstr "Tabelvoettekst"
+
+#~ msgid "Table header"
+#~ msgstr "Tabelkoptekst"
+
+#~ msgid "Table header cell"
+#~ msgstr "Tabelkoptekstcel"
+
+#~ msgid "Table row"
+#~ msgstr "Tabelrij"
+
+#~ msgid "Table summary"
+#~ msgstr "Tabelsamenvatting"
+
+#, fuzzy
+#~ msgid "Target — Blank"
+#~ msgstr "Doel - Leeg"
+
+#, fuzzy
+#~ msgid "Target — Parent"
+#~ msgstr "Doel - Ouder"
+
+#, fuzzy
+#~ msgid "Target — Self"
+#~ msgstr "Doel - Zelf"
+
+#, fuzzy
+#~ msgid "Target — Top"
+#~ msgstr "Doel - Bovenop"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "Teletype- of monospatiëringstekststijl"
+
+#~ msgid "Text"
+#~ msgstr "Tekst"
+
+#~ msgid "Text color"
+#~ msgstr "Tekstkleur"
+
+#~ msgid "Text color (deprecated)"
+#~ msgstr "Tekstkleur (achterhaald)"
+
+#~ msgid "Text entered by user"
+#~ msgstr "Door gebruiker ingevoerde tekst"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "Bovenmarge in pixels"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Unordered list"
+#~ msgstr "Ongeordende lijst"
+
+#~ msgid "Use image map"
+#~ msgstr "Afbeeldingskaart gebruiken"
+
+#~ msgid "Value"
+#~ msgstr "Waarde"
+
+#~ msgid "Value interpretation"
+#~ msgstr "Waarde-interpretatie"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "Variabel of programma-argument"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Verticale celuitlijning"
+
+#~ msgid "Vertical space"
+#~ msgstr "Verticale ruimte"
+
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "Verticale ruimte (achterhaald)"
+
+#~ msgid "Visited link color"
+#~ msgstr "Kleur bezochte verwijzing"
+
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "Kleur bezochte verwijzing (achterhaald)"
+
+#~ msgid "Width"
+#~ msgstr "Breedte"
+
+#, fuzzy
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 - tags"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Bibliografie (cite)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Bibliografie (item)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Bibliografie (shortcite)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Bibliografie (thebibliography)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "Haakjes ()"
+
+#~ msgid "Brackets <>"
+#~ msgstr "Haakjes <>"
+
+#~ msgid "Brackets []"
+#~ msgstr "Haakjes []"
+
+#~ msgid "Brackets {}"
+#~ msgstr "Haakjes {}"
+
+#~ msgid "File input"
+#~ msgstr "Bestandsinvoer"
+
+#~ msgid "Footnote"
+#~ msgstr "Voetnoot"
+
+#~ msgid "Function cosine"
+#~ msgstr "Cosinusfunctie"
+
+#~ msgid "Function e^"
+#~ msgstr "Functie e^"
+
+#~ msgid "Function exp"
+#~ msgstr "Functie exp"
+
+#~ msgid "Function log"
+#~ msgstr "Functie log"
+
+#~ msgid "Function log10"
+#~ msgstr "Functie log10"
+
+#~ msgid "Function sine"
+#~ msgstr "Functie sinus"
+
+#~ msgid "Greek alpha"
+#~ msgstr "Griekse alpha"
+
+#~ msgid "Greek beta"
+#~ msgstr "Griekse bèta"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "Griekse epsilon"
+
+#~ msgid "Greek gamma"
+#~ msgstr "Griekse gamma"
+
+#~ msgid "Greek lambda"
+#~ msgstr "Griekse labda"
+
+#~ msgid "Greek rho"
+#~ msgstr "Griekse rho"
+
+#~ msgid "Greek tau"
+#~ msgstr "Griekse tau"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Kop 0 (hoofdstuk)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Kop 0 (hoofdstuk*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "Kop 1 (sectie)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Kop 1 (sectie*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Kop 2 (subsectie)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Kop 2 (subsectie*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Kop 3 (subsubsectie)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Kop 3 (subsubsectie*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Kop 4 (alinea)"
+
+#~ msgid "Header appendix"
+#~ msgstr "Kop appendix"
+
+#~ msgid "Item"
+#~ msgstr "Item"
+
+#~ msgid "Item with label"
+#~ msgstr "Item met label"
+
+#, fuzzy
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex - tags"
+
+#~ msgid "List enumerate"
+#~ msgstr "Lijstopsomming"
+
+#~ msgid "List itemize"
+#~ msgstr "Lijstitems"
+
+#~ msgid "Maths (display)"
+#~ msgstr "Wiskunde (weergave)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "Wiskunde (inline)"
+
+#~ msgid "Operator fraction"
+#~ msgstr "Operator gedeeld door"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Operator integral (display)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Operator integral (inline)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Operator sum (weergave)"
+
+# inline?!
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Operator sum (inline)"
+
+#~ msgid "Reference label"
+#~ msgstr "Referentielabel"
+
+# Referentie-referentie?!
+#~ msgid "Reference ref"
+#~ msgstr "Referentie-ref"
+
+#~ msgid "Symbol <<"
+#~ msgstr "Symbool <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "Symbool <="
+
+#~ msgid "Symbol >="
+#~ msgstr "Symbool >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "Symbool >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "Symbool and"
+
+#~ msgid "Symbol const"
+#~ msgstr "Symbool const"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Symbool d-by-dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Symbool d-by-dt-partial"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Symbool d2-by-dt2-partial"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "Symbool dagger"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "Symbool em-dash ---"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "Symbool en-dash --"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "Symbool equiv"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "Symbool infinity"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Symbool mathspace ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Symbool mathspace ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Symbool mathspace _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Symbool mathspace __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "Symbool simeq"
+
+#~ msgid "Symbol star"
+#~ msgstr "Symbool star"
+
+#~ msgid "Typeface bold"
+#~ msgstr "Vet lettertype"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Schuingedrukt lettertype"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Scheef lettertype"
+
+#~ msgid "Typeface type"
+#~ msgstr "Type-lettertype"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Onafbreekbare tekst"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr ""
+#~ "Op een gemakkelijke manier veelgebruikte tags en tekenreeksen invoegen in "
+#~ "een document, zonder ze te hoeven typen."
+
+#~ msgid "Tag list"
+#~ msgstr "Tag-lijst"
+
+#, fuzzy
+#~ msgid "XSLT — Axes"
+#~ msgstr "XSLT - assen"
+
+#, fuzzy
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT - elementen"
+
+#, fuzzy
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT - functies"
+
+#~ msgid "ancestor"
+#~ msgstr "voorouder"
+
+#~ msgid "ancestor-or-self"
+#~ msgstr "voorouder-of-zelf"
+
+#~ msgid "attribute"
+#~ msgstr "attribuut"
+
+#~ msgid "child"
+#~ msgstr "kind"
+
+#~ msgid "descendant"
+#~ msgstr "afstammeling"
+
+#~ msgid "descendant-or-self"
+#~ msgstr "afstammeling-of-zelf"
+
+#~ msgid "following"
+#~ msgstr "volgend"
+
+#~ msgid "following-sibling"
+#~ msgstr "zuster-volgend"
+
+#~ msgid "namespace"
+#~ msgstr "naamruimte"
+
+#~ msgid "parent"
+#~ msgstr "ouder"
+
+#~ msgid "preceding"
+#~ msgstr "voorgaand"
+
+#~ msgid "preceding-sibling"
+#~ msgstr "zuster-voorgaand"
+
+#~ msgid "self"
+#~ msgstr "zelf"
+
+#, fuzzy
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL — tags"

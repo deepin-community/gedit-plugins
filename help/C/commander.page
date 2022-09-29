@@ -1,0 +1,94 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-commander">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/> 
+    <revision version="3.4" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <desc>Use a command-line interface for advanced editing.</desc>
+  </info>
+
+  <title>Commander</title>
+
+  <p>The <app>Commander</app> plugin is a plugin for advanced <app>gedit</app>
+  users that allows you to perform command-line actions on the current file.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Commander</gui> to enable the plugin.</p>
+    </item>
+  </steps>
+
+  <p>Once you have enabled the plugin, activate it by pressing
+  <keyseq><key>Ctrl</key><key>,</key></keyseq>.</p>
+  
+  <note style="tip">
+    <p>The last key in the above key combination is a comma.</p>
+  </note>
+
+  <table frame="all" rules="all">
+    <thead>
+      <tr>
+        <td><p>Action</p></td>
+	<td><p>Keyboard shortcut</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>See an overview of available commands</p></td>
+	<td><p><keyseq><key>Tab</key><key>Tab</key></keyseq></p></td>
+      </tr>
+      <tr>
+        <td><p>Find a word within the current file</p></td>
+	<td>
+	  <p><key>/</key> <input>foo</input></p>
+          <p>This will find the word <input>foo</input>.</p>
+	</td>
+      </tr>
+      <tr>
+        <td><p>Replace a word within the current file</p></td>
+	<td>
+	  <p><keyseq><key>/</key><key>/</key></keyseq>
+	  <input>foo bar</input></p>
+          <p>This will replace <input>foo</input> with
+	  <input>bar</input>.</p>
+	</td>
+      </tr>
+      <tr>
+        <td><p>Move the cursor to a certain line number in your file</p></td>
+        <td>
+	  <p its:locNote="Translators: Do not translate 'go'! It is a command">
+	  <cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</key>
+	  <input>[line number]</input></cmd></p>
+        </td>
+      </tr>
+      <tr>
+        <td><p>Toggle the bookmark indicator for the current line</p></td>
+        <td><p its:locNote="Translators: Do not translate 'bookmark'! It is a
+        command"><cmd>bookmark</cmd> <em>or</em> just <key>B</key></p></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <note style="tip">
+    <p>Some commands, such as the <cmd>bookmark</cmd> command require that the
+    appropriate plugin be installed and activated. If you do not have the
+    appropriate plugin installed and activated, you will receive an error
+    message.</p>
+  </note>
+
+</page>

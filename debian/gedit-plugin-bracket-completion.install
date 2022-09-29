@@ -1,0 +1,3 @@
+usr/lib/*/gedit/plugins/bracketcompletion*
+usr/share/*/gedit-bracketcompletion.metainfo.xml usr/share/metainfo
+usr/share/help/*/gedit/bracket-comp.page

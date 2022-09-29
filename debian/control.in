@@ -1,0 +1,435 @@
+Source: gedit-plugins
+Section: gnome
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Build-Depends: debhelper-compat (= 12),
+               dh-sequence-gnome (>= 0.22),
+               dh-sequence-python3,
+               meson (>= 0.50),
+               appstream,
+               itstool,
+               libdbus-1-dev,
+               libgit2-glib-1.0-dev (>= 0.0.6),
+               libglib2.0-dev (>= 2.32.0),
+               libgtk-3-dev (>= 3.9.0),
+               libgtksourceview-4-dev,
+               libgucharmap-2-90-dev,
+               libpeas-dev (>= 1.14.1),
+               valac (>= 0.28.0),
+               libvte-2.91-dev,
+               gedit-dev (>= 40.0),
+               python3,
+               python3-dbus (>= 0.83.1),
+               python-dbus-dev,
+               python3-gi
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/gnome-team/gedit-plugins
+Vcs-Git: https://salsa.debian.org/gnome-team/gedit-plugins.git
+Homepage: https://wiki.gnome.org/Apps/Gedit#Plugins
+
+Package: gedit-plugins
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gedit-plugin-bookmarks,
+         gedit-plugin-bracket-completion,
+         gedit-plugin-character-map,
+         gedit-plugin-code-comment,
+         gedit-plugin-color-picker,
+         gedit-plugin-color-schemer,
+         gedit-plugin-commander,
+         gedit-plugin-draw-spaces,
+         gedit-plugin-find-in-files,
+         gedit-plugin-git,
+         gedit-plugin-join-lines,
+         gedit-plugin-multi-edit,
+         gedit-plugin-session-saver,
+         gedit-plugin-smart-spaces,
+         gedit-plugin-synctex,
+         gedit-plugin-terminal,
+         gedit-plugin-text-size,
+         gedit-plugin-translate,
+         gedit-plugin-word-completion,
+Enhances: gedit
+Description: set of plugins for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ The plugins are now split in separate packages; this metapackage brings all
+ of them but they can be installed separately.
+
+Package: gedit-plugins-common
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: common files for gedit-plugins
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This package contains common data files and translations.
+
+Package: gedit-plugin-bookmarks
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version})
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Bookmarks plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables easy document navigation with bookmarks.
+
+Package: gedit-plugin-bracket-completion
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-peas-1.0,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Bracket Completion plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin automatically adds closing brackets.
+
+Package: gedit-plugin-character-map
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-gtk-3.0,
+         gir1.2-gucharmap-2.90,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Character Map plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin allows inserting special characters just by clicking on them.
+
+Package: gedit-plugin-code-comment
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-gtksource-4,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Code Comment plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables commenting or uncommenting blocks of code.
+
+Package: gedit-plugin-color-picker
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Color Picker plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin inserts the hexademical representation of a selected color.
+
+Package: gedit-plugin-color-schemer
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-gdkpixbuf-2.0,
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-gtksource-4,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Color Schemer plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables editing the color scheme used to display source code.
+
+Package: gedit-plugin-commander
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         python3-cairo,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Commander plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin adds a command line interface for advanced editing.
+
+Package: gedit-plugin-draw-spaces
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version})
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Draw Spaces plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin shows a visual representation of spaces and tabs.
+
+Package: gedit-plugin-find-in-files
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version})
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Find in Files plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables searching for text in all files of a folder.
+
+Package: gedit-plugin-git
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-ggit-1.0,
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-gtksource-4,
+         python3-gi,
+         python3-gi-cairo
+Enhances: gedit
+Description: Git plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin highlight lines that have been changed since the last git commit.
+
+Package: gedit-plugin-join-lines
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Join/Split Lines plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables joining several lines or splitting long lines.
+
+Package: gedit-plugin-multi-edit
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         python3-gi,
+         python3-gi-cairo
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Multi Edit plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables editing a document in multiple places at once.
+
+Package: gedit-plugin-session-saver
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Session Saver plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables saving and restoring a working session.
+
+Package: gedit-plugin-smart-spaces
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-gtksource-4,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Smart Spaces plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin inserts spaces automatically when pressing the tab key.
+
+Package: gedit-plugin-synctex
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         ${python3:Depends},
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         gir1.2-peas-1.0,
+         python3-dbus,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: SyncTex plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin synchronizes between LaTex (using gedit) and PDF (using evince).
+
+Package: gedit-plugin-terminal
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         gir1.2-peas-1.0,
+         gir1.2-vte-2.91,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Terminal plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin embeds a terminal in the bottom pane.
+
+Package: gedit-plugin-text-size
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-pango-1.0,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Text Size plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables easily increasing and decreasing the text size.
+
+Package: gedit-plugin-translate
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python3:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version}),
+         gir1.2-glib-2.0,
+         gir1.2-gtk-3.0,
+         gir1.2-gtksource-4,
+         gir1.2-peas-1.0,
+         python3-gi
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Translate plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin enables translates text into different languages.
+
+Package: gedit-plugin-word-completion
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gedit (>= ${gnome:Version}),
+         gedit (<< ${gnome:NextVersion}),
+         gedit-plugins-common (>= ${source:Version})
+Enhances: gedit
+Breaks: gedit-plugins (<< 3.22.0-2~)
+Replaces: gedit-plugins (<< 3.22.0-2~)
+Description: Word Completion plugin for gedit
+ gedit-plugins contain a set of plugins for gedit, GNOME's text editor.
+ .
+ This plugin offers word completion using the completion framework.

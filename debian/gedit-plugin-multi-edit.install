@@ -1,0 +1,4 @@
+usr/lib/*/gedit/plugins/multiedit*
+usr/share/*/gedit-multiedit.metainfo.xml usr/share/metainfo
+usr/share/help/*/gedit/multi-edit.page
+

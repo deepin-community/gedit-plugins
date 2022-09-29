@@ -1,0 +1,5 @@
+usr/lib/*/gedit/plugins/*drawspaces*
+usr/share/*/gedit-drawspaces.metainfo.xml usr/share/metainfo
+usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.drawspaces.gschema.xml
+usr/share/help/*/gedit/draw-spaces.page
+

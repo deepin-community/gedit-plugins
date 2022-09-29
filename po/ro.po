@@ -1,0 +1,2058 @@
+# Romanian translation for gedit
+# Copyright (C) 2003-2008 Free Software Foundation, Inc.
+# Mugurel Tudor <mugurelu@gnome.ro>, 2003, 2004.
+# Dan Damian <dand@ubuntu.ro>, 2005-2007.
+# Mișu Moldovan <dumol@gnome.ro>, 2003, 2004, 2008.
+# Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010
+# Gabriel Șerbănescu <gabi_ro@ymail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gedit-plugins/issues\n"
+"POT-Creation-Date: 2020-11-05 19:52+0000\n"
+"PO-Revision-Date: 2021-01-07 15:59+0200\n"
+"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:5
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:6
+msgid "Bookmarks"
+msgstr "Marcaje"
+
+#: plugins/bookmarks/bookmarks.plugin.desktop.in.in:6
+#: plugins/bookmarks/gedit-bookmarks.metainfo.xml.in:7
+msgid "Easy document navigation with bookmarks"
+msgstr "Navigare simplă a documentelor cu ajutorul marcajelor"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "Comută marcaj"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Go to Next Bookmark"
+msgstr "Navighează la marcajul următor"
+
+#: plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Go to Previous Bookmark"
+msgstr "Navighează la marcajul precedent"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:6
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:6
+msgid "Bracket Completion"
+msgstr "Completare paranteze"
+
+#: plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in:7
+msgid "Automatically adds closing brackets."
+msgstr "Adaugă automat paranteze închise."
+
+#: plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in:7
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "Adaugă automat o paranteză de închidere când inserați una"
+
+#: plugins/charmap/charmap/__init__.py:56
+#: plugins/charmap/charmap.plugin.desktop.in.in:6
+msgid "Character Map"
+msgstr "Hartă caractere"
+
+#: plugins/charmap/charmap.plugin.desktop.in.in:7
+msgid "Insert special characters just by clicking on them."
+msgstr "Introduceți caractere speciale doar printr-un clic."
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:6
+msgid "Charmap"
+msgstr "Hartă caractere"
+
+#: plugins/charmap/gedit-charmap.metainfo.xml.in:7
+msgid "Select characters from a character map"
+msgstr "Selectează caractere dintr-o hartă de caractere"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:6
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:6
+msgid "Code Comment"
+msgstr "Comentariu de cod"
+
+#: plugins/codecomment/codecomment.plugin.desktop.in.in:7
+msgid "Comment out or uncomment a selected block of code."
+msgstr "Activează sau dezactivează comentarea blocului selectat de cod."
+
+#: plugins/codecomment/codecomment.py:118
+msgid "Co_mment Code"
+msgstr "Co_mentează codul"
+
+#: plugins/codecomment/codecomment.py:124
+msgid "U_ncomment Code"
+msgstr "Decome_ntează codul"
+
+#: plugins/codecomment/gedit-codecomment.metainfo.xml.in:7
+msgid "Comment or uncomment blocks of code"
+msgstr "Comentează sau decomentează blocuri de cod"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:6
+msgid "Color Picker"
+msgstr "Selector de culoare"
+
+#: plugins/colorpicker/colorpicker.plugin.desktop.in.in:7
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Alegeți o culoare dintr-un dialog și introduceți reprezentarea ei "
+"hexazecimală."
+
+#: plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "Alegere _culoare…"
+
+#: plugins/colorpicker/colorpicker.py:172
+msgid "Pick Color"
+msgstr "Alegere culoare"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:6
+msgid "Color picker"
+msgstr "Selector de culoare"
+
+#: plugins/colorpicker/gedit-colorpicker.metainfo.xml.in:7
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr ""
+"Selectează și inserează o culoare dintr-un dialog (pentru HTML, CSS, PHP)"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:6
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:6
+#: plugins/colorschemer/schemer/__init__.py:50
+#: plugins/colorschemer/schemer.ui:20
+msgid "Color Scheme Editor"
+msgstr "Editor de schemă a culorilor"
+
+#: plugins/colorschemer/colorschemer.plugin.desktop.in.in:7
+msgid "Source code color scheme editor"
+msgstr "Editor de schemă a culorilor codului sursă"
+
+#: plugins/colorschemer/gedit-colorschemer.metainfo.xml.in:7
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr ""
+"Creează și editează schema de culori utilizată pentru evidențierea sintaxei"
+
+#: plugins/colorschemer/schemer/schemer.py:271
+#: plugins/colorschemer/schemer/schemer.py:318
+msgid "There was a problem saving the scheme"
+msgstr "A apărut o problemă la salvarea schemei"
+
+#: plugins/colorschemer/schemer/schemer.py:272
+msgid ""
+"You have chosen to create a new scheme\n"
+"but the Name or ID you are using is being used already.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Ați ales să creați o nouă schemă\n"
+"dar numele sau ID-ul pe care îl utilizați este deja utilizat.\n"
+"\n"
+"Asigurați-vă că alegeți un nume și un ID care nu sunt deja în uz.\n"
+
+#: plugins/colorschemer/schemer/schemer.py:319
+msgid ""
+"You do not have permission to overwrite the scheme you have chosen.\n"
+"Instead a copy will be created.\n"
+"\n"
+"Please make sure to choose a Name and ID that are not already in use.\n"
+msgstr ""
+"Nu aveți permisiunea de a suprascrie schema pe care ați ales-o.\n"
+"Va fi creată în schimb o copie.\n"
+"\n"
+"Asigurați-vă că alegeți un nume și un ID care nu sunt deja in uz.\n"
+
+#. there must have been some conflict, since it opened the wrong file
+#: plugins/colorschemer/schemer/schemer.py:378
+msgid "There was a problem opening the file"
+msgstr "A apărut o problemă la deschiderea fișierului"
+
+#: plugins/colorschemer/schemer/schemer.py:379
+msgid "You appear to have schemes with the same IDs in different directories\n"
+msgstr "Se pare că aveți scheme cu aceleași ID-uri în directoare diferite\n"
+
+#: plugins/colorschemer/schemer.ui:137 plugins/colorschemer/schemer.ui:138
+msgid "Bold"
+msgstr "Aldin"
+
+#: plugins/colorschemer/schemer.ui:160 plugins/colorschemer/schemer.ui:161
+msgid "Italic"
+msgstr "Italic"
+
+#: plugins/colorschemer/schemer.ui:183 plugins/colorschemer/schemer.ui:184
+msgid "Underline"
+msgstr "Subliniat"
+
+#: plugins/colorschemer/schemer.ui:206 plugins/colorschemer/schemer.ui:207
+msgid "Strikethrough"
+msgstr "Tăiat"
+
+#: plugins/colorschemer/schemer.ui:243
+msgid "Pick the background color"
+msgstr "Alege culoarea de fundal"
+
+#: plugins/colorschemer/schemer.ui:259
+msgid "Pick the foreground color"
+msgstr "Alege culoarea de prim plan"
+
+#: plugins/colorschemer/schemer.ui:270
+msgid "_Background"
+msgstr "_Fundal"
+
+#: plugins/colorschemer/schemer.ui:288
+msgid "_Foreground"
+msgstr "_Prim plan"
+
+#: plugins/colorschemer/schemer.ui:341
+msgid "_Clear"
+msgstr "_Curăță"
+
+#: plugins/colorschemer/schemer.ui:383
+msgid "Name"
+msgstr "Nume"
+
+#: plugins/colorschemer/schemer.ui:408
+msgid "ID"
+msgstr "ID"
+
+#: plugins/colorschemer/schemer.ui:433
+msgid "Description"
+msgstr "Descriere"
+
+#: plugins/colorschemer/schemer.ui:459
+msgid "Author"
+msgstr "Autor"
+
+#: plugins/colorschemer/schemer.ui:503
+msgid "Sample"
+msgstr "Mostră"
+
+#: plugins/commander/commander/appactivatable.py:56
+msgid "Commander Mode"
+msgstr "Mod commander"
+
+#: plugins/commander/commander.plugin.desktop.in.in:6
+#: plugins/commander/gedit-commander.metainfo.xml.in:6
+msgid "Commander"
+msgstr "Commander"
+
+#: plugins/commander/commander.plugin.desktop.in.in:7
+#: plugins/commander/gedit-commander.metainfo.xml.in:7
+msgid "Command line interface for advanced editing"
+msgstr "Interfață în linia de comandă pentru editare avansată"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:5
+msgid "Draw Spaces"
+msgstr "Desenează spații"
+
+#: plugins/drawspaces/drawspaces.plugin.desktop.in.in:6
+msgid "Draw spaces and tabs"
+msgstr "Desenează spații și taburi"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:6
+msgid "Draw spaces"
+msgstr "Desenează spații"
+
+#: plugins/drawspaces/gedit-drawspaces.metainfo.xml.in:7
+msgid "Draw Spaces and Tabs"
+msgstr "Desenează spații și taburi"
+
+#: plugins/findinfiles/dialog.ui:7 plugins/findinfiles/dialog.vala:53
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:5
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:6
+msgid "Find in Files"
+msgstr "Caută în fișiere"
+
+#: plugins/findinfiles/dialog.ui:23 plugins/findinfiles/dialog.vala:58
+#: plugins/findinfiles/result-panel.vala:63
+msgid "_Close"
+msgstr "În_chide"
+
+#: plugins/findinfiles/dialog.ui:39
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "_Caută"
+
+#: plugins/findinfiles/dialog.ui:72
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind:"
+msgstr "C_aută:"
+
+#: plugins/findinfiles/dialog.ui:99
+msgid "_In:"
+msgstr "Î_n:"
+
+#: plugins/findinfiles/dialog.ui:115
+msgid "Select a _folder"
+msgstr "Selectează un _dosar"
+
+#: plugins/findinfiles/dialog.ui:130
+msgid "_Match case"
+msgstr "_Potrivește majusculele"
+
+#: plugins/findinfiles/dialog.ui:146
+msgid "Match _entire word only"
+msgstr "Potrivește doar într_eg cuvântul"
+
+#: plugins/findinfiles/dialog.ui:162
+msgid "Re_gular expression"
+msgstr "Expresii re_gulate"
+
+#: plugins/findinfiles/findinfiles.plugin.desktop.in.in:6
+msgid "Find text in all files of a folder."
+msgstr "Caută textul în toate fișierele dintr-un dosar."
+
+#: plugins/findinfiles/gedit-findinfiles.metainfo.xml.in:7
+msgid "Find text in all files of a folder"
+msgstr "Caută textul în toate fișierele dintr-un dosar"
+
+#: plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "Caută în fișiere…"
+
+#: plugins/findinfiles/result-panel.vala:127
+msgid "hit"
+msgid_plural "hits"
+msgstr[0] "lovitură"
+msgstr[1] "lovituri"
+msgstr[2] "de lovituri"
+
+#: plugins/findinfiles/result-panel.vala:196
+msgid "No results found"
+msgstr "Nu s-au găsit rezultate"
+
+#: plugins/findinfiles/result-panel.vala:207
+msgid "File"
+msgstr "Fișier"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: plugins/findinfiles/result-panel.vala:218
+msgid "Stop the search"
+msgstr "Oprește căutarea"
+
+#: plugins/git/gedit-git.metainfo.xml.in:6
+#: plugins/git/git.plugin.desktop.in.in:6
+msgid "Git"
+msgstr "Git"
+
+#: plugins/git/gedit-git.metainfo.xml.in:7
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr ""
+"Utilizează informațiile git pentru a afișa care linii și fișiere s-au "
+"schimbat de la ultimul comit"
+
+#: plugins/git/git.plugin.desktop.in.in:7
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "Liniile de evidențiere care au fost schimbate de la ultimul comit"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:6
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:6
+msgid "Join/Split Lines"
+msgstr "Unește/împarte liniile"
+
+#: plugins/joinlines/gedit-joinlines.metainfo.xml.in:7
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "Alătură sau separă liniile multiple prin Ctrl+J și Ctrl+Shift+J"
+
+#: plugins/joinlines/joinlines.plugin.desktop.in.in:7
+msgid "Join several lines or split long ones"
+msgstr "Unificați câteva linii sau împărțiți-le pe cele lungi"
+
+#: plugins/joinlines/joinlines.py:111
+msgid "_Join Lines"
+msgstr "_Unește liniile"
+
+#: plugins/joinlines/joinlines.py:117
+msgid "_Split Lines"
+msgstr "Î_mparte liniile"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:6
+msgid "Multi edit"
+msgstr "Editare multiplă"
+
+#: plugins/multiedit/gedit-multiedit.metainfo.xml.in:7
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:7
+msgid "Edit document in multiple places at once"
+msgstr "Editează documentul în locuri multiple în același timp"
+
+#: plugins/multiedit/multiedit/appactivatable.py:44
+#: plugins/multiedit/multiedit/viewactivatable.py:1351
+msgid "Multi Edit Mode"
+msgstr "Mod editare multiplă"
+
+#: plugins/multiedit/multiedit.plugin.desktop.in.in:6
+msgid "Multi Edit"
+msgstr "Editare multiplă"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:317
+msgid "Added edit point…"
+msgstr "Punct de editare adăugat…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:659
+msgid "Column Mode…"
+msgstr "Mod de coloană…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:777
+msgid "Removed edit point…"
+msgstr "Punct de editare eliminat…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:943
+msgid "Cancelled column mode…"
+msgstr "Mod de coloană anulat…"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "Enter column edit mode using selection"
+msgstr "Intră în modul de editare coloană folosind selecția"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "Intră în modul de editare inteligent pentru coloană folosind selecția"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1308
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "Modul de aliniere <b>inteligent</b> folosind selecția"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+"Modul de aliniere <b>inteligent</b> cu spațiu adițional folosind selecția"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Toggle edit point"
+msgstr "Comută punctul de editare"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Add edit point at beginning of line/selection"
+msgstr "Adaugă un punct de editare la începutul liniei/selecției"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Add edit point at end of line/selection"
+msgstr "Adaugă un punct de editare la sfârșitul liniei/selecției"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1314
+msgid "Align edit points"
+msgstr "Aliniază punctele de editare"
+
+#: plugins/multiedit/multiedit/viewactivatable.py:1315
+msgid "Align edit points with additional space"
+msgstr "Aliniază punctele de editare cu spațiu adițional"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:55
+msgid "_Manage Saved Sessions…"
+msgstr "Ad_ministrează sesiunile salvate…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:58
+msgid "_Save Session…"
+msgstr "_Salvează sesiunea…"
+
+#: plugins/sessionsaver/sessionsaver/appactivatable.py:64
+#, python-brace-format
+msgid "Recover “{0}” Session"
+msgstr "Recuperează sesiunea „{0}”"
+
+#: plugins/sessionsaver/sessionsaver/dialogs.py:153
+msgid "Session Name"
+msgstr "Nume sesiune"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:6
+msgid "Session Saver"
+msgstr "Salvator de sesiune"
+
+#: plugins/sessionsaver/sessionsaver.plugin.desktop.in.in:7
+msgid "Save and restore your working sessions"
+msgstr "Salvează și restabilește sesiunea de lucru"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:8
+msgid "Save session"
+msgstr "Salvează sesiunea"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:76
+msgid "Session name:"
+msgstr "Nume sesiune:"
+
+#: plugins/sessionsaver/sessionsaver/ui/sessionsaver.ui:120
+msgid "Saved Sessions"
+msgstr "Sesiuni salvate"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:6
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:5
+msgid "Smart Spaces"
+msgstr "Spații inteligente"
+
+#: plugins/smartspaces/gedit-smartspaces.metainfo.xml.in:7
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr ""
+"Permite să dezidentați ca și cum ați utiliza taburi în timp ce utilizați "
+"spații"
+
+#: plugins/smartspaces/smartspaces.plugin.desktop.in.in:6
+msgid "Forget you’re not using tabulations."
+msgstr "Uită că nu folosești tabulatoare."
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:6
+#: plugins/synctex/synctex.plugin.desktop.in.in:6
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: plugins/synctex/gedit-synctex.metainfo.xml.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Sincronizează între LaTeX și PDF cu gedit și evince"
+
+#: plugins/synctex/synctex.plugin.desktop.in.in:7
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "Sincronizează între LaTeX și PDF cu gedit și evince."
+
+#: plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "Căutare înainte"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:6
+#: plugins/terminal/terminal.py:313
+msgid "Terminal"
+msgstr "Terminal"
+
+#: plugins/terminal/gedit-terminal.metainfo.xml.in:7
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Un widget simplu de terminal accesibil de la panoul de jos"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:16
+msgid "Whether to silence terminal bell"
+msgstr "Dacă să se pună pe silențios clopoțelul terminalului"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:17
+msgid ""
+"If true, don’t make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr ""
+"Dacă este adevărat, nu face un zgomot când aplicațiile trimit caracterele de "
+"eludare pentru clopoțelul terminalului."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:24
+msgid "Number of lines to keep in scrollback"
+msgstr "Numărul de linii de păstrat în scrollback"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:25
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don’t fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"Numărul de linii de scrollback pe care le păstrați. Puteți să derulați "
+"înapoi în terminal de numărul acesta de linii, liniile care nu se potrivesc "
+"în scrollback sunt eliminate. Dacă scrollback-unlimited este adevărat, "
+"această valoarea este ignorată."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:34
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "Dacă un număr nelimitat de linii ar trebui păstrate în scrollback"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:37
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"Dacă este adevărat, liniile de scrollback nu vor fi niciodată eliminate. "
+"Istoricul scrollback-ului este stocat pe disc temporar, prin urmare aceasta "
+"poate cauza sistemul să rămână fără spațiu pe disc dacă există un rezultat "
+"mare la terminal."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:46
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "Dacă să se deruleze până în partea de jos când este apăsată o tastă"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:47
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+"Dacă este adevărat, apăsarea unei taste face să sară bara de derulare în "
+"partea de jos."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:53
+msgid "Whether to scroll to the bottom when there’s new output"
+msgstr "Dacă să se deruleze până la partea de jos când există un rezultat nou"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:54
+msgid ""
+"If true, whenever there’s new output the terminal will scroll to the bottom."
+msgstr ""
+"Dacă este adevărat, ori de câte ori există un rezultat nou terminalul va "
+"derula până la partea de jos."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:61
+msgid "Default color of text in the terminal"
+msgstr "Culoarea implicită a textului în terminal"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:62
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Culoarea implicită a textului în terminal, ca o specificare de culoare "
+"(poate fi cifre hex în stil HTML, sau un nume de culoare cum ar fi „roșu”)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:70
+msgid "Default color of terminal background"
+msgstr "Culoarea implicită a fundalului terminalului"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:71
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as “red”)."
+msgstr ""
+"Culoarea implicită a fundalului terminalului, ca o specificare de culoare "
+"(poate fi cifre hex în stil HTML, sau un nume de culoare cum ar fi „roșu”)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:94
+msgid "Palette for terminal applications"
+msgstr "Paletă pentru aplicațiile de terminal"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:95
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. “#FF00FF”"
+msgstr ""
+"Terminalele au o paletă de culori de 16 culori pe care aplicațiile din "
+"interiorul terminalelor le pot utiliza. Aceasta este paleta aceea, în forma "
+"unei liste separată prin virgulă de nume de culori. Numele culorilor ar "
+"trebui să fie în format hex, de ex. „#FF00FF”"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:104
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "Dacă să se utilizeze culorile de la temă pentru widget-ul de terminal"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:107
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"Dacă este adevărat, schema de culori a temei utilizată pentru cutiile de "
+"intrare a textului va fi folosită pentru terminal, în loc de culorile "
+"furnizate de utilizator."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:114
+msgid "Whether to blink the cursor"
+msgstr "Dacă să clipească cursorul"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:115
+msgid ""
+"The possible values are “system” to use the global cursor blinking settings, "
+"or “on” or “off” to set the mode explicitly."
+msgstr ""
+"Valorile posibile sunt „sistem” pentru a utiliza configurările de clipire a "
+"cursorului globale, sau „pornit” sau „opri” pentru a stabili modul explicit."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:122
+msgid "The cursor appearance"
+msgstr "Aspectul cursorului"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:123
+msgid ""
+"The possible values are “block” to use a block cursor, “ibeam” to use a "
+"vertical line cursor, or “underline” to use an underline cursor."
+msgstr ""
+"Valorile posibile sunt „bloc” pentru a utiliza un cursor bloc, „ibeam” "
+"pentru a utiliza un cursor linie verticală, sau „subliniat” pentru a utiliza "
+"un cursor subliniere."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:130
+msgid "Whether to use the system font"
+msgstr "Dacă să se utilizeze fontul de sistem"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:131
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it’s "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"Dacă este adevărat, terminalul va utiliza fontul standard global-desktop "
+"dacă este monospațiat (și cel mai similar font pe care-l găsește altfel)."
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:139
+msgid "Font"
+msgstr "Font"
+
+#: plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml:140
+msgid "A Pango font name. Examples are “Sans 12” or “Monospace Bold 14”."
+msgstr "Un nume de font Pango. Exemple sunt „Sans 12” sau „Monospace Bold 14”."
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:6
+msgid "Embedded Terminal"
+msgstr "Terminal înglobat"
+
+#: plugins/terminal/terminal.plugin.desktop.in.in:7
+msgid "Embed a terminal in the bottom pane."
+msgstr "Încorporează un terminal în partea de jos a panoului."
+
+#: plugins/terminal/terminal.py:334
+msgid "C_hange Directory"
+msgstr "Sc_himbă dosarul"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:6
+msgid "Text size"
+msgstr "Dimensiune text"
+
+#: plugins/textsize/gedit-textsize.metainfo.xml.in:7
+#: plugins/textsize/textsize.plugin.desktop.in.in:7
+msgid "Easily increase and decrease the text size"
+msgstr "Mărește și micșorează ușor dimensiunea textului"
+
+#: plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "Dimensiune _normală"
+
+#: plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "Text _mai mic"
+
+#: plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "Text _mai mare"
+
+#: plugins/textsize/textsize.plugin.desktop.in.in:6
+msgid "Text Size"
+msgstr "Dimensiune text"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:5
+#: plugins/translate/translate.plugin.desktop.in.in:6
+msgid "Translate"
+msgstr "Traduce"
+
+#: plugins/translate/gedit-translate.metainfo.xml.in:6
+#: plugins/translate/translate.plugin.desktop.in.in:7
+msgid "Translates text into different languages"
+msgstr "Traduce text în diferite limbi"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:5
+msgid "Where translation output is shown"
+msgstr "Dacă rezultatul traducerii este arătat"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:6
+msgid ""
+"If true, output of the translation is inserted in the document window if not "
+"in the Output Translate Window."
+msgstr ""
+"Dacă este adevărat, rezultatul traducerii este inserat în fereastra "
+"documentului dacă nu în fereastra de traducere a rezultatului."
+
+#. Translators: You can adjust the default pair for users in your locale.
+#. https://wiki.apertium.org/wiki/List_of_language_pairs lists valid pairs, in
+#. the format apertium-xxx-yyy. For this translation, use ASCII apostrophes and
+#. | as the delimiter. Language pair values must be in the format 'xxx|yyy' -
+#. You must keep this format 'xxx|yyy', or things will break!
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:16
+msgid "'eng|spa'"
+msgstr "„eng|spa”"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:17
+msgid "Language pair used"
+msgstr "Perechea de limbaje folosite"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:18
+msgid "Language pair used to translate from one language to another"
+msgstr "Perechea de limbaje utilizate pentru a traduce dintr-o limbă în alta"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:24
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:25
+msgid "Apertium server end point"
+msgstr "Punct final al serverului Apertium"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:31
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:32
+msgid "API key for remote web service"
+msgstr "Cheie API pentru serviciul web de la distanță"
+
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:38
+#: plugins/translate/org.gnome.gedit.plugins.translate.gschema.xml:39
+msgid "Remote web service to use"
+msgstr "Serviciu web de la distanță de utilizat"
+
+#: plugins/translate/translate/__init__.py:88
+#, python-brace-format
+msgid "Translations powered by {0}"
+msgstr "Traduceri cu sprijinul a {0}"
+
+#: plugins/translate/translate/__init__.py:91
+msgid "Translate Console"
+msgstr "Traduce consola"
+
+#: plugins/translate/translate/__init__.py:166
+#, python-brace-format
+msgid "Translate selected text [{0}]"
+msgstr "Traduce textul selectat [{0}]"
+
+#: plugins/translate/translate/preferences.py:84
+msgid "API Key"
+msgstr "Cheie API"
+
+#: plugins/translate/translate/services/yandex.py:65
+msgid ""
+"You need to obtain an API key at <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+msgstr ""
+"Trebuie să obțineți o cheie API la <a href='https://tech.yandex.com/"
+"translate/'>https://tech.yandex.com/translate/</a>"
+
+#: plugins/translate/translate/ui/preferences.ui:23
+msgid "Translation languages:"
+msgstr "Limbi de traducere:"
+
+#: plugins/translate/translate/ui/preferences.ui:60
+msgid "Where to output translation:"
+msgstr "Unde să iasă traducerea:"
+
+#: plugins/translate/translate/ui/preferences.ui:75
+msgid "Same document window"
+msgstr "Aceeași fereastră de document"
+
+#: plugins/translate/translate/ui/preferences.ui:90
+msgid "Translate console (bottom panel)"
+msgstr "Consolă de traducere (panoul de jos)"
+
+#: plugins/translate/translate/ui/preferences.ui:157
+msgid "Translation service:"
+msgstr "Serviciu de traducere:"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:18
+msgid "Interactive completion"
+msgstr "Completare ineractivă"
+
+#: plugins/wordcompletion/gedit-word-completion-configure.ui:43
+msgid "Minimum word size:"
+msgstr "Dimensiune cuvinte minimă:"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:6
+msgid "Word completion"
+msgstr "Completarea cuvintelor"
+
+#: plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in:7
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Propune completarea automată utilizând cuvinte deja prezente în document"
+
+#: plugins/wordcompletion/gedit-word-completion-plugin.c:181
+msgid "Document Words"
+msgstr "Cuvinte din document"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:5
+msgid "Interactive Completion"
+msgstr "Completare interactivă"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:6
+msgid "Whether to enable interactive completion."
+msgstr "Dacă să se activeze completarea interactivă."
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:11
+msgid "Minimum Word Size"
+msgstr "Dimensiunea cuvintelor minimă"
+
+#: plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml:12
+msgid "The minimum word size to complete."
+msgstr "Dimensiunea cuvintelor minimă de completat."
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:5
+msgid "Word Completion"
+msgstr "Completarea cuvintelor"
+
+#: plugins/wordcompletion/wordcompletion.plugin.desktop.in.in:6
+msgid "Word completion using the completion framework"
+msgstr "Completare de cuvinte folosind platforma de completări"
+
+#~ msgid "Show _White Space"
+#~ msgstr "Arată spațiile a_lbe"
+
+#~ msgid "Draw tabs"
+#~ msgstr "Desenează taburi"
+
+#~ msgid "Draw new lines"
+#~ msgstr "Desenează linii noi"
+
+#~ msgid "Draw non-breaking spaces"
+#~ msgstr "Desenează spațiile inseparabile"
+
+#~ msgid "Draw leading spaces"
+#~ msgstr "Desenează spațiile de conducere"
+
+#~ msgid "Draw spaces in text"
+#~ msgstr "Desenează spații în text"
+
+#~ msgid "Draw trailing spaces"
+#~ msgstr "Desenează spațiile de finalizare"
+
+#~ msgid "Show White Space"
+#~ msgstr "Arată spațiile albe"
+
+#~ msgid "If TRUE drawing will be enabled."
+#~ msgstr "Dacă este activat desenarea va fi activată."
+
+#~ msgid "The type of spaces to be drawn."
+#~ msgstr "Tipul de spații ce vor fi desenate."
+
+#~ msgid "Join lines/ Split lines"
+#~ msgstr "Unește liniile/ Împarte liniile"
+
+#~ msgid "_In "
+#~ msgstr "Î_n "
+
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "Comută la starea marcajului liniei curente"
+
+#~ msgid "Goto the next bookmark"
+#~ msgstr "Navighează la marcajul următor"
+
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "Navighează la marcajul precedent"
+
+#~ msgid "Comment the selected code"
+#~ msgstr "Comentează codul selectat"
+
+#~ msgid "Uncomment the selected code"
+#~ msgstr "Decomentează codul selectat"
+
+#~ msgid "Pick _Color..."
+#~ msgstr "Alege o _culoare..."
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "Alegeți o culoare dintr-un dialog"
+
+#~ msgid "_Insert"
+#~ msgstr "_Introdu"
+
+#~ msgid "Show spaces and tabs"
+#~ msgstr "Arată spații și taburi"
+
+#~ msgid "Enabled"
+#~ msgstr "Activat"
+
+#~ msgid "Join the selected lines"
+#~ msgstr "Unește liniile selectate"
+
+#~ msgid "Split the selected lines"
+#~ msgstr "Împarte liniile selectate"
+
+#~ msgid "Start multi edit mode"
+#~ msgstr "Pornește modul de editare multiplă"
+
+#~ msgid "Sa_ved sessions"
+#~ msgstr "Sesiuni sal_vate"
+
+#~ msgid "_Save current session"
+#~ msgstr "_Salvează sesiunea curentă"
+
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "Salvează lista curentă de documente ca o sesiune nouă"
+
+#~ msgid "Open the saved session manager"
+#~ msgstr "Deschide administratorul de sesiuni salvate"
+
+#~ msgid "Tags"
+#~ msgstr "Etichete"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "Selectați grupul de etichete pe care doriți să-l utilizați"
+
+#~ msgid "_Preview"
+#~ msgstr "_Previzualizare"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "Lista de etichete disponibile"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "Formă abreviată"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Abreviere"
+
+#~ msgid "Above"
+#~ msgstr "Sus"
+
+#~ msgid "Accessibility key character"
+#~ msgstr "Caracter pentru cheie de accesibilitate"
+
+#~ msgid "Acronym"
+#~ msgstr "Acronim"
+
+#~ msgid "Align"
+#~ msgstr "Aliniere"
+
+#~ msgid "Alignment character"
+#~ msgstr "Caracter de aliniere"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternativă"
+
+#~ msgid "Anchor"
+#~ msgstr "Ancoră"
+
+#~ msgid "Anchor URI"
+#~ msgstr "URI ancoră"
+
+#~ msgid "Applet class file code"
+#~ msgstr "Fișier cod clasă applet"
+
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "Fișier cod clasă applet (depășit)"
+
+#~ msgid "Array"
+#~ msgstr "Vector"
+
+#~ msgid "Associated information"
+#~ msgstr "Informații asociate"
+
+#~ msgid "Axis related headers"
+#~ msgstr "Antete legate de axă"
+
+#~ msgid "Background color (deprecated)"
+#~ msgstr "Culoare fundal (depășit)"
+
+#~ msgid "Background texture tile"
+#~ msgstr "Textură fundal"
+
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "Textură fundal (depășit)"
+
+#~ msgid "Base URI"
+#~ msgstr "URI de bază"
+
+#~ msgid "Base font"
+#~ msgstr "Font de bază"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "Font de bază (depășit)"
+
+#~ msgid "Border"
+#~ msgstr "Chenar"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "Chenar (depășit)"
+
+#~ msgid "Border color"
+#~ msgstr "Culoare chenar"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "Expansiune rânduri celulă"
+
+#~ msgid "Center"
+#~ msgstr "Centru"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "Centrare (depășit)"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "Codarea de caractere a resursei legate"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Bifat (stare)"
+
+#~ msgid "Checked state"
+#~ msgstr "Stare bifată"
+
+#~ msgid "Citation"
+#~ msgstr "Mențiune"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "Menționați motivul schimbării"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "ID implementare clasă"
+
+#~ msgid "Class list"
+#~ msgstr "Listă clase"
+
+#~ msgid "Clear text flow control"
+#~ msgstr "Control resetare aranjare text"
+
+#~ msgid "Code content type"
+#~ msgstr "Tip cod conținut"
+
+#~ msgid "Color of selected links"
+#~ msgstr "Culoare legături selectate"
+
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "Culoare legături selectate (depășit)"
+
+#~ msgid "Column span"
+#~ msgstr "Expansiune coloană"
+
+#~ msgid "Columns"
+#~ msgstr "Coloane"
+
+#~ msgid "Comment"
+#~ msgstr "Comentariu"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "Fragment cod calculator"
+
+#~ msgid "Content scheme"
+#~ msgstr "Schemă conținut"
+
+#~ msgid "Content type"
+#~ msgstr "Tip conținut"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "Tip conținut (depășit)"
+
+#~ msgid "Coordinates"
+#~ msgstr "Coordonate"
+
+#~ msgid "DIV Style container"
+#~ msgstr "Container stil DIV"
+
+#~ msgid "DIV container"
+#~ msgstr "Container DIV"
+
+#~ msgid "Date and time of change"
+#~ msgstr "Data și ora modificării"
+
+#~ msgid "Declare flag"
+#~ msgstr "Indicator declarație"
+
+#~ msgid "Defer attribute"
+#~ msgstr "Atribut deferire"
+
+#~ msgid "Definition description"
+#~ msgstr "Descriere definiție"
+
+#~ msgid "Definition list"
+#~ msgstr "Listă definiții"
+
+#~ msgid "Definition term"
+#~ msgstr "Termen definiție"
+
+#~ msgid "Deleted text"
+#~ msgstr "Text șters"
+
+#~ msgid "Direction"
+#~ msgstr "Direcție"
+
+#~ msgid "Directionality"
+#~ msgstr "Direcție"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "Direcție (depășit)"
+
+#~ msgid "Directory list"
+#~ msgstr "Listă dosare"
+
+#~ msgid "Disabled"
+#~ msgstr "Dezactivat"
+
+#~ msgid "Document base"
+#~ msgstr "Bază document"
+
+#~ msgid "Document body"
+#~ msgstr "Corp document"
+
+#~ msgid "Document head"
+#~ msgstr "Antet document"
+
+#~ msgid "Document title"
+#~ msgstr "Titlu document"
+
+#~ msgid "Document type"
+#~ msgstr "Tip document"
+
+#~ msgid "Element ID"
+#~ msgstr "ID element"
+
+#~ msgid "Embedded object"
+#~ msgstr "Obiect înglobat"
+
+#~ msgid "Emphasis"
+#~ msgstr "Accentuare"
+
+#~ msgid "Encode type"
+#~ msgstr "Tip codificare"
+
+#~ msgid "Figure"
+#~ msgstr "Figură"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "Aspect font (depășit)"
+
+#~ msgid "For label"
+#~ msgstr "Etichetă pentru"
+
+#~ msgid "Forced line break"
+#~ msgstr "Sfârșit de rând forțat"
+
+#~ msgid "Form"
+#~ msgstr "Formular"
+
+#~ msgid "Form action handler"
+#~ msgstr "Operator de acțiuni în formular"
+
+#~ msgid "Form control group"
+#~ msgstr "Grup de controale în formular"
+
+#~ msgid "Form field label text"
+#~ msgstr "Text etichetare câmp în formular"
+
+#~ msgid "Form input"
+#~ msgstr "Intrare formular"
+
+#~ msgid "Form input type"
+#~ msgstr "Tip intrare formular"
+
+#~ msgid "Form method"
+#~ msgstr "Metodă a formularului"
+
+#~ msgid "Forward link"
+#~ msgstr "Legătură redirecționare"
+
+#~ msgid "Frame"
+#~ msgstr "Cadru"
+
+#~ msgid "Frame border"
+#~ msgstr "Margine cadru"
+
+#~ msgid "Frame render parts"
+#~ msgstr "Porțiuni cadru de afișat"
+
+#~ msgid "Frame source"
+#~ msgstr "Sursă cadru"
+
+#~ msgid "Frame spacing"
+#~ msgstr "Spațiere cadru"
+
+#~ msgid "Frame target"
+#~ msgstr "Țintă cadru"
+
+#~ msgid "Frameborder"
+#~ msgstr "Margine cadru"
+
+#~ msgid "Frameset"
+#~ msgstr "Set de cadre"
+
+#~ msgid "Frameset columns"
+#~ msgstr "Coloane set de cadre"
+
+#~ msgid "Frameset rows"
+#~ msgstr "Rânduri set de cadre"
+
+#~ msgid "Framespacing"
+#~ msgstr "Spațiere cadru"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "Obiect generic înglobat"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "Metainformații generice"
+
+#~ msgid "Generic span"
+#~ msgstr "Delimitare generică"
+
+#~ msgid "HREF URI"
+#~ msgstr "URI HREF"
+
+#~ msgid "HTML root element"
+#~ msgstr "Element rădăcină HTML"
+
+#~ msgid "HTML version"
+#~ msgstr "Versiune HTML"
+
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML — caractere speciale"
+
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML — taguri"
+
+#~ msgid "HTTP header name"
+#~ msgstr "Nume antet HTTP"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "Identificatoare celule antet"
+
+#~ msgid "Heading"
+#~ msgstr "Subtitlu"
+
+#~ msgid "Heading 1"
+#~ msgstr "Subtitlu 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Subtitlu 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Subtitlu 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Subtitlu 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Subtitlu 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Subtitlu 6"
+
+#~ msgid "Height"
+#~ msgstr "Înălțime"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "Linie orizontală"
+
+#~ msgid "Horizontal space"
+#~ msgstr "Spațiu orizontal"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "Spațiu orizontal (depășit)"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "Suprascriere BiDi I18N"
+
+#~ msgid "Image"
+#~ msgstr "Imagine"
+
+#~ msgid "Image map"
+#~ msgstr "Hartă imagine"
+
+#~ msgid "Image map area"
+#~ msgstr "Zonă hartă imagine"
+
+#~ msgid "Image map name"
+#~ msgstr "Nume hartă imagine"
+
+#~ msgid "Image source"
+#~ msgstr "Sursă imagine"
+
+#~ msgid "Inline frame"
+#~ msgstr "Cadru intercalat"
+
+#~ msgid "Inline layer"
+#~ msgstr "Strat intercalat"
+
+#~ msgid "Inserted text"
+#~ msgstr "Text inserat"
+
+#~ msgid "Instance definition"
+#~ msgstr "Definiție instanță"
+
+#~ msgid "Java applet"
+#~ msgstr "Applet Java"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "Applet Java (depășit)"
+
+#~ msgid "Label"
+#~ msgstr "Etichetă"
+
+#~ msgid "Layer"
+#~ msgstr "Strat"
+
+#~ msgid "Link color"
+#~ msgstr "Culoare legătură"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "Culoare legătură (depășit)"
+
+#~ msgid "List item"
+#~ msgstr "Element din listă"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "Lista tipurilor MIME pentru încărcare fișiere"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "Lista seturilor de caractere suportate"
+
+#~ msgid "Listing"
+#~ msgstr "Listă"
+
+#~ msgid "Local change to font"
+#~ msgstr "Schimbare locală font"
+
+#~ msgid "Long description link"
+#~ msgstr "Legătură descriere lungă"
+
+#~ msgid "Long quotation"
+#~ msgstr "Citat lung"
+
+#~ msgid "Mail link"
+#~ msgstr "Legătură email"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "Înălțime margine în pixeli"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "Lățime margine în pixeli"
+
+#~ msgid "Marquee"
+#~ msgstr "Text derulant"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "Lungime maximă a câmpului text"
+
+#~ msgid "Media-independent link"
+#~ msgstr "Legătură independentă de media"
+
+#~ msgid "Menu list"
+#~ msgstr "Listă meniu"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "Listă meniu (depășit)"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "Câmp de text cu mai multe rânduri"
+
+#~ msgid "Multicolumn"
+#~ msgstr "Cu mai multe coloane"
+
+#~ msgid "Multiple"
+#~ msgstr "Multiplu"
+
+#~ msgid "Named property value"
+#~ msgstr "Valoare proprietate denumită"
+
+#~ msgid "Next ID"
+#~ msgstr "ID următor"
+
+#~ msgid "No URI"
+#~ msgstr "Fără URI"
+
+#~ msgid "No embedded objects"
+#~ msgstr "Fără obiecte înglobate"
+
+#~ msgid "No frames"
+#~ msgstr "Fără cadre"
+
+#~ msgid "No layers"
+#~ msgstr "Fără straturi"
+
+#~ msgid "No line break"
+#~ msgstr "Fără sfârșit de rând"
+
+#~ msgid "No script"
+#~ msgstr "Fără script"
+
+#~ msgid "No shade"
+#~ msgstr "Fără umbră"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "Fără umbră (depășit)"
+
+#~ msgid "No word wrap"
+#~ msgstr "Fără încadrare cuvânt"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "Fără încadrare cuvânt (depășit)"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "Spațiu inseparabil"
+
+#~ msgid "Note"
+#~ msgstr "Notă"
+
+#~ msgid "Object applet file"
+#~ msgstr "Fișier obiect applet"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "Fișier obiect applet (depășit)"
+
+#~ msgid "Object data reference"
+#~ msgstr "Referință date obiect"
+
+#~ msgid "Offset for alignment character"
+#~ msgstr "Deplasament pentru caracter de aliniere"
+
+#~ msgid "OnBlur event"
+#~ msgstr "Eveniment onBlur"
+
+#~ msgid "OnChange event"
+#~ msgstr "Eveniment onChange"
+
+#~ msgid "OnClick event"
+#~ msgstr "Eveniment onClick"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "Eveniment onDblClick"
+
+#~ msgid "OnFocus event"
+#~ msgstr "Eveniment onFocus"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "Eveniment onKeyDown"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "Eveniment onKeyPress"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "Eveniment onKeyUp"
+
+#~ msgid "OnLoad event"
+#~ msgstr "Eveniment onLoad"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "Eveniment onMouseDown"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "Eveniment onMouseMove"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "Eveniment onMouseOut"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "Eveniment onMouseOver"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "Eveniment onMouseUp"
+
+#~ msgid "OnReset event"
+#~ msgstr "Eveniment onReset"
+
+#~ msgid "OnSelect event"
+#~ msgstr "Eveniment onSelect"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "Eveniment onSubmit"
+
+#~ msgid "OnUnload event"
+#~ msgstr "Eveniment onUnload"
+
+#~ msgid "Option group"
+#~ msgstr "Grup opțiuni"
+
+#~ msgid "Option selector"
+#~ msgstr "Selector opțiuni"
+
+#~ msgid "Ordered list"
+#~ msgstr "Listă ordonată"
+
+#~ msgid "Output media"
+#~ msgstr "Media ieșire"
+
+#~ msgid "Paragraph"
+#~ msgstr "Paragraf"
+
+#~ msgid "Paragraph class"
+#~ msgstr "Clasă paragraf"
+
+#~ msgid "Paragraph style"
+#~ msgstr "Stil paragraf"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "Listă preformatată"
+
+#~ msgid "Preformatted text"
+#~ msgstr "Text preformatat"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "Dicționar de metainformații ale profilului"
+
+#~ msgid "Prompt message"
+#~ msgstr "Mesaj de înștiințare"
+
+#~ msgid "Push button"
+#~ msgstr "Buton apăsare"
+
+#~ msgid "Quote"
+#~ msgstr "Citat"
+
+#~ msgid "Range"
+#~ msgstr "Interval"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "Text și parolă ReadOnly"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "Spațiere redusă"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "Spațiere redusă (depășit)"
+
+#~ msgid "Reverse link"
+#~ msgstr "Legătură inversă"
+
+#~ msgid "Root"
+#~ msgstr "Rădăcină"
+
+#~ msgid "Rows"
+#~ msgstr "Rânduri"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "Marcaje între rânduri și coloane"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "Rezultatul programului exemplu, scripturi"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "Zonă cuprinsă în celulele antet"
+
+#~ msgid "Script language name"
+#~ msgstr "Nume limbaj script"
+
+#~ msgid "Script statements"
+#~ msgstr "Instrucțiuni script"
+
+#~ msgid "Scrollbar"
+#~ msgstr "Bară de derulare"
+
+#~ msgid "Selectable option"
+#~ msgstr "Opțiune selectabilă"
+
+#~ msgid "Selected"
+#~ msgstr "Selectat"
+
+#~ msgid "Server-side image map"
+#~ msgstr "Hartă imagine pe server"
+
+#~ msgid "Shape"
+#~ msgstr "Formă"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "Citat scurt în rând"
+
+#~ msgid "Single line prompt"
+#~ msgstr "Înștiințare pe un singur rând"
+
+#~ msgid "Size"
+#~ msgstr "Dimensiune"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "Dimensiune (depășit)"
+
+#~ msgid "Soft line break"
+#~ msgstr "Sfârșit de linie aproximativ"
+
+#~ msgid "Sound"
+#~ msgstr "Sunet"
+
+#~ msgid "Source"
+#~ msgstr "Sursă"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "Listă de arhive separate prin spații"
+
+#~ msgid "Spacer"
+#~ msgstr "Spațiator"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "Spațiere între celule"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "Spațiere în interiorul celulelor"
+
+#~ msgid "Span"
+#~ msgstr "Delimitare"
+
+#~ msgid "Square root"
+#~ msgstr "Rădăcină pătrată"
+
+#~ msgid "Standby load message"
+#~ msgstr "Mesaj de așteptare a încărcării"
+
+#~ msgid "Starting sequence number"
+#~ msgstr "Număr de pornire a secvenței"
+
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "Număr de pornire a secvenței (depășit)"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "Stil text barat (depășit)"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "Stil text barat"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "Stil text barat (depășit)"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "Accentuare puternică"
+
+#~ msgid "Style info"
+#~ msgstr "Info stil"
+
+#~ msgid "Subscript"
+#~ msgstr "Indice"
+
+#~ msgid "Superscript"
+#~ msgstr "Exponent"
+
+#~ msgid "Tab order position"
+#~ msgstr "Poziție ordine tab"
+
+#~ msgid "Table"
+#~ msgstr "Tabel"
+
+#~ msgid "Table body"
+#~ msgstr "Corp tabel"
+
+#~ msgid "Table caption"
+#~ msgstr "Descriere tabel"
+
+#~ msgid "Table column group properties"
+#~ msgstr "Proprietăți grup de coloane din tabel"
+
+#~ msgid "Table column properties"
+#~ msgstr "Proprietăți coloane tabel"
+
+#~ msgid "Table data cell"
+#~ msgstr "Celulă de date ale tabelului"
+
+#~ msgid "Table footer"
+#~ msgstr "Subsol tabel"
+
+#~ msgid "Table header"
+#~ msgstr "Antet tabel"
+
+#~ msgid "Table header cell"
+#~ msgstr "Celulă antet tabel"
+
+#~ msgid "Table row"
+#~ msgstr "Rând tabel"
+
+#~ msgid "Table summary"
+#~ msgstr "Sumar tabel"
+
+#~ msgid "Target — Blank"
+#~ msgstr "Destinație — blanc"
+
+#~ msgid "Target — Parent"
+#~ msgstr "Destinație — părinte"
+
+#~ msgid "Target — Self"
+#~ msgstr "Destinație — identică"
+
+#~ msgid "Target — Top"
+#~ msgstr "Destinație — sus"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "Stil text telex sau monospațiat"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Text color"
+#~ msgstr "Culoare text"
+
+#~ msgid "Text color (deprecated)"
+#~ msgstr "Culoare text (depășit)"
+
+#~ msgid "Text entered by user"
+#~ msgstr "Text introdus de utilizator"
+
+#~ msgid "Title"
+#~ msgstr "Titlu"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "Marginea de sus în pixeli"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Unordered list"
+#~ msgstr "Listă neordonată"
+
+#~ msgid "Use image map"
+#~ msgstr "Utilizează hartă de imagine"
+
+#~ msgid "Value"
+#~ msgstr "Valoare"
+
+#~ msgid "Value interpretation"
+#~ msgstr "Interpretare valoare"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "Variabilă sau argument program"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Aliniere verticală celule"
+
+#~ msgid "Vertical space"
+#~ msgstr "Spațiu vertical"
+
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "Spațiu vertical (depășit)"
+
+#~ msgid "Visited link color"
+#~ msgstr "Culoare legătură vizitată"
+
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "Culoare legătură vizitată (depășit)"
+
+#~ msgid "Width"
+#~ msgstr "Lățime"
+
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 — Taguri"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Bibliografie (citat)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Bibliografie (element)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Bibliografie (citat scurt)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Bibliografie (bibliografia)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "Paranteze ()"
+
+#~ msgid "Brackets <>"
+#~ msgstr "Paranteze <>"
+
+#~ msgid "Brackets []"
+#~ msgstr "Paranteze []"
+
+#~ msgid "Brackets {}"
+#~ msgstr "Paranteze {}"
+
+#~ msgid "File input"
+#~ msgstr "Intrare fișier"
+
+#~ msgid "Footnote"
+#~ msgstr "Notă de subsol"
+
+#~ msgid "Function cosine"
+#~ msgstr "Funcția cosinus"
+
+#~ msgid "Function e^"
+#~ msgstr "Funcția e^"
+
+#~ msgid "Function exp"
+#~ msgstr "Funcția exp"
+
+#~ msgid "Function log"
+#~ msgstr "Funcția log"
+
+#~ msgid "Function log10"
+#~ msgstr "Funcția log10"
+
+#~ msgid "Function sine"
+#~ msgstr "Funcția sinus"
+
+#~ msgid "Greek alpha"
+#~ msgstr "Alfa grecesc"
+
+#~ msgid "Greek beta"
+#~ msgstr "Beta grecesc"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "Epsilon grecesc"
+
+#~ msgid "Greek gamma"
+#~ msgstr "Gama grecesc"
+
+#~ msgid "Greek lambda"
+#~ msgstr "Lambda grecesc"
+
+#~ msgid "Greek rho"
+#~ msgstr "Rho grecesc"
+
+#~ msgid "Greek tau"
+#~ msgstr "Tau grecesc"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Antet 0 (capitol)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Antet 0 (capitol*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "Antet 1 (secțiune)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Antet 1 (secțiune*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Antet 2 (subsecțiune)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Antet 2 (subsecțiune*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Antet 3 (subsubsecțiune)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Antet 3 (subsubsecțiune*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Antet 4 (paragraf)"
+
+#~ msgid "Header appendix"
+#~ msgstr "Anexă antet"
+
+#~ msgid "Item"
+#~ msgstr "Element"
+
+#~ msgid "Item with label"
+#~ msgstr "Element cu etichetă"
+
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex — Taguri"
+
+#~ msgid "List enumerate"
+#~ msgstr "Enumerare listă"
+
+#~ msgid "List itemize"
+#~ msgstr "Populare listă"
+
+#~ msgid "Maths (display)"
+#~ msgstr "Matematice (afișare)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "Matematică (intercalat)"
+
+#~ msgid "Operator fraction"
+#~ msgstr "Operator fracție"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Operator integrală (afișare)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Operator integrală (inline)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Operator sumă (afișare)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Operator sumă (inline)"
+
+#~ msgid "Reference label"
+#~ msgstr "Etichetă de referință"
+
+#~ msgid "Reference ref"
+#~ msgstr "Referință „ref”"
+
+#~ msgid "Symbol <<"
+#~ msgstr "Simbol <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "Simbol <="
+
+#~ msgid "Symbol >="
+#~ msgstr "Simbol >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "Simbol >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "Simbol and"
+
+#~ msgid "Symbol const"
+#~ msgstr "Simbol const"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Simbol d-by-dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Simbol d-by-dt-partial"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Simbol d2-by-dt2-partial"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "Simbol dagger"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "Simbol cratimă --- (em-dash)"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "Simbol cratimă -- (en-dash)"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "Simbol equiv"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "Simbol infinit"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Simbol spațiu matematic ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Simbol spațiu matematic ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Simbol spațiu matematic _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Simbol spațiu matematic __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "Simbol simeq"
+
+#~ msgid "Symbol star"
+#~ msgstr "Simbol stea"
+
+#~ msgid "Typeface bold"
+#~ msgstr "Font aldin"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Font italic"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Font înclinat"
+
+#~ msgid "Typeface type"
+#~ msgstr "Tip font"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Text inseparabil"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr ""
+#~ "Furnizează o metodă ușoară de a insera într-un document etichete sau "
+#~ "șiruri frecvent utilizate, fără a fi necesar să le tastați."
+
+#~ msgid "Tag list"
+#~ msgstr "Listă etichete"
+
+#~ msgid "XSLT — Axes"
+#~ msgstr "XSLT — Axe"
+
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT — Elemente"
+
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT — Funcții"
+
+#~ msgid "ancestor"
+#~ msgstr "înaintaș"
+
+#~ msgid "ancestor-or-self"
+#~ msgstr "înaintaș-sau-sine"
+
+#~ msgid "attribute"
+#~ msgstr "atribut"
+
+#~ msgid "child"
+#~ msgstr "copil"
+
+#~ msgid "descendant"
+#~ msgstr "descendent"
+
+#~ msgid "descendant-or-self"
+#~ msgstr "descendent-sau-sine"
+
+#~ msgid "following"
+#~ msgstr "următor"
+
+#~ msgid "following-sibling"
+#~ msgstr "următorul-frate"
+
+#~ msgid "namespace"
+#~ msgstr "namespace"
+
+#~ msgid "parent"
+#~ msgstr "părinte"
+
+#~ msgid "preceding"
+#~ msgstr "precedent"
+
+#~ msgid "preceding-sibling"
+#~ msgstr "precedentul-frate"
+
+#~ msgid "self"
+#~ msgstr "sine"
+
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL — Taguri"

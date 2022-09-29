@@ -1,0 +1,45 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task"
+      id="plugin-draw-spaces">
+
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-additional-plugins"/>
+    <revision version="3.8" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.34" date="2020-02-09" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email its:translate="no">jwcampbell@gmail.com</email>
+    </credit>
+
+    <desc>Show white space between words or portions of code.</desc>
+  </info>
+
+  <title>Draw Spaces</title>
+
+  <p>The <app>Draw Spaces</app> plugin is a simple plugin that can mark spaces,
+  tabs, and other types of whitespace with a small, visible marker. By making
+  whitespace visible, you can more easily see how whitespace is used in a
+  document, and can apply spacing strategies more consistently.</p>
+
+  <steps>
+    <title>To enable the plugin:</title>
+    <item>
+      <p>Press the menu button in the top-right corner of the window and select
+      <guiseq><gui style="menuitem">Preferences</gui>
+      <gui style="tab">Plugins</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Select <gui style="menuitem">Draw Spaces</gui> to enable the plugin.</p>
+    </item>
+    <item>
+      <p>Press <gui style="button">Preferences</gui> to set its options.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Though you will be able to see the markers when you work on a file, the
+    markers will not be visible when you print a file to paper.</p>
+  </note>
+</page>

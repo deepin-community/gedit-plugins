@@ -1,0 +1,4 @@
+usr/lib/*/gedit/plugins/*zeitgeist*
+usr/share/*/gedit-zeitgeist.metainfo.xml usr/share/metainfo
+usr/share/help/*/gedit/zeitgeist-dataprovider.page
+

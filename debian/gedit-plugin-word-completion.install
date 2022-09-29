@@ -1,0 +1,4 @@
+usr/lib/*/gedit/plugins/*wordcompletion*
+usr/share/*/gedit-wordcompletion.metainfo.xml usr/share/metainfo
+usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.wordcompletion.gschema.xml
+usr/share/help/*/gedit/word-completion.page

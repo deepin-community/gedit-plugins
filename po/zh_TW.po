@@ -1,0 +1,1824 @@
+# Chinese (Taiwan) translation of gedit.
+# Copyright (C) 2000-07 Free Software Foundation, Inc.
+# Jing-Jong Shyue <shyue@sonoma.com.tw>, 2000.
+# Abel Cheung <abel@oaka.org>, 2001-2003.
+# Anthony Tang <tkyanthony@yahoo.com.hk>, 2004.
+# Woodman Tuen <wmtuen@gmail.com>, 2005-2007.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2008
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit 2.31.5\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gedit&keywords=I18N+L10N&component=Plugins\n"
+"POT-Creation-Date: 2014-09-20 05:19+0000\n"
+"PO-Revision-Date: 2015-02-28 23:57+0800\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7.1\n"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:1
+msgid "Bookmarks"
+msgstr "書籤"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "以書籤簡易瀏覽文件"
+
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "切換書籤"
+
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Goto Next Bookmark"
+msgstr "前往下個書籤"
+
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Goto Previous Bookmark"
+msgstr "前往上個書籤"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:1
+msgid "Bracket Completion"
+msgstr "括號補完"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+msgid "Automatically adds closing brackets."
+msgstr "自動加入關閉用括號。"
+
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:2
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "當您插入括號時自動加入關閉用括號"
+
+#. ex:et:ts=4:
+#: ../plugins/charmap/charmap/__init__.py:49
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
+msgid "Character Map"
+msgstr "字元對應表"
+
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "點按特殊字元來插入它們。"
+
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:1
+msgid "Charmap"
+msgstr "字應"
+
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:2
+msgid "Select characters from a character map"
+msgstr "從字元對應表選取字元"
+
+#. ex:ts=4:et:
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:1
+msgid "Code Comment"
+msgstr "代碼註解"
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "將所選代碼區塊標記成註解，或是取消其註解。"
+
+#: ../plugins/codecomment/codecomment.py:111
+msgid "Co_mment Code"
+msgstr "標記代碼註解(_M)"
+
+#: ../plugins/codecomment/codecomment.py:117
+msgid "U_ncomment Code"
+msgstr "取消代碼註解(_N)"
+
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:2
+msgid "Comment or uncomment blocks of code"
+msgstr "標記或取消代碼區塊的註解"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "揀色器"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "從對話盒揀選色彩並插入其十六進位代表碼。"
+
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:1
+msgid "Color picker"
+msgstr "揀色器"
+
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:2
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "從對話盒選取並插入色彩 (針對 HTML、CSS、PHP)"
+
+#: ../plugins/colorpicker/colorpicker.py:129
+msgid "Pick _Color..."
+msgstr "揀選色彩(_C)..."
+
+#: ../plugins/colorpicker/colorpicker.py:169
+msgid "Pick Color"
+msgstr "揀選色彩"
+
+#. ex:ts=4:et:
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:1
+#: ../plugins/colorschemer/schemer/__init__.py:40 ../plugins/colorschemer/schemer.ui.h:1
+msgid "Color Scheme Editor"
+msgstr "配色方案編輯器"
+
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
+msgid "Source code color scheme editor"
+msgstr "源碼配色方案編輯器"
+
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:2
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "建立與編輯語法標明的配色方案"
+
+#: ../plugins/colorschemer/schemer.ui.h:2
+msgid "Bold"
+msgstr "粗體"
+
+#: ../plugins/colorschemer/schemer.ui.h:3
+msgid "Italic"
+msgstr "義大利體"
+
+#: ../plugins/colorschemer/schemer.ui.h:4
+msgid "Underline"
+msgstr "底線"
+
+#: ../plugins/colorschemer/schemer.ui.h:5
+msgid "Strikethrough"
+msgstr "刪除線"
+
+#: ../plugins/colorschemer/schemer.ui.h:6
+msgid "Pick the background color"
+msgstr "揀選背景色"
+
+#: ../plugins/colorschemer/schemer.ui.h:7
+msgid "Pick the foreground color"
+msgstr "揀選前景色"
+
+#: ../plugins/colorschemer/schemer.ui.h:8
+msgid "_Background"
+msgstr "背景(_B)"
+
+#: ../plugins/colorschemer/schemer.ui.h:9
+msgid "_Foreground"
+msgstr "前景(_F)"
+
+#: ../plugins/colorschemer/schemer.ui.h:10
+msgid "_Clear "
+msgstr "清除(_C)"
+
+#: ../plugins/colorschemer/schemer.ui.h:11
+msgid "Name"
+msgstr "名稱"
+
+#: ../plugins/colorschemer/schemer.ui.h:12
+msgid "ID"
+msgstr "ID"
+
+#: ../plugins/colorschemer/schemer.ui.h:13
+msgid "Description"
+msgstr "描述"
+
+#: ../plugins/colorschemer/schemer.ui.h:14
+msgid "Author"
+msgstr "作者"
+
+#: ../plugins/colorschemer/schemer.ui.h:15
+msgid "Sample"
+msgstr "樣本"
+
+#: ../plugins/commander/commander/appactivatable.py:47
+msgid "Commander Mode"
+msgstr "Commander 模式"
+
+#. vi:ex:ts=4:et
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:1
+msgid "Commander"
+msgstr "Commander"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:2
+msgid "Command line interface for advanced editing"
+msgstr ""
+
+#: ../plugins/dashboard/dashboard/dashboard.py:117
+msgid "Empty Document"
+msgstr "空白文件"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:158
+msgid "Type here to search..."
+msgstr "在此輸入搜尋..."
+
+#. ex:ts=4:et:
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:1
+msgid "Dashboard"
+msgstr "控制版"
+
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
+msgid "A Dashboard for new tabs"
+msgstr "新分頁的控制板"
+
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:2
+msgid "Displays a grid of recently/most used files upon opening a new tab"
+msgstr ""
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+msgid "Draw Spaces"
+msgstr "描繪空格"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
+msgid "Draw spaces and tabs"
+msgstr "描繪空格與 Tab"
+
+#. ex:set ts=8 noet:
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:1
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:1
+msgid "Draw spaces"
+msgstr "描繪空格"
+
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "描繪空格與 Tab"
+
+#: ../plugins/drawspaces/gedit-drawspaces-app-activatable.c:166
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Show _White Space"
+msgstr "顯示空白(_W)"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:2
+msgid "Draw tabs"
+msgstr "描繪 Tab"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:3
+msgid "Draw new lines"
+msgstr "描繪換新列"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:4
+msgid "Draw non-breaking spaces"
+msgstr "描繪非斷列空白"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:5
+msgid "Draw leading spaces"
+msgstr "描繪前導空格"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:6
+msgid "Draw spaces in text"
+msgstr "描繪文字中的空格"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "描繪曳尾空格"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
+msgid "If TRUE drawing will be enabled."
+msgstr "若為 TURE 則啟用描繪。"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+msgid "The type of spaces to be drawn."
+msgstr "要描繪的空格類型。"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:1
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:1
+msgid "Git"
+msgstr "Git"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:2
+msgid "Highlight lines that have been changed since the last commit"
+msgstr ""
+
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:2
+msgid "Use git information to display which lines and files changed since last commit"
+msgstr ""
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
+msgid "Join/Split Lines"
+msgstr "結合/切分列"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
+msgid "Join several lines or split long ones"
+msgstr "結合多列或切分長列"
+
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:1
+msgid "Join lines/ Split lines"
+msgstr "結合列/ 切分列"
+
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:2
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "透過 Ctrl+J 與 Ctrl+Shift+J 來結合或切分多列"
+
+#: ../plugins/joinlines/joinlines.py:107
+msgid "_Join Lines"
+msgstr "結合列(_J)"
+
+#: ../plugins/joinlines/joinlines.py:113
+msgid "_Split Lines"
+msgstr "切分列(_S)"
+
+#: ../plugins/multiedit/multiedit/appactivatable.py:36
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1349
+msgid "Multi Edit Mode"
+msgstr "多重編輯模式"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
+msgid "Multi Edit"
+msgstr "多重編輯"
+
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:2
+msgid "Edit document in multiple places at once"
+msgstr "一次多處編輯文件"
+
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:1
+msgid "Multi edit"
+msgstr "多重編輯"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:315
+msgid "Added edit point..."
+msgstr "加入的編輯點..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:657
+msgid "Column Mode..."
+msgstr "欄模式..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:775
+msgid "Removed edit point..."
+msgstr "移除的編輯點..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:941
+msgid "Cancelled column mode..."
+msgstr "取消的欄模式..."
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1304
+msgid "Enter column edit mode using selection"
+msgstr "使用選取內容進入欄編輯模式"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1305
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "使用選取內容進入<b>智慧</b> 欄編輯模式"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "<b>Smart</b> column align mode using selection"
+msgstr ""
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr ""
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "Toggle edit point"
+msgstr "切換編輯點"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1310
+msgid "Add edit point at beginning of line/selection"
+msgstr ""
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Add edit point at end of line/selection"
+msgstr ""
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Align edit points"
+msgstr "對齊編輯點"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Align edit points with additional space"
+msgstr "以額外空間對齊編輯點"
+
+#. ex:ts=4:et:
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:1
+msgid "Smart Spaces"
+msgstr "智慧空格"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+msgid "Forget you're not using tabulations."
+msgstr "忘掉您沒在用 tab。"
+
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:2
+msgid "Allow to unindent like if you were using tabs while you're using spaces"
+msgstr ""
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr ""
+
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr ""
+
+#: ../plugins/synctex/synctex/synctex.py:336
+msgid "Forward Search"
+msgstr "往下搜尋"
+
+#. ex:ts=4:et:
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+msgid "Whether to silence terminal bell"
+msgstr "是否要讓終端機響鈴沉默"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+msgid ""
+"If true, don't make a noise when applications send the escape sequence for the "
+"terminal bell."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+msgid "Number of lines to keep in scrollback"
+msgstr "回捲要保留的列數"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the terminal by this "
+"number of lines; lines that don't fit in the scrollback are discarded. If scrollback-"
+"unlimited is true, this value is ignored."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is stored on "
+"disk temporarily, so this may cause the system to run out of disk space if there is a "
+"lot of output to the terminal."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
+msgid "Whether to scroll to the bottom when there's new output"
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+msgid "If true, whenever there's new output the terminal will scroll to the bottom."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
+msgid "Whether to allow bold text"
+msgstr "是否允許粗體文字"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
+msgid "If true, allow applications in the terminal to make text boldface."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
+msgid "Default color of text in the terminal"
+msgstr "終端機文字的預設色彩"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-style hex "
+"digits, or a color name such as \"red\")."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+msgid "Default color of terminal background"
+msgstr "終端機背景的預設色彩"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-style hex "
+"digits, or a color name such as \"red\")."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+msgid "Palette for terminal applications"
+msgstr "終端機應用程式的色版"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can use. This "
+"is that palette, in the form of a colon-separated list of color names. Color names "
+"should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for the "
+"terminal, instead of colors provided by the user."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+msgid "Whether to blink the cursor"
+msgstr "是否要讓游標閃爍"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+msgid ""
+"The possible values are \"system\" to use the global cursor blinking settings, or \"on"
+"\" or \"off\" to set the mode explicitly."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+msgid "The cursor appearance"
+msgstr "游標外觀"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+msgid ""
+"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a vertical "
+"line cursor, or \"underline\" to use an underline cursor."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+msgid "Whether to use the system font"
+msgstr "是否要使用系統字型"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it's monospace (and "
+"the most similar font it can come up with otherwise)."
+msgstr ""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+msgid "Font"
+msgstr "字型"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+msgstr "Pango 字型名稱。範例：「Sans 12」或「Monospace Bold 14」。"
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
+msgid "Embedded Terminal"
+msgstr "內嵌終端機"
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
+msgid "Embed a terminal in the bottom pane."
+msgstr "底部窗格內嵌終端機。"
+
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:1
+#: ../plugins/terminal/terminal.py:311
+msgid "Terminal"
+msgstr "終端機"
+
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:2
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "可從底部窗格存取的簡易終端機元件"
+
+#: ../plugins/terminal/terminal.py:332
+msgid "C_hange Directory"
+msgstr "變更目錄(_H)"
+
+#: ../plugins/textsize/textsize/__init__.py:50
+msgid "_Normal size"
+msgstr "一般大小(_N)"
+
+#: ../plugins/textsize/textsize/__init__.py:52
+msgid "S_maller Text"
+msgstr "較小文字(_M)"
+
+#: ../plugins/textsize/textsize/__init__.py:54
+msgid "_Larger Text"
+msgstr "較大文字(_L)"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
+msgid "Text Size"
+msgstr "文字大小"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:2
+msgid "Easily increase and decrease the text size"
+msgstr "簡易放大或縮小文字"
+
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:1
+msgid "Text size"
+msgstr "文字大小"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+msgid "Interactive completion"
+msgstr "互動式補完"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+msgid "Minimum word size:"
+msgstr "最短字詞長度："
+
+#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
+msgid "Document Words"
+msgstr "文件字詞"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+msgid "Interactive Completion"
+msgstr "互動式補完"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+msgid "Whether to enable interactive completion."
+msgstr "是否要啟用互動式補完。"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+msgid "Minimum Word Size"
+msgstr "最短字詞長度"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+msgid "The minimum word size to complete."
+msgstr "要補完的最短字詞長度。"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "字詞補完"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "使用補完框架作字詞補完"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:1
+msgid "Word completion"
+msgstr "字詞補完"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:2
+msgid "Propose automatic completion using words already present in the document"
+msgstr "使用已經成現在文件中的字詞作自動補完"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:1
+msgid "Zeitgeist dataprovider"
+msgstr "Zeitgeist 資料供應"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:2
+msgid "Logs access and leave event for documents used with gedit"
+msgstr ""
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:1
+msgid "Zeitgeist Data provider"
+msgstr "Zeitgeist 資料供應"
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:2
+msgid ""
+"Records user activity and giving easy access to recently-used and frequently-used files"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "在目前的視窗中顯示或隱藏狀態列"
+
+#, fuzzy
+#~ msgid "Goto the next bookmark"
+#~ msgstr "前往下一個已造訪位置"
+
+#, fuzzy
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "顯示上一頁"
+
+#, fuzzy
+#~ msgid "Comment the selected code"
+#~ msgstr "刪除已選的文字"
+
+#, fuzzy
+#~ msgid "Uncomment the selected code"
+#~ msgstr "刪除已選的文字"
+
+#~ msgid "_Insert"
+#~ msgstr "插入(_I)"
+
+#, fuzzy
+#~ msgid "Enabled"
+#~ msgstr "Disabled"
+
+#, fuzzy
+#~ msgid "Split the selected lines"
+#~ msgstr "刪除已選的文字"
+
+#, fuzzy
+#~ msgid "Sa_ved sessions"
+#~ msgstr "使用壓縮儲存(_S)"
+
+#, fuzzy
+#~ msgid "_Save current session"
+#~ msgstr "取代目前的選擇區域"
+
+#, fuzzy
+#~ msgid "Save the current document list as a new session"
+#~ msgstr "將目前的文件移至新的視窗"
+
+#, fuzzy
+#~ msgid "Open the saved session manager"
+#~ msgstr "開啟 gedit 手冊"
+
+#, fuzzy
+#~ msgid "Save session"
+#~ msgstr "使用壓縮儲存(_S)"
+
+#~ msgid "Tags"
+#~ msgstr "標籤"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "請選擇準備使用哪一組標記"
+
+#~ msgid "_Preview"
+#~ msgstr "預覽(_P)"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "可用的標記清單"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "Abbreviated form"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Abbreviation"
+
+#~ msgid "Above"
+#~ msgstr "Above"
+
+#~ msgid "Accessibility key character"
+#~ msgstr "Accessibility key character"
+
+#~ msgid "Acronym"
+#~ msgstr "Acronym"
+
+#~ msgid "Align"
+#~ msgstr "Align"
+
+#~ msgid "Alignment character"
+#~ msgstr "Alignment character"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternative"
+
+#~ msgid "Anchor"
+#~ msgstr "Anchor"
+
+#~ msgid "Anchor URI"
+#~ msgstr "Anchor URI"
+
+#~ msgid "Applet class file code"
+#~ msgstr "Applet class file code"
+
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "Applet class file code（不建議再使用）"
+
+#~ msgid "Array"
+#~ msgstr "Array"
+
+#~ msgid "Associated information"
+#~ msgstr "Associated information"
+
+#~ msgid "Axis related headers"
+#~ msgstr "Axis related headers"
+
+#~ msgid "Background color (deprecated)"
+#~ msgstr "Background color（不建議再使用）"
+
+#~ msgid "Background texture tile"
+#~ msgstr "Background texture tile"
+
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "Background texture tile（不建議再使用）"
+
+#~ msgid "Base URI"
+#~ msgstr "Base URI"
+
+#~ msgid "Base font"
+#~ msgstr "Base font"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "Base font（不建議再使用）"
+
+#~ msgid "Border"
+#~ msgstr "Border"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "Border（不建議再使用）"
+
+#~ msgid "Border color"
+#~ msgstr "Border color"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "Cell rowspan"
+
+#~ msgid "Center"
+#~ msgstr "Center"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "Center（不建議再使用）"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "Character encoding of linked resource"
+
+#~ msgid "Checked (state)"
+#~ msgstr "Checked (state)"
+
+#~ msgid "Checked state"
+#~ msgstr "Checked state"
+
+#~ msgid "Citation"
+#~ msgstr "Citation"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "Cite reason for change"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "Class implementation ID"
+
+#~ msgid "Class list"
+#~ msgstr "Class list"
+
+#~ msgid "Clear text flow control"
+#~ msgstr "Clear text flow control"
+
+#~ msgid "Code content type"
+#~ msgstr "Code content type"
+
+#~ msgid "Color of selected links"
+#~ msgstr "Color of selected links"
+
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "Color of selected links（不建議再使用）"
+
+#~ msgid "Column span"
+#~ msgstr "Column span"
+
+#~ msgid "Columns"
+#~ msgstr "Columns"
+
+#~ msgid "Comment"
+#~ msgstr "Comment"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "Computer code fragment"
+
+#~ msgid "Content scheme"
+#~ msgstr "Content scheme"
+
+#~ msgid "Content type"
+#~ msgstr "Content type"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "Content type（不建議再使用）"
+
+#~ msgid "Coordinates"
+#~ msgstr "Coordinates"
+
+#~ msgid "DIV Style container"
+#~ msgstr "DIV Style container"
+
+#~ msgid "DIV container"
+#~ msgstr "DIV container"
+
+#~ msgid "Date and time of change"
+#~ msgstr "Date and time of change"
+
+#~ msgid "Declare flag"
+#~ msgstr "Declare flag"
+
+#~ msgid "Defer attribute"
+#~ msgstr "Defer attribute"
+
+#~ msgid "Definition description"
+#~ msgstr "Definition description"
+
+#~ msgid "Definition list"
+#~ msgstr "Definition list"
+
+#~ msgid "Definition term"
+#~ msgstr "Definition term"
+
+#~ msgid "Deleted text"
+#~ msgstr "Deleted text"
+
+#~ msgid "Direction"
+#~ msgstr "Direction"
+
+#~ msgid "Directionality"
+#~ msgstr "Directionality"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "Directionality（不建議再使用）"
+
+#~ msgid "Directory list"
+#~ msgstr "Directory list"
+
+#~ msgid "Disabled"
+#~ msgstr "Disabled"
+
+#~ msgid "Document base"
+#~ msgstr "Document base"
+
+#~ msgid "Document body"
+#~ msgstr "Document body"
+
+#~ msgid "Document head"
+#~ msgstr "Document head"
+
+#~ msgid "Document title"
+#~ msgstr "Document title"
+
+#~ msgid "Document type"
+#~ msgstr "Document type"
+
+#~ msgid "Element ID"
+#~ msgstr "Element ID"
+
+#~ msgid "Embedded object"
+#~ msgstr "Embedded object"
+
+#~ msgid "Emphasis"
+#~ msgstr "Emphasis"
+
+#~ msgid "Encode type"
+#~ msgstr "Encode type"
+
+#~ msgid "Figure"
+#~ msgstr "Figure"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "Font face（不建議再使用）"
+
+#~ msgid "For label"
+#~ msgstr "For label"
+
+#~ msgid "Forced line break"
+#~ msgstr "Forced line break"
+
+#~ msgid "Form"
+#~ msgstr "Form"
+
+#~ msgid "Form action handler"
+#~ msgstr "Form action handler"
+
+#~ msgid "Form control group"
+#~ msgstr "Form control group"
+
+#~ msgid "Form field label text"
+#~ msgstr "Form field label text"
+
+#~ msgid "Form input"
+#~ msgstr "Form input"
+
+#~ msgid "Form input type"
+#~ msgstr "Form input type"
+
+#~ msgid "Form method"
+#~ msgstr "Form method"
+
+#~ msgid "Forward link"
+#~ msgstr "Forward link"
+
+#~ msgid "Frame"
+#~ msgstr "Frame"
+
+#~ msgid "Frame border"
+#~ msgstr "框架邊框"
+
+#~ msgid "Frame render parts"
+#~ msgstr "Frame render parts"
+
+#~ msgid "Frame source"
+#~ msgstr "Frame source"
+
+#~ msgid "Frame spacing"
+#~ msgstr "框架間距"
+
+#~ msgid "Frame target"
+#~ msgstr "Frame target"
+
+#~ msgid "Frameborder"
+#~ msgstr "Frameborder"
+
+#~ msgid "Frameset"
+#~ msgstr "Frameset"
+
+#~ msgid "Frameset columns"
+#~ msgstr "Frameset columns"
+
+#~ msgid "Frameset rows"
+#~ msgstr "Frameset rows"
+
+#~ msgid "Framespacing"
+#~ msgstr "Framespacing"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "Generic embedded object"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "Generic metainformation"
+
+#~ msgid "Generic span"
+#~ msgstr "Generic span"
+
+#~ msgid "HREF URI"
+#~ msgstr "HREF URI"
+
+#~ msgid "HTML root element"
+#~ msgstr "HTML root element"
+
+#~ msgid "HTML version"
+#~ msgstr "HTML version"
+
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML — 特殊字元"
+
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML — 標籤"
+
+#~ msgid "HTTP header name"
+#~ msgstr "HTTP header name"
+
+#~ msgid "Header cell IDs"
+#~ msgstr "標題儲存格 ID"
+
+#~ msgid "Heading"
+#~ msgstr "Heading"
+
+#~ msgid "Heading 1"
+#~ msgstr "Heading 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "Heading 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "Heading 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "Heading 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "Heading 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "Heading 6"
+
+#~ msgid "Height"
+#~ msgstr "Height"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "Horizontal rule"
+
+#~ msgid "Horizontal space"
+#~ msgstr "Horizontal space"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "Horizontal space（不建議再使用）"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "I18N BiDi override"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Image map"
+#~ msgstr "Image map"
+
+#~ msgid "Image map area"
+#~ msgstr "Image map area"
+
+#~ msgid "Image map name"
+#~ msgstr "Image map name"
+
+#~ msgid "Image source"
+#~ msgstr "Image source"
+
+#~ msgid "Inline frame"
+#~ msgstr "Inline frame"
+
+#~ msgid "Inline layer"
+#~ msgstr "Inline layer"
+
+#~ msgid "Inserted text"
+#~ msgstr "Inserted text"
+
+#~ msgid "Instance definition"
+#~ msgstr "Instance definition"
+
+#~ msgid "Java applet"
+#~ msgstr "Java applet"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "Java applet（不建議再使用）"
+
+#~ msgid "Label"
+#~ msgstr "Label"
+
+#~ msgid "Language code"
+#~ msgstr "Language code"
+
+#~ msgid "Layer"
+#~ msgstr "Layer"
+
+#~ msgid "Link color"
+#~ msgstr "Link color"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "Link color（不建議再使用）"
+
+#~ msgid "List item"
+#~ msgstr "List item"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "List of MIME types for file upload"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "List of supported character sets"
+
+#~ msgid "Listing"
+#~ msgstr "Listing"
+
+#~ msgid "Local change to font"
+#~ msgstr "Local change to font"
+
+#~ msgid "Long description link"
+#~ msgstr "Long description link"
+
+#~ msgid "Long quotation"
+#~ msgstr "Long quotation"
+
+#~ msgid "Mail link"
+#~ msgstr "Mail link"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "Margin pixel height"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "Margin pixel width"
+
+#~ msgid "Marquee"
+#~ msgstr "Marquee"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "Maximum length of text field"
+
+#~ msgid "Media-independent link"
+#~ msgstr "Media-independent link"
+
+#~ msgid "Menu list"
+#~ msgstr "Menu list"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "Menu list（不建議再使用）"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "Multi-line text field"
+
+#~ msgid "Multicolumn"
+#~ msgstr "Multicolumn"
+
+#~ msgid "Named property value"
+#~ msgstr "Named property value"
+
+#~ msgid "Next ID"
+#~ msgstr "Next ID"
+
+#~ msgid "No URI"
+#~ msgstr "No URI"
+
+#~ msgid "No embedded objects"
+#~ msgstr "No embedded objects"
+
+#~ msgid "No frames"
+#~ msgstr "No frames"
+
+#~ msgid "No layers"
+#~ msgstr "No layers"
+
+#~ msgid "No line break"
+#~ msgstr "No line break"
+
+#~ msgid "No script"
+#~ msgstr "No script"
+
+#~ msgid "No shade"
+#~ msgstr "No shade"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "No shade（不建議再使用）"
+
+#~ msgid "No word wrap"
+#~ msgstr "No word wrap"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "No word wrap（不建議再使用）"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "Non-breaking space"
+
+#~ msgid "Note"
+#~ msgstr "Note"
+
+#~ msgid "Object applet file"
+#~ msgstr "Object applet file"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "Object applet file（不建議再使用）"
+
+#~ msgid "Object data reference"
+#~ msgstr "Object data reference"
+
+#~ msgid "Offset for alignment character"
+#~ msgstr "Offset for alignment character"
+
+#~ msgid "OnBlur event"
+#~ msgstr "OnBlur event"
+
+#~ msgid "OnChange event"
+#~ msgstr "OnChange event"
+
+#~ msgid "OnClick event"
+#~ msgstr "OnClick event"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "OnDblClick event"
+
+#~ msgid "OnFocus event"
+#~ msgstr "OnFocus event"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "OnKeyDown event"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "OnKeyPress event"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "OnKeyUp event"
+
+#~ msgid "OnLoad event"
+#~ msgstr "OnLoad event"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "OnMouseDown event"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "OnMouseMove event"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "OnMouseOut event"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "OnMouseOver event"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "OnMouseUp event"
+
+#~ msgid "OnReset event"
+#~ msgstr "OnReset event"
+
+#~ msgid "OnSelect event"
+#~ msgstr "OnSelect event"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "OnSubmit event"
+
+#~ msgid "OnUnload event"
+#~ msgstr "OnUnload event"
+
+#~ msgid "Option group"
+#~ msgstr "Option group"
+
+#~ msgid "Option selector"
+#~ msgstr "Option selector"
+
+#~ msgid "Ordered list"
+#~ msgstr "Ordered list"
+
+#~ msgid "Output media"
+#~ msgstr "Output media"
+
+#~ msgid "Paragraph"
+#~ msgstr "Paragraph"
+
+#~ msgid "Paragraph class"
+#~ msgstr "Paragraph class"
+
+#~ msgid "Paragraph style"
+#~ msgstr "Paragraph style"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "Preformatted listing"
+
+#~ msgid "Preformatted text"
+#~ msgstr "Preformatted text"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "Profile metainfo dictionary"
+
+#~ msgid "Prompt message"
+#~ msgstr "Prompt message"
+
+#~ msgid "Push button"
+#~ msgstr "Push button"
+
+#~ msgid "Quote"
+#~ msgstr "Quote"
+
+#~ msgid "Range"
+#~ msgstr "Range"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "ReadOnly text and password"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "Reduced spacing"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "Reduced spacing（不建議再使用）"
+
+#~ msgid "Reverse link"
+#~ msgstr "Reverse link"
+
+#~ msgid "Root"
+#~ msgstr "Root"
+
+#~ msgid "Rows"
+#~ msgstr "Rows"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "Rulings between rows and columns"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "Sample program output, scripts"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "Scope covered by header cells"
+
+#~ msgid "Script language name"
+#~ msgstr "Script language name"
+
+#~ msgid "Script statements"
+#~ msgstr "命令稿陳述"
+
+#~ msgid "Scrollbar"
+#~ msgstr "Scrollbar"
+
+#~ msgid "Selectable option"
+#~ msgstr "Selectable option"
+
+#~ msgid "Selected"
+#~ msgstr "Selected"
+
+#~ msgid "Server-side image map"
+#~ msgstr "Server-side image map"
+
+#~ msgid "Shape"
+#~ msgstr "Shape"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "Short inline quotation"
+
+#~ msgid "Single line prompt"
+#~ msgstr "Single line prompt"
+
+#~ msgid "Size"
+#~ msgstr "Size"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "Size（不建議再使用）"
+
+#~ msgid "Soft line break"
+#~ msgstr "Soft line break"
+
+#~ msgid "Sound"
+#~ msgstr "Sound"
+
+#~ msgid "Source"
+#~ msgstr "Source"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "以空白分隔的壓縮檔清單"
+
+#~ msgid "Spacer"
+#~ msgstr "Spacer"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "Spacing between cells"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "Spacing within cells"
+
+#~ msgid "Span"
+#~ msgstr "Span"
+
+#~ msgid "Square root"
+#~ msgstr "Square root"
+
+#~ msgid "Standby load message"
+#~ msgstr "待命負載訊息"
+
+#~ msgid "Starting sequence number"
+#~ msgstr "Starting sequence number"
+
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "Starting sequence number（不建議再使用）"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "Strike-through text（不建議再使用）"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "Strike-through text style"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "Strike-through text style（不建議再使用）"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "Strong emphasis"
+
+#~ msgid "Style info"
+#~ msgstr "Style info"
+
+#~ msgid "Subscript"
+#~ msgstr "Subscript"
+
+#~ msgid "Superscript"
+#~ msgstr "Superscript"
+
+#~ msgid "Tab order position"
+#~ msgstr "Tab order position"
+
+#~ msgid "Table"
+#~ msgstr "Table"
+
+#~ msgid "Table body"
+#~ msgstr "Table body"
+
+#~ msgid "Table caption"
+#~ msgstr "Table caption"
+
+#~ msgid "Table column group properties"
+#~ msgstr "Table column group properties"
+
+#~ msgid "Table column properties"
+#~ msgstr "Table column properties"
+
+#~ msgid "Table data cell"
+#~ msgstr "Table data cell"
+
+#~ msgid "Table footer"
+#~ msgstr "Table footer"
+
+#~ msgid "Table header"
+#~ msgstr "Table header"
+
+#~ msgid "Table header cell"
+#~ msgstr "Table header cell"
+
+#~ msgid "Table row"
+#~ msgstr "Table row"
+
+#~ msgid "Table summary"
+#~ msgstr "Table summary"
+
+#~ msgid "Target — Blank"
+#~ msgstr "目標 — Blank"
+
+#~ msgid "Target — Parent"
+#~ msgstr "目標 — Parent"
+
+#~ msgid "Target — Self"
+#~ msgstr "目標 — Self"
+
+#~ msgid "Target — Top"
+#~ msgstr "目標 — Top"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "Teletype or monospace text style"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Text color"
+#~ msgstr "Text color"
+
+#~ msgid "Text color (deprecated)"
+#~ msgstr "Text color（不建議再使用）"
+
+#~ msgid "Text entered by user"
+#~ msgstr "Text entered by user"
+
+#~ msgid "Title"
+#~ msgstr "Title"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "頂端邊界（以像素計）"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Unordered list"
+#~ msgstr "Unordered list"
+
+#~ msgid "Use image map"
+#~ msgstr "Use image map"
+
+#~ msgid "Value"
+#~ msgstr "Value"
+
+#~ msgid "Value interpretation"
+#~ msgstr "Value interpretation"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "Variable or program argument"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "Vertical cell alignment"
+
+#~ msgid "Vertical space"
+#~ msgstr "Vertical space"
+
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "Vertical space （不建議再使用）"
+
+#~ msgid "Visited link color"
+#~ msgstr "Visited link color"
+
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "Visited link color（不建議再使用）"
+
+#~ msgid "Width"
+#~ msgstr "Width"
+
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 — 標籤"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "Bibliography (cite)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "Bibliography (item)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "Bibliography (shortcite)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "Bibliography (thebibliography)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "Brackets ()"
+
+#~ msgid "Brackets <>"
+#~ msgstr "Brackets <>"
+
+#~ msgid "Brackets []"
+#~ msgstr "Brackets []"
+
+#~ msgid "Brackets {}"
+#~ msgstr "Brackets {}"
+
+#~ msgid "File input"
+#~ msgstr "File input"
+
+#~ msgid "Footnote"
+#~ msgstr "Footnote"
+
+#~ msgid "Function cosine"
+#~ msgstr "Function cosine"
+
+#~ msgid "Function e^"
+#~ msgstr "Function e^"
+
+#~ msgid "Function exp"
+#~ msgstr "Function exp"
+
+#~ msgid "Function log"
+#~ msgstr "Function log"
+
+#~ msgid "Function log10"
+#~ msgstr "Function log10"
+
+#~ msgid "Function sine"
+#~ msgstr "Function sine"
+
+#~ msgid "Greek alpha"
+#~ msgstr "Greek alpha"
+
+#~ msgid "Greek beta"
+#~ msgstr "Greek beta"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "Greek epsilon"
+
+#~ msgid "Greek gamma"
+#~ msgstr "Greek gamma"
+
+#~ msgid "Greek lambda"
+#~ msgstr "Greek lambda"
+
+#~ msgid "Greek rho"
+#~ msgstr "Greek rho"
+
+#~ msgid "Greek tau"
+#~ msgstr "Greek tau"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "Header 0 (chapter)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "Header 0 (chapter*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "Header 1 (section)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "Header 1 (section*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "Header 2 (subsection)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "Header 2 (subsection*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "Header 3 (subsubsection)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "Header 3 (subsubsection*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "Header 4 (paragraph)"
+
+#~ msgid "Header appendix"
+#~ msgstr "Header appendix"
+
+#~ msgid "Item"
+#~ msgstr "Item"
+
+#~ msgid "Item with label"
+#~ msgstr "Item with label"
+
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex — 標籤"
+
+#~ msgid "List enumerate"
+#~ msgstr "List enumerate"
+
+#~ msgid "List itemize"
+#~ msgstr "List itemize"
+
+#~ msgid "Maths (display)"
+#~ msgstr "Maths (display)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "Maths (inline)"
+
+#~ msgid "Operator fraction"
+#~ msgstr "Operator fraction"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "Operator integral (display)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "Operator integral (inline)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "Operator sum (display)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "Operator sum (inline)"
+
+#~ msgid "Reference label"
+#~ msgstr "Reference label"
+
+#~ msgid "Reference ref"
+#~ msgstr "Reference ref"
+
+#~ msgid "Symbol <<"
+#~ msgstr "Symbol <<d"
+
+#~ msgid "Symbol <="
+#~ msgstr "Symbol <="
+
+#~ msgid "Symbol >="
+#~ msgstr "Symbol >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "Symbol >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "Symbol and"
+
+#~ msgid "Symbol const"
+#~ msgstr "Symbol const"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "Symbol d-by-dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "Symbol d-by-dt-partial"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "Symbol d2-by-dt2-partial"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "Symbol dagger"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "Symbol em-dash ---"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "Symbol en-dash --"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "Symbol equiv"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "Symbol infinity"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "Symbol mathspace ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "Symbol mathspace ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "Symbol mathspace _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "Symbol mathspace __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "Symbol simeq"
+
+#~ msgid "Symbol star"
+#~ msgstr "Symbol star"
+
+#~ msgid "Typeface bold"
+#~ msgstr "Typeface bold"
+
+#~ msgid "Typeface italic"
+#~ msgstr "Typeface italic"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "Typeface slanted"
+
+#~ msgid "Typeface type"
+#~ msgstr "Typeface type"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "Unbreakable text"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a document "
+#~ "without having to type them."
+#~ msgstr "提供一種不需打字的簡易方式來在文件中加入常用的標記或字串。"
+
+#~ msgid "Tag list"
+#~ msgstr "標記清單"
+
+#~ msgid "XSLT — Axes"
+#~ msgstr "XSLT — Axes"
+
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT — Elements"
+
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT — Functions"
+
+#~ msgid "ancestor"
+#~ msgstr "ancestor"
+
+#~ msgid "ancestor-or-self"
+#~ msgstr "ancestor-or-self"
+
+#~ msgid "attribute"
+#~ msgstr "attribute"
+
+#~ msgid "child"
+#~ msgstr "child"
+
+#~ msgid "descendant"
+#~ msgstr "descendant"
+
+#~ msgid "descendant-or-self"
+#~ msgstr "descendant-or-self"
+
+#~ msgid "following"
+#~ msgstr "following"
+
+#~ msgid "following-sibling"
+#~ msgstr "following-sibling"
+
+#~ msgid "namespace"
+#~ msgstr "namespace"
+
+#~ msgid "parent"
+#~ msgstr "parent"
+
+#~ msgid "preceding"
+#~ msgstr "preceding"
+
+#~ msgid "preceding-sibling"
+#~ msgstr "preceding-sibling"
+
+#~ msgid "self"
+#~ msgstr "self"
+
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL — 標籤"

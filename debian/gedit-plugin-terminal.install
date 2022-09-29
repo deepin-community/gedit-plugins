@@ -1,0 +1,5 @@
+usr/lib/*/gedit/plugins/terminal*
+usr/share/*/gedit-terminal.metainfo.xml usr/share/metainfo
+usr/share/glib-2.0/schemas/org.gnome.gedit.plugins.terminal.gschema.xml
+usr/share/help/*/gedit/terminal.page
+

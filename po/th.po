@@ -1,0 +1,1883 @@
+# Thai translation of gedit.
+# Copyright (C) 2004-2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gedit package.
+#
+# Supakorn Siddhichai <supakorn.siddhichai@nectec.or.th>, 2003, 2004.
+# Supranee Thirawatthanasuk <supranee@opentle.org>, 2004.
+# Chanchai Junlouchai <taz@opentle.org>, 2004.
+# Theppitak Karoonboonyanan <theppitak@gmail.com>, 2004-2009.
+# Kittiphong Meesawat <ktphong@yahoo.com>, 2010.
+# Akom Chotiphantawanon <knight2000@gmail.com>, 2009, 2014-2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gedit&keywords=I18N+L10N&component=Plugins\n"
+"POT-Creation-Date: 2015-12-30 19:04+0000\n"
+"PO-Revision-Date: 2016-01-04 12:23+0700\n"
+"Last-Translator: Akom Chotiphantawanon <knight2000@gmail.com>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Thai\n"
+"X-Poedit-Country: THAILAND\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:1
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:1
+msgid "Bookmarks"
+msgstr "ที่คั่นหน้า"
+
+#: ../plugins/bookmarks/bookmarks.plugin.desktop.in.in.h:2
+#: ../plugins/bookmarks/gedit-bookmarks.metainfo.xml.in.h:2
+msgid "Easy document navigation with bookmarks"
+msgstr "ท่องดูเอกสารอย่างง่ายดายด้วยที่คั่นหน้า"
+
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:141
+msgid "Toggle Bookmark"
+msgstr "เปิด-ปิดที่คั่นหน้า"
+
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:145
+msgid "Goto Next Bookmark"
+msgstr "ไปยังที่คั่นหน้าถัดไป"
+
+#: ../plugins/bookmarks/gedit-bookmarks-app-activatable.c:149
+msgid "Goto Previous Bookmark"
+msgstr "ไปยังที่คั่นหน้าก่อนหน้า"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:1
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:1
+msgid "Bracket Completion"
+msgstr "การเติมเต็มคู่วงเล็บ"
+
+#: ../plugins/bracketcompletion/bracketcompletion.plugin.desktop.in.in.h:2
+msgid "Automatically adds closing brackets."
+msgstr "เติมวงเล็บปิดโดยอัตโนมัติ"
+
+#: ../plugins/bracketcompletion/gedit-bracketcompletion.metainfo.xml.in.h:2
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "เติมวงเล็บปิดโดยอัตโนมัติเมื่อคุณใส่วงเล็บตัวหนึ่ง"
+
+#. ex:et:ts=4:
+#: ../plugins/charmap/charmap/__init__.py:56
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:1
+msgid "Character Map"
+msgstr "ผังอักขระ"
+
+#: ../plugins/charmap/charmap.plugin.desktop.in.in.h:2
+msgid "Insert special characters just by clicking on them."
+msgstr "แทรกอักขระพิเศษโดยการคลิกบนตัวอักษร"
+
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:1
+msgid "Charmap"
+msgstr "ผังอักขระ"
+
+#: ../plugins/charmap/gedit-charmap.metainfo.xml.in.h:2
+msgid "Select characters from a character map"
+msgstr "เลือกอักขระจากผังอักขระ"
+
+#. ex:ts=4:et:
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:1
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:1
+msgid "Code Comment"
+msgstr "หมายเหตุโค้ด"
+
+#: ../plugins/codecomment/codecomment.plugin.desktop.in.in.h:2
+msgid "Comment out or uncomment a selected block of code."
+msgstr "ทำหมายเหตุหรือเลิกทำหมายเหตุชุดโค้ดที่เลือก"
+
+#: ../plugins/codecomment/codecomment.py:114
+msgid "Co_mment Code"
+msgstr "_หมายเหตุโค้ด"
+
+#: ../plugins/codecomment/codecomment.py:120
+msgid "U_ncomment Code"
+msgstr "เ_ลิกทำหมายเหตุโค้ด"
+
+#: ../plugins/codecomment/gedit-codecomment.metainfo.xml.in.h:2
+msgid "Comment or uncomment blocks of code"
+msgstr "ทำหมายเหตุหรือเลิกทำหมายเหตุชุดโค้ด"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:1
+msgid "Color Picker"
+msgstr "เครื่องมือเลือกสี"
+
+#: ../plugins/colorpicker/colorpicker.plugin.desktop.in.in.h:2
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr "เลือกสีจากกล่องโต้ตอบและแทรกรหัสสีในรูปของเลขฐานสิบหก"
+
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:1
+msgid "Color picker"
+msgstr "เครื่องมือเลือกสี"
+
+#: ../plugins/colorpicker/gedit-colorpicker.metainfo.xml.in.h:2
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "เลือกและแทรกรหัสสีจากกล่องโต้ตอบ (สำหรับ HTML, CSS, PHP)"
+
+#: ../plugins/colorpicker/colorpicker.py:132
+msgid "Pick _Color…"
+msgstr "เลือก_สี…"
+
+#: ../plugins/colorpicker/colorpicker.py:172
+msgid "Pick Color"
+msgstr "เลือกสี"
+
+#. ex:ts=4:et:
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:1
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:1
+#: ../plugins/colorschemer/schemer/__init__.py:42
+#: ../plugins/colorschemer/schemer.ui.h:1
+msgid "Color Scheme Editor"
+msgstr "เครื่องมือแก้ไขชุดสี"
+
+#: ../plugins/colorschemer/colorschemer.plugin.desktop.in.in.h:2
+msgid "Source code color scheme editor"
+msgstr "เครื่องมือแก้ไขชุดสีของซอร์สโค้ด"
+
+#: ../plugins/colorschemer/gedit-colorschemer.metainfo.xml.in.h:2
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "สร้างและแก้ไขชุดสีที่ใช้สำหรับการเน้นไวยากรณ์"
+
+#: ../plugins/colorschemer/schemer.ui.h:2
+msgid "Bold"
+msgstr "ตัวหนา"
+
+#: ../plugins/colorschemer/schemer.ui.h:3
+msgid "Italic"
+msgstr "ตัวเอียง"
+
+#: ../plugins/colorschemer/schemer.ui.h:4
+msgid "Underline"
+msgstr "ตัวขีดเส้นใต้"
+
+#: ../plugins/colorschemer/schemer.ui.h:5
+msgid "Strikethrough"
+msgstr "ข้อความขีดฆ่า"
+
+#: ../plugins/colorschemer/schemer.ui.h:6
+msgid "Pick the background color"
+msgstr "เลือกสีพื้นหลัง"
+
+#: ../plugins/colorschemer/schemer.ui.h:7
+msgid "Pick the foreground color"
+msgstr "เลือกสีข้อความ"
+
+#: ../plugins/colorschemer/schemer.ui.h:8
+msgid "_Background"
+msgstr "_พื้นหลัง"
+
+#: ../plugins/colorschemer/schemer.ui.h:9
+msgid "_Foreground"
+msgstr "_ข้อความ"
+
+#: ../plugins/colorschemer/schemer.ui.h:10
+msgid "_Clear "
+msgstr "_ล้าง "
+
+#: ../plugins/colorschemer/schemer.ui.h:11
+msgid "Name"
+msgstr "ชื่อ"
+
+#: ../plugins/colorschemer/schemer.ui.h:12
+msgid "ID"
+msgstr "ID"
+
+#: ../plugins/colorschemer/schemer.ui.h:13
+msgid "Description"
+msgstr "คำบรรยาย"
+
+#: ../plugins/colorschemer/schemer.ui.h:14
+msgid "Author"
+msgstr "ผู้เขียน"
+
+#: ../plugins/colorschemer/schemer.ui.h:15
+msgid "Sample"
+msgstr "ตัวอย่าง"
+
+#: ../plugins/commander/commander/appactivatable.py:48
+msgid "Commander Mode"
+msgstr "โหมดเรียกใช้งานตามคำสั่ง"
+
+#. ex:ts=4:et
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:1
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:1
+msgid "Commander"
+msgstr "เรียกใช้งานตามคำสั่ง"
+
+#: ../plugins/commander/commander.plugin.desktop.in.in.h:2
+#: ../plugins/commander/gedit-commander.metainfo.xml.in.h:2
+msgid "Command line interface for advanced editing"
+msgstr "ส่วนติดต่อแบบบรรทัดคำสั่งสำหรับการแก้ไขขั้นสูง"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:117
+msgid "Empty Document"
+msgstr "เอกสารเปล่า"
+
+#: ../plugins/dashboard/dashboard/dashboard.py:158
+msgid "Type here to search…"
+msgstr "พิมพ์ที่นี่เพื่อค้นหา…"
+
+#. ex:ts=4:et:
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:1
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:1
+msgid "Dashboard"
+msgstr "แดชบอร์ด"
+
+#: ../plugins/dashboard/dashboard.plugin.desktop.in.in.h:2
+msgid "A Dashboard for new tabs"
+msgstr "แดชบอร์ดสำหรับแท็บใหม่"
+
+#: ../plugins/dashboard/gedit-dashboard.metainfo.xml.in.h:2
+msgid "Displays a grid of recently/most used files upon opening a new tab"
+msgstr "แสดงกริดของแฟ้มที่ใช้ล่าสุด/มากสุด เมื่อเปิดแท็บใหม่"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:1
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:3
+msgid "Draw Spaces"
+msgstr "แสดงช่องว่าง"
+
+#: ../plugins/drawspaces/drawspaces.plugin.desktop.in.in.h:2
+msgid "Draw spaces and tabs"
+msgstr "แสดงช่องว่างและแท็บ"
+
+#. ex:set ts=8 noet:
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:1
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:1
+msgid "Draw spaces"
+msgstr "แสดงช่องว่าง"
+
+#: ../plugins/drawspaces/gedit-drawspaces.metainfo.xml.in.h:2
+msgid "Draw Spaces and Tabs"
+msgstr "แสดงช่องว่างและแท็บ"
+
+#: ../plugins/drawspaces/gedit-drawspaces-app-activatable.c:166
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:1
+msgid "Show _White Space"
+msgstr "แสดง_ช่องว่างวรรคตอน"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:2
+msgid "Draw tabs"
+msgstr "แสดงแท็บ"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:3
+msgid "Draw new lines"
+msgstr "แสดงอักขระขึ้นบรรทัดใหม่"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:4
+msgid "Draw non-breaking spaces"
+msgstr "แสดงช่องว่างที่ไม่แบ่งบรรทัด"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:5
+msgid "Draw leading spaces"
+msgstr "แสดงช่องว่างต้นบรรทัด"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:6
+msgid "Draw spaces in text"
+msgstr "แสดงช่องว่างในข้อความ"
+
+#: ../plugins/drawspaces/gedit-drawspaces-configurable.ui.h:7
+msgid "Draw trailing spaces"
+msgstr "แสดงช่องว่างท้ายบรรทัด"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:2
+msgid "If TRUE drawing will be enabled."
+msgstr "ถ้าเลือก จะเปิดใช้การแสดงช่องว่าง"
+
+#: ../plugins/drawspaces/org.gnome.gedit.plugins.drawspaces.gschema.xml.in.in.h:4
+msgid "The type of spaces to be drawn."
+msgstr "ชนิดของช่องว่างที่จะแสดง"
+
+#. namespace FindInFilesPlugin
+#. namespace Gedit
+#: ../plugins/findinfiles/dialog.vala:53
+#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:1
+#: ../plugins/findinfiles/dialog.ui.h:1
+msgid "Find in Files"
+msgstr "หาในแฟ้ม"
+
+#: ../plugins/findinfiles/dialog.vala:58
+#: ../plugins/findinfiles/result-panel.vala:63
+#: ../plugins/findinfiles/dialog.ui.h:2
+msgid "_Close"
+msgstr "ปิ_ด"
+
+#: ../plugins/findinfiles/plugin.vala:159
+msgid "Find in Files…"
+msgstr "หาในแฟ้ม…"
+
+#: ../plugins/findinfiles/result-panel.vala:195
+msgid "No results found"
+msgstr "ไม่พบผลลัพธ์"
+
+#. The stop button is showed in the bottom-left corner of the TreeView
+#: ../plugins/findinfiles/result-panel.vala:217
+msgid "Stop the search"
+msgstr "หยุดค้นหา"
+
+#: ../plugins/findinfiles/findinfiles.plugin.desktop.in.in.h:2
+msgid "Find text in all files of a folder."
+msgstr "หาข้อความในแฟ้มทั้งหมดของโฟลเดอร์"
+
+#: ../plugins/findinfiles/dialog.ui.h:3
+msgctxt "label of the find button"
+msgid "_Find"
+msgstr "_หา"
+
+#: ../plugins/findinfiles/dialog.ui.h:4
+msgctxt "label on the left of the GtkEntry containing text to search"
+msgid "F_ind "
+msgstr "ห_า"
+
+#: ../plugins/findinfiles/dialog.ui.h:5
+msgid "_In "
+msgstr "ใ_น "
+
+#: ../plugins/findinfiles/dialog.ui.h:6
+msgid "Select a _folder"
+msgstr "เลือกโ_ฟลเดอร์"
+
+#: ../plugins/findinfiles/dialog.ui.h:7
+msgid "_Match case"
+msgstr "ตัวพิมพ์ใหญ่-เ_ล็กตรงกัน"
+
+#: ../plugins/findinfiles/dialog.ui.h:8
+msgid "Match _entire word only"
+msgstr "ค้นหาทั้_งคำ"
+
+#: ../plugins/findinfiles/dialog.ui.h:9
+msgid "Re_gular expression"
+msgstr "_นิพจน์เรกิวลาร์"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:1
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:1
+msgid "Git"
+msgstr "Git"
+
+#: ../plugins/git/git.plugin.desktop.in.in.h:2
+msgid "Highlight lines that have been changed since the last commit"
+msgstr "เน้นบรรทัดที่มีการเปลี่ยนแปลงจาก commit ล่าสุด"
+
+#: ../plugins/git/gedit-git.metainfo.xml.in.h:2
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr "ใช้ข้อมูลจาก git ในการแสดงบรรทัดและแฟ้มที่เปลี่ยนแปลงนับจาก commit ล่าสุด"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:1
+msgid "Join/Split Lines"
+msgstr "เชื่อม/แยกบรรทัด"
+
+#: ../plugins/joinlines/joinlines.plugin.desktop.in.in.h:2
+msgid "Join several lines or split long ones"
+msgstr "เชื่อมหลายบรรทัดหรือแบ่งบรรทัดยาวๆ"
+
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:1
+msgid "Join lines/ Split lines"
+msgstr "เชื่อมบรรทัด/ แยกบรรทัด"
+
+#: ../plugins/joinlines/gedit-joinlines.metainfo.xml.in.h:2
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "เชื่อมหรือแยกบรรทัดหลายบรรทัดผ่าน Ctrl+J และ Ctrl+Shift+J"
+
+#: ../plugins/joinlines/joinlines.py:107
+msgid "_Join Lines"
+msgstr "เ_ชื่อมบรรทัด"
+
+#: ../plugins/joinlines/joinlines.py:113
+msgid "_Split Lines"
+msgstr "แ_ยกบรรทัด"
+
+#: ../plugins/multiedit/multiedit/appactivatable.py:36
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1349
+msgid "Multi Edit Mode"
+msgstr "โหมดแก้ไขหลายจุด"
+
+#. ex:ts=4:et:
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:1
+msgid "Multi Edit"
+msgstr "แก้ไขหลายจุด"
+
+#: ../plugins/multiedit/multiedit.plugin.desktop.in.in.h:2
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:2
+msgid "Edit document in multiple places at once"
+msgstr "แก้ไขเอกสารหลายจุดในเวลาเดียวกัน"
+
+#: ../plugins/multiedit/gedit-multiedit.metainfo.xml.in.h:1
+msgid "Multi edit"
+msgstr "แก้ไขหลายจุด"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:315
+msgid "Added edit point…"
+msgstr "เพิ่มจุดแก้ไข…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:657
+msgid "Column Mode…"
+msgstr "โหมดคอลัมน์…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:775
+msgid "Removed edit point…"
+msgstr "ลบจุดแก้ไข…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:941
+msgid "Cancelled column mode…"
+msgstr "ยกเลิกโหมดคอลัมน์…"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1304
+msgid "Enter column edit mode using selection"
+msgstr "เข้าสู่โหมดแก้ไขคอลัมน์โดยใช้การเลือก"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1305
+msgid "Enter <b>smart</b> column edit mode using selection"
+msgstr "เข้าสู่โหมดแก้ไขคอลัมน์ <b>แบบฉลาด</b> โดยใช้การเลือก"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1306
+msgid "<b>Smart</b> column align mode using selection"
+msgstr "โหมดจัดคอลัมน์ <b>แบบฉลาด</b> โดยใช้การเลือก"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1307
+msgid "<b>Smart</b> column align mode with additional space using selection"
+msgstr "โหมดจัดคอลัมน์ <b>แบบฉลาด</b> พร้อมเติมช่องว่างโดยใช้การเลือก"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1309
+msgid "Toggle edit point"
+msgstr "เปิด-ปิดจุดแก้ไข"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1310
+msgid "Add edit point at beginning of line/selection"
+msgstr "เพิ่มจุดแก้ไขที่ต้นบรรทัด/ส่วนที่เลือก"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1311
+msgid "Add edit point at end of line/selection"
+msgstr "เพิ่มจุดแก้ไขที่ท้ายบรรทัด/ส่วนที่เลือก"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1312
+msgid "Align edit points"
+msgstr "จัดเรียงจุดแก้ไข"
+
+#: ../plugins/multiedit/multiedit/viewactivatable.py:1313
+msgid "Align edit points with additional space"
+msgstr "จัดเรียงจุดแก้ไขต่างๆ ด้วยการเพิ่มช่องว่าง"
+
+#. ex:ts=4:et:
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:1
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:1
+msgid "Smart Spaces"
+msgstr "ช่องว่างแบบฉลาด"
+
+#: ../plugins/smartspaces/smartspaces.plugin.desktop.in.in.h:2
+msgid "Forget you're not using tabulations."
+msgstr "จำลองการใช้แท็บด้วยช่องว่าง"
+
+#: ../plugins/smartspaces/gedit-smartspaces.metainfo.xml.in.h:2
+msgid "Allow to unindent like if you were using tabs while you're using spaces"
+msgstr "อนุญาตให้ลดย่อหน้าเสมือนหนึ่งว่าคุณกำลังใช้แท็บในขณะที่คุณกำลังใช้ช่องว่าง"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:1
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:1
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: ../plugins/synctex/synctex.plugin.desktop.in.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince."
+msgstr "ปรับข้อมูลระหว่าง LaTeX และ PDF ด้วย gedit และ evince"
+
+#: ../plugins/synctex/gedit-synctex.metainfo.xml.in.h:2
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "ปรับข้อมูลระหว่าง LaTeX และ PDF ด้วย gedit และ evince"
+
+#: ../plugins/synctex/synctex/synctex.py:342
+msgid "Forward Search"
+msgstr "ค้นหาไปข้างหน้า"
+
+#. ex:ts=4:et:
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:1
+msgid "Whether to silence terminal bell"
+msgstr "กำหนดว่าจะเงียบเสียงกริ่งของเทอร์มินัลหรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:2
+msgid ""
+"If true, don't make a noise when applications send the escape sequence for "
+"the terminal bell."
+msgstr "ถ้าเลือก จะไม่ส่งเสียงเมื่อโปรแกรมส่งลำดับอักขระพิเศษสำหรับเสียงกริ่งของเทอร์มินัล"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:3
+msgid "Number of lines to keep in scrollback"
+msgstr "จำนวนบรรทัดที่จะรักษาไว้สำหรับการเลื่อนกลับ"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:4
+msgid ""
+"Number of scrollback lines to keep around. You can scroll back in the "
+"terminal by this number of lines; lines that don't fit in the scrollback are "
+"discarded. If scrollback-unlimited is true, this value is ignored."
+msgstr ""
+"จำนวนบรรทัดที่จะรักษาไว้สำหรับการเลื่อนกลับ "
+"คุณสามารถเลื่อนจอเทอร์มินัลกลับได้ตามจำนวนบรรทัดที่กำหนดนี้ "
+"บรรทัดที่ไม่อยู่ในช่วงของการเลื่อนกลับจะถูกลบทิ้ง ถ้าคีย์ scrollback-unlimited เป็นค่าจริง "
+"ก็จะไม่สนใจคีย์นี้"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:5
+msgid "Whether an unlimited number of lines should be kept in scrollback"
+msgstr "กำหนดว่าจะรักษาบรรทัดสำหรับการเลื่อนกลับอย่างไม่มีขีดจำกัดหรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:6
+msgid ""
+"If true, scrollback lines will never be discarded. The scrollback history is "
+"stored on disk temporarily, so this may cause the system to run out of disk "
+"space if there is a lot of output to the terminal."
+msgstr ""
+"ถ้าเลือก บรรทัดต่างๆ ที่รักษาไว้สำหรับการเลื่อนจอกลับจะไม่มีการลบทิ้งเลย "
+"ข้อมูลสำหรับการเลื่อนกลับจะถูกเก็บไว้ในดิสก์ชั่วคราว ดังนั้น การเปิดตัวเลือกนี้อาจทำให้ดิสก์เต็มได้ "
+"ถ้ามีข้อความออกทางเทอร์มินัลจำนวนมาก"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:7
+msgid "Whether to scroll to the bottom when a key is pressed"
+msgstr "กำหนดว่าจะเลื่อนไปตำแหน่งล่างสุดเมื่อกดปุ่มใดปุ่มหนึ่งหรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:8
+msgid "If true, pressing a key jumps the scrollbar to the bottom."
+msgstr "ถ้าเลือก การกดปุ่มใดปุ่มหนึ่งจะเลื่อนแถบเลื่อนไปท้ายสุด"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:9
+msgid "Whether to scroll to the bottom when there's new output"
+msgstr "กำหนดว่าจะเลื่อนไปตำแหน่งล่างสุดเมื่อมีผลลัพธ์ใหม่หรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:10
+msgid ""
+"If true, whenever there's new output the terminal will scroll to the bottom."
+msgstr "ถ้าเลือก เทอร์มินัลจะเลื่อนไปตำแหน่งล่างสุดเมื่อมีผลลัพธ์ใหม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:11
+msgid "Whether to allow bold text"
+msgstr "อนุญาตให้ใช้ข้อความตัวหนาหรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:12
+msgid "If true, allow applications in the terminal to make text boldface."
+msgstr "ถ้าเลือก จะอนุญาตให้โปรแกรมในเทอร์มินัลทำข้อความตัวหนา"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:13
+msgid "Default color of text in the terminal"
+msgstr "สีปริยายของข้อความในเทอร์มินัล"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:14
+msgid ""
+"Default color of text in the terminal, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"สีปริยายของข้อความในเทอร์มินัล ในรูปของข้อกำหนดสี (สามารถเป็นเลขฐานสิบหกในรูปแบบ HTML "
+"หรือชื่อสี เช่น \"red\")"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:15
+msgid "Default color of terminal background"
+msgstr "สีปริยายของพื้นหลังเทอร์มินัล"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:16
+msgid ""
+"Default color of terminal background, as a color specification (can be HTML-"
+"style hex digits, or a color name such as \"red\")."
+msgstr ""
+"สีปริยายของพื้นหลังเทอร์มินัล ในรูปของข้อกำหนดสี (สามารถเป็นเลขฐานสิบหกในรูปแบบ HTML "
+"หรือชื่อสี เช่น \"red\")"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:17
+msgid "Palette for terminal applications"
+msgstr "จานสีสำหรับโปรแกรมในเทอร์มินัล"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:18
+msgid ""
+"Terminals have a 16-color palette that applications inside the terminal can "
+"use. This is that palette, in the form of a colon-separated list of color "
+"names. Color names should be in hex format e.g. \"#FF00FF\""
+msgstr ""
+"เทอร์มินัลมีจานสีขนาด 16 สี ซึ่งโปรแกรมที่ทำงานในเทอร์มินัลสามารถใช้งานได้ นี่คือจานสีที่ว่านั้น "
+"โดยอยู่ในรูปแบบของรายชื่อสีที่คั่นด้วยทวิภาค (colon) ชื่อสีควรอยู่ในรูปของเลขฐานสิบหก เช่น "
+"\"#FF00FF\""
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:19
+msgid "Whether to use the colors from the theme for the terminal widget"
+msgstr "ใช้สีจากชุดตกแต่งสำหรับวิดเจ็ตเทอร์มินัลหรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:20
+msgid ""
+"If true, the theme color scheme used for text entry boxes will be used for "
+"the terminal, instead of colors provided by the user."
+msgstr ""
+"ถ้าเลือก จะใช้ชุดสีที่กำหนดสำหรับกล่องป้อนข้อความกับเทอร์มินัลด้วย แทนที่จะใช้สีต่างๆ ที่ผู้ใช้กำหนด"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:21
+msgid "Whether to blink the cursor"
+msgstr "กำหนดว่าจะกะพริบเคอร์เซอร์หรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:22
+msgid ""
+"The possible values are \"system\" to use the global cursor blinking "
+"settings, or \"on\" or \"off\" to set the mode explicitly."
+msgstr ""
+"ค่าที่เป็นไปได้คือ \"system\" ซึ่งจะใช้ค่าตั้งรวมของระบบเกี่ยวกับการกะพริบของเคอร์เซอร์ "
+"หรือใช้ค่า \"on\" หรือ \"off\" เพื่อกำหนดโหมดโดยตรง"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:23
+msgid "The cursor appearance"
+msgstr "รูปร่างของเคอร์เซอร์"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:24
+msgid ""
+"The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
+"vertical line cursor, or \"underline\" to use an underline cursor."
+msgstr ""
+"ค่าที่เป็นไปได้คือ \"block\" สำหรับเคอร์เซอร์รูปบล็อคสี่เหลี่ยม, \"ibeam\" "
+"สำหรับเคอร์เซอร์รูปขีดตั้ง หรือ \"underline\" สำหรับเคอร์เซอร์แบบขีดล่าง"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:25
+msgid "Whether to use the system font"
+msgstr "ใช้แบบอักษรของระบบหรือไม่"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:26
+msgid ""
+"If true, the terminal will use the desktop-global standard font if it's "
+"monospace (and the most similar font it can come up with otherwise)."
+msgstr ""
+"ถ้าเลือก เทอร์มินัลจะใช้แบบอักษรมาตรฐานที่กำหนดในเดสก์ท็อป ถ้าแบบอักษรนั้นเป็นแบบความกว้างคงที่ "
+"(หรือแบบอักษรที่ใกล้เคียงที่สุดที่สามารถใช้ได้ ในกรณีที่หาไม่พบ)"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:27
+msgid "Font"
+msgstr "แบบอักษร"
+
+#: ../plugins/terminal/org.gnome.gedit.plugins.terminal.gschema.xml.in.in.h:28
+msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
+msgstr "ชื่อแบบอักษรของ Pango ตัวอย่างเช่น \"Sans 12\" หรือ \"Monospace Bold 14\""
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:1
+msgid "Embedded Terminal"
+msgstr "เทอร์มินัลฝังตัว"
+
+#: ../plugins/terminal/terminal.plugin.desktop.in.in.h:2
+msgid "Embed a terminal in the bottom pane."
+msgstr "เทอร์มินัลฝังตัวในช่องด้านล่าง"
+
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:1
+#: ../plugins/terminal/terminal.py:315
+msgid "Terminal"
+msgstr "เทอร์มินัล"
+
+#: ../plugins/terminal/gedit-terminal.metainfo.xml.in.h:2
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "วิดเจ็ตเทอร์มินัลอย่างง่ายที่สามารถใช้งานได้จากพาเนลด้านล่าง"
+
+#: ../plugins/terminal/terminal.py:336
+msgid "C_hange Directory"
+msgstr "เ_ปลี่ยนไดเรกทอรี"
+
+#: ../plugins/textsize/textsize/__init__.py:53
+msgid "_Normal size"
+msgstr "ขนาด_ปกติ"
+
+#: ../plugins/textsize/textsize/__init__.py:55
+msgid "S_maller Text"
+msgstr "ตัวอักษรเ_ล็ก"
+
+#: ../plugins/textsize/textsize/__init__.py:57
+msgid "_Larger Text"
+msgstr "ตัวอักษรใ_หญ่"
+
+#. ex:ts=4:et:
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:1
+msgid "Text Size"
+msgstr "ขนาดข้อความ"
+
+#: ../plugins/textsize/textsize.plugin.desktop.in.in.h:2
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:2
+msgid "Easily increase and decrease the text size"
+msgstr "เพิ่มและลดขนาดตัวอักษรอย่างง่ายดาย"
+
+#: ../plugins/textsize/gedit-textsize.metainfo.xml.in.h:1
+msgid "Text size"
+msgstr "ขนาดข้อความ"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:1
+msgid "Interactive completion"
+msgstr "เติมเต็มคำแบบโต้ตอบ"
+
+#: ../plugins/wordcompletion/gedit-word-completion-configure.ui.h:2
+msgid "Minimum word size:"
+msgstr "ความยาวต่ำสุดของคำ:"
+
+#: ../plugins/wordcompletion/gedit-word-completion-plugin.c:186
+msgid "Document Words"
+msgstr "คำในเอกสาร"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:1
+msgid "Interactive Completion"
+msgstr "เติมเต็มคำแบบโต้ตอบ"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:2
+msgid "Whether to enable interactive completion."
+msgstr "กำหนดว่าจะเปิดใช้การเติมเต็มคำแบบโต้ตอบหรือไม่"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:3
+msgid "Minimum Word Size"
+msgstr "ความยาวต่ำสุดของคำ"
+
+#: ../plugins/wordcompletion/org.gnome.gedit.plugins.wordcompletion.gschema.xml.in.in.h:4
+msgid "The minimum word size to complete."
+msgstr "ความยาวต่ำสุดของคำที่จะเติมเต็ม"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:1
+msgid "Word Completion"
+msgstr "การเติมเต็มคำ"
+
+#: ../plugins/wordcompletion/wordcompletion.plugin.desktop.in.in.h:2
+msgid "Word completion using the completion framework"
+msgstr "การเติมเต็มคำโดยใช้กรอบงานการเติมเต็ม"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:1
+msgid "Word completion"
+msgstr "การเติมเต็มคำ"
+
+#: ../plugins/wordcompletion/gedit-wordcompletion.metainfo.xml.in.h:2
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr "เสนอการเติมเต็มโดยอัตโนมัติโดยใช้คำที่มีอยู่แล้วในเอกสาร"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:1
+msgid "Zeitgeist dataprovider"
+msgstr "ผู้ให้บริการข้อมูล Zeitgeist"
+
+#: ../plugins/zeitgeist/zeitgeist.plugin.desktop.in.h:2
+msgid "Logs access and leave event for documents used with gedit"
+msgstr "บันทึกเหตุการณ์การเข้าถึงและออกจากเอกสารที่ใช้กับ gedit"
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:1
+msgid "Zeitgeist Data provider"
+msgstr "ผู้ให้บริการข้อมูล Zeitgeist"
+
+#: ../plugins/zeitgeist/gedit-zeitgeist.metainfo.xml.in.h:2
+msgid ""
+"Records user activity and giving easy access to recently-used and frequently-"
+"used files"
+msgstr "บันทึกกิจกรรมของผู้ใช้และให้เข้าถึงแฟ้มที่ใช้งานล่าสุดและแฟ้มที่ใช้บ่อยได้อย่างง่ายดาย"
+
+#~ msgid "Pick _Color..."
+#~ msgstr "เลือก_สี..."
+
+#~ msgid "Characters that are considered \"part of a word\""
+#~ msgstr "อักขระที่ถือว่าเป็น \"ส่วนหนึ่งของคำ\""
+
+#~ msgid ""
+#~ "When selecting text by word, sequences of these characters are considered "
+#~ "single words. Ranges can be given as \"A-Z\". Literal hyphen (not "
+#~ "expressing a range) should be the first character given."
+#~ msgstr ""
+#~ "เมื่อเลือกข้อความเป็นคำ ลำดับของอักขระเหล่านี้จะถือเป็นคำเดี่ยว ช่วงอักขระสามารถกำหนดเป็น "
+#~ "\"A-Z\" เครื่องหมายยัติภังค์ (ที่ไม่ใช่การกำหนดช่วง) ควรเป็นอักขระตัวแรก"
+
+#~ msgid "Toggle bookmark status of the current line"
+#~ msgstr "สลับสถานะที่คั่นหน้าของบรรทัดปัจจุบัน"
+
+#~ msgid "Goto the next bookmark"
+#~ msgstr "ไปยังที่คั่นหน้าถัดไป"
+
+#~ msgid "Goto the previous bookmark"
+#~ msgstr "ไปยังที่คั่นหน้าก่อนหน้า"
+
+#~ msgid "Comment the selected code"
+#~ msgstr "ทำหมายเหตุโค้ดที่เลือก"
+
+#~ msgid "Uncomment the selected code"
+#~ msgstr "เลิกทำหมายเหตุโค้ดที่เลือก"
+
+#~ msgid "Pick a color from a dialog"
+#~ msgstr "เลือกสีจากกล่องโต้ตอบ"
+
+#~ msgid "Start commander mode"
+#~ msgstr "เริ่มโหมดเรียกใช้งานตามคำสั่ง"
+
+#~ msgid "Show spaces and tabs"
+#~ msgstr "แสดงช่องว่างและแท็บ"
+
+#~ msgid "Enabled"
+#~ msgstr "เปิดใช้งาน"
+
+#~ msgid "Join the selected lines"
+#~ msgstr "เชื่อมบรรทัดที่เลือก"
+
+#~ msgid "Split the selected lines"
+#~ msgstr "แยกบรรทัดที่เลือก"
+
+#~ msgid "_Insert"
+#~ msgstr "แ_ทรก"
+
+#~ msgid "Sa_ved sessions"
+#~ msgstr "_วาระที่บันทึกไว้"
+
+#~ msgid "_Manage saved sessions..."
+#~ msgstr "_จัดการวาระที่บันทึกไว้..."
+
+#~ msgid "Recover '%s' session"
+#~ msgstr "กู้คืนวาระ '%s'"
+
+#~ msgid "Session Name"
+#~ msgstr "ชื่อวาระ"
+
+#~ msgid "Save and restore your working sessions"
+#~ msgstr "บันทึกและกู้คืนวาระการทำงานของคุณ"
+
+#~ msgid "Session Saver"
+#~ msgstr "เครื่องมือบันทึกวาระ"
+
+#~ msgid "Save session"
+#~ msgstr "บันทึกวาระ"
+
+#~ msgid "Saved Sessions"
+#~ msgstr "วาระที่บันทึกไว้"
+
+#~ msgid "Session name:"
+#~ msgstr "ชื่อวาระ:"
+
+#~ msgid "Tags"
+#~ msgstr "แท็ก"
+
+#~ msgid "Select the group of tags you want to use"
+#~ msgstr "เลือกกลุ่มแท็กที่ต้องการใช้"
+
+#~ msgid "_Preview"
+#~ msgstr "_ตัวอย่าง"
+
+#~ msgid "Available Tag Lists"
+#~ msgstr "รายการแท็กที่มี"
+
+#~ msgid "Abbreviated form"
+#~ msgstr "คำย่อ (แท็ก)"
+
+#~ msgid "Abbreviation"
+#~ msgstr "รูปแบบโดยย่อ (แอตทริบิวต์)"
+
+#~ msgid "Accessibility key character"
+#~ msgstr "อักขระหลักสำหรับสิ่งอำนวยความสะดวก"
+
+#~ msgid "Acronym"
+#~ msgstr "ตัวย่อ"
+
+#~ msgid "Align"
+#~ msgstr "การจัดเรียงแนว (align)"
+
+#~ msgid "Alignment character"
+#~ msgstr "อักขระสำหรับจัดเรียงแนว"
+
+#~ msgid "Alternative"
+#~ msgstr "ข้อความทดแทน"
+
+#~ msgid "Anchor"
+#~ msgstr "จุดอ้างอิง (anchor)"
+
+#~ msgid "Anchor URI"
+#~ msgstr "ลิงก์ไปยัง URI"
+
+#~ msgid "Applet class file code"
+#~ msgstr "รหัส (code) ของคลาสแอพเพล็ต"
+
+#~ msgid "Applet class file code (deprecated)"
+#~ msgstr "รหัส (code) ของคลาสแอพเพล็ต (เลิกใช้แล้ว)"
+
+#~ msgid "Associated information"
+#~ msgstr "ข้อมูล (content) ของ meta"
+
+#~ msgid "Axis related headers"
+#~ msgstr "แกนข้อมูล (axis) ของตาราง"
+
+#~ msgid "Background color (deprecated)"
+#~ msgstr "สีพื้นหลัง (เลิกใช้แล้ว)"
+
+#~ msgid "Background texture tile"
+#~ msgstr "ภาพปูพื้นหลัง"
+
+#~ msgid "Background texture tile (deprecated)"
+#~ msgstr "ภาพปูพื้นหลัง (เลิกใช้แล้ว)"
+
+#~ msgid "Base URI"
+#~ msgstr "URI รากของคลาสแอพเพล็ต"
+
+#~ msgid "Base font"
+#~ msgstr "แบบอักษรยืนพื้น"
+
+#~ msgid "Base font (deprecated)"
+#~ msgstr "แบบอักษรยืนพื้น (เลิกใช้แล้ว)"
+
+#~ msgid "Border"
+#~ msgstr "ขอบ"
+
+#~ msgid "Border (deprecated)"
+#~ msgstr "ขอบ (เลิกใช้แล้ว)"
+
+#~ msgid "Border color"
+#~ msgstr "สีขอบ"
+
+#~ msgid "Cell rowspan"
+#~ msgstr "จำนวนแถวของอาณาเขตเซลล์"
+
+#~ msgid "Center"
+#~ msgstr "กึ่งกลาง"
+
+#~ msgid "Center (deprecated)"
+#~ msgstr "กึ่งกลาง (เลิกใช้แล้ว)"
+
+#~ msgid "Character encoding of linked resource"
+#~ msgstr "รหัสอักขระของข้อมูลเป้าหมายลิงก์"
+
+#~ msgid "Checked (state)"
+#~ msgstr "กาเลือกอยู่ (สถานะ)"
+
+#~ msgid "Checked state"
+#~ msgstr "สถานะการกาเลือก"
+
+#~ msgid "Citation"
+#~ msgstr "อ้างอิงเอกสาร"
+
+#~ msgid "Cite reason for change"
+#~ msgstr "อ้างอิงเหตุผลการแก้ไข"
+
+#~ msgid "Class implementation ID"
+#~ msgstr "อ็อบเจกต์ของคลาส"
+
+#~ msgid "Class list"
+#~ msgstr "คลาส"
+
+#~ msgid "Clear text flow control"
+#~ msgstr "ตำแหน่งไหลข้อความรอบ float"
+
+#~ msgid "Code content type"
+#~ msgstr "ชนิดของโค้ด"
+
+#~ msgid "Color of selected links"
+#~ msgstr "สีของลิงก์ที่ถูกเลือก"
+
+#~ msgid "Color of selected links (deprecated)"
+#~ msgstr "สีของลิงก์ที่ถูกเลือก (เลิกใช้แล้ว)"
+
+#~ msgid "Column span"
+#~ msgstr "จำนวนคอลัมน์ของอาณาเขตเซลล์"
+
+#~ msgid "Columns"
+#~ msgstr "จำนวนคอลัมน์"
+
+#~ msgid "Comment"
+#~ msgstr "หมายเหตุ"
+
+#~ msgid "Computer code fragment"
+#~ msgstr "โค้ดคอมพิวเตอร์"
+
+#~ msgid "Content scheme"
+#~ msgstr "scheme ของเนื้อหา"
+
+#~ msgid "Content type"
+#~ msgstr "ชนิดของเนื้อหา"
+
+#~ msgid "Content type (deprecated)"
+#~ msgstr "ชนิดของเนื้อหา (เลิกใช้แล้ว)"
+
+#~ msgid "Coordinates"
+#~ msgstr "พิกัดตำแน่ง"
+
+#~ msgid "DIV Style container"
+#~ msgstr "บล็อก DIV แบบกำหนดสไตล์"
+
+#~ msgid "DIV container"
+#~ msgstr "บล็อก DIV"
+
+#~ msgid "Date and time of change"
+#~ msgstr "วันและเวลาที่แก้ไข"
+
+#~ msgid "Declare flag"
+#~ msgstr "แฟล็กประกาศ"
+
+#~ msgid "Defer attribute"
+#~ msgstr "แอตทริบิวต์ defer"
+
+#~ msgid "Definition description"
+#~ msgstr "นิยาม: คำบรรยาย"
+
+#~ msgid "Definition list"
+#~ msgstr "นิยาม: รายการ"
+
+#~ msgid "Definition term"
+#~ msgstr "นิยาม: หัวข้อ"
+
+#~ msgid "Deleted text"
+#~ msgstr "ลบข้อความที่ลบ"
+
+#~ msgid "Directionality"
+#~ msgstr "ทิศทางการเขียน"
+
+#~ msgid "Directionality (deprecated)"
+#~ msgstr "ทิศทางการเขียน (เลิกใช้แล้ว)"
+
+#~ msgid "Directory list"
+#~ msgstr "รายการสารบบ"
+
+#~ msgid "Disabled"
+#~ msgstr "ไม่ทำงาน"
+
+#~ msgid "Document base"
+#~ msgstr "URI ฐานของเอกสาร"
+
+#~ msgid "Document body"
+#~ msgstr "เนื้อเอกสาร"
+
+#~ msgid "Document head"
+#~ msgstr "หัวเอกสาร"
+
+#~ msgid "Document title"
+#~ msgstr "หัวเรื่องเอกสาร"
+
+#~ msgid "Document type"
+#~ msgstr "ชนิดโครงสร้างเอกสาร"
+
+#~ msgid "Element ID"
+#~ msgstr "ID ขององค์ประกอบ"
+
+#~ msgid "Embedded object"
+#~ msgstr "อ็อบเจกต์ฝังตัว"
+
+#~ msgid "Emphasis"
+#~ msgstr "ตัวเน้น"
+
+#~ msgid "Encode type"
+#~ msgstr "ชนิดของรูปแบบข้อมูล"
+
+#~ msgid "Figure"
+#~ msgstr "รูป"
+
+#~ msgid "Font face (deprecated)"
+#~ msgstr "ชื่อแบบอักษร (เลิกใช้แล้ว)"
+
+#~ msgid "For label"
+#~ msgstr "ฉลากสำหรับ..."
+
+#~ msgid "Forced line break"
+#~ msgstr "ตัดบรรทัด"
+
+#~ msgid "Form"
+#~ msgstr "แบบฟอร์ม"
+
+#~ msgid "Form action handler"
+#~ msgstr "แบบฟอร์ม: ตัวประมวลผล"
+
+#~ msgid "Form control group"
+#~ msgstr "แบบฟอร์ม: แบ่งส่วน"
+
+#~ msgid "Form field label text"
+#~ msgstr "แบบฟอร์ม: ฉลากข้อมูล"
+
+#~ msgid "Form input"
+#~ msgstr "แบบฟอร์ม: รับข้อมูล"
+
+#~ msgid "Form input type"
+#~ msgstr "แบบฟอร์ม: รับข้อมูลระบุชนิด"
+
+#~ msgid "Form method"
+#~ msgstr "แบบฟอร์มระบุวิธีส่งข้อมูล"
+
+#~ msgid "Forward link"
+#~ msgstr "ลิงก์ออกไป"
+
+#~ msgid "Frame"
+#~ msgstr "เฟรม"
+
+#~ msgid "Frame border"
+#~ msgstr "เส้นขอบเฟรม"
+
+#~ msgid "Frame render parts"
+#~ msgstr "เส้นกรอบตาราง"
+
+#~ msgid "Frame source"
+#~ msgstr "เฟรมระบุแหล่งเนื้อหา"
+
+#~ msgid "Frame spacing"
+#~ msgstr "ช่องว่างระหวางเฟรม"
+
+#~ msgid "Frame target"
+#~ msgstr "เฟรมเป้าหมาย"
+
+#~ msgid "Frameborder"
+#~ msgstr "เส้นกั้นเฟรม"
+
+#~ msgid "Frameset"
+#~ msgstr "ชุดเฟรม"
+
+#~ msgid "Frameset columns"
+#~ msgstr "ชุดเฟรมระบุจำนวนคอลัมน์"
+
+#~ msgid "Frameset rows"
+#~ msgstr "ชุดเฟรมระบุจำนวนแถว"
+
+#~ msgid "Framespacing"
+#~ msgstr "ช่องว่างระหวางเฟรม"
+
+#~ msgid "Generic embedded object"
+#~ msgstr "อ็อบเจกต์ฝังตัว"
+
+#~ msgid "Generic metainformation"
+#~ msgstr "ข้อมูลกำกับ"
+
+#~ msgid "Generic span"
+#~ msgstr "span"
+
+#~ msgid "HREF URI"
+#~ msgstr "HREF URI"
+
+#~ msgid "HTML root element"
+#~ msgstr "องค์ประกอบราก HTML"
+
+#~ msgid "HTML version"
+#~ msgstr "รุ่น HTML"
+
+#~ msgid "HTML — Special Characters"
+#~ msgstr "HTML — อักขระพิเศษ"
+
+#~ msgid "HTML — Tags"
+#~ msgstr "HTML — แท็ก"
+
+#~ msgid "HTTP header name"
+#~ msgstr "ข้อมูลส่วนหัว HTTP"
+
+#~ msgid "Heading"
+#~ msgstr "หัวเรื่อง"
+
+#~ msgid "Heading 1"
+#~ msgstr "หัวเรื่อง 1"
+
+#~ msgid "Heading 2"
+#~ msgstr "หัวเรื่อง 2"
+
+#~ msgid "Heading 3"
+#~ msgstr "หัวเรื่อง 3"
+
+#~ msgid "Heading 4"
+#~ msgstr "หัวเรื่อง 4"
+
+#~ msgid "Heading 5"
+#~ msgstr "หัวเรื่อง 5"
+
+#~ msgid "Heading 6"
+#~ msgstr "หัวเรื่อง 6"
+
+#~ msgid "Height"
+#~ msgstr "ความสูง"
+
+#~ msgid "Horizontal rule"
+#~ msgstr "เส้นขีดนอน"
+
+#~ msgid "Horizontal space"
+#~ msgstr "ช่องไฟตามแนวนอน"
+
+#~ msgid "Horizontal space (deprecated)"
+#~ msgstr "ช่องไฟตามแนวนอน (เลิกใช้แล้ว)"
+
+#~ msgid "I18N BiDi override"
+#~ msgstr "ระบุทิศทางตัวเขียน"
+
+#~ msgid "Image"
+#~ msgstr "รูปภาพ"
+
+#~ msgid "Image map"
+#~ msgstr "แผนที่รูปภาพ"
+
+#~ msgid "Image map area"
+#~ msgstr "แผนที่รูปภาพ: พื้นที่"
+
+#~ msgid "Image map name"
+#~ msgstr "แผนที่รูปภาพระบุชื่อ"
+
+#~ msgid "Image source"
+#~ msgstr "รูปภาพระบุแหล่ง"
+
+#~ msgid "Inline frame"
+#~ msgstr "เฟรมในบรรทัด"
+
+#~ msgid "Inline layer"
+#~ msgstr "เลเยอร์ในบรรทัด"
+
+#~ msgid "Inserted text"
+#~ msgstr "ข้อความที่แทรก"
+
+#~ msgid "Instance definition"
+#~ msgstr "ยกตัวอย่าง"
+
+#~ msgid "Java applet"
+#~ msgstr "แอพเพล็ตจาวา"
+
+#~ msgid "Java applet (deprecated)"
+#~ msgstr "แอพเพล็ตจาวา (เลิกใช้แล้ว)"
+
+#~ msgid "Label"
+#~ msgstr "ฉลาก"
+
+#~ msgid "Language code"
+#~ msgstr "ภาษา"
+
+#~ msgid "Layer"
+#~ msgstr "เลเยอร์"
+
+#~ msgid "Link color"
+#~ msgstr "สีของลิงก์"
+
+#~ msgid "Link color (deprecated)"
+#~ msgstr "สีของลิงก์ (เลิกใช้แล้ว)"
+
+#~ msgid "List item"
+#~ msgstr "ข้อมูลในรายการ"
+
+#~ msgid "List of MIME types for file upload"
+#~ msgstr "MIME type ที่ยอมรับสำหรับอัปโหลดแฟ้ม"
+
+#~ msgid "List of supported character sets"
+#~ msgstr "รหัสอักขระที่แบบฟอร์มสนับสนุน"
+
+#~ msgid "Local change to font"
+#~ msgstr "แบบอักษรเฉพาะที่"
+
+#~ msgid "Long description link"
+#~ msgstr "คำบรรยายรูปแบบยาว"
+
+#~ msgid "Long quotation"
+#~ msgstr "อ้างคำพูดแบบยาว"
+
+#~ msgid "Mail link"
+#~ msgstr "ลิงก์ชนิดเมล"
+
+#~ msgid "Margin pixel height"
+#~ msgstr "ความสูงของขอบเฟรม"
+
+#~ msgid "Margin pixel width"
+#~ msgstr "ความกว้างของขอบเฟรม"
+
+#~ msgid "Marquee"
+#~ msgstr "ตัววิ่ง"
+
+#~ msgid "Maximum length of text field"
+#~ msgstr "ความยาวสูงสุดของช่องกรอกข้อความ"
+
+#~ msgid "Media-independent link"
+#~ msgstr "ลิงก์ที่หัวเอกสาร"
+
+#~ msgid "Menu list"
+#~ msgstr "รายการเมนู"
+
+#~ msgid "Menu list (deprecated)"
+#~ msgstr "รายการเมนู (เลิกใช้แล้ว)"
+
+#~ msgid "Multi-line text field"
+#~ msgstr "ช่องกรอกข้อความหลายบรรทัด"
+
+#~ msgid "Multicolumn"
+#~ msgstr "หลายคอลัมน์"
+
+#~ msgid "Multiple"
+#~ msgstr "เลือกได้หลายตัวเลือก"
+
+#~ msgid "Named property value"
+#~ msgstr "คุณสมบัติอ็อบเจกต์"
+
+#~ msgid "Next ID"
+#~ msgstr "ID ถัดไป"
+
+#~ msgid "No URI"
+#~ msgstr "ไม่มีลิงก์"
+
+#~ msgid "No embedded objects"
+#~ msgstr "ไม่มีออบเจกต์ฝังตัว"
+
+#~ msgid "No frames"
+#~ msgstr "ไม่สนับสนุนเฟรม"
+
+#~ msgid "No layers"
+#~ msgstr "ไม่สนับสนุนเลเยอร์"
+
+#~ msgid "No line break"
+#~ msgstr "ไม่แบ่งบรรทัด"
+
+#~ msgid "No script"
+#~ msgstr "ไม่สนับสนุนสคริปต์"
+
+#~ msgid "No shade"
+#~ msgstr "ไม่มีเงา"
+
+#~ msgid "No shade (deprecated)"
+#~ msgstr "ไม่มีเงา (เลิกใช้แล้ว)"
+
+#~ msgid "No word wrap"
+#~ msgstr "ไม่ตัดบรรทัด"
+
+#~ msgid "No word wrap (deprecated)"
+#~ msgstr "ไม่ตัดบรรทัด (เลิกใช้แล้ว)"
+
+#~ msgid "Non-breaking space"
+#~ msgstr "ช่องว่างไม่ตัดบรรทัด"
+
+#~ msgid "Object applet file"
+#~ msgstr "แฟ้มอ็อบเจกต์แอพเพล็ต"
+
+#~ msgid "Object applet file (deprecated)"
+#~ msgstr "แฟ้มอ็อบเจกต์แอพเพล็ต (เลิกใช้แล้ว)"
+
+#~ msgid "Object data reference"
+#~ msgstr "ข้อมูลอ็อบเจกต์"
+
+#~ msgid "Offset for alignment character"
+#~ msgstr "ตำแหน่งของอักขระสำหรับจัดเรียงแนว"
+
+#~ msgid "OnBlur event"
+#~ msgstr "เหตุการณ์ OnBlur"
+
+#~ msgid "OnChange event"
+#~ msgstr "เหตุการณ์ OnChange"
+
+#~ msgid "OnClick event"
+#~ msgstr "เหตุการณ์ OnClick"
+
+#~ msgid "OnDblClick event"
+#~ msgstr "เหตุการณ์ OnDblClick"
+
+#~ msgid "OnFocus event"
+#~ msgstr "เหตุการณ์ OnFocus"
+
+#~ msgid "OnKeyDown event"
+#~ msgstr "เหตุการณ์ OnKeyDown"
+
+#~ msgid "OnKeyPress event"
+#~ msgstr "เหตุการณ์ OnKeyPress"
+
+#~ msgid "OnKeyUp event"
+#~ msgstr "เหตุการณ์ OnKeyUp"
+
+#~ msgid "OnLoad event"
+#~ msgstr "เหตุการณ์ OnLoad"
+
+#~ msgid "OnMouseDown event"
+#~ msgstr "เหตุการณ์ OnMouseDown"
+
+#~ msgid "OnMouseMove event"
+#~ msgstr "เหตุการณ์ OnMouseMove"
+
+#~ msgid "OnMouseOut event"
+#~ msgstr "เหตุการณ์ OnMouseOut"
+
+#~ msgid "OnMouseOver event"
+#~ msgstr "เหตุการณ์ OnMouseOver"
+
+#~ msgid "OnMouseUp event"
+#~ msgstr "เหตุการณ์ OnMouseUp"
+
+#~ msgid "OnReset event"
+#~ msgstr "เหตุการณ์ OnReset"
+
+#~ msgid "OnSelect event"
+#~ msgstr "เหตุการณ์ OnSelect"
+
+#~ msgid "OnSubmit event"
+#~ msgstr "เหตุการณ์ OnSubmit"
+
+#~ msgid "OnUnload event"
+#~ msgstr "เหตุการณ์ OnUnload"
+
+#~ msgid "Option group"
+#~ msgstr "กลุ่มตัวเลือก"
+
+#~ msgid "Option selector"
+#~ msgstr "ช่องรับข้อมูลแบบตัวเลือก"
+
+#~ msgid "Ordered list"
+#~ msgstr "รายการเรียงเลข"
+
+#~ msgid "Output media"
+#~ msgstr "อุปกรณ์แสดงผล"
+
+#~ msgid "Paragraph"
+#~ msgstr "ย่อหน้า"
+
+#~ msgid "Paragraph class"
+#~ msgstr "ย่อหน้าระบุคลาส"
+
+#~ msgid "Paragraph style"
+#~ msgstr "ย่อหน้าระบุสไตล์"
+
+#~ msgid "Preformatted listing"
+#~ msgstr "ข้อความจัดรูปแบบตายตัว"
+
+#~ msgid "Preformatted text"
+#~ msgstr "ข้อความจัดย่อหน้าตายตัว"
+
+#~ msgid "Profile metainfo dictionary"
+#~ msgstr "ข้อมูลกำกับที่กำหนดไว้แล้ว"
+
+#~ msgid "Prompt message"
+#~ msgstr "ข้อความบอกบท"
+
+#~ msgid "Push button"
+#~ msgstr "ปุ่มกด"
+
+#~ msgid "Quote"
+#~ msgstr "อ้างคำพูด"
+
+#~ msgid "ReadOnly text and password"
+#~ msgstr "ข้อความและรหัสผ่านห้ามแก้ไข"
+
+#~ msgid "Reduced spacing"
+#~ msgstr "เรียงบรรทัดชิดกัน"
+
+#~ msgid "Reduced spacing (deprecated)"
+#~ msgstr "เรียงบรรทัดชิดกัน (เลิกใช้แล้ว)"
+
+#~ msgid "Reverse link"
+#~ msgstr "ลิงก์เข้ามา"
+
+#~ msgid "Root"
+#~ msgstr "ราก"
+
+#~ msgid "Rows"
+#~ msgstr "จำนวนแถว"
+
+#~ msgid "Rulings between rows and columns"
+#~ msgstr "การตีเส้นตารางระหว่างแถวและคอลัมน์"
+
+#~ msgid "Sample program output, scripts"
+#~ msgstr "ตัวอย่างผลลัพธ์ของโปรแกรม"
+
+#~ msgid "Scope covered by header cells"
+#~ msgstr "ขอบเขตของเซลล์หัวตาราง"
+
+#~ msgid "Script language name"
+#~ msgstr "ภาษาของสคริปต์"
+
+#~ msgid "Script statements"
+#~ msgstr "ถ้อยแถลงสคริปต์"
+
+#~ msgid "Scrollbar"
+#~ msgstr "แถบเลื่อน"
+
+#~ msgid "Selectable option"
+#~ msgstr "ตัวเลือกสำหรับเลือก"
+
+#~ msgid "Selected"
+#~ msgstr "เลือกไว้"
+
+#~ msgid "Server-side image map"
+#~ msgstr "แผนที่รูปภาพที่ฝั่งเซิร์ฟเวอร์"
+
+#~ msgid "Shape"
+#~ msgstr "รูปร่างของพื้นที่"
+
+#~ msgid "Short inline quotation"
+#~ msgstr "อ้างคำพูดแบบสั้นในบรรทัด"
+
+#~ msgid "Single line prompt"
+#~ msgstr "ช่องรับข้อมูลบรรทัดเดียว (ตกรุ่นแล้ว)"
+
+#~ msgid "Size"
+#~ msgstr "ขนาด"
+
+#~ msgid "Size (deprecated)"
+#~ msgstr "ขนาด (เลิกใช้แล้ว)"
+
+#~ msgid "Soft line break"
+#~ msgstr "จุดตัดบรรทัด"
+
+#~ msgid "Sound"
+#~ msgstr "เสียง"
+
+#~ msgid "Source"
+#~ msgstr "ที่มา"
+
+#~ msgid "Space-separated archive list"
+#~ msgstr "รายการแฟ้มจัดเก็บ"
+
+#~ msgid "Spacing between cells"
+#~ msgstr "ช่องไฟระหว่างช่องตาราง"
+
+#~ msgid "Spacing within cells"
+#~ msgstr "ช่องไฟภายในช่องตาราง"
+
+#~ msgid "Span"
+#~ msgstr "Span"
+
+#~ msgid "Square root"
+#~ msgstr "รากที่สอง"
+
+#~ msgid "Standby load message"
+#~ msgstr "ข้อความระหว่างรอโหลดอ็อบเจกต์"
+
+#~ msgid "Starting sequence number"
+#~ msgstr "เลขลำดับแรกของรายการ"
+
+#~ msgid "Starting sequence number (deprecated)"
+#~ msgstr "เลขลำดับแรกของรายการ (เลิกใช้แล้ว)"
+
+#~ msgid "Strike-through text (deprecated)"
+#~ msgstr "ข้อความขีดฆ่า (เลิกใช้แล้ว)"
+
+#~ msgid "Strike-through text style"
+#~ msgstr "รูปแบบข้อความขีดฆ่า"
+
+#~ msgid "Strike-through text style (deprecated)"
+#~ msgstr "รูปแบบข้อความขีดฆ่า (เลิกใช้แล้ว)"
+
+#~ msgid "Strong emphasis"
+#~ msgstr "เน้นตัวเข้ม"
+
+#~ msgid "Style info"
+#~ msgstr "สไตล์"
+
+#~ msgid "Subscript"
+#~ msgstr "ตัวห้อย"
+
+#~ msgid "Superscript"
+#~ msgstr "ตัวยก"
+
+#~ msgid "Tab order position"
+#~ msgstr "ลำดับการเข้าถึงด้วยปุ่มแท็บ"
+
+#~ msgid "Table"
+#~ msgstr "ตาราง"
+
+#~ msgid "Table body"
+#~ msgstr "ตาราง: เนื้อหา"
+
+#~ msgid "Table caption"
+#~ msgstr "ตาราง: หัวเรื่องตาราง"
+
+#~ msgid "Table column group properties"
+#~ msgstr "ตาราง: กลุ่มคอลัมน์"
+
+#~ msgid "Table column properties"
+#~ msgstr "ตาราง: คอลัมน์"
+
+#~ msgid "Table data cell"
+#~ msgstr "ตาราง: ช่องข้อมูลตาราง"
+
+#~ msgid "Table footer"
+#~ msgstr "ตาราง: ท้ายกระดาษ"
+
+#~ msgid "Table header"
+#~ msgstr "ตาราง: หัวกระดาษ"
+
+#~ msgid "Table header cell"
+#~ msgstr "ตาราง: ช่องข้อมูลหัวตาราง"
+
+#~ msgid "Table row"
+#~ msgstr "ตาราง: แถว"
+
+#~ msgid "Table summary"
+#~ msgstr "ตาราง: ข้อมูลสังเขป"
+
+#, fuzzy
+#~ msgid "Target — Blank"
+#~ msgstr "ลิงก์เปิดในหน้าต่างใหม่"
+
+#, fuzzy
+#~ msgid "Target — Parent"
+#~ msgstr "ลิงก์เปิดในชุดเฟรมแม่"
+
+#, fuzzy
+#~ msgid "Target — Self"
+#~ msgstr "ลิงก์เปิดในเฟรมเดิม"
+
+#, fuzzy
+#~ msgid "Target — Top"
+#~ msgstr "ลิงก์เปิดเต็มหน้าต่างเดิม"
+
+#~ msgid "Teletype or monospace text style"
+#~ msgstr "ตัวอักษรพิมพ์ดีด"
+
+#~ msgid "Text"
+#~ msgstr "ข้อความ"
+
+#~ msgid "Text color"
+#~ msgstr "สีตัวอักษร"
+
+#~ msgid "Text color (deprecated)"
+#~ msgstr "สีตัวอักษร (เลิกใช้แล้ว)"
+
+#~ msgid "Text entered by user"
+#~ msgstr "ข้อความป้อนโดยผู้ใช้"
+
+#~ msgid "Title"
+#~ msgstr "ชื่อเรื่อง"
+
+#~ msgid "Top margin in pixels"
+#~ msgstr "ระยะเว้นขอบบนเป็นพิกเซล"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Unordered list"
+#~ msgstr "รายการไม่เรียงเลข"
+
+#~ msgid "Use image map"
+#~ msgstr "ใช้แผนที่รูปภาพ"
+
+#~ msgid "Value"
+#~ msgstr "ค่า"
+
+#~ msgid "Value interpretation"
+#~ msgstr "การใช้ค่าคุณสมบัติอ็อบเจกต์"
+
+#~ msgid "Variable or program argument"
+#~ msgstr "ตัวแปรหรืออาร์กิวเมนต์ของโปรแกรม"
+
+#~ msgid "Vertical cell alignment"
+#~ msgstr "การจัดเรียงแนวตามแนวดิ่งในช่องตาราง"
+
+#~ msgid "Vertical space"
+#~ msgstr "ช่องไฟตามแนวตั้ง"
+
+#~ msgid "Vertical space (deprecated)"
+#~ msgstr "ช่องไฟตามแนวตั้ง (เลิกใช้แล้ว)"
+
+#~ msgid "Visited link color"
+#~ msgstr "สีของลิงก์ที่อ่านแล้ว"
+
+#~ msgid "Visited link color (deprecated)"
+#~ msgstr "สีของลิงก์ที่อ่านแล้ว (เลิกใช้แล้ว)"
+
+#~ msgid "Width"
+#~ msgstr "ความกว้าง"
+
+#~ msgid "XHTML 1.0 — Tags"
+#~ msgstr "XHTML 1.0 — แท็ก"
+
+#~ msgid "Bibliography (cite)"
+#~ msgstr "บรรณานุกรม (cite)"
+
+#~ msgid "Bibliography (item)"
+#~ msgstr "บรรณานุกรม (bibitem)"
+
+#~ msgid "Bibliography (shortcite)"
+#~ msgstr "บรรณานุกรม (shortcite)"
+
+#~ msgid "Bibliography (thebibliography)"
+#~ msgstr "บรรณานุกรม (thebibliography)"
+
+#~ msgid "Brackets ()"
+#~ msgstr "วงเล็บ ()"
+
+#~ msgid "Brackets <>"
+#~ msgstr "วงเล็บ <>"
+
+#~ msgid "Brackets []"
+#~ msgstr "วงเล็บ []"
+
+#~ msgid "Brackets {}"
+#~ msgstr "วงเล็บ {}"
+
+#~ msgid "File input"
+#~ msgstr "แฟ้ม input"
+
+#~ msgid "Footnote"
+#~ msgstr "เชิงอรรถ"
+
+#~ msgid "Function cosine"
+#~ msgstr "ฟังก์ชัน cosine"
+
+#~ msgid "Function e^"
+#~ msgstr "ฟังก์ชัน e^"
+
+#~ msgid "Function exp"
+#~ msgstr "ฟังก์ชัน exp"
+
+#~ msgid "Function log"
+#~ msgstr "ฟังก์ชัน log"
+
+#~ msgid "Function log10"
+#~ msgstr "ฟังก์ชัน log10"
+
+#~ msgid "Function sine"
+#~ msgstr "ฟังก์ชัน sine"
+
+#~ msgid "Greek alpha"
+#~ msgstr "อักษรกรีก alpha"
+
+#~ msgid "Greek beta"
+#~ msgstr "อักษรกรีก beta"
+
+#~ msgid "Greek epsilon"
+#~ msgstr "อักษรกรีก epsilon"
+
+#~ msgid "Greek gamma"
+#~ msgstr "อักษรกรีก gamma"
+
+#~ msgid "Greek lambda"
+#~ msgstr "อักษรกรีก lambda"
+
+#~ msgid "Greek rho"
+#~ msgstr "อักษรกรีก rho"
+
+#~ msgid "Greek tau"
+#~ msgstr "อักษรกรีก tau"
+
+#~ msgid "Header 0 (chapter)"
+#~ msgstr "หัวเรื่อง 0 (chapter)"
+
+#~ msgid "Header 0 (chapter*)"
+#~ msgstr "หัวเรื่อง 0 (chapter*)"
+
+#~ msgid "Header 1 (section)"
+#~ msgstr "หัวเรื่อง 1 (section)"
+
+#~ msgid "Header 1 (section*)"
+#~ msgstr "หัวเรื่อง 1 (section*)"
+
+#~ msgid "Header 2 (subsection)"
+#~ msgstr "หัวเรื่อง 2 (subsection)"
+
+#~ msgid "Header 2 (subsection*)"
+#~ msgstr "หัวเรื่อง 2 (subsection*)"
+
+#~ msgid "Header 3 (subsubsection)"
+#~ msgstr "หัวเรื่อง 3 (subsubsection)"
+
+#~ msgid "Header 3 (subsubsection*)"
+#~ msgstr "หัวเรื่อง 3 (subsubsection*)"
+
+#~ msgid "Header 4 (paragraph)"
+#~ msgstr "หัวเรื่อง 4 (paragraph)"
+
+#~ msgid "Header appendix"
+#~ msgstr "ภาคผนวก"
+
+#~ msgid "Item"
+#~ msgstr "รายการ: item"
+
+#~ msgid "Item with label"
+#~ msgstr "รายการ: item ระบุ label"
+
+#~ msgid "Latex — Tags"
+#~ msgstr "Latex — แท็ก"
+
+#~ msgid "List enumerate"
+#~ msgstr "รายการ enumerate"
+
+#~ msgid "List itemize"
+#~ msgstr "รายการ itemize"
+
+#~ msgid "Maths (display)"
+#~ msgstr "คณิตศาสตร์ (display)"
+
+#~ msgid "Maths (inline)"
+#~ msgstr "คณิตศาสตร์ (ในบรรทัด)"
+
+#~ msgid "Operator fraction"
+#~ msgstr "ตัวกระทำเศษส่วน"
+
+#~ msgid "Operator integral (display)"
+#~ msgstr "ตัวกระทำอินทิกรัล (display)"
+
+#~ msgid "Operator integral (inline)"
+#~ msgstr "ตัวกระทำอินทิกรัล (ในบรรทัด)"
+
+#~ msgid "Operator sum (display)"
+#~ msgstr "ตัวกระทำผลรวม (display)"
+
+#~ msgid "Operator sum (inline)"
+#~ msgstr "ตัวกระทำผลรวม (ในบรรทัด)"
+
+#~ msgid "Reference label"
+#~ msgstr "อ้างอิง: label"
+
+#~ msgid "Reference ref"
+#~ msgstr "อ้างอิง: ref"
+
+#~ msgid "Symbol <<"
+#~ msgstr "เครื่องหมาย <<"
+
+#~ msgid "Symbol <="
+#~ msgstr "เครื่องหมาย <="
+
+#~ msgid "Symbol >="
+#~ msgstr "เครื่องหมาย >="
+
+#~ msgid "Symbol >>"
+#~ msgstr "เครื่องหมาย >>"
+
+#~ msgid "Symbol and"
+#~ msgstr "เครื่องหมาย and"
+
+#~ msgid "Symbol const"
+#~ msgstr "เครื่องหมาย const"
+
+#~ msgid "Symbol d-by-dt"
+#~ msgstr "เครื่องหมาย d-by-dt"
+
+#~ msgid "Symbol d-by-dt-partial"
+#~ msgstr "เครื่องหมาย d-by-dt-partial"
+
+#~ msgid "Symbol d2-by-dt2-partial"
+#~ msgstr "เครื่องหมาย d2-by-dt2-partial"
+
+#~ msgid "Symbol dagger"
+#~ msgstr "เครื่องหมาย dagger"
+
+#~ msgid "Symbol em-dash ---"
+#~ msgstr "เครื่องหมาย em-dash ---"
+
+#~ msgid "Symbol en-dash --"
+#~ msgstr "เครื่องหมาย en-dash --"
+
+#~ msgid "Symbol equiv"
+#~ msgstr "เครื่องหมายสมมูล"
+
+#~ msgid "Symbol infinity"
+#~ msgstr "เครื่องหมายอนันต์"
+
+#~ msgid "Symbol mathspace ,"
+#~ msgstr "เครื่องหมายช่องว่างคณิตศาสตร์ ,"
+
+#~ msgid "Symbol mathspace ."
+#~ msgstr "เครื่องหมายช่องว่างคณิตศาสตร์ ."
+
+#~ msgid "Symbol mathspace _"
+#~ msgstr "เครื่องหมายช่องว่างคณิตศาสตร์ _"
+
+#~ msgid "Symbol mathspace __"
+#~ msgstr "เครื่องหมายช่องว่างคณิตศาสตร์ __"
+
+#~ msgid "Symbol simeq"
+#~ msgstr "เครื่องหมาย simeq"
+
+#~ msgid "Symbol star"
+#~ msgstr "เครื่องหมาย star"
+
+#~ msgid "Typeface bold"
+#~ msgstr "ตัวหนา"
+
+#~ msgid "Typeface italic"
+#~ msgstr "ตัวเอียง (italic)"
+
+#~ msgid "Typeface slanted"
+#~ msgstr "ตัวเอน (slanted)"
+
+#~ msgid "Typeface type"
+#~ msgstr "ตัวพิมพ์ดีด"
+
+#~ msgid "Unbreakable text"
+#~ msgstr "ข้อความห้ามแบ่งกลาง"
+
+#~ msgid ""
+#~ "Provides a method to easily insert commonly used tags/strings into a "
+#~ "document without having to type them."
+#~ msgstr "ช่วยแทรกแท็กหรือข้อความที่ใช้บ่อยลงในเอกสารอย่างรวดเร็วโดยไม่ต้องพิมพ์"
+
+#~ msgid "Tag list"
+#~ msgstr "รายชื่อแท็ก"
+
+#~ msgid "XSLT — Elements"
+#~ msgstr "XSLT — องค์ประกอบ"
+
+#~ msgid "XSLT — Functions"
+#~ msgstr "XSLT — ฟังก์ชัน"
+
+#~ msgid "XUL — Tags"
+#~ msgstr "XUL — แท็ก"

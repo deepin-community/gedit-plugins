@@ -1,0 +1,10 @@
+[Plugin]
+Loader=python3
+Module=commander
+IAge=3
+Name=Commander
+Description=Command line interface for advanced editing
+Authors=Jesse van den Kieboom <jessevdk@gnome.org>
+Copyright=Copyright © 2009 Jesse van den Kieboom
+Website=http://www.gedit.org
+Version=@VERSION@

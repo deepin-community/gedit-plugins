@@ -1,0 +1,9 @@
+[Plugin]
+Module=findinfiles
+IAge=3
+Name=Find in Files
+Description=Find text in all files of a folder.
+Authors=The Lemon Man <thatlemon at google's mail service dot com>
+Copyright=Copyright © 2015 The Lemon Man
+Website=http://www.gedit.org
+Version=@VERSION@

@@ -1,0 +1,12 @@
+[Plugin]
+Loader=python3
+Module=charmap
+IAge=3
+Name=Character Map
+Description=Insert special characters just by clicking on them.
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=accessories-character-map
+Authors=Steve Frécinaux <steve@istique.net>;Ignacio Casal Quinteiro <icq@gnome.org>
+Copyright=Copyright @ 2006 Steve Frécinaux
+Website=http://www.gedit.org
+Version=@VERSION@

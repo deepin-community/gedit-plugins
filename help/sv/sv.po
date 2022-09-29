@@ -1,0 +1,1393 @@
+# Swedish translation for gedit-plugins-help
+# Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009.
+# Josef Andersson <josef.andersson@fripost.org>, 2016.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019, 2020, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gedit\n"
+"POT-Creation-Date: 2021-02-21 11:57+0000\n"
+"PO-Revision-Date: 2021-02-23 18:35+0100\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>, 2007, 2008, 2009\n"
+"Josef Andersson <josef.andersson@fripost.org>, 2016\n"
+"Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:13 C/bracket-comp.page:12 C/character-map.page:13
+#: C/code-comment.page:12 C/color-picker.page:12 C/commander.page:12
+#: C/draw-spaces.page:12 C/join-split-lines.page:12 C/multi-edit.page:12
+#: C/terminal.page:13 C/text-size.page:13 C/word-completion.page:12
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: credit/name
+#: C/bookmarks.page:17
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/bookmarks.page:19
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: info/desc
+#: C/bookmarks.page:22
+msgid "Record commonly-referenced locations with bookmarks."
+msgstr "Spara ofta använda platser med bokmärken."
+
+#. (itstool) path: page/title
+#: C/bookmarks.page:25
+msgid "Bookmarks"
+msgstr "Bokmärken"
+
+#. (itstool) path: page/p
+#: C/bookmarks.page:27
+msgid ""
+"<app>gedit</app> bookmarks allow you to highlight important lines of text "
+"within your document or program, making them easier to find. You can also "
+"move up or down between bookmarks, making document navigation a bit faster."
+msgstr ""
+"Bokmärken i <app>gedit</app> låter dig markera viktiga textrader i ditt "
+"dokument eller program, och gör dem enklare att hitta. Du kan också flytta "
+"upp eller ned mellan bokmärken vilket gör dokumentnavigering lite snabbare."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:33 C/bracket-comp.page:25 C/character-map.page:37
+#: C/code-comment.page:30 C/color-picker.page:26 C/commander.page:25
+#: C/draw-spaces.page:27 C/git.page:26 C/join-split-lines.page:25
+#: C/multi-edit.page:26 C/session-saver.page:30 C/terminal.page:37
+#: C/text-size.page:36 C/translate.page:29 C/word-completion.page:35
+msgid "To enable the plugin:"
+msgstr "För att aktivera insticksmodulen:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:35 C/bracket-comp.page:27 C/character-map.page:39
+#: C/code-comment.page:32 C/color-picker.page:28 C/commander.page:27
+#: C/draw-spaces.page:29 C/git.page:28 C/join-split-lines.page:27
+#: C/multi-edit.page:28 C/session-saver.page:32 C/terminal.page:39
+#: C/text-size.page:38 C/translate.page:31 C/word-completion.page:37
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Preferences</gui> <gui style=\"tab"
+"\">Plugins</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="
+"\"menuitem\">Inställningar</gui> <gui style=\"tab\">Insticksmoduler</gui></"
+"guiseq>."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:40
+msgid "Select <gui style=\"menuitem\">Bookmarks</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Bokmärken</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: steps/title
+#: C/bookmarks.page:45
+msgid ""
+"Bookmarks are inserted and removed by completing the same action. To insert "
+"or remove bookmarks:"
+msgstr ""
+"Bokmärken infogas och tas bort genom att slutföra samma åtgärd. För att "
+"infoga och ta bort bokmärken:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:48
+msgid "Navigate to the line where you want to insert or remove the bookmark."
+msgstr "Navigera till raden där du vill infoga eller ta bort bokmärket."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:52
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq>, or open "
+"the menu in the top-right corner and select <gui style=\"menuitem\">Toggle "
+"Bookmark</gui>."
+msgstr ""
+"Tryck ned <keyseq><key>Ctrl</key><key>Alt</key><key>B</key></keyseq> eller "
+"öppna menyn i övre högra hörnet och markera <gui style=\"menuitem\">Växla "
+"bokmärken</gui>."
+
+#. (itstool) path: list/title
+#: C/bookmarks.page:59
+msgid "To move between bookmarks:"
+msgstr "För att flytta runt mellan bokmärken:"
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:61
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>B</key></keyseq> to move to the next "
+"bookmark."
+msgstr ""
+"Tryck ned <keyseq><key>Ctrl</key><key>B</key></keyseq> för att gå till nästa "
+"bokmärke."
+
+#. (itstool) path: item/p
+#: C/bookmarks.page:65
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>Shift</key><key>B</key></keyseq> to move "
+"to the previous bookmark."
+msgstr ""
+"Tryck ned <keyseq><key>Ctrl</key><key>Skift</key><key>B</key></keyseq> för "
+"att gå till föregående bokmärke."
+
+#. (itstool) path: note/p
+#: C/bookmarks.page:71
+msgid ""
+"If you prefer to use the mouse, you can open the menu in the top-right "
+"corner and select <gui style=\"menuitem\">Go to Next Bookmark</gui> or <gui "
+"style=\"menuitem\">Go to Previous Bookmark</gui>."
+msgstr ""
+"Om du föredrar att använda musen kan du öppna menyn i övre högra hörnet och "
+"välja <gui style=\"menuitem\">Gå till nästa bokmärke</gui> eller <gui style="
+"\"menuitem\">Gå till föregående bokmärke</gui>."
+
+#. (itstool) path: info/desc
+#: C/bracket-comp.page:16
+msgid "Auto-complete closing brackets."
+msgstr "Autokomplettera slutparenteser."
+
+#. (itstool) path: page/title
+#: C/bracket-comp.page:19
+msgid "Bracket Completion"
+msgstr "Parenteskomplettering"
+
+#. (itstool) path: page/p
+#: C/bracket-comp.page:21
+msgid ""
+"The <app>Bracket Completion</app> plugin will auto-complete closing brackets "
+"for curly braces, parentheses and square brackets."
+msgstr ""
+"Insticksmodulen <app>Parenteskomplettering</app> kommer att autokomplettera "
+"avslutande parenteser för klammerparenteser, parenteser och hakparenteser."
+
+#. (itstool) path: item/p
+#: C/bracket-comp.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Bracket Completion</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Parenteskomplettering</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: note/p
+#: C/bracket-comp.page:38
+msgid "This plugin does not automatically insert closing HTML or XML tags."
+msgstr ""
+"Insticksmodulen infogar inte automatiskt avslutande HTML- eller XML-taggar."
+
+#. (itstool) path: credit/name
+#: C/character-map.page:17 C/word-completion.page:16
+msgid "Paul Weaver"
+msgstr "Paul Weaver"
+
+#. (itstool) path: info/desc
+#: C/character-map.page:21
+msgid "Insert special characters just by clicking on them."
+msgstr "Infoga specialtecken bara genom att klicka på dem."
+
+#. (itstool) path: page/title
+#: C/character-map.page:24
+msgid "Character Map"
+msgstr "Teckentabell"
+
+#. (itstool) path: page/p
+#: C/character-map.page:33
+msgid ""
+"The <app>Character Map</app> plugin enables you to insert characters into "
+"your document that you may not be able to type easily using your keyboard."
+msgstr ""
+"Insticksmodulen <app>Teckentabell</app> låter dig infoga tecken i ditt "
+"dokument som du kanske inte annars enkelt kan skriva in med ditt tangentbord."
+
+#. (itstool) path: item/p
+#: C/character-map.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Character Map</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Teckentabell</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: section/title
+#: C/character-map.page:49
+msgid "Using Character Map"
+msgstr "Använda teckentabell"
+
+#. (itstool) path: section/p
+#: C/character-map.page:51
+msgid ""
+"Once the plugin is enabled, you can add characters from the <gui style=\"tab"
+"\">Character Map</gui> view of the side panel."
+msgstr ""
+"När väl insticksmodulen är installerad kan du lägga till tecken från vyn "
+"<gui style=\"tab\">Teckentabell</gui> i sidopanelen."
+
+#. (itstool) path: item/p
+#: C/character-map.page:56
+msgid ""
+"Place the cursor at the point in your document at which you would like your "
+"special character."
+msgstr ""
+"Placera markören i ditt dokument där du vill infoga ditt specialtecken."
+
+#. (itstool) path: item/p
+#: C/character-map.page:60
+msgid ""
+"Open the side panel by pressing the menu button in the top-right corner of "
+"the window and selecting <guiseq><gui>View</gui> <gui>Side Panel</gui></"
+"guiseq>, or by pressing <key>F9</key>."
+msgstr ""
+"Öppna sidopanelen genom att trycka på menyknappen i fönstrets övre högra "
+"hörn och välja <guiseq><gui>Visa</gui> <gui>Sidopanel</gui></guiseq> eller "
+"genom att trycka <key>F9</key>."
+
+#. (itstool) path: item/p
+#: C/character-map.page:65
+msgid ""
+"Select <gui>Character Map</gui> from the drop-down list at the top of the "
+"side panel."
+msgstr ""
+"Välj <gui>Teckentabell</gui> från rullgardinslistan högst upp i sidopanelen."
+
+#. (itstool) path: item/p
+#: C/character-map.page:69
+msgid ""
+"If necessary, choose the character set to which your character belongs from "
+"the list at the top of the <gui>Character Map</gui> side panel (for example, "
+"Arabic)."
+msgstr ""
+"Om nödvändigt, välj den teckenuppsättning till vilken ditt tecken tillhör "
+"från listan överst i sidopanelen <gui>Teckentabell</gui> (till exempel "
+"arabiska)."
+
+#. (itstool) path: item/p
+#: C/character-map.page:74
+msgid "Double click your desired character to insert it."
+msgstr "Dubbelklicka på önskat tecken för att infoga det."
+
+#. (itstool) path: note/p
+#: C/character-map.page:79
+msgid ""
+"You must click on the editing view of your document to continue editing "
+"normally."
+msgstr ""
+"Du måste klicka på redigeringsvyn för ditt dokument för att kunna fortsätta "
+"att redigera normalt."
+
+#. (itstool) path: info/desc
+#: C/code-comment.page:16
+msgid "Comment-out or uncomment a block of code."
+msgstr "Kommentera ut eller avkommentera ett kodblock."
+
+#. (itstool) path: page/title
+#: C/code-comment.page:19
+msgid "Code comment"
+msgstr "Kodkommentar"
+
+#. (itstool) path: page/p
+#: C/code-comment.page:21
+msgid ""
+"Code comments are portions of text that make it easier for people to "
+"understand a program's code, but they don't affect how a program works. "
+"Comments are separated from other parts of a program by special characters."
+msgstr ""
+"Kodkommentarer är textdelar som gör det enklare att förstå programkod, men "
+"de påverkar inte hur programmet fungerar. Kommentarer är separerade från "
+"andra delar av programmet med specialtecken."
+
+#. (itstool) path: page/p
+#: C/code-comment.page:26
+msgid ""
+"The <app>code comment</app> plugin makes it easier to quickly create or "
+"remove code comments."
+msgstr ""
+"Insticksmodulen <app>Kodkommentar</app> gör det enklare att snabbt skapa "
+"eller ta bort kodkommentarer."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:37
+msgid "Select <gui style=\"menuitem\">Code comment</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Kodkommentar</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: steps/title
+#: C/code-comment.page:42
+msgid "To create or remove a comment:"
+msgstr "För att skapa eller ta bort en kommentar:"
+
+#. (itstool) path: item/p
+#: C/code-comment.page:44
+msgid ""
+"Highlight the portion of text where you want to add or remove a comment."
+msgstr "Markera texten där du vill lägga till eller ta bort en kommentar."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:48
+msgid ""
+"To add a comment, right click and select <gui style=\"menuitem\">Comment "
+"Code</gui>, or press <keyseq><key>Ctrl</key><key>M</key></keyseq>."
+msgstr ""
+"För att lägga till en kommentar, högerklicka och välj <gui style=\"menuitem"
+"\">Kommentera kod</gui> eller tryck ned <keyseq><key>Ctrl</key><key>M</key></"
+"keyseq>."
+
+#. (itstool) path: item/p
+#: C/code-comment.page:52
+msgid ""
+"To remove a comment, right click and select <gui style=\"menuitem"
+"\">Uncomment Code</gui>, or press <keyseq><key>Shift</key> <key>Ctrl</"
+"key><key>M</key></keyseq>."
+msgstr ""
+"För att ta bort en kommentar, högerklicka och välj <gui style=\"menuitem"
+"\">Avkommentera kod</gui> eller tryck ned <keyseq><key>Skift</key> "
+"<key>Ctrl</key><key>M</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/code-comment.page:59
+msgid ""
+"<app>gedit</app> will automatically use the correct style of comment based "
+"on the language or syntax of the file. If <app>gedit</app> doesn't identify "
+"your language or syntax, you can select it from the language list in the "
+"bottom <gui>Status bar</gui>."
+msgstr ""
+"<app>gedit</app> kommer automatiskt att använda korrekt kommentarsstil "
+"baserat på språket eller syntaxen i filen. Om <app>gedit</app> inte "
+"identifierar ditt språk eller din syntax kan du välja det från språklistan "
+"längst ned i <gui>Statusraden</gui>."
+
+#. (itstool) path: info/desc
+#: C/color-picker.page:16
+msgid "Pick a color from a dialog and insert its hexadecimal representation."
+msgstr ""
+"Välj en färg från en dialog och infoga dess hexadecimala representation."
+
+#. (itstool) path: page/title
+#: C/color-picker.page:19
+msgid "Color Picker"
+msgstr "Färgväljare"
+
+#. (itstool) path: page/p
+#: C/color-picker.page:21
+msgid ""
+"The <app>Color Picker</app> plugin helps you to insert the character codes "
+"that represent a certain color. This can make it easier to choose and use "
+"the correct color in your programs."
+msgstr ""
+"Insticksmodulen <app>Färgväljare</app> låter dig infoga teckenkoder som "
+"representerar en speciell färg. Det kan göra det enklare att välja och "
+"använda rätt färg i dina program."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:33
+msgid "Select <gui style=\"menuitem\">Color Picker</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Färgväljare</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: steps/title
+#: C/color-picker.page:38
+msgid "To open and use the color picker:"
+msgstr "För att öppna och använda färgväljaren:"
+
+#. (itstool) path: item/p
+#: C/color-picker.page:40
+msgid ""
+"Place your cursor at the point in your document where you want to insert the "
+"color code."
+msgstr ""
+"Placera din markör vid den punkt i dokumentet där du vill infoga färgkoden."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:44
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Pick "
+"Color…</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="
+"\"menuitem\">Verktyg</gui> <gui style=\"menuitem\">Välj färg…</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:49
+msgid "Click on the desired color in the color picker window."
+msgstr "Klicka på den önskade färgen i färgväljarfönstret."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:52
+msgid ""
+"The appropriate color code will be inserted where you had placed your cursor."
+msgstr ""
+"Den passande färgkoden kommer att infogas där du hade placerat din markör."
+
+#. (itstool) path: item/p
+#: C/color-picker.page:56
+msgid "To close the <app>color picker</app>, click <gui>Cancel</gui>."
+msgstr "För att stänga <app>Färgväljaren</app>, klicka på <gui>Avbryt</gui>."
+
+#. (itstool) path: note/p
+#: C/color-picker.page:62
+msgid ""
+"You can make fine-grained adjustments to the color and adjust the values for "
+"Hue, Saturation, Value, Red, Green, or Blue by right clicking on a color and "
+"selecting <gui style=\"menuitem\">Customize</gui>."
+msgstr ""
+"Du kan göra finkorniga justeringar till färgen genom att justera värdena för "
+"nyans, mättnad, intensitet, röd, grön eller blå genom att högerklicka på en "
+"färg och välja <gui style=\"menuitem\">Anpassa</gui>."
+
+#. (itstool) path: info/desc
+#: C/commander.page:16
+msgid "Use a command-line interface for advanced editing."
+msgstr "Använd ett kommandoradsgränssnitt för avancerad redigering."
+
+#. (itstool) path: page/title
+#: C/commander.page:19
+msgid "Commander"
+msgstr "Kommando"
+
+#. (itstool) path: page/p
+#: C/commander.page:21
+msgid ""
+"The <app>Commander</app> plugin is a plugin for advanced <app>gedit</app> "
+"users that allows you to perform command-line actions on the current file."
+msgstr ""
+"Insticksmodulen <app>Kommando</app> är ett instick för avancerade "
+"<app>gedit</app>-användare som låter dig utföra kommandoradsåtgärder på "
+"aktuell fil."
+
+#. (itstool) path: item/p
+#: C/commander.page:32
+msgid "Select <gui style=\"menuitem\">Commander</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Kommando</gui> för att aktivera insticksmodulen."
+
+#. (itstool) path: page/p
+#: C/commander.page:36
+msgid ""
+"Once you have enabled the plugin, activate it by pressing <keyseq><key>Ctrl</"
+"key><key>,</key></keyseq>."
+msgstr ""
+"När du väl har aktiverat insticksmodulen kan du starta den genom att trycka "
+"ned <keyseq><key>Ctrl</key><key>,</key></keyseq>."
+
+#. (itstool) path: note/p
+#: C/commander.page:40
+msgid "The last key in the above key combination is a comma."
+msgstr "Den sista tangenten i tangentkombinationen ovan är ett kommatecken."
+
+#. (itstool) path: td/p
+#: C/commander.page:46
+msgid "Action"
+msgstr "Åtgärd"
+
+#. (itstool) path: td/p
+#: C/commander.page:47
+msgid "Keyboard shortcut"
+msgstr "Tangentbordsgenväg"
+
+#. (itstool) path: td/p
+#: C/commander.page:52
+msgid "See an overview of available commands"
+msgstr "Få en överblick över tillgängliga kommandon"
+
+#. (itstool) path: td/p
+#: C/commander.page:53
+msgid "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+msgstr "<keyseq><key>Tab</key><key>Tab</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/commander.page:56
+msgid "Find a word within the current file"
+msgstr "Hitta ett ord i den aktuella filen"
+
+#. (itstool) path: td/p
+#: C/commander.page:58
+msgid "<key>/</key> <input>foo</input>"
+msgstr "<key>/</key> <input>foo</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:59
+msgid "This will find the word <input>foo</input>."
+msgstr "Detta kommer att hitta ordet <input>foo</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:63
+msgid "Replace a word within the current file"
+msgstr "Ersätt ett ord i den aktuella filen"
+
+#. (itstool) path: td/p
+#: C/commander.page:65
+msgid "<keyseq><key>/</key><key>/</key></keyseq> <input>foo bar</input>"
+msgstr "<keyseq><key>/</key><key>/</key></keyseq> <input>foo bar</input>"
+
+#. (itstool) path: td/p
+#: C/commander.page:67
+msgid "This will replace <input>foo</input> with <input>bar</input>."
+msgstr "Detta kommer att ersätta <input>foo</input> med <input>bar</input>."
+
+#. (itstool) path: td/p
+#: C/commander.page:72
+msgid "Move the cursor to a certain line number in your file"
+msgstr "Flytta markören till ett speciellt radnummer i din fil"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'go'! It is a command
+#: C/commander.page:74
+msgid ""
+"<cmd>go <input>[line number]</input></cmd> <em>or</em> just <cmd><key>G</"
+"key> <input>[line number]</input></cmd>"
+msgstr ""
+"<cmd>go <input>[radnummer]</input></cmd> <em>eller</em> bara <cmd><key>G</"
+"key> <input>[radnummer]</input></cmd>"
+
+#. (itstool) path: td/p
+#: C/commander.page:80
+msgid "Toggle the bookmark indicator for the current line"
+msgstr "Växla bokmärkesindikatorn för den aktuella raden"
+
+#. (itstool) path: td/p
+#. Translators: Do not translate 'bookmark'! It is a command
+#: C/commander.page:82
+msgid "<cmd>bookmark</cmd> <em>or</em> just <key>B</key>"
+msgstr "<cmd>bookmark</cmd> <em>eller</em> bara <key>B</key>"
+
+#. (itstool) path: note/p
+#: C/commander.page:88
+msgid ""
+"Some commands, such as the <cmd>bookmark</cmd> command require that the "
+"appropriate plugin be installed and activated. If you do not have the "
+"appropriate plugin installed and activated, you will receive an error "
+"message."
+msgstr ""
+"En del kommandon, som kommandot <cmd>bookmark</cmd> kräver att passande "
+"insticksmodul är installerad och aktiverad. Om du inte har den passande "
+"insticksmodulen installerad och aktiverad kommer du att få ett felmeddelande."
+
+#. (itstool) path: info/desc
+#: C/draw-spaces.page:16
+msgid "Show white space between words or portions of code."
+msgstr "Visa blanktecken mellan ord eller delar av kod."
+
+#. (itstool) path: page/title
+#: C/draw-spaces.page:19
+msgid "Draw Spaces"
+msgstr "Rita ut blanksteg"
+
+#. (itstool) path: page/p
+#: C/draw-spaces.page:21
+msgid ""
+"The <app>Draw Spaces</app> plugin is a simple plugin that can mark spaces, "
+"tabs, and other types of whitespace with a small, visible marker. By making "
+"whitespace visible, you can more easily see how whitespace is used in a "
+"document, and can apply spacing strategies more consistently."
+msgstr ""
+"Insticksmodulen <app>Rita ut blanksteg</app> är ett enkelt instick som kan "
+"markera blanksteg, tabbar och andra typer av blanktecken med en liten synlig "
+"markör. Genom att göra blanktecken synliga kan du enklare se hur blanksteg "
+"används i ett dokument och kan därmed verkställa blankstegsstrategier mer "
+"konsistent."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:34
+msgid "Select <gui style=\"menuitem\">Draw Spaces</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Rita ut blanksteg</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: item/p
+#: C/draw-spaces.page:37
+msgid "Press <gui style=\"button\">Preferences</gui> to set its options."
+msgstr ""
+"Tryck på <gui style=\"button\">Inställningar</gui> för att konfigurera dess "
+"alternativ."
+
+#. (itstool) path: note/p
+#: C/draw-spaces.page:42
+msgid ""
+"Though you will be able to see the markers when you work on a file, the "
+"markers will not be visible when you print a file to paper."
+msgstr ""
+"Även om du kommer att se markörerna när du arbetar med en fil kommer inte "
+"markörerna att synas när du skriver ut en fil på papper."
+
+#. (itstool) path: credit/name
+#: C/git.page:12
+msgid "Aleksandra Hankus"
+msgstr "Aleksandra Hankus"
+
+#. (itstool) path: info/desc
+#: C/git.page:16
+msgid "Highlight lines that have been changed since the last commit."
+msgstr "Markera rader som har ändrats sedan senaste incheckningen."
+
+#. (itstool) path: page/title
+#: C/git.page:19
+msgid "Git"
+msgstr "Git"
+
+#. (itstool) path: page/p
+#: C/git.page:21
+msgid ""
+"The <app>Git</app> plugin will highlight lines that have been changed since "
+"the last commit. Lines will be highlighted only on files that are already "
+"tracked by git."
+msgstr ""
+"Insticksmodulen <app>Git</app> kommer att markera rader som har ändras sedan "
+"senaste incheckningen. Rader kommer att markeras endast på filer som redan "
+"är spårade med git."
+
+#. (itstool) path: item/p
+#: C/git.page:33
+msgid "Select <gui style=\"menuitem\">Git</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Git</gui> för att aktivera insticksmodulen."
+
+#. (itstool) path: page/p
+#: C/git.page:37
+msgid ""
+"The changes are shown in the margin of the document in three different "
+"colors:"
+msgstr "Ändringarna visas i tre olika färger i dokumentets marginal:"
+
+#. (itstool) path: item/title
+#: C/git.page:41
+msgid "Green"
+msgstr "Grön"
+
+#. (itstool) path: item/p
+#: C/git.page:42
+msgid "Shows the new lines added to the document."
+msgstr "Visar de nya rader som lagts till i dokumentet."
+
+#. (itstool) path: item/title
+#: C/git.page:45
+msgid "Orange"
+msgstr "Orange"
+
+#. (itstool) path: item/p
+#: C/git.page:46
+msgid "Shows the lines that have been modified in the document."
+msgstr "Visar de rader som har modifierats i dokumentet."
+
+#. (itstool) path: item/title
+#: C/git.page:49
+msgid "Red"
+msgstr "Röd"
+
+#. (itstool) path: item/p
+#: C/git.page:50
+msgid "Shows the parts of the document that have been deleted."
+msgstr "Visar de delar i dokumentet som har tagits bort."
+
+#. (itstool) path: note/p
+#: C/git.page:55
+msgid ""
+"Hover the mouse pointer on the red or orange margin to view the original "
+"text in a tool tip."
+msgstr ""
+"Hovra muspekaren över den röda eller orange marginalen för att visa "
+"originaltexten i en inforuta."
+
+#. (itstool) path: info/desc
+#: C/join-split-lines.page:16
+msgid "Join several lines of text or split long lines."
+msgstr "Sammanfoga flera rader text eller dela långa rader."
+
+#. (itstool) path: page/title
+#: C/join-split-lines.page:19
+msgid "Join/Split Lines"
+msgstr "Sammanfoga/Dela rader"
+
+#. (itstool) path: page/p
+#: C/join-split-lines.page:21
+msgid ""
+"The <app>Join/Split Lines</app> plugin can join shorter lines into one "
+"longer line, or can split a long line into multiple shorter lines."
+msgstr ""
+"Insticksmodulen <app>Sammanfoga/Dela rader</app> kan sammanfoga kortare "
+"rader till en lång rad, eller dela upp en lång rad till flera kortare rader."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:32
+msgid ""
+"Select <gui style=\"menuitem\">Join/Split Lines</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Sammanfoga/Dela rader</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:37
+msgid "To join multiple lines into one longer line:"
+msgstr "Att sammanfoga flera rader till en längre rad:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:39
+msgid ""
+"Select the lines that you want to join. To do this, you can use the mouse, "
+"or you can press <keyseq><key>Shift</key><key>Up Arrow</key> </keyseq> or "
+"<keyseq><key>Shift</key><key>Down Arrow</key></keyseq>."
+msgstr ""
+"Markera de rader du vill sammanfoga. För att göra detta kan du använda musen "
+"eller trycka ned <keyseq><key>Skift</key><key>Pil upp</key> </keyseq> eller "
+"<keyseq><key>Skift</key><key>Pil ned</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:44
+msgid "Press <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+msgstr "Tryck ned <keyseq><key>Ctrl</key><key>J</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:45
+msgid "The lines that you selected will be joined into one longer line."
+msgstr "De rader du har markerat kommer att sammanfogas till en längre rad."
+
+#. (itstool) path: steps/title
+#: C/join-split-lines.page:50
+msgid "To split one line into multiple lines:"
+msgstr "För att dela upp en rad till flera rader:"
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:52
+msgid ""
+"Select the line that you want to split by placing your cursor anywhere on "
+"that line."
+msgstr ""
+"Markera raden du vill dela genom att placera din markör varsomhelst på den "
+"raden."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:56
+msgid "Press <keyseq><key>Ctrl</key><key>Shift</key> <key>J</key></keyseq>."
+msgstr ""
+"Tryck ned <keyseq><key>Ctrl</key><key>Skift</key> <key>J</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/join-split-lines.page:58
+msgid ""
+"The line will be split into multiple lines. Spaces are used to determine "
+"where it is safe to split a line, and the length of each line will not "
+"exceed 80 characters."
+msgstr ""
+"Raden kommer att delas upp till flera rader. Blanksteg används för att "
+"bestämma var det är säkert att dela en rad, och längden för var rad kommer "
+"inte att överstiga 80 tecken."
+
+#. (itstool) path: p/link
+#: C/legal-plugins.xml:7
+msgid "http://creativecommons.org/licenses/by-sa/3.0/"
+msgstr "http://creativecommons.org/licenses/by-sa/3.0/"
+
+#. (itstool) path: license/p
+#: C/legal-plugins.xml:5
+msgid ""
+"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 "
+"Unported License. To view a copy of this license, visit <_:link-1/> or send "
+"a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, "
+"California, 94041, USA."
+msgstr ""
+"Detta verk är licensierat under licensen Creative Commons Erkännande-"
+"DelaLika 3.0 Unported. För att se en kopia av denna licens, besök <_:link-1/"
+"> eller skicka ett brev till Creative Commons, 444 Castro Street, Suite 900, "
+"Mountain View, California, 94041, USA."
+
+#. (itstool) path: credit/years
+#: C/multi-edit.page:14
+msgid "2011"
+msgstr "2011"
+
+#. (itstool) path: info/desc
+#: C/multi-edit.page:17
+msgid "Edit a document in multiple places at once."
+msgstr "Redigera ett dokument på flera ställen samtidigt."
+
+#. (itstool) path: page/title
+#: C/multi-edit.page:20
+msgid "Multi Edit"
+msgstr "Multipel redigering"
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:22
+msgid ""
+"The <app>Multi Edit</app> plugin allows you to edit a document in multiple "
+"places at once. This can be helpful when performing tedious editing tasks."
+msgstr ""
+"Insticksmodulen <app>Multipel redigering</app> låter dig redigera ett "
+"dokument på flera ställen samtidigt. Detta kan vara användbart vid jobbiga "
+"redigeringsuppgifter."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:33
+msgid "Select <gui style=\"menuitem\">Multi Edit</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Multipel redigering</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:38
+msgid ""
+"After you have enabled the plugin, turn-on Multi Edit mode by pressing "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>C</key></keyseq>, or press the "
+"menu button in the top-right corner of the window and select <guiseq><gui "
+"style=\"menuitem\">Tools</gui><gui style=\"menuitem\">Multi Edit Mode</gui></"
+"guiseq>. You can then select the points in your file that you would like "
+"start editing."
+msgstr ""
+"Efter att du har aktiverat insticksmodulen, slå på Multipelt redigeringsläge "
+"genom att trycka ned <keyseq><key>Ctrl</key><key>Skift</key><key>C</key></"
+"keyseq>, eller genom att trycka på menyknappen i fönstrets övre högra hörn "
+"och välja <guiseq><gui style=\"menuitem\">Verktyg</gui><gui style=\"menuitem"
+"\">Multipelt redigeringsläge</gui></guiseq>. Du kan sedan välja de punkter i "
+"din fil där du vill börja redigera."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:45
+msgid "To insert editing points in your file:"
+msgstr "För att infoga redigeringspunkter i din fil:"
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:48
+msgid "Place your cursor at your first desired editing point."
+msgstr "Placera din markör vid din första önskade redigeringspunkt."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:51
+msgid "Press <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+msgstr "Tryck ned <keyseq><key>Ctrl</key><key>E</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:54
+msgid ""
+"Move to your next editing point, and press <keyseq><key>Ctrl</key> <key>E</"
+"key></keyseq> again."
+msgstr ""
+"Flytta till nästa redigeringspunkt, och tryck ned <keyseq><key>Ctrl</key> "
+"<key>E</key></keyseq> igen."
+
+#. (itstool) path: item/p
+#: C/multi-edit.page:58
+msgid "Continue inserting editing points, adding as many as you need."
+msgstr ""
+"Fortsätt att infoga redigeringspunkter, lägg till så många som du behöver."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:62
+msgid ""
+"Once you have inserted all of your editing points, you can make your desired "
+"edits."
+msgstr ""
+"När du har infogat alla dina redigeringspunkter kan du utföra dina önskade "
+"ändringar."
+
+#. (itstool) path: page/p
+#: C/multi-edit.page:65
+msgid ""
+"To remove editing points, press the <key>Esc</key> key. This will remove all "
+"of the editing points. Pressing the <key>Esc</key> key again will turn off "
+"Multi Edit mode, returning the editor back to its normal state."
+msgstr ""
+"För att ta bort redigeringspunkter, tryck ned tangenten <key>Esc</key>. Det "
+"kommer att ta bort alla redigeringspunkter. Att trycka ned tangenten "
+"<key>Esc</key> igen kommer att slå av multiredigeringsläget och få "
+"redigeraren att återgå till dess vanliga tillstånd."
+
+#. (itstool) path: credit/name
+#: C/session-saver.page:12 C/translate.page:12
+msgid "Jordi Mas i Hernàndez"
+msgstr "Jordi Mas i Hernàndez"
+
+#. (itstool) path: info/desc
+#: C/session-saver.page:18
+msgid "Save and restore your working sessions"
+msgstr "Spara och återställ dina arbetssessioner"
+
+#. (itstool) path: page/title
+#: C/session-saver.page:21
+msgid "Session Saver"
+msgstr "Sessionssparare"
+
+#. (itstool) path: page/p
+#: C/session-saver.page:23
+msgid ""
+"The <app>Session Saver</app> plugin allows you to remember which documents "
+"are currently open and open the same documents again at a later time."
+msgstr ""
+"Insticksmodulen <app>Sessionssparare</app> låter dig komma ihåg vilka "
+"dokument som för närvarande är öppna och öppna samma dokument igen vid ett "
+"senare tillfälle."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:27
+msgid "Enable Session Saver Plugin"
+msgstr "Aktivera insticksmodulen Sessionssparare"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:37
+msgid ""
+"Select <gui style=\"menuitem\">Session Saver</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Sessionssparare</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:45
+msgid "Save a session"
+msgstr "Spara en session"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:46
+msgid "Save all your open files to be able to open them later."
+msgstr "Spara alla dina öppna filer för att kunna öppna dem senare."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:48
+msgid "To save a session:"
+msgstr "För att spara en session:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:50
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Save "
+"Session…</gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="
+"\"menuitem\">Verktyg</gui> <gui style=\"menuitem\">Spara session…</gui></"
+"guiseq>."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:58
+msgid "Open a session"
+msgstr "Öppna en session"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:59
+msgid "Open all the files from an already saved session."
+msgstr "Öppna alla filerna från en redan sparad session."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:61
+msgid "To open a session:"
+msgstr "För att öppna en session:"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:63
+msgid ""
+"Press the menu button in the top-right corner of the window and select <gui "
+"style=\"menuitem\">Tools</gui>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="
+"\"menuitem\">Verktyg</gui>."
+
+#. (itstool) path: item/p
+#: C/session-saver.page:67
+msgid "Select one of the saved sessions from the menu."
+msgstr "Välj en av de sparade sessionerna från menyn."
+
+#. (itstool) path: section/title
+#: C/session-saver.page:73
+msgid "Manage Sessions"
+msgstr "Hantera sessioner"
+
+#. (itstool) path: section/p
+#: C/session-saver.page:74
+msgid "Open and delete your already saved sessions."
+msgstr "Öppna och ta bort dina redan sparade sessioner."
+
+#. (itstool) path: steps/title
+#: C/session-saver.page:76
+msgid "Manage sessions"
+msgstr "Hantera sessioner"
+
+#. (itstool) path: item/p
+#: C/session-saver.page:78
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menuitem\">Tools</gui> <gui style=\"menuitem\">Manage "
+"Saved Sessions…</gui></guiseq>"
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="
+"\"menuitem\">Verktyg</gui> <gui style=\"menuitem\">Hantera sparade sessioner…"
+"</gui></guiseq>"
+
+#. (itstool) path: info/desc
+#: C/synctex.page:20
+msgid ""
+"Quickly switch between TeX source files and rendered PDF documents in evince."
+msgstr "Växla snabbt mellan TeX-källfiler och renderade PDF-dokument i evince."
+
+#. (itstool) path: page/title
+#: C/synctex.page:24
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#. (itstool) path: page/p
+#: C/synctex.page:26
+msgid ""
+"SyncTeX is a method that enables synchronization between a TeX source file "
+"and the PDF output generated by a TeX/LaTeX compiler. This plugin allows to "
+"use SyncTeX in <app>gedit</app> to quickly switch from an opened TeX source "
+"file to a PDF document opened in <app>evince</app> and vice versa."
+msgstr ""
+"SyncTeX är en metod som aktiverar synkronisering mellan en TeX-källfil och "
+"PDF-utmatningen genererad av en TeX/LaTeX-kompilator. Denna insticksmodul "
+"låter dig använda SyncTeX i <app>gedit</app> för att snabbt växla från en "
+"öppnad TeX-källfil till ett PDF-dokument som öppnats i <app>evince</app> och "
+"tvärtom."
+
+#. (itstool) path: note/p
+#: C/synctex.page:32
+msgid ""
+"To be useful, this plugin requires a TeX/LaTeX compiler and SyncTeX to be "
+"installed. Both are provided by TeX distributions such as TeX Live. Also "
+"<app>evince</app> must be installed."
+msgstr ""
+"För att vara användbar kräver denna insticksmodul att en TeX/LaTeX-"
+"kompilator och SyncTeX finns installerade. Båda tillhandahålls av TeX-"
+"distributioner så som TeX Live. Även <app>evince</app> måste finnas "
+"installerat."
+
+#. (itstool) path: item/p
+#: C/synctex.page:39
+msgid ""
+"Some basic information on setting up SyncTeX and compiling LaTeX documents "
+"can be found in the <link xref=\"help:evince#synctex\"><app>evince</app>-"
+"SyncTeX documentation</link>."
+msgstr ""
+"Grundläggande information om att konfigurera SyncTeX och kompilera LaTeX-"
+"dokument kan hittas i <link xref=\"help:evince#synctex\">SyncTeX-"
+"dokumentationen för <app>evince</app></link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:45
+msgid ""
+"Key shortcuts and mouse controls are also documented in the <link xref="
+"\"help:evince/synctex-search\"> <app>evince</app>-SyncTeX documentation</"
+"link>."
+msgstr ""
+"Tangentbordsgenvägar och musstyrning finns också dokumenterade i <link xref="
+"\"help:evince/synctex-search\">SyncTeX-dokumentationen för <app>evince</"
+"app></link>."
+
+#. (itstool) path: item/p
+#: C/synctex.page:50
+msgid ""
+"<link xref=\"help:gnome-latex\"> <app>Gnome-LaTeX</app></link> is an "
+"alternative text editor specifically designed for writing TeX code."
+msgstr ""
+"<link xref=\"help:gnome-latex\"> <app>Gnome-LaTeX</app></link> är en "
+"alternativ textredigerare som är specifikt designad för skrivande av TeX-kod."
+
+#. (itstool) path: credit/name
+#: C/terminal.page:17 C/text-size.page:17 C/word-completion.page:20
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: info/desc
+#: C/terminal.page:23
+msgid "Add a terminal console to the bottom panel."
+msgstr "Lägg till en terminalkonsol i bottenpanelen."
+
+#. (itstool) path: page/title
+#: C/terminal.page:26
+msgid "Embedded Terminal"
+msgstr "Inbäddad terminal"
+
+#. (itstool) path: page/p
+#: C/terminal.page:28
+msgid ""
+"<app>gedit</app> makes it possible to include an embedded version of "
+"<app>GNOME Terminal</app>, the GNOME command-line application, in the bottom "
+"panel of the <app>gedit</app> window. This will let you run scripts, install "
+"needed software, or test your program without leaving <app>gedit</app>."
+msgstr ""
+"<app>gedit</app> gör det möjligt att inkludera en inbäddad version av GNOME-"
+"kommandoradsprogrammet <app>GNOME Terminal</app> i bottenpanelen på "
+"<app>gedit</app>-fönstret. Det låter dig köra skript, installera behövda "
+"program eller att testa dina program utan att lämna <app>gedit</app>."
+
+#. (itstool) path: section/title
+#: C/terminal.page:34
+msgid "Enable Embedded Terminal"
+msgstr "Aktivera Inbäddad terminal"
+
+#. (itstool) path: item/p
+#: C/terminal.page:44
+msgid ""
+"Select <gui style=\"menuitem\">Embedded Terminal</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Inbäddad terminal</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: section/title
+#: C/terminal.page:52
+msgid "Using Embedded Terminal"
+msgstr "Använda Inbäddad terminal"
+
+#. (itstool) path: section/p
+#: C/terminal.page:54
+msgid ""
+"Once you have enabled the plugin, to add a terminal to the bottom panel:"
+msgstr ""
+"När du har aktiverat insticksmodulen, för att lägga till en terminal i "
+"bottenpanelen:"
+
+#. (itstool) path: item/p
+#: C/terminal.page:59
+msgid ""
+"Press the menu button in the top-right corner of the window and select "
+"<guiseq><gui style=\"menu\">View</gui> <gui style=\"menuitem\">Bottom Panel</"
+"gui></guiseq>."
+msgstr ""
+"Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="
+"\"menu\">Visa</gui> <gui style=\"menuitem\">Bottenpanel</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/text-size.page:23
+msgid "Increase or decrease text size."
+msgstr "Öka eller minska textstorleken."
+
+#. (itstool) path: page/title
+#: C/text-size.page:26
+msgid "Text Size"
+msgstr "Textstorlek"
+
+#. (itstool) path: page/p
+#: C/text-size.page:28
+msgid ""
+"The text size plugin allows you to temporarily change the text size for "
+"better readability in <app>gedit</app> without changing the program's "
+"default text size."
+msgstr ""
+"Insticksmodulen textstorlek låter dig tillfälligt ändra textstorlekar för "
+"bättre läsbarhet i <app>gedit</app> utan att ändra programmets "
+"standardtextstorlek."
+
+#. (itstool) path: section/title
+#: C/text-size.page:33
+msgid "Enable Text Size Plugin"
+msgstr "Aktivera insticksmodulen Textstorlek"
+
+#. (itstool) path: item/p
+#: C/text-size.page:43
+msgid "Select <gui style=\"menuitem\">Text Size</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Textstorlek</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: section/title
+#: C/text-size.page:50
+msgid "Use the <app>Text Size</app> plugin"
+msgstr "Att använda insticksmodulen <app>Textstorlek</app>"
+
+#. (itstool) path: section/p
+#: C/text-size.page:52
+msgid ""
+"Once you have enabled the plugin, do any of the following to change the text "
+"size in <app>gedit</app>:"
+msgstr ""
+"När du väl har aktiverat insticksmodulen, gör något av följande för att "
+"ändra textstorleken i <app>gedit</app>:"
+
+#. (itstool) path: item/p
+#: C/text-size.page:57
+msgid ""
+"To <em>increase</em> the text size, press <keyseq><key>Ctrl</key><key>+</"
+"key></keyseq>."
+msgstr ""
+"För att <em>öka</em> textstorleken, tryck ned <keyseq><key>Ctrl</key><key>+</"
+"key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/text-size.page:61
+msgid ""
+"To <em>decrease</em> the text size, press <keyseq><key>Ctrl</key><key>-</"
+"key></keyseq>."
+msgstr ""
+"För att <em>minska</em> textstorleken, tryck ned <keyseq><key>Ctrl</"
+"key><key>-</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/text-size.page:65
+msgid ""
+"To <em>reset</em> the text size to the default size, press "
+"<keyseq><key>Ctrl</key><key>0</key></keyseq>."
+msgstr ""
+"För att <em>återställa</em> textstorleken till ursprunglig storlek, tryck "
+"ned <keyseq><key>Ctrl</key><key>0</key></keyseq>."
+
+#. (itstool) path: info/desc
+#: C/translate.page:18
+msgid "Translate text into different languages"
+msgstr "Översätt text till olika språk"
+
+#. (itstool) path: page/title
+#: C/translate.page:21
+msgid "Translate"
+msgstr "Översätt"
+
+#. (itstool) path: page/p
+#: C/translate.page:23
+msgid ""
+"The <app>Translate</app> plugin allows you to translate text from "
+"<app>gedit</app> using Apertium and Yandex engines."
+msgstr ""
+"Insticksmodulen <app>Översätt</app> låter dig översätta text från "
+"<app>gedit</app> med översättningsmotorerna Apertium och Yandex."
+
+#. (itstool) path: section/title
+#: C/translate.page:26
+msgid "Enabling and configuring the Translate plugin"
+msgstr "Aktivera och konfigurera insticksmodulen Översätt"
+
+#. (itstool) path: item/p
+#: C/translate.page:36
+msgid "Select <gui style=\"menuitem\">Translate</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Översätt</gui> för att aktivera insticksmodulen."
+
+#. (itstool) path: item/p
+#: C/translate.page:39
+msgid ""
+"Press <gui style=\"button\">Preferences</gui> to configure the translation "
+"engine to use and a language pair."
+msgstr ""
+"Tryck på <gui style=\"button\">Inställningar</gui> för att konfigurera "
+"översättningsmotorn att använda och ett språkpar."
+
+#. (itstool) path: item/p
+#: C/translate.page:42
+msgid ""
+"In case you use the Yandex translation engine, you need an API key. You can "
+"obtain a key at <link href=\"https://tech.yandex.com/translate/\">Yandex web "
+"site</link>."
+msgstr ""
+"Om du använder översättningsmotorn Yandex så behöver du en API-nyckel. Du "
+"kan erhålla en nyckel på <link href=\"https://tech.yandex.com/translate/"
+"\">Yandex webbplats</link>."
+
+#. (itstool) path: note/p
+#: C/translate.page:46
+msgid ""
+"You can also customize the address of the Apertium server, you will need to "
+"use the <app>dconf-editor</app> application."
+msgstr ""
+"Du kan också anpassa adressen för Apertium-servern, du kommer behöva "
+"programmet <app>dconf-editor</app>."
+
+#. (itstool) path: item/p
+#: C/translate.page:48
+msgid ""
+"Launch <app>dconf-editor</app> and select <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+msgstr ""
+"Starta <app>dconf-editor</app> och välj <guiseq><gui>org</gui> <gui>gnome</"
+"gui><gui>gedit</gui><gui>plugins</gui><gui>translate</gui> <gui>apertium-"
+"server</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/translate.page:51
+msgid ""
+"Double-click on the URL next to <gui>apertium-server</gui> and change the "
+"URL to your desired value."
+msgstr ""
+"Dubbelklicka på URL:en intill <gui>apertium-server</gui> och ändra URL:en "
+"till värdet du önskar."
+
+#. (itstool) path: section/title
+#: C/translate.page:59
+msgid "Using the Translate plugin"
+msgstr "Använda insticksmodulen Översätt"
+
+#. (itstool) path: steps/title
+#: C/translate.page:62
+msgid "To translate a text:"
+msgstr "För att översätta en text:"
+
+#. (itstool) path: item/p
+#: C/translate.page:64
+msgid "Select the part of text that you would like to translate."
+msgstr "Välj delen av texten som du vill översätta."
+
+#. (itstool) path: item/p
+#: C/translate.page:67
+msgid ""
+"Press <keyseq><key>Ctrl</key><key>K</key></keyseq> or use the context menu "
+"to translate it."
+msgstr ""
+"Tryck ned <keyseq><key>Ctrl</key><key>K</key></keyseq> eller använd "
+"snabbvalsmenyn för att översätta den."
+
+#. (itstool) path: item/p
+#: C/translate.page:68
+msgid ""
+"The translation appears in the document or in the bottom panel, depending on "
+"your configuration."
+msgstr ""
+"Översättningen dyker upp i dokumentet eller i nederpanelen, beroende på din "
+"konfiguration."
+
+#. (itstool) path: info/desc
+#: C/word-completion.page:26
+msgid "Autocomplete words or portions of code as you type."
+msgstr "Autokomplettera ord eller delar av kod medan du skriver."
+
+#. (itstool) path: page/title
+#: C/word-completion.page:29
+msgid "Word Completion"
+msgstr "Ordkomplettering"
+
+#. (itstool) path: page/p
+#: C/word-completion.page:31
+msgid ""
+"The <app>Word Completion</app> plugin can speed up your editing by "
+"suggesting completions of words as you type."
+msgstr ""
+"Insticksmodulen <app>Ordkomplettering</app> kan snabba upp din redigering "
+"genom att föreslå kompletteringar av ord allteftersom du skriver."
+
+#. (itstool) path: item/p
+#: C/word-completion.page:42
+msgid ""
+"Select <gui style=\"menuitem\">Word Completion</gui> to enable the plugin."
+msgstr ""
+"Välj <gui style=\"menuitem\">Ordkomplettering</gui> för att aktivera "
+"insticksmodulen."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:47
+msgid ""
+"While editing, the <app>Word Completion</app> plugin will automatically "
+"display a pop-up list of words that begin with the letters you have already "
+"typed. Word suggestions are based upon words that appear elsewhere in your "
+"document and upon pre-defined keywords if your document is of a recognised "
+"format."
+msgstr ""
+"Under redigering kommer insticksmodulen <app>Ordkomplettering</app> "
+"automatiskt att visa en poppupplista över ord som börjar med de bokstäver du "
+"redan har skrivit. Ordförslag är baserade på ord som visas på andra ställen "
+"i ditt dokument och på fördefinierade nyckelord om ditt dokument är i ett "
+"igenkänt format."
+
+#. (itstool) path: page/p
+#: C/word-completion.page:53
+msgid ""
+"To insert a suggested word, double-click on it in the pop-up list or press "
+"<keyseq><key>Alt</key><key>Num</key></keyseq>, where <key>Num</key> is the "
+"number displayed next to your desired word."
+msgstr ""
+"För att infoga ett föreslaget ord, dubbelklicka på det i poppupplistan eller "
+"tryck ned <keyseq><key>Alt</key><key>Sif</key></keyseq>, där <key>Sif</key> "
+"är siffran som visas intill ditt önskade ord."
